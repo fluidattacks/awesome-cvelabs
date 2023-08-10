@@ -4,35 +4,32 @@ A list of all awesome CVELabs
 
 ## Statistics
 
-* Research lab with more cve's: FortiGuard (Fortinet) - 905 CVE
-
-* Research lab with less cve's: Legit Security - 1 CVE
+* Research lab with more cve's: Google Project Zero - 733 CVE
 
 ## Research labs
 
-1.  [FortiGuard (Fortinet)](https://www.fortiguard.com/zeroday) (CVE's: 905, First: 23-09-2019, Last:21-03-2023)
-1.  [Google Project Zero](https://googleprojectzero.blogspot.com/) (CVE's: 733, First: 11-03-2014, Last: 01-06-2023)
-2.  [Broadcom](https://support.broadcom.com/web/ecx/security-advisory) (CVE's: 315, First: 24-05-2019, Last: 01-08-2023)
-3.  [Flashpoint](https://flashpoint.io/) (CVE's: 311, First: ??-??-????, Last:02-08-2022)
-4.  [Devcore](https://devco.re/) (CVE's: 182, First: 13-11-2012, Last: 17-07-2023)
-5.  [Trustwave - SpiderLabs](https://www.trustwave.com/en-us/resources/security-resources/security-advisories/) (CVE's: 191, First: 19-05-2009, Last:21-07-2023)
-6.  [Jfrog](https://research.jfrog.com/) (CVE's: 114, First: 05-02-2019, Last: 25-07-2023)
-7.  [Talos (Cisco)](https://talosintelligence.com/vulnerability_reports) (CVE's: 113, First: 26-01-2014, Last: 21-07-2023)
-8.  [Broadcom](https://support.broadcom.com/web/ecx/security-advisory) (CVE's: 107, First: 20-10-2004, Last: 01-06-2023)
-9.  [Nozomi Networks](https://www.nozominetworks.com/) (CVE's: 45, First: 30-10-2022, Last: 21-07-2023)
-10. [Sonarsource](https://www.sonarsource.com/) (CVE's: 43, First: 26-04-2021, Last:15-05-2023)
-11. [Secpod](https://www.secpod.com/) (CVE's: 41, First: 05-08-2010, Last:18-06-2015)
-12. [Onekey](https://onekey.com/research/) (CVE's: 38, First: 11-03-2021, Last:16-05-2023)
-13. [Versprite](https://versprite.com/) (CVE's: 38, First: 20-12-2017, Last: 23-04-2021)
-14. [SecureWorks (Dell)](https://www.secureworks.com/research/#resource-type=Advisory) (CVE's: 33, First: 11-11-2009, Last:20-12-2018)
-14. [Patchstack](https://patchstack.com/) (CVE's: 30, First: 24-01-2023, Last: 03-08-2023)
-15. [Vulncheck](https://vulncheck.com/) (CVE's: 22, First: 14-10-2022, Last: 19-07-2023)
-16. [Assetnote](https://www.assetnote.io/) (CVE's: 15, First: 02-11-2021, Last: 22-07-2023)
-17. [Horizon3](https://www.horizon3.ai/)
-18. [Trellix](https://www.trellix.com/)
-25. [Kaspersky](https://www.kaspersky.com/about/team/great)
-30. [Mandiant](https://www.mandiant.com/)
-31. [Oxeye](https://www.oxeye.io/resources-category/research) (CVE's: 6, First: 28-07-2022, Last:02-08-2023)
-32. [Wiz](https://www.wiz.io/blog/tag/research) (CVE's: 2, First: 27-07-2023, Last: 27-07-2023)
-33. [Securitum](https://research.securitum.com/) (CVE's: 2, First: 14-06-2016, Last: 12-02-2020)
-34. [Legit Security](https://www.legitsecurity.com/) (CVE's: 1, First: 14-02-2023, Last:14-02-2023)
+| #   | Lab                                               | CVE's  | First       | Last       |
+|-----|---------------------------------------------------|--------|-------------|------------|
+| 1   | [Google Project Zero](https://googleprojectzero.blogspot.com/) | 733    | 11-03-2014  | 01-06-2023 |
+| 2   | [Broadcom](https://support.broadcom.com/web/ecx/security-advisory) | 315    | 24-05-2019  | 01-08-2023 |
+| 3   | [Flashpoint](https://flashpoint.io/) | 311    | ??-??-????  | 02-08-2022 |
+| 4   | [Devcore](https://devco.re/) | 182    | 13-11-2012  | 17-07-2023 |
+| 5   | [Trustwave - SpiderLabs](https://www.trustwave.com/en-us/resources/security-resources/security-advisories/) | 191    | 19-05-2009  | 21-07-2023 |
+| 6   | [Jfrog](https://research.jfrog.com/) | 114    | 05-02-2019  | 25-07-2023 |
+| 9   | [Nozomi Networks](https://www.nozominetworks.com/) | 45     | 30-10-2022  | 21-07-2023 |
+| 10  | [Sonarsource](https://www.sonarsource.com/) | 43     | 26-04-2021  | 15-05-2023 |
+| 11  | [Secpod](https://www.secpod.com/) | 41     | 05-08-2010  | 18-06-2015 |
+| 12  | [Onekey](https://onekey.com/research/) | 38     | 11-03-2021  | 16-05-2023 |
+| 13  | [Versprite](https://versprite.com/) | 38     | 20-12-2017  | 23-04-2021 |
+| 14  | [SecureWorks (Dell)](https://www.secureworks.com/research/#resource-type=Advisory) | 33     | 11-11-2009  | 20-12-2018 |
+| 14  | [Patchstack](https://patchstack.com/) | 30     | 24-01-2023  | 03-08-2023 |
+| 15  | [Vulncheck](https://vulncheck.com/) | 22     | 14-10-2022  | 19-07-2023 |
+| 16  | [Assetnote](https://www.assetnote.io/) | 15     | 02-11-2021  | 22-07-2023 |
+| 17  | [Horizon3](https://www.horizon3.ai/) |        |             |            |
+| 18  | [Trellix](https://www.trellix.com/) |         |             |            |
+| 30  | [Mandiant](https://www.mandiant.com/) |       |             |            |
+| 31  | [Oxeye](https://www.oxeye.io/resources-category/research) | 6      | 28-07-2022  | 02-08-2023 |
+| 32  | [Viettel Cyber Security](https://blog.viettelcybersecurity.com/tag/researches/) | 4      | 23-03-2022  | 16-06-2023 |
+| 32  | [Wiz](https://www.wiz.io/blog/tag/research) | 2      | 27-07-2023  | 27-07-2023 |
+| 33  | [Securitum](https://research.securitum.com/) | 2      | 14-06-2016  | 12-02-2020 |
+| 34  | [Legit Security](https://www.legitsecurity.com/) | 1      | 14-02-2023  | 14-02-2023 |
