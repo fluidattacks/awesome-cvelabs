@@ -16,7 +16,7 @@ A list of all awesome CVELabs
 ## Research labs
 
 | #  | Lab                                                | CVE's | First       | Last       | Months | Productivity (per month) | Vendors | Concentration | Inactivity |
-|----|----------------------------------------------------|-------|-------------|------------|--------|--------------------------|---------|--------------|------------|
+|----|----------------------------------------------------|-------|-------------|------------| --: | --: |  --: |  --: |  --: |
 | 1  | [Source Incite](https://srcincite.io/advisories/) | 863   | 2015/04/16  | 2023/08/08 | 100    | 8.6                      | 65      | 13.2         | 0          |
 | 2  | [Trustwave - SpiderLabs](https://www.trustwave.com/en-us/resources/security-resources/security-advisories/) | 191   | 2009/05/19  | 2023/07/21 | 171    | 1.12                     | 63      | -            | -          |
 | 3  | [Synacktiv](https://www.synacktiv.com/en/advisories) | 153   | 2010/04/27  | 2023/08/08 | 161    | 0.9                      | 52      | 2.9          | 0          |
