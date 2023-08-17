@@ -9,14 +9,26 @@ A list of all awesome CVELabs
 * All researchers are from the company
 * Vulnerabilities that are not from the product itself (third parties)
 
-## Statistics
+## Hall of fame
 
-* Research lab with more cve's: Trustwave - 191 CVE's
+* Quantity: Source Incite
+* Productiviy: Source Incite
+* Activity: Pending
+* Diversity: Pending
 
-## Research labs
+## Columns
+
+* Months: Last CVE - First CVE
+* Productivity: Total CVE / Months (CVE per month)
+* Vendors: Unique vendors over CVE 
+* Concentration: Total CVE / Vendors (CVE per vendor)
+* Researchers: Unique vendors over CVE
+* Inactivity: Today - Last CVE (months since last CVE)
+
+## Labs
 
 | #  | Lab                                                | CVE's | First       | Last       | Months | Productivity (per month) | Vendors | Concentration | Inactivity |
-|----|----------------------------------------------------|-------|-------------|------------| --: | --: |  --: |  --: |  --: |
+|----|----------------------------------------------------|  --: |-------------|------------| --: | --: |  --: |  --: |  --: |
 | 1  | [Source Incite](https://srcincite.io/advisories/) | 863   | 2015/04/16  | 2023/08/08 | 100    | 8.6                      | 65      | 13.2         | 0          |
 | 2  | [Trustwave - SpiderLabs](https://www.trustwave.com/en-us/resources/security-resources/security-advisories/) | 191   | 2009/05/19  | 2023/07/21 | 171    | 1.12                     | 63      | -            | -          |
 | 3  | [Synacktiv](https://www.synacktiv.com/en/advisories) | 153   | 2010/04/27  | 2023/08/08 | 161    | 0.9                      | 52      | 2.9          | 0          |
@@ -42,7 +54,21 @@ A list of all awesome CVELabs
 | 23 | [Securitum](https://research.securitum.com/)     | 2     | 2016/06/14  | 2020/02/12 | 44     | 0.05                     | 2       | -            | -          |
 | 24 | [Legit Security](https://www.legitsecurity.com/) | 1     | 2023/02/14  | 2023/02/14 | 1      | 1.0                      | 1       | -            | -          |
 
-## TODO
+## To include
+
+* https://ioactive.com/resources/disclosures/
+* https://bishopfox.com/blog/advisories
+* https://unit42.paloaltonetworks.com/latest-research/
+* https://www.safebreach.com/cve-discoveries/
+* https://starlabs.sg/advisories/
+* https://labs.integrity.pt/advisories/
+* https://sec-consult.com/vulnerability-lab/
+* https://labs.withsecure.com/advisories
+* https://www.nozominetworks.com/labs/vulnerability-advisories/
+* https://labs.nettitude.com/category/blog/advisories/
+* https://www.coresecurity.com/core-labs/advisories
+* https://www.3ds.com/vulnerability/advisories
+* https://labs.portcullis.co.uk/advisories/ (Hace rato no publican, pero tal vez sirva...)
 
 | #  | Lab                                                   | Researchers | Reason                                |
 |----|-------------------------------------------------------|-------------|---------------------------------------|
