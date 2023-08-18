@@ -59,19 +59,19 @@ Descendent order acording to CVE column:
 | 24 | [Viettel Cyber Security](https://blog.viettelcybersecurity.com/tag/researches/) | 4     | 2022/03/23  | 2023/06/16 | 15     | 0.3                      | 4       | -            | -          |
 | 25 | [SSD Labs](https://ssd-disclosure.com/advisories/) | 5     | 2022/07/27  | 2023/04/03 | 9      | 0.3                      | 3       | -            | -          |
 | 26 | [Wiz](https://www.wiz.io/blog/tag/research)      | 4     | 2021/09/14  | 2023/07/27 | 1      | 2.0                      | 2       | -            | -          |
-| 27 | [Securitum](https://research.securitum.com/)     | 2     | 2016/06/14  | 2020/02/12 | 44     | 0.05                     | 2       | -            | -          |
+| 27 | [Securitum](https://research.securitum.com/)     | 2     | 2016/06/14  | 2020/02/12 | 44     | 0.1                     | 2       | -            | -          |
 | 28 | [Legit Security](https://www.legitsecurity.com/) | 1     | 2023/02/14  | 2023/02/14 | 1      | 1.0                      | 1       | -            | -          |
 
 ## To include
 
 * https://ioactive.com/resources/disclosures/
 * https://bishopfox.com/blog/advisories
+* https://labs.watchtowr.com/
 * https://unit42.paloaltonetworks.com/latest-research/
 * https://starlabs.sg/advisories/
 * https://labs.integrity.pt/advisories/
 * https://sec-consult.com/vulnerability-lab/
 * https://labs.withsecure.com/advisories
-* https://www.nozominetworks.com/labs/vulnerability-advisories/
 * https://labs.nettitude.com/category/blog/advisories/
 * https://www.coresecurity.com/core-labs/advisories
 * https://www.3ds.com/vulnerability/advisories
