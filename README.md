@@ -15,8 +15,9 @@ An awesome CVELabs is an independent team that:
 
 * Quantity: Source Incite
 * Productiviy: Source Incite
-* Activity: Pending
-* Diversity: Pending
+* Activity (oposite to Inactivity): Synaktiv
+* Diversity (oposite to Concentration): Cipher Labs
+* Oldest: Withsecure
 
 ## Columns
 
