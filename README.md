@@ -50,27 +50,26 @@ Descendent order acording to CVE column:
 | 15 | [Patchstack](https://patchstack.com/)             | 30    | 2023/01/24  | 2023/08/03 |     7   |   4.3                      |    -    |    -            |   -          |
 | 16 | [Vulncheck](https://vulncheck.com/)              | 22    | 2022/10/14  | 2023/07/19 |     9   |   2.4                      |   16    |    -            |   -          |
 | 17 | [Assetnote](https://www.assetnote.io/)            | 15    | 2021/11/02  | 2023/07/22 |    20  |   0.7                      |   14    |    -            |   -          |
-| 18 | [Yoroi](https://yoroi.company/research/)          | 12    | 2022/11/02  | 2023/04/24 |    14  |   0.8                      |    3    |    -            |   -          |
-| 19 | [Horizon3](https://www.horizon3.ai/)             |       |             |            |        |                          |         |    -            |   -          |
-| 20 | [Trellix](https://www.trellix.com/)              |       |             |            |        |                          |         |    -            |   -          |
-| 21 | [3ds](https://www.3ds.com/vulnerability/advisories) |   8   | 2023/03/09  | 2023/07/12 |     4   |   2.0                      |    4    |   2.0          |   1        |
-| 22 | [Mandiant](https://www.mandiant.com/)            |       |             |            |        |                          |         |    -            |   -          |
-| 23 | [Synopsys](https://www.synopsys.com/blogs/software-security/tag/cybersecurity-research-center/) |   6   | 2023/01/31  | 2023/08/15 |     8   |   0.9                      |    5    |    -            |   -          |
-| 24 | [Oxeye](https://www.oxeye.io/resources-category/research) |   6   | 2022/07/28  | 2023/08/02 |    13  |   0.7                      |    4    |    -            |   -          |
-| 25 | [Viettel Cyber Security](https://blog.viettelcybersecurity.com/tag/researches/) |  4   | 2022/03/23  | 2023/06/16 |    15  |   0.3                      |    4    |    -            |   -          |
-| 26 | [SSD Labs](https://ssd-disclosure.com/advisories/) |  5   | 2022/07/27  | 2023/04/03 |     9   |   0.3                      |    3    |    -            |   -          |
-| 27 | [Wiz](https://www.wiz.io/blog/tag/research)      |  4   | 2021/09/14  | 2023/07/27 |     1   |   2.0                      |    2    |    -            |   -          |
-| 28 | [Securitum](https://research.securitum.com/)     |  2   | 2016/06/14  | 2020/02/12 |    44  |   0.1                      |    2    |    -            |   -          |
-| 29 | [Legit Security](https://www.legitsecurity.com/) |  1   | 2023/02/14  | 2023/02/14 |     1   |   1.0                      |    1    |    -            |   -          |
+| 18 | [WatchTowr Labs](https://labs.watchtowr.com/)     | 14    | 2022/07/01  | 2023/06/13 |    11  |   1.3                      |   10    |   1.4          |   2        |
+| 19 | [Yoroi](https://yoroi.company/research/)          | 12    | 2022/11/02  | 2023/04/24 |    14  |   0.8                      |    3    |    -            |   -          |
+| 20 | [Horizon3](https://www.horizon3.ai/)             |       |             |            |        |                          |         |    -            |   -          |
+| 21 | [Trellix](https://www.trellix.com/)              |       |             |            |        |                          |         |    -            |   -          |
+| 22 | [3ds](https://www.3ds.com/vulnerability/advisories) |   8   | 2023/03/09  | 2023/07/12 |     4   |   2.0                      |    4    |   2.0          |   1        |
+| 23 | [Mandiant](https://www.mandiant.com/)            |       |             |            |        |                          |         |    -            |   -          |
+| 24 | [Synopsys](https://www.synopsys.com/blogs/software-security/tag/cybersecurity-research-center/) |   6   | 2023/01/31  | 2023/08/15 |     8   |   0.9                      |    5    |    -            |   -          |
+| 25 | [Oxeye](https://www.oxeye.io/resources-category/research) |   6   | 2022/07/28  | 2023/08/02 |    13  |   0.7                      |    4    |    -            |   -          |
+| 26 | [Viettel Cyber Security](https://blog.viettelcybersecurity.com/tag/researches/) |  4   | 2022/03/23  | 2023/06/16 |    15  |   0.3                      |    4    |    -            |   -          |
+| 27 | [SSD Labs](https://ssd-disclosure.com/advisories/) |  5   | 2022/07/27  | 2023/04/03 |     9   |   0.3                      |    3    |    -            |   -          |
+| 28 | [Wiz](https://www.wiz.io/blog/tag/research)      |  4   | 2021/09/14  | 2023/07/27 |     1   |   2.0                      |    2    |    -            |   -          |
+| 29 | [Securitum](https://research.securitum.com/)     |  2   | 2016/06/14  | 2020/02/12 |    44  |   0.1                      |    2    |    -            |   -          |
+| 30 | [Legit Security](https://www.legitsecurity.com/) |  1   | 2023/02/14  | 2023/02/14 |     1   |   1.0                      |    1    |    -            |   -          |
 
 ## To include
 
 * https://ioactive.com/resources/disclosures/
 * https://bishopfox.com/blog/advisories
-* https://labs.watchtowr.com/
 * https://unit42.paloaltonetworks.com/latest-research/
 * https://starlabs.sg/advisories/
-* https://labs.integrity.pt/advisories/
 * https://sec-consult.com/vulnerability-lab/
 * https://labs.withsecure.com/advisories
 * https://labs.nettitude.com/category/blog/advisories/
