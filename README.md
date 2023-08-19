@@ -72,7 +72,6 @@ Descendent order acording to CVE column:
 
 * https://ioactive.com/resources/disclosures/
 * https://unit42.paloaltonetworks.com/latest-research/
-* https://starlabs.sg/advisories/
 * https://sec-consult.com/vulnerability-lab/
 * https://labs.nettitude.com/category/blog/advisories/
 * https://www.coresecurity.com/core-labs/advisories
