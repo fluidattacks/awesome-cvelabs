@@ -76,6 +76,7 @@ Descendent order acording to CVE column:
 * https://labs.nettitude.com/category/blog/advisories/
 * https://www.coresecurity.com/core-labs/advisories
 * https://labs.portcullis.co.uk/advisories/ (Hace rato no publican, pero tal vez sirva...)
+* https://www.ptsecurity.com/ww-en/analytics/threatscape/
 
 | #  | Lab                                                   | Researchers | Reason                                |
 |----|-------------------------------------------------------|-------------|---------------------------------------|
