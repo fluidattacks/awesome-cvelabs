@@ -72,10 +72,10 @@ Descendent order acording to CVE column:
 ## To include
 
 * https://ioactive.com/resources/disclosures/
-* https://unit42.paloaltonetworks.com/latest-research/
 * https://sec-consult.com/vulnerability-lab/
 * https://labs.nettitude.com/category/blog/advisories/
 * https://www.coresecurity.com/core-labs/advisories
+* https://www.ptsecurity.com/ww-en/analytics/threatscape/
 
 | #  | Lab                                                   | Researchers | Reason                                |
 |----|-------------------------------------------------------|-------------|---------------------------------------|
