@@ -35,13 +35,13 @@ Descendent order acording to CVE column:
 
 |  #  | Lab |  Q  |    First    |    Last     |  M  |  P  |  V  |  C  |  I  |  R  |
 | --: |----------------------------------------------------| --: |------------|------------| --: | --: | --: | --: | --: | --: |
-|  1  | [Source Incite](https://srcincite.io/advisories/) | 863 | 2015/04/16  | 2023/08/08 | 100 | 8.6 |  65 | 13.2 |  0  |  -  |
-|  2  | [Trustwave - SpiderLabs](https://www.trustwave.com/en-us/resources/security-resources/security-advisories/) | 191 | 2009/05/19  | 2023/07/21 | 171 | 1.1 |  63 |  -   |  1  |  -  |
-|  3  | [Bishopfox](https://bishopfox.com/blog/advisories) | 154 | 2005/12/07  | 2016/12/21 | 132 | 1.2 |  44 |  3.5 |  78 |  -  |
-|  4  | [Synacktiv](https://www.synacktiv.com/en/advisories) | 153 | 2010/04/27  | 2023/08/08 | 161 | 0.9 |  52 |  2.9 |  0  |  -  |
+|  1  | [Source Incite](https://srcincite.io/advisories/) | 863 | 2015/04/16  | 2023/08/08 | 100 | 8.6 |  65 | 13.2 |  0  |  14  |
+|  2  | [Trustwave - SpiderLabs](https://www.trustwave.com/en-us/resources/security-resources/security-advisories/) | 191 | 2009/05/19  | 2023/07/21 | 171 | 1.1 |  63 |  3.0   |  1  |  60  |
+|  3  | [Bishopfox](https://bishopfox.com/blog/advisories) | 154 | 2005/12/07  | 2016/12/21 | 132 | 1.2 |  44 |  3.5 |  78 |  43  |
+|  4  | [Synacktiv](https://www.synacktiv.com/en/advisories) | 153 | 2010/04/27  | 2023/08/08 | 161 | 0.9 |  52 |  2.9 |  0  |  42  |
 |  5  | [Withsecure](https://labs.withsecure.com/advisories/) | 123 | 2006/11/28  | 2023/04/11 | 196 | 0.6 |  73 |  1.7 |  4  |  -  |
 |  6  | [Starlabs](https://starlabs.sg/advisories)       | 107 | 2018/11/27  | 2023/07/14 |  52 | 2.0 |  24 |  4.4 |  1  |  -  |
-|  7  | [Fluid Attacks](https://fluidattacks.com/advisories/) |  80 | 2020/12/15  | 2023/08/11 |  32 | 2.5 |  53 |  1.5 |  0  |  3  |
+|  7  | [Fluid Attacks](https://fluidattacks.com/advisories/) |  80 | 2020/12/15  | 2023/08/11 |  32 | 2.5 |  53 |  1.5 |  0  |  6  |
 |  8  | [Qualys](https://www.qualys.com/research/security-advisories/) |  67 | 2012/05/04  | 2023/07/19 | 135 | 0.5 |  41 |  -   |  1  |  -  |
 |  9  | [SentinelOne](https://www.sentinelone.com/labs/our-cves/) |  57 | 2016/03/24  | 2022/05/05 |  74 | 0.8 |  25 |  2.2 |  16 |  5  |
 | 10  | [Integrity Labs](https://labs.integrity.pt/advisories/) |  48 | 2013/07/09  | 2023/04/20 | 117 | 0.4 |  37 |  1.3 |  4  |  7  |
