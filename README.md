@@ -13,11 +13,11 @@ An awesome CVELabs is an independent team that:
 
 ## Hall of fame
 
-* Quantity: Source Incite
-* Productiviy: Source Incite
+* Quantity: FortiGuard Labs
+* Productiviy: FortiGuard Labs
 * Activity (oposite to Inactivity): Synaktiv
 * Diversity (oposite to Concentration): Cipher Labs
-* Oldest: Withsecure
+* Oldest: BishopFox (2005)
 
 ## Columns
 
