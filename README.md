@@ -73,6 +73,10 @@ Descendent order acording to CVE column:
 | 35  | [Wiz](https://www.wiz.io/blog/tag/research) | 4 | 2021/09/14  | 2023/07/27 | 1 | 2.0 | 2 | 2.0 | 1 | 2 |
 | 36  | [Securitum](https://research.securitum.com/) | 2 | 2016/06/14  | 2020/02/12 | 44 | 0.1 | 2 | 1.0 | 42 | 1 |
 | 37  | [Legit Security](https://www.legitsecurity.com/) | 1 | 2023/02/14  | 2023/02/14 | 1 | 1.0 | 1 | 1.0 | 7 | 1 |
+ 
+| .   | [CyberArk](https://labs.cyberark.com/cyberark-labs-security-advisories/)            | 136 | 2018/11/07 | 2022/10/22 | 47  | 2.8 | 29 |  4.6  | 10 | 20 |
+| .   | [SecureWorks (Dell)](https://www.secureworks.com/research/#resource-type=Advisory)  | 34  | 2009/11/11 | 2018/12/20 | 109 | 0.3 | 21 |  1.6  | 52 | 14 |
+| .   | [Orange Cyberdefense](https://github.com/Orange-Cyberdefense/CVE-repository)        | 39  | 2019/07/28 | 2023/07/06 | 59  | 0.6 | 26 |  1.5  | 1  | 18 | 
 
 ## To include
 
@@ -81,14 +85,6 @@ Descendent order acording to CVE column:
 * https://labs.nettitude.com/category/blog/advisories/
 * https://www.coresecurity.com/core-labs/advisories
 * https://www.ptsecurity.com/ww-en/analytics/threatscape/
-
-| #  | Lab                                                   | Researchers | Reason                                |
-|----|-------------------------------------------------------|-------------|---------------------------------------|
-| 3  | [Kaspersky](https://www.kaspersky.com/about/team/great)                            | 26          | The team has more than 10 researchers |
-| 4  | [CyberArk](https://labs.cyberark.com/cyberark-labs-security-advisories/)            | 20          | The team has more than 10 researchers |
-| 5  | [Orange Cyberdefense](https://www.orangecyberdefense.com)                          | 18          | The team has more than 10 researchers |
-| 6  | [SecureWorks (Dell)](https://www.secureworks.com/research/#resource-type=Advisory)  | 14          | The team has more than 10 researchers |
-| 11 | [Symantec (Broadcom)](https://support.broadcom.com/web/ecx/security-advisory)      | -           | CNA vendor / manufacturer            |
 
 ## Discarded
 
