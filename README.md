@@ -39,50 +39,50 @@ Descendent order acording to CVE column:
 |  2  | [Source Incite](https://srcincite.io/advisories/)                   | 863  | 2015/04/16 | 2023/08/08 | 100  | 8.6  | 65  | 13.2 | 0  | 14 |
 |  3  | [Google Project Zero](https://bugs.chromium.org/p/project-zero/issues/list) | 733  | 2014/03/11 | 2023/06/01 | 112 | 6.5  | 59 | 12.4 | 2 | 41 |
 |  4  | [Tenable](https://www.tenable.com/security/research)                | 724  | 2006/07/11 | 2023/08/03 | 206 | 3.5  | 135 | 5.3 | 0 | - |
-|  5  | [Trustwave - SpiderLabs](https://www.trustwave.com/en-us/resources/security-resources/security-advisories/) | 191 | 2009/05/19 | 2023/07/21 | 171 | 1.1  | 63 | 3.0 | 1 | 60 |
-|  6  | [Bishopfox](https://bishopfox.com/blog/advisories)                 | 154  | 2005/12/07 | 2016/12/21 | 132 | 1.2  | 44 | 3.5 | 78 | 43 |
-|  7  | [Synacktiv](https://www.synacktiv.com/en/advisories)               | 153  | 2010/04/27 | 2023/08/08 | 161 | 0.9  | 52 | 2.9 | 0 | 42 |
-|  8  | [CyberArk](https://labs.cyberark.com/cyberark-labs-security-advisories/) | 136 | 2018/11/07 | 2022/10/22 | 47  | 2.8  | 29 |  4.6  | 10 | 20 |
-|  9  | [Withsecure](https://labs.withsecure.com/advisories/)             | 123  | 2006/11/28 | 2023/04/11 | 196 | 0.6  | 73 | 1.7 | 4 | - |
-| 10  | [Positive Technologies](https://www.ptsecurity.com/ww-en/analytics/threatscape/)  | 119  | 2009/03/04 | 2022/12/03 | 158   | 0.7  | 79 | 1.5 | 9 | 1 |
-| 11  | [JFrog](https://research.jfrog.com/)                               | 114  | 2019/02/05 | 2023/07/25 | 51  | 2.2  | 56 | 2.0 | 1 | 7 |
-| 12  | [NCC Group](https://research.nccgroup.com/category/technical-advisories/) | 108 | 2006/02/03 | 2023/08/24 | 210 | 0.5  | 80 | 1.3 | 0 | 220 |
-| 13  | [Starlabs](https://starlabs.sg/advisories)                         | 107  | 2018/11/27 | 2023/07/14 | 52  | 2.0  | 24 | 4.4 | 1 | 3 |
-| 14  | [Fluid Attacks](https://fluidattacks.com/advisories/)              | 80   | 2020/12/15 | 2023/08/11 | 32  | 2.5  | 53 | 1.5 | 0 | 6 |
-| 15  | [Qualys](https://www.qualys.com/research/security-advisories/)     | 67   | 2012/05/04 | 2023/07/19 | 135 | 0.5  | 41 | - | 1 | - |
-| 16  | [SentinelOne](https://www.sentinelone.com/labs/our-cves/)          | 57   | 2016/03/24 | 2022/05/05 | 74  | 0.8  | 25 | 2.2 | 16 | 5 |
-| 17  | [Integrity Labs](https://labs.integrity.pt/advisories/)            | 48   | 2013/07/09 | 2023/04/20 | 117 | 0.4  | 37 | 1.3 | 4 | 7 |
-| 18  | [Nozomi Networks](https://www.nozominetworks.com/labs/vulnerability-advisories/) | 45 | 2023/01/31 | 2023/08/09 | 7 | 6.4  | 8 | 5.6 | 0 | - |
-| 19  | [Sonarsource](https://www.sonarsource.com/)                        | 43   | 2021/04/26 | 2023/05/15 | 25  | 1.7  | - | - | 2 | - |
-| 20  | [Secpod](https://www.secpod.com/)                                  | 41   | 2010/08/05 | 2015/06/18 | 59  | 0.7  | 35 | 1.1 | 97 | 8 |
-| 21  | [Orange Cyberdefense](https://github.com/Orange-Cyberdefense/CVE-repository) | 39  | 2019/07/28 | 2023/07/06 | 59  | 0.6  | 26 |  1.5  | 1  | 18 | 
-| 22  | [Safe Breach](https://www.safebreach.com/cve-discoveries/)         | 39   | 2019/06/19 | 2023/04/14 | 45  | 0.9  | 25 | 1.6 | 4 | - |
-| 23  | [Versprite](https://versprite.com/)                                | 38   | 2017/12/20 | 2021/04/23 | 40  | 0.9  | 29 | 1.3 | 28 | - |
-| 24  | [SecureWorks (Dell)](https://www.secureworks.com/research/#resource-type=Advisory) | 34  | 2009/11/11 | 2018/12/20 | 109 | 0.3  | 21 |  1.6  | 52 | 14 |
-| 25  | [Cipher Labs](https://labs.cipher.com/projects/vulnerability-research/index.html) | 24 | 2011/11/22 | 2019/04/02 | 89  | 0.3  | 18 | 1.3 | 54 | 1 |
-| 26  | [Patchstack](https://patchstack.com/)                              | 30   | 2023/01/24 | 2023/08/03 | 7   | 4.3  | - | - | 0 | - |
-| 27  | [Portcullis Labs](https://labs.portcullis.co.uk/advisories/)        | 25   | 2017/07/19 | 2019/10/30 | 28  | 1.2  | 10 | 2.5 | 45 | 10 |
-| 28  | [Vulncheck](https://vulncheck.com/)                                | 22   | 2022/10/14 | 2023/07/19 | 9   | 2.4  | 16 | 1.3 | 1 | - |
-| 29  | [Assetnote](https://www.assetnote.io/)                             | 15   | 2021/11/02 | 2023/07/22 | 20  | 0.7  | 14 | 1.0 | 1 | 2 |
-| 30  | [WatchTowr Labs](https://labs.watchtowr.com/)                      | 14   | 2022/07/01 | 2023/06/13 | 11  | 1.3  | 10 | 1.4 | 2 | 4 |
-| 31  | [Nettitude](https://labs.nettitude.com/category/blog/advisories/)  | 13 | 2017/11/28 | 2023/01/04 | 61 | 0.2 | 11 | 1.1 | 7 | 8
-| 32  | [Yoroi](https://yoroi.company/research/)                           | 12   | 2022/11/02 | 2023/04/24 | 14  | 0.8  | 3 | 4.0 | 3 | 2 |
-| 33  | [Horizon3](https://www.horizon3.ai/)                               | - | - | - | - | - | - | - | - | - |
-| 34  | [Trellix](https://www.trellix.com/)                                 | - | - | - | - | - | - | - | - | - |
-| 35  | [Mandiant](https://www.mandiant.com/)                              | - | - | - | - | - | - | - | - | - |
-| 36  | [Synopsys](https://www.synopsys.com/blogs/software-security/tag/cybersecurity-research-center/) | 6 | 2023/01/31  | 2023/08/15 | 8 | 0.9 | 5 | 1.2 | 0 | 6 |
-| 37  | [Oxeye](https://www.oxeye.io/resources-category/research)           | 6   | 2022/07/28 | 2023/08/22 | 13  | 0.7  | 4 | 1.5 | 0 | 2 |
-| 38  | [Viettel Cyber Security](https://blog.viettelcybersecurity.com/tag/researches/) | 4 | 2022/03/23 | 2023/06/16 | 15 | 0.3  | 4 | 1.0 | 2 | 7 |
-| 39  | [SSD Labs](https://ssd-disclosure.com/advisories/)                  | 5   | 2022/07/27 | 2023/04/03 | 9   | 0.3  | 3 | 1.6 | 4 | 2 |
-| 40  | [Wiz](https://www.wiz.io/blog/tag/research)                        | 4   | 2021/09/14 | 2023/07/27 | 1   | 2.0  | 2 | 2.0 | 1 | 2 |
-| 41  | [Securitum](https://research.securitum.com/)                        | 2   | 2016/06/14 | 2020/02/12 | 44  | 0.1  | 2 | 1.0 | 42 | 1 |
-| 42  | [Legit Security](https://www.legitsecurity.com/)                   | 1   | 2023/02/14 | 2023/02/14 | 1   | 1.0  | 1 | 1.0 | 7 | 1 |
+|  5  | [Core Security](https://www.coresecurity.com/core-labs/advisories)  | 355   | 2016/05/18 | 2022/02/01 | 69   | 5.1  | 90 | 3.9 | 7 | 33 |
+|  6  | [Trustwave - SpiderLabs](https://www.trustwave.com/en-us/resources/security-resources/security-advisories/) | 191 | 2009/05/19 | 2023/07/21 | 171 | 1.1  | 63 | 3.0 | 1 | 60 |
+|  7  | [Bishopfox](https://bishopfox.com/blog/advisories)                 | 154  | 2005/12/07 | 2016/12/21 | 132 | 1.2  | 44 | 3.5 | 78 | 43 |
+|  8  | [Synacktiv](https://www.synacktiv.com/en/advisories)               | 153  | 2010/04/27 | 2023/08/08 | 161 | 0.9  | 52 | 2.9 | 0 | 42 |
+|  9  | [CyberArk](https://labs.cyberark.com/cyberark-labs-security-advisories/) | 136 | 2018/11/07 | 2022/10/22 | 47  | 2.8  | 29 |  4.6  | 10 | 20 |
+| 10  | [Withsecure](https://labs.withsecure.com/advisories/)             | 123  | 2006/11/28 | 2023/04/11 | 196 | 0.6  | 73 | 1.7 | 4 | - |
+| 11  | [Positive Technologies](https://www.ptsecurity.com/ww-en/analytics/threatscape/)  | 119  | 2009/03/04 | 2022/12/03 | 158   | 0.7  | 79 | 1.5 | 9 | 1 |
+| 12  | [JFrog](https://research.jfrog.com/)                               | 114  | 2019/02/05 | 2023/07/25 | 51  | 2.2  | 56 | 2.0 | 1 | 7 |
+| 13  | [NCC Group](https://research.nccgroup.com/category/technical-advisories/) | 108 | 2006/02/03 | 2023/08/24 | 210 | 0.5  | 80 | 1.3 | 0 | 220 |
+| 14  | [Starlabs](https://starlabs.sg/advisories)                         | 107  | 2018/11/27 | 2023/07/14 | 52  | 2.0  | 24 | 4.4 | 1 | 3 |
+| 15  | [Fluid Attacks](https://fluidattacks.com/advisories/)              | 80   | 2020/12/15 | 2023/08/11 | 32  | 2.5  | 53 | 1.5 | 0 | 6 |
+| 16  | [Qualys](https://www.qualys.com/research/security-advisories/)     | 67   | 2012/05/04 | 2023/07/19 | 135 | 0.5  | 41 | - | 1 | - |
+| 17  | [SentinelOne](https://www.sentinelone.com/labs/our-cves/)          | 57   | 2016/03/24 | 2022/05/05 | 74  | 0.8  | 25 | 2.2 | 16 | 5 |
+| 18  | [Integrity Labs](https://labs.integrity.pt/advisories/)            | 48   | 2013/07/09 | 2023/04/20 | 117 | 0.4  | 37 | 1.3 | 4 | 7 |
+| 19  | [Nozomi Networks](https://www.nozominetworks.com/labs/vulnerability-advisories/) | 45 | 2023/01/31 | 2023/08/09 | 7 | 6.4  | 8 | 5.6 | 0 | - |
+| 20  | [Sonarsource](https://www.sonarsource.com/)                        | 43   | 2021/04/26 | 2023/05/15 | 25  | 1.7  | - | - | 2 | - |
+| 21  | [Secpod](https://www.secpod.com/)                                  | 41   | 2010/08/05 | 2015/06/18 | 59  | 0.7  | 35 | 1.1 | 97 | 8 |
+| 22  | [Orange Cyberdefense](https://github.com/Orange-Cyberdefense/CVE-repository) | 39  | 2019/07/28 | 2023/07/06 | 59  | 0.6  | 26 |  1.5  | 1  | 18 | 
+| 23  | [Safe Breach](https://www.safebreach.com/cve-discoveries/)         | 39   | 2019/06/19 | 2023/04/14 | 45  | 0.9  | 25 | 1.6 | 4 | - |
+| 24  | [Versprite](https://versprite.com/)                                | 38   | 2017/12/20 | 2021/04/23 | 40  | 0.9  | 29 | 1.3 | 28 | - |
+| 25  | [SecureWorks (Dell)](https://www.secureworks.com/research/#resource-type=Advisory) | 34  | 2009/11/11 | 2018/12/20 | 109 | 0.3  | 21 |  1.6  | 52 | 14 |
+| 26  | [Cipher Labs](https://labs.cipher.com/projects/vulnerability-research/index.html) | 24 | 2011/11/22 | 2019/04/02 | 89  | 0.3  | 18 | 1.3 | 54 | 1 |
+| 27  | [Patchstack](https://patchstack.com/)                              | 30   | 2023/01/24 | 2023/08/03 | 7   | 4.3  | - | - | 0 | - |
+| 28  | [Portcullis Labs](https://labs.portcullis.co.uk/advisories/)        | 25   | 2017/07/19 | 2019/10/30 | 28  | 1.2  | 10 | 2.5 | 45 | 10 |
+| 29  | [Vulncheck](https://vulncheck.com/)                                | 22   | 2022/10/14 | 2023/07/19 | 9   | 2.4  | 16 | 1.3 | 1 | - |
+| 30  | [Assetnote](https://www.assetnote.io/)                             | 15   | 2021/11/02 | 2023/07/22 | 20  | 0.7  | 14 | 1.0 | 1 | 2 |
+| 31  | [WatchTowr Labs](https://labs.watchtowr.com/)                      | 14   | 2022/07/01 | 2023/06/13 | 11  | 1.3  | 10 | 1.4 | 2 | 4 |
+| 32  | [Nettitude](https://labs.nettitude.com/category/blog/advisories/)  | 13 | 2017/11/28 | 2023/01/04 | 61 | 0.2 | 11 | 1.1 | 7 | 8
+| 33  | [Yoroi](https://yoroi.company/research/)                           | 12   | 2022/11/02 | 2023/04/24 | 14  | 0.8  | 3 | 4.0 | 3 | 2 |
+| 34  | [Horizon3](https://www.horizon3.ai/)                               | - | - | - | - | - | - | - | - | - |
+| 35  | [Trellix](https://www.trellix.com/)                                 | - | - | - | - | - | - | - | - | - |
+| 36  | [Mandiant](https://www.mandiant.com/)                              | - | - | - | - | - | - | - | - | - |
+| 37  | [Synopsys](https://www.synopsys.com/blogs/software-security/tag/cybersecurity-research-center/) | 6 | 2023/01/31  | 2023/08/15 | 8 | 0.9 | 5 | 1.2 | 0 | 6 |
+| 38  | [Oxeye](https://www.oxeye.io/resources-category/research)           | 6   | 2022/07/28 | 2023/08/22 | 13  | 0.7  | 4 | 1.5 | 0 | 2 |
+| 39  | [Viettel Cyber Security](https://blog.viettelcybersecurity.com/tag/researches/) | 4 | 2022/03/23 | 2023/06/16 | 15 | 0.3  | 4 | 1.0 | 2 | 7 |
+| 40  | [SSD Labs](https://ssd-disclosure.com/advisories/)                  | 5   | 2022/07/27 | 2023/04/03 | 9   | 0.3  | 3 | 1.6 | 4 | 2 |
+| 41  | [Wiz](https://www.wiz.io/blog/tag/research)                        | 4   | 2021/09/14 | 2023/07/27 | 1   | 2.0  | 2 | 2.0 | 1 | 2 |
+| 42  | [Securitum](https://research.securitum.com/)                        | 2   | 2016/06/14 | 2020/02/12 | 44  | 0.1  | 2 | 1.0 | 42 | 1 |
+| 43  | [Legit Security](https://www.legitsecurity.com/)                   | 1   | 2023/02/14 | 2023/02/14 | 1   | 1.0  | 1 | 1.0 | 7 | 1 |
 
 ## To include
 
 * https://ioactive.com/resources/disclosures/
 * https://sec-consult.com/vulnerability-lab/
-* https://www.coresecurity.com/core-labs/advisories
 
 ## Discarded
 
