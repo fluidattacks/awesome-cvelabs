@@ -71,21 +71,21 @@ Descendent order acording to CVE column:
 | 34  | [WatchTowr Labs](https://labs.watchtowr.com/)                      | 14   | 2022/07/01 | 2023/06/13 | 11  | 1.3  | 10 | 1.4 | 2 | 4 |
 | 35  | [Nettitude](https://labs.nettitude.com/category/blog/advisories/)  | 13 | 2017/11/28 | 2023/01/04 | 61 | 0.2 | 11 | 1.1 | 7 | 8 |
 | 36  | [Yoroi](https://yoroi.company/research/)                           | 12   | 2022/11/02 | 2023/04/24 | 14  | 0.8  | 3 | 4.0 | 3 | 2 |
-| 37  | [Synopsys](https://www.synopsys.com/blogs/software-security/tag/cybersecurity-research-center/) | 6 | 2023/01/31  | 2023/08/15 | 8 | 0.9 | 5 | 1.2 | 0 | 6 |
-| 38  | [Oxeye](https://www.oxeye.io/resources-category/research)           | 6   | 2022/07/28 | 2023/08/22 | 13  | 0.7  | 4 | 1.5 | 0 | 2 |
-| 39  | [Viettel Cyber Security](https://blog.viettelcybersecurity.com/tag/researches/) | 4 | 2022/03/23 | 2023/06/16 | 15 | 0.3  | 4 | 1.0 | 2 | 7 |
-| 40  | [SSD Labs](https://ssd-disclosure.com/advisories/)                  | 5   | 2022/07/27 | 2023/04/03 | 9   | 0.3  | 3 | 1.6 | 4 | 2 |
-| 41  | [Wiz](https://www.wiz.io/blog/tag/research)                        | 4   | 2021/09/14 | 2023/07/27 | 1   | 2.0  | 2 | 2.0 | 1 | 2 |
-| 42  | [Securitum](https://research.securitum.com/)                        | 2   | 2016/06/14 | 2020/02/12 | 44  | 0.1  | 2 | 1.0 | 42 | 1 |
-| 43  | [Legit Security](https://www.legitsecurity.com/)                   | 1   | 2023/02/14 | 2023/02/14 | 1   | 1
+| 37  | [Horizon3.ai](https://www.horizon3.ai/red-team-blog/#disclosures)  | 11   | 2021/01/05 | 2023/02/14 | 25   | 0.4  | 8 | 1.3 | 6 | - |
+| 38  | [Synopsys](https://www.synopsys.com/blogs/software-security/tag/cybersecurity-research-center/) | 6 | 2023/01/31  | 2023/08/15 | 8 | 0.9 | 5 | 1.2 | 0 | 6 |
+| 39  | [Oxeye](https://www.oxeye.io/resources-category/research)           | 6   | 2022/07/28 | 2023/08/22 | 13  | 0.7  | 4 | 1.5 | 0 | 2 |
+| 40  | [Viettel Cyber Security](https://blog.viettelcybersecurity.com/tag/researches/) | 4 | 2022/03/23 | 2023/06/16 | 15 | 0.3  | 4 | 1.0 | 2 | 7 |
+| 41  | [SSD Labs](https://ssd-disclosure.com/advisories/)                  | 5   | 2022/07/27 | 2023/04/03 | 9   | 0.3  | 3 | 1.6 | 4 | 2 |
+| 42  | [Wiz](https://www.wiz.io/blog/tag/research)                        | 4   | 2021/09/14 | 2023/07/27 | 1   | 2.0  | 2 | 2.0 | 1 | 2 |
+| 43  | [Securitum](https://research.securitum.com/)                        | 2   | 2016/06/14 | 2020/02/12 | 44  | 0.1  | 2 | 1.0 | 42 | 1 |
+| 44  | [Legit Security](https://www.legitsecurity.com/)                   | 1   | 2023/02/14 | 2023/02/14 | 1   | 1.0  | 1 | 1.0 | 7 | 1 |
 
 ## To include
 
-* https://www.trellix.com/
-* https://www.horizon3.ai/
-* https://www.mandiant.com/
+* https://www.mandiant.com/ (https://github.com/mandiant/Vulnerability-Disclosures)
 * https://ioactive.com/resources/disclosures/
 
 ## Discarded
 
 * https://www.3ds.com/vulnerability/advisories: Credits to researchers outside of the organization / NOT_A_LAB_IS_AN_INDEX
+* https://www.trellix.com/: The data is not structured correctly / UNSTRUCTURED_DATA
