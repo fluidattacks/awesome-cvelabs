@@ -54,36 +54,33 @@ Descendent order acording to CVE column:
 | 17  | [NCC Group](https://research.nccgroup.com/category/technical-advisories/) | 108 | 2006/02/03 | 2023/08/24 | 210 | 0.5  | 80 | 1.3 | 0 | 220 |
 | 18  | [Starlabs](https://starlabs.sg/advisories)                         | 107  | 2018/11/27 | 2023/07/14 | 52  | 2.0  | 24 | 4.4 | 1 | 3 |
 | 19  | [Fluid Attacks](https://fluidattacks.com/advisories/)              | 80   | 2020/12/15 | 2023/08/11 | 32  | 2.5  | 53 | 1.5 | 0 | 6 |
-| 20  | [Qualys](https://www.qualys.com/research/security-advisories/)     | 67   | 2012/05/04 | 2023/07/19 | 135 | 0.5  | 41 | - | 1 | - |
-| 21  | [SentinelOne](https://www.sentinelone.com/labs/our-cves/)          | 57   | 2016/03/24 | 2022/05/05 | 74  | 0.8  | 25 | 2.2 | 16 | 5 |
-| 22  | [Integrity Labs](https://labs.integrity.pt/advisories/)            | 48   | 2013/07/09 | 2023/04/20 | 117 | 0.4  | 37 | 1.3 | 4 | 7 |
-| 23  | [Nozomi Networks](https://www.nozominetworks.com/labs/vulnerability-advisories/) | 45 | 2023/01/31 | 2023/08/09 | 7 | 6.4  | 8 | 5.6 | 0 | - |
-| 24  | [Sonarsource](https://www.sonarsource.com/)                        | 43   | 2021/04/26 | 2023/05/15 | 25  | 1.7  | - | - | 2 | - |
-| 25  | [Secpod](https://www.secpod.com/)                                  | 41   | 2010/08/05 | 2015/06/18 | 59  | 0.7  | 35 | 1.1 | 97 | 8 |
-| 26  | [Orange Cyberdefense](https://github.com/Orange-Cyberdefense/CVE-repository) | 39  | 2019/07/28 | 2023/07/06 | 59  | 0.6  | 26 |  1.5  | 1  | 18 | 
-| 27  | [Safe Breach](https://www.safebreach.com/cve-discoveries/)         | 39   | 2019/06/19 | 2023/04/14 | 45  | 0.9  | 25 | 1.6 | 4 | - |
-| 28  | [Versprite](https://versprite.com/)                                | 38   | 2017/12/20 | 2021/04/23 | 40  | 0.9  | 29 | 1.3 | 28 | - |
-| 29  | [SecureWorks (Dell)](https://www.secureworks.com/research/#resource-type=Advisory) | 34  | 2009/11/11 | 2018/12/20 | 109 | 0.3  | 21 |  1.6  | 52 | 14 |
-| 30  | [Cipher Labs](https://labs.cipher.com/projects/vulnerability-research/index.html) | 24 | 2011/11/22 | 2019/04/02 | 89  | 0.3  | 18 | 1.3 | 54 | 1 |
-| 31  | [Patchstack](https://patchstack.com/)                              | 30   | 2023/01/24 | 2023/08/03 | 7   | 4.3  | - | - | 0 | - |
-| 32  | [Portcullis Labs](https://labs.portcullis.co.uk/advisories/)        | 25   | 2017/07/19 | 2019/10/30 | 28  | 1.2  | 10 | 2.5 | 45 | 10 |
-| 33  | [Vulncheck](https://vulncheck.com/)                                | 22   | 2022/10/14 | 2023/07/19 | 9   | 2.4  | 16 | 1.3 | 1 | - |
-| 34  | [Assetnote](https://www.assetnote.io/)                             | 15   | 2021/11/02 | 2023/07/22 | 20  | 0.7  | 14 | 1.0 | 1 | 2 |
-| 35  | [WatchTowr Labs](https://labs.watchtowr.com/)                      | 14   | 2022/07/01 | 2023/06/13 | 11  | 1.3  | 10 | 1.4 | 2 | 4 |
-| 36  | [Nettitude](https://labs.nettitude.com/category/blog/advisories/)  | 13 | 2017/11/28 | 2023/01/04 | 61 | 0.2 | 11 | 1.1 | 7 | 8 |
-| 37  | [Yoroi](https://yoroi.company/research/)                           | 12   | 2022/11/02 | 2023/04/24 | 14  | 0.8  | 3 | 4.0 | 3 | 2 |
-| 38  | [Horizon3.ai](https://www.horizon3.ai/red-team-blog/#disclosures)  | 11   | 2021/01/05 | 2023/02/14 | 25   | 0.4  | 8 | 1.3 | 6 | - |
-| 39  | [Synopsys](https://www.synopsys.com/blogs/software-security/tag/cybersecurity-research-center/) | 6 | 2023/01/31  | 2023/08/15 | 8 | 0.9 | 5 | 1.2 | 0 | 6 |
-| 40  | [Oxeye](https://www.oxeye.io/resources-category/research)           | 6   | 2022/07/28 | 2023/08/22 | 13  | 0.7  | 4 | 1.5 | 0 | 2 |
-| 41  | [Viettel Cyber Security](https://blog.viettelcybersecurity.com/tag/researches/) | 4 | 2022/03/23 | 2023/06/16 | 15 | 0.3  | 4 | 1.0 | 2 | 7 |
-| 42  | [SSD Labs](https://ssd-disclosure.com/advisories/)                  | 5   | 2022/07/27 | 2023/04/03 | 9   | 0.3  | 3 | 1.6 | 4 | 2 |
-| 43  | [Wiz](https://www.wiz.io/blog/tag/research)                        | 4   | 2021/09/14 | 2023/07/27 | 1   | 2.0  | 2 | 2.0 | 1 | 2 |
-| 44  | [Securitum](https://research.securitum.com/)                        | 2   | 2016/06/14 | 2020/02/12 | 44  | 0.1  | 2 | 1.0 | 42 | 1 |
-| 45  | [Legit Security](https://www.legitsecurity.com/)                   | 1   | 2023/02/14 | 2023/02/14 | 1   | 1.0  | 1 | 1.0 | 7 | 1 |
-
-## To include
-
-* https://ioactive.com/resources/disclosures/
+| 20  | [Ioactive](https://ioactive.com/resources/disclosures/)            | 80   | 2007/03/26 | 2021/07/08 |  172  | 0.4  | 46 | 1.7 | 25 | 46 |
+| 21  | [Qualys](https://www.qualys.com/research/security-advisories/)     | 67   | 2012/05/04 | 2023/07/19 | 135 | 0.5  | 41 | - | 1 | - |
+| 22  | [SentinelOne](https://www.sentinelone.com/labs/our-cves/)          | 57   | 2016/03/24 | 2022/05/05 | 74  | 0.8  | 25 | 2.2 | 16 | 5 |
+| 23  | [Integrity Labs](https://labs.integrity.pt/advisories/)            | 48   | 2013/07/09 | 2023/04/20 | 117 | 0.4  | 37 | 1.3 | 4 | 7 |
+| 24  | [Nozomi Networks](https://www.nozominetworks.com/labs/vulnerability-advisories/) | 45 | 2023/01/31 | 2023/08/09 | 7 | 6.4  | 8 | 5.6 | 0 | - |
+| 25  | [Sonarsource](https://www.sonarsource.com/)                        | 43   | 2021/04/26 | 2023/05/15 | 25  | 1.7  | - | - | 2 | - |
+| 26  | [Secpod](https://www.secpod.com/)                                  | 41   | 2010/08/05 | 2015/06/18 | 59  | 0.7  | 35 | 1.1 | 97 | 8 |
+| 27  | [Orange Cyberdefense](https://github.com/Orange-Cyberdefense/CVE-repository) | 39  | 2019/07/28 | 2023/07/06 | 59  | 0.6  | 26 |  1.5  | 1  | 18 | 
+| 28  | [Safe Breach](https://www.safebreach.com/cve-discoveries/)         | 39   | 2019/06/19 | 2023/04/14 | 45  | 0.9  | 25 | 1.6 | 4 | - |
+| 29  | [Versprite](https://versprite.com/)                                | 38   | 2017/12/20 | 2021/04/23 | 40  | 0.9  | 29 | 1.3 | 28 | - |
+| 30  | [SecureWorks (Dell)](https://www.secureworks.com/research/#resource-type=Advisory) | 34  | 2009/11/11 | 2018/12/20 | 109 | 0.3  | 21 |  1.6  | 52 | 14 |
+| 31  | [Cipher Labs](https://labs.cipher.com/projects/vulnerability-research/index.html) | 24 | 2011/11/22 | 2019/04/02 | 89  | 0.3  | 18 | 1.3 | 54 | 1 |
+| 32  | [Patchstack](https://patchstack.com/)                              | 30   | 2023/01/24 | 2023/08/03 | 7   | 4.3  | - | - | 0 | - |
+| 33  | [Portcullis Labs](https://labs.portcullis.co.uk/advisories/)        | 25   | 2017/07/19 | 2019/10/30 | 28  | 1.2  | 10 | 2.5 | 45 | 10 |
+| 34  | [Vulncheck](https://vulncheck.com/)                                | 22   | 2022/10/14 | 2023/07/19 | 9   | 2.4  | 16 | 1.3 | 1 | - |
+| 35  | [Assetnote](https://www.assetnote.io/)                             | 15   | 2021/11/02 | 2023/07/22 | 20  | 0.7  | 14 | 1.0 | 1 | 2 |
+| 36  | [WatchTowr Labs](https://labs.watchtowr.com/)                      | 14   | 2022/07/01 | 2023/06/13 | 11  | 1.3  | 10 | 1.4 | 2 | 4 |
+| 37  | [Nettitude](https://labs.nettitude.com/category/blog/advisories/)  | 13 | 2017/11/28 | 2023/01/04 | 61 | 0.2 | 11 | 1.1 | 7 | 8 |
+| 38  | [Yoroi](https://yoroi.company/research/)                           | 12   | 2022/11/02 | 2023/04/24 | 14  | 0.8  | 3 | 4.0 | 3 | 2 |
+| 39  | [Horizon3.ai](https://www.horizon3.ai/red-team-blog/#disclosures)  | 11   | 2021/01/05 | 2023/02/14 | 25   | 0.4  | 8 | 1.3 | 6 | - |
+| 40  | [Synopsys](https://www.synopsys.com/blogs/software-security/tag/cybersecurity-research-center/) | 6 | 2023/01/31  | 2023/08/15 | 8 | 0.9 | 5 | 1.2 | 0 | 6 |
+| 41  | [Oxeye](https://www.oxeye.io/resources-category/research)           | 6   | 2022/07/28 | 2023/08/22 | 13  | 0.7  | 4 | 1.5 | 0 | 2 |
+| 42  | [Viettel Cyber Security](https://blog.viettelcybersecurity.com/tag/researches/) | 4 | 2022/03/23 | 2023/06/16 | 15 | 0.3  | 4 | 1.0 | 2 | 7 |
+| 43  | [SSD Labs](https://ssd-disclosure.com/advisories/)                  | 5   | 2022/07/27 | 2023/04/03 | 9   | 0.3  | 3 | 1.6 | 4 | 2 |
+| 44  | [Wiz](https://www.wiz.io/blog/tag/research)                        | 4   | 2021/09/14 | 2023/07/27 | 1   | 2.0  | 2 | 2.0 | 1 | 2 |
+| 45  | [Securitum](https://research.securitum.com/)                        | 2   | 2016/06/14 | 2020/02/12 | 44  | 0.1  | 2 | 1.0 | 42 | 1 |
+| 46  | [Legit Security](https://www.legitsecurity.com/)                   | 1   | 2023/02/14 | 2023/02/14 | 1   | 1.0  | 1 | 1.0 | 7 | 1 |
 
 ## Discarded
 
