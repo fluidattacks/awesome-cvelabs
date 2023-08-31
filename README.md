@@ -15,7 +15,7 @@ An awesome CVELabs is an independent team that:
 
 * Quantity: FortiGuard
 * Productiviy: FortiGuard
-* Activity (oposite to Inactivity, with the oldest "First" parameter): Synopsys
+* Activity (oposite to Inactivity, with the most recent "Last" parameter): Nozomi Networks
 * Diversity (oposite to Concentration, with the oldest "First" parameter): Qualys
 * Oldest: Tenable
 
@@ -49,13 +49,13 @@ Descendent order acording to CVE column:
 | 12  | [CyberArk](https://labs.cyberark.com/cyberark-labs-security-advisories/) | 136 | 2018/11/07 | 2022/10/22 | 47  | 2.8  | 29 |  4.6  | 10 | 20 |
 | 13  | [Withsecure](https://labs.withsecure.com/advisories/)             | 123  | 2006/11/28 | 2023/04/11 | 196 | 0.6  | 73 | 1.7 | 4 | - |
 | 14  | [Positive Technologies](https://www.ptsecurity.com/ww-en/analytics/threatscape/)  | 119  | 2009/03/04 | 2022/12/03 | 158   | 0.7  | 79 | 1.5 | 9 | 1 |
-| 15  | [Mandiant](https://github.com/mandiant/Vulnerability-Disclosures)   | 115   | 2019/09/20 | 2023/06/26 |  67  | 1.7  | 26 | 4.4 | 2 | 27 |
-| 16  | [JFrog](https://research.jfrog.com/)                               | 114  | 2019/02/05 | 2023/07/25 | 51  | 2.2  | 56 | 2.0 | 1 | 7 |
-| 17  | [NCC Group](https://research.nccgroup.com/category/technical-advisories/) | 108 | 2006/02/03 | 2023/08/24 | 210 | 0.5  | 80 | 1.3 | 0 | 220 |
-| 18  | [Starlabs](https://starlabs.sg/advisories)                         | 107  | 2018/11/27 | 2023/07/14 | 52  | 2.0  | 24 | 4.4 | 1 | 3 |
-| 19  | [Fluid Attacks](https://fluidattacks.com/advisories/)              | 80   | 2020/12/15 | 2023/08/11 | 32  | 2.5  | 53 | 1.5 | 0 | 6 |
-| 20  | [Ioactive](https://ioactive.com/resources/disclosures/)            | 80   | 2007/03/26 | 2021/07/08 |  172  | 0.4  | 46 | 1.7 | 25 | 46 |
-| 21  | [Qualys](https://www.qualys.com/research/security-advisories/)     | 67   | 2012/05/04 | 2023/07/19 | 135 | 0.5  | 41 | - | 1 | - |
+| 15  | [Qualys](https://www.qualys.com/research/security-advisories/)     | 118   | 2012/05/04 | 2023/07/19 | 135 | 0.5  | 41 | 2.8 | 1 | - |
+| 16  | [Mandiant](https://github.com/mandiant/Vulnerability-Disclosures)   | 115   | 2019/09/20 | 2023/06/26 |  67  | 1.7  | 26 | 4.4 | 2 | 27 |
+| 17  | [JFrog](https://research.jfrog.com/)                               | 114  | 2019/02/05 | 2023/07/25 | 51  | 2.2  | 56 | 2.0 | 1 | 7 |
+| 18  | [NCC Group](https://research.nccgroup.com/category/technical-advisories/) | 108 | 2006/02/03 | 2023/08/24 | 210 | 0.5  | 80 | 1.3 | 0 | 220 |
+| 19  | [Starlabs](https://starlabs.sg/advisories)                         | 107  | 2018/11/27 | 2023/07/14 | 52  | 2.0  | 24 | 4.4 | 1 | 3 |
+| 20  | [Fluid Attacks](https://fluidattacks.com/advisories/)              | 80   | 2020/12/15 | 2023/08/11 | 32  | 2.5  | 53 | 1.5 | 0 | 6 |
+| 21  | [Ioactive](https://ioactive.com/resources/disclosures/)            | 80   | 2007/03/26 | 2021/07/08 |  172  | 0.4  | 46 | 1.7 | 25 | 46 |
 | 22  | [SentinelOne](https://www.sentinelone.com/labs/our-cves/)          | 57   | 2016/03/24 | 2022/05/05 | 74  | 0.8  | 25 | 2.2 | 16 | 5 |
 | 23  | [Integrity Labs](https://labs.integrity.pt/advisories/)            | 48   | 2013/07/09 | 2023/04/20 | 117 | 0.4  | 37 | 1.3 | 4 | 7 |
 | 24  | [Nozomi Networks](https://www.nozominetworks.com/labs/vulnerability-advisories/) | 45 | 2023/01/31 | 2023/08/09 | 7 | 6.4  | 8 | 5.6 | 0 | - |
