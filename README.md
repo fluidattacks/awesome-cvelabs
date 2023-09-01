@@ -53,7 +53,7 @@ Descendent order acording to CVE column:
 | 16  | [Mandiant](https://github.com/mandiant/Vulnerability-Disclosures)   | 115   | 19/09/20 | 23/06/26 |  67  | 1.7  | 26 | 4.4 | 2 | 27 |
 | 17  | [JFrog](https://research.jfrog.com/)                               | 114  | 19/02/05 | 23/07/25 | 51  | 2.2  | 56 | 2.0 | 1 | 7 |
 | 18  | [NCC Group](https://research.nccgroup.com/category/technical-advisories/) | 108 | 06/02/03 | 23/08/24 | 210 | 0.5  | 80 | 1.3 | 0 | 220 |
-| 19  | [Starlabs](https://starlabs.sg/advisories)                         | 107  | 18/11/27 | 23/07/14 | 52  | 2.0  | 24 | 4.4 | 1 | 3 |
+| 19  | [Starlabs](https://starlabs.sg/advisories)                         | 106  | 18/11/27 | 23/07/14 | 52  | 2.0  | 24 | 4.4 | 1 | 13 |
 | 20  | [Fluid Attacks](https://fluidattacks.com/advisories/)              | 80   | 20/12/15 | 23/08/11 | 32  | 2.5  | 53 | 1.5 | 0 | 6 |
 | 21  | [Ioactive](https://ioactive.com/resources/disclosures/)            | 80   | 07/03/26 | 21/07/08 |  172  | 0.4  | 46 | 1.7 | 25 | 46 |
 | 22  | [SentinelOne](https://www.sentinelone.com/labs/our-cves/)          | 57   | 16/03/24 | 22/05/05 | 74  | 0.8  | 25 | 2.2 | 16 | 5 |
