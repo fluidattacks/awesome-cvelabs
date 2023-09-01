@@ -46,7 +46,7 @@ Descendent order acording to CVE column:
 |  9  | [Flashback](https://www.flashback.sh/)                              | 165   | 13/08/01 | 23/06/23 | 107  | 1.5  | 30 | 5.5 | 2 | 2 |
 | 10  | [Bishopfox](https://bishopfox.com/blog/advisories)                 | 154  | 05/12/07 | 16/12/21 | 132 | 1.2  | 44 | 3.5 | 78 | 43 |
 | 11  | [Synacktiv](https://www.synacktiv.com/en/advisories)               | 153  | 10/04/27 | 23/08/08 | 161 | 0.9  | 52 | 2.9 | 0 | 42 |
-| 12  | [CyberArk](https://labs.cyberark.com/cyberark-labs-security-advisories/) | 136 | 18/11/07 | 22/10/22 | 47  | 2.8  | 29 |  4.6  | 10 | 20 |
+| 12  | [CyberArk](https://labs.cyberark.com/cyberark-labs-security-advisories/) | 124 | 18/11/07 | 22/10/22 | 47  | 2.6  | 55 |  2.2  | 10 | 22 |
 | 13  | [Withsecure](https://labs.withsecure.com/advisories/)             | 123  | 06/11/28 | 23/04/11 | 196 | 0.6  | 73 | 1.7 | 4 | - |
 | 14  | [Positive Technologies](https://www.ptsecurity.com/ww-en/analytics/threatscape/)  | 119 | 09/03/04 | 22/12/03 | 158   | 0.7  | 79 | 1.5 | 9 | 1 |
 | 15  | [Qualys](https://www.qualys.com/research/security-advisories/)     | 118   | 12/05/04 | 23/07/19 | 135 | 0.5  | 41 | 2.8 | 1 | - |
