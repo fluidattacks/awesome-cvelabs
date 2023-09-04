@@ -39,12 +39,12 @@ Descendent order acording to CVE column:
 |  2  | [Source Incite](https://srcincite.io/advisories/)                   | 863  | 15/04/16 | 23/08/08 | 100  | 8.6  | 65  | 13.2 | 0  | 14 |
 |  3  | [Google Project Zero](https://bugs.chromium.org/p/project-zero/issues/list) | 733  | 14/03/11 | 23/06/01 | 112 | 6.5  | 59 | 12.4 | 2 | 41 |
 |  4  | [Tenable](https://www.tenable.com/security/research)                | 724  | 06/07/11 | 23/08/03 | 206 | 3.5  | 135 | 5.3 | 0 | - |
-|  5  | [Claroty](https://claroty.com/team82/disclosure-dashboard)           | 517   | 18/05/06 | 23/08/17 | 63   | 8.2  | 169 | 3.0 | 0 | - |
+|  5  | [Claroty](https://claroty.com/team82/disclosure-dashboard)           | 517   | 18/05/06 | 23/08/17 | 63   | 8.2  | 101 | 5.1 | 0 | - |
 |  6  | [Core Security](https://www.coresecurity.com/core-labs/advisories)  | 355   | 16/05/18 | 22/02/01 | 69   | 5.1  | 90 | 3.9 | 7 | 33 |
 |  7  | [Sec Consult](https://sec-consult.com/vulnerability-lab/)           | 282   | 03/02/28 | 23/07/05 | 244   | 1.1  | 84 | 3.3 | 1 | 60 |
 |  8  | [Trustwave - SpiderLabs](https://www.trustwave.com/en-us/resources/security-resources/security-advisories/) | 191 | 09/05/19 | 23/07/21 | 171 | 1.1  | 63 | 3.0 | 1 | 60 |
 |  9  | [Flashback](https://www.flashback.sh/)                              | 165   | 13/08/01 | 23/06/23 | 107  | 1.5  | 30 | 5.5 | 2 | 2 |
-| 10  | [Bishopfox](https://bishopfox.com/blog/advisories)                 | 154  | 05/12/07 | 16/12/21 | 132 | 1.2  | 44 | 3.5 | 78 | 43 |
+| 10  | [Bishopfox](https://bishopfox.com/blog/advisories)                 | 153  | 05/12/07 | 16/12/21 | 132 | 1.1  | 44 | 3.4 | 78 | 43 |
 | 11  | [Synacktiv](https://www.synacktiv.com/en/advisories)               | 153  | 10/04/27 | 23/08/08 | 161 | 0.9  | 52 | 2.9 | 0 | 42 |
 | 12  | [CyberArk](https://labs.cyberark.com/cyberark-labs-security-advisories/) | 124 | 18/11/07 | 22/10/22 | 47  | 2.6  | 55 |  2.2  | 10 | 22 |
 | 13  | [Withsecure](https://labs.withsecure.com/advisories/)             | 123  | 06/11/28 | 23/04/11 | 196 | 0.6  | 73 | 1.7 | 4 | - |
@@ -54,11 +54,11 @@ Descendent order acording to CVE column:
 | 17  | [JFrog](https://research.jfrog.com/)                               | 114  | 19/02/05 | 23/07/25 | 51  | 2.2  | 56 | 2.0 | 1 | 7 |
 | 18  | [NCC Group](https://research.nccgroup.com/category/technical-advisories/) | 108 | 06/02/03 | 23/08/24 | 210 | 0.5  | 80 | 1.3 | 0 | 220 |
 | 19  | [Starlabs](https://starlabs.sg/advisories)                         | 106  | 18/11/27 | 23/07/14 | 52  | 2.0  | 24 | 4.4 | 1 | 13 |
-| 20  | [Fluid Attacks](https://fluidattacks.com/advisories/)              | 80   | 20/12/15 | 23/08/11 | 32  | 2.5  | 53 | 1.5 | 0 | 6 |
-| 21  | [Ioactive](https://ioactive.com/resources/disclosures/)            | 80   | 07/03/26 | 21/07/08 |  172  | 0.4  | 46 | 1.7 | 25 | 46 |
-| 22  | [SentinelOne](https://www.sentinelone.com/labs/our-cves/)          | 57   | 16/03/24 | 22/05/05 | 74  | 0.8  | 25 | 2.2 | 16 | 5 |
-| 23  | [Integrity Labs](https://labs.integrity.pt/advisories/)            | 48   | 13/07/09 | 23/04/20 | 117 | 0.4  | 37 | 1.3 | 4 | 7 |
-| 24  | [Nozomi Networks](https://www.nozominetworks.com/labs/vulnerability-advisories/) | 45 | 23/01/31 | 23/08/09 | 7 | 6.4  | 8 | 5.6 | 0 | - |
+| 20  | [Nozomi Networks](https://www.nozominetworks.com/vulnerability-advisories) | 98 | 22/05/17 | 23/09/01 | 76 | 1.2  | 8 | 5.6 | 0 | - |
+| 21  | [Fluid Attacks](https://fluidattacks.com/advisories/)              | 80   | 20/12/15 | 23/08/11 | 32  | 2.5  | 53 | 1.5 | 0 | 6 |
+| 22  | [Ioactive](https://ioactive.com/resources/disclosures/)            | 80   | 07/03/26 | 21/07/08 |  172  | 0.4  | 46 | 1.7 | 25 | 46 |
+| 23  | [SentinelOne](https://www.sentinelone.com/labs/our-cves/)          | 57   | 16/03/24 | 22/05/05 | 74  | 0.8  | 25 | 2.2 | 16 | 5 |
+| 24  | [Integrity Labs](https://labs.integrity.pt/advisories/)            | 48   | 13/07/09 | 23/04/20 | 117 | 0.4  | 37 | 1.3 | 4 | 7 |
 | 25  | [Sonarsource](https://www.sonarsource.com/)                        | 43   | 21/04/26 | 23/05/15 | 25  | 1.7  | - | - | 2 | - |
 | 26  | [Secpod](https://www.secpod.com/)                                  | 41   | 10/08/05 | 15/06/18 | 59  | 0.7  | 35 | 1.1 | 97 | 8 |
 | 27  | [Orange Cyberdefense](https://github.com/Orange-Cyberdefense/CVE-repository) | 39  | 19/07/28 | 23/07/06 | 59  | 0.6  | 26 |  1.5  | 1  | 18 | 
