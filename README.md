@@ -41,18 +41,18 @@ Descendent order acording to CVE column:
 |  4  | [Tenable](https://www.tenable.com/security/research)                | 724  | 06/07/11 | 23/08/03 | 206 | 3.5  | 135 | 5.3 | 0 | - |
 |  5  | [Claroty](https://claroty.com/team82/disclosure-dashboard)           | 517   | 18/05/06 | 23/08/17 | 63   | 8.2  | 101 | 5.1 | 0 | - |
 |  6  | [Core Security](https://www.coresecurity.com/core-labs/advisories)  | 355   | 16/05/18 | 22/02/01 | 69   | 5.1  | 90 | 3.9 | 7 | 33 |
-|  7  | [Sec Consult](https://sec-consult.com/vulnerability-lab/)           | 282   | 03/02/28 | 23/07/05 | 244   | 1.1  | 84 | 3.3 | 1 | 60 |
-|  8  | [Trustwave - SpiderLabs](https://www.trustwave.com/en-us/resources/security-resources/security-advisories/) | 191 | 09/05/19 | 23/07/21 | 171 | 1.1  | 63 | 3.0 | 1 | 60 |
-|  9  | [Flashback](https://www.flashback.sh/)                              | 165   | 13/08/01 | 23/06/23 | 107  | 1.5  | 30 | 5.5 | 2 | 2 |
-| 10  | [Bishopfox](https://bishopfox.com/blog/advisories)                 | 153  | 05/12/07 | 16/12/21 | 132 | 1.1  | 44 | 3.4 | 78 | 43 |
-| 11  | [Synacktiv](https://www.synacktiv.com/en/advisories)               | 153  | 10/04/27 | 23/08/08 | 161 | 0.9  | 52 | 2.9 | 0 | 42 |
-| 12  | [CyberArk](https://labs.cyberark.com/cyberark-labs-security-advisories/) | 124 | 18/11/07 | 22/10/22 | 47  | 2.6  | 55 |  2.2  | 10 | 22 |
-| 13  | [Withsecure](https://labs.withsecure.com/advisories/)             | 123  | 06/11/28 | 23/04/11 | 196 | 0.6  | 73 | 1.7 | 4 | - |
-| 14  | [Positive Technologies](https://www.ptsecurity.com/ww-en/analytics/threatscape/)  | 119 | 09/03/04 | 22/12/03 | 158   | 0.7  | 79 | 1.5 | 9 | 1 |
-| 15  | [Qualys](https://www.qualys.com/research/security-advisories/)     | 118   | 12/05/04 | 23/07/19 | 135 | 0.5  | 41 | 2.8 | 1 | - |
-| 16  | [Mandiant](https://github.com/mandiant/Vulnerability-Disclosures)   | 115   | 19/09/20 | 23/06/26 |  67  | 1.7  | 26 | 4.4 | 2 | 27 |
-| 17  | [JFrog](https://research.jfrog.com/)                               | 114  | 19/02/05 | 23/07/25 | 51  | 2.2  | 56 | 2.0 | 1 | 7 |
-| 18  | [NCC Group](https://research.nccgroup.com/category/technical-advisories/) | 108 | 06/02/03 | 23/08/24 | 210 | 0.5  | 80 | 1.3 | 0 | 220 |
+|  7  | [NCC Group](https://research.nccgroup.com/category/technical-advisories/) | 330 | 06/02/03 | 23/08/24 | 210 | 1.5  | 80 | 4.1 | 0 | 47 |
+|  8  | [Sec Consult](https://sec-consult.com/vulnerability-lab/)           | 282   | 03/02/28 | 23/07/05 | 244   | 1.1  | 84 | 3.3 | 1 | 60 |
+|  9  | [Trustwave - SpiderLabs](https://www.trustwave.com/en-us/resources/security-resources/security-advisories/) | 212 | 09/05/19 | 23/07/21 | 171 | 1.2  | 120 | 1.7 | 1 | 60 |
+| 10  | [Flashback](https://www.flashback.sh/)                              | 165   | 13/08/01 | 23/06/23 | 107  | 1.5  | 30 | 5.5 | 2 | 2 |
+| 11  | [Bishopfox](https://bishopfox.com/blog/advisories)                 | 153  | 05/12/07 | 16/12/21 | 132 | 1.1  | 44 | 3.4 | 78 | 43 |
+| 12  | [Synacktiv](https://www.synacktiv.com/en/advisories)               | 153  | 10/04/27 | 23/08/08 | 161 | 0.9  | 52 | 2.9 | 0 | 42 |
+| 13  | [CyberArk](https://labs.cyberark.com/cyberark-labs-security-advisories/) | 124 | 18/11/07 | 22/10/22 | 47  | 2.6  | 55 |  2.2  | 10 | 22 |
+| 14  | [Withsecure](https://labs.withsecure.com/advisories/)             | 123  | 06/11/28 | 23/04/11 | 196 | 0.6  | 73 | 1.7 | 4 | - |
+| 15  | [Positive Technologies](https://www.ptsecurity.com/ww-en/analytics/threatscape/)  | 119 | 09/03/04 | 22/12/03 | 158   | 0.7  | 79 | 1.5 | 9 | 1 |
+| 16  | [Qualys](https://www.qualys.com/research/security-advisories/)     | 118   | 12/05/04 | 23/07/19 | 135 | 0.5  | 41 | 2.8 | 1 | - |
+| 17  | [Mandiant](https://github.com/mandiant/Vulnerability-Disclosures)   | 115   | 19/09/20 | 23/06/26 |  67  | 1.7  | 26 | 4.4 | 2 | 27 |
+| 18  | [JFrog](https://research.jfrog.com/)                               | 114  | 19/02/05 | 23/07/25 | 51  | 2.2  | 56 | 2.0 | 1 | 7 |
 | 19  | [Starlabs](https://starlabs.sg/advisories)                         | 106  | 18/11/27 | 23/07/14 | 52  | 2.0  | 24 | 4.4 | 1 | 13 |
 | 20  | [Nozomi Networks](https://www.nozominetworks.com/vulnerability-advisories) | 98 | 22/05/17 | 23/09/01 | 76 | 1.2  | 8 | 5.6 | 0 | - |
 | 21  | [Fluid Attacks](https://fluidattacks.com/advisories/)              | 80   | 20/12/15 | 23/08/11 | 32  | 2.5  | 53 | 1.5 | 0 | 6 |
