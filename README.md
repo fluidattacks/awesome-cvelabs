@@ -36,20 +36,20 @@ Descendent order acording to CVE column:
 |  #  | Lab                                                                 |  Q  |    First    |    Last     |  M  |  P  |  V  |  C  |  I  |  R  |
 | --: |---------------------------------------------------------------------| --: |------------|------------| --: | --: | --: | --: | --: | --: |
 |  1  | [FortiGuard (Fortinet)](https://www.fortiguard.com/zeroday)         | 905  | 19/09/23 | 23/03/21 | 41   | 22.0 | 179 | 5.0  | 5 | - |
-|  2  | [Source Incite](https://srcincite.io/advisories/)                   | 863  | 15/04/16 | 23/08/08 | 100  | 8.6  | 65  | 13.2 | 0  | 14 |
-|  3  | [Google Project Zero](https://bugs.chromium.org/p/project-zero/issues/list) | 733  | 14/03/11 | 23/06/01 | 112 | 6.5  | 59 | 12.4 | 2 | 41 |
-|  4  | [Tenable](https://www.tenable.com/security/research)                | 724  | 06/07/11 | 23/08/03 | 206 | 3.5  | 135 | 5.3 | 0 | - |
+|  2  | [Source Incite](https://srcincite.io/advisories/)                   | 853  | 15/04/16 | 23/08/08 | 100  | 8.5  | 30  | 28.4 | 0  | 13 |
+|  3  | [Tenable](https://www.tenable.com/security/research)                | 718  | 06/07/11 | 23/08/03 | 206 | 3.4  | 135 | 5.3 | 0 | - |
+|  4  | [Google Project Zero](https://bugs.chromium.org/p/project-zero/issues/list) | 700  | 14/03/11 | 23/06/01 | 112 | 6.2  | 60 | 11.6 | 3 | 33 |
 |  5  | [Claroty](https://claroty.com/team82/disclosure-dashboard)           | 517   | 18/05/06 | 23/08/17 | 63   | 8.2  | 101 | 5.1 | 0 | - |
 |  6  | [Core Security](https://www.coresecurity.com/core-labs/advisories)  | 355   | 16/05/18 | 22/02/01 | 69   | 5.1  | 90 | 3.9 | 7 | 33 |
 |  7  | [NCC Group](https://research.nccgroup.com/category/technical-advisories/) | 330 | 06/02/03 | 23/08/24 | 210 | 1.5  | 80 | 4.1 | 0 | 47 |
 |  8  | [Sec Consult](https://sec-consult.com/vulnerability-lab/)           | 282   | 03/02/28 | 23/07/05 | 244   | 1.1  | 84 | 3.3 | 1 | 60 |
 |  9  | [Trustwave - SpiderLabs](https://www.trustwave.com/en-us/resources/security-resources/security-advisories/) | 212 | 09/05/19 | 23/07/21 | 171 | 1.2  | 120 | 1.7 | 1 | 60 |
-| 10  | [Flashback](https://www.flashback.sh/)                              | 165   | 13/08/01 | 23/06/23 | 107  | 1.5  | 30 | 5.5 | 2 | 2 |
-| 11  | [Bishopfox](https://bishopfox.com/blog/advisories)                 | 153  | 05/12/07 | 16/12/21 | 132 | 1.1  | 44 | 3.4 | 78 | 43 |
-| 12  | [Synacktiv](https://www.synacktiv.com/en/advisories)               | 153  | 10/04/27 | 23/08/08 | 161 | 0.9  | 52 | 2.9 | 0 | 42 |
-| 13  | [CyberArk](https://labs.cyberark.com/cyberark-labs-security-advisories/) | 124 | 18/11/07 | 22/10/22 | 47  | 2.6  | 55 |  2.2  | 10 | 22 |
-| 14  | [Withsecure](https://labs.withsecure.com/advisories/)             | 123  | 06/11/28 | 23/04/11 | 196 | 0.6  | 73 | 1.7 | 4 | - |
-| 15  | [Positive Technologies](https://www.ptsecurity.com/ww-en/analytics/threatscape/)  | 119 | 09/03/04 | 22/12/03 | 158   | 0.7  | 79 | 1.5 | 9 | 1 |
+| 10  | [Positive Technologies](https://www.ptsecurity.com/ww-en/analytics/threatscape/)  | 249 | 09/03/04 | 22/12/03 | 158   | 1.5  | 133 | 1.8 | 9 | 1 |
+| 11  | [Flashback](https://www.flashback.sh/)                              | 165   | 13/08/01 | 23/06/23 | 107  | 1.5  | 30 | 5.5 | 2 | 2 |
+| 12  | [Bishopfox](https://bishopfox.com/blog/advisories)                 | 153  | 05/12/07 | 16/12/21 | 132 | 1.1  | 44 | 3.4 | 78 | 43 |
+| 13  | [Synacktiv](https://www.synacktiv.com/en/advisories)               | 153  | 10/04/27 | 23/08/08 | 161 | 0.9  | 52 | 2.9 | 0 | 42 |
+| 14  | [CyberArk](https://labs.cyberark.com/cyberark-labs-security-advisories/) | 124 | 18/11/07 | 22/10/22 | 47  | 2.6  | 55 |  2.2  | 10 | 22 |
+| 15  | [Withsecure](https://labs.withsecure.com/advisories/)             | 123  | 06/11/28 | 23/04/11 | 196 | 0.6  | 73 | 1.7 | 4 | - |
 | 16  | [Qualys](https://www.qualys.com/research/security-advisories/)     | 118   | 12/05/04 | 23/07/19 | 135 | 0.5  | 41 | 2.8 | 1 | - |
 | 17  | [Mandiant](https://github.com/mandiant/Vulnerability-Disclosures)   | 115   | 19/09/20 | 23/06/26 |  67  | 1.7  | 26 | 4.4 | 2 | 27 |
 | 18  | [JFrog](https://research.jfrog.com/)                               | 114  | 19/02/05 | 23/07/25 | 51  | 2.2  | 56 | 2.0 | 1 | 7 |
@@ -65,9 +65,9 @@ Descendent order acording to CVE column:
 | 28  | [Safe Breach](https://www.safebreach.com/cve-discoveries/)         | 39   | 19/06/19 | 23/04/14 | 45  | 0.9  | 25 | 1.6 | 4 | - |
 | 29  | [Versprite](https://versprite.com/)                                | 38   | 17/12/20 | 21/04/23 | 40  | 0.9  | 29 | 1.3 | 28 | - |
 | 30  | [SecureWorks (Dell)](https://www.secureworks.com/research/#resource-type=Advisory) | 34 | 09/11/11 | 18/12/20 | 109 | 0.3  | 21 |  1.6  | 52 | 14 |
-| 31  | [Cipher Labs](https://labs.cipher.com/projects/vulnerability-research/index.html) | 24 | 11/11/22 | 19/04/02 | 89  | 0.3  | 18 | 1.3 | 54 | 1 |
-| 32  | [Patchstack](https://patchstack.com/)                              | 30   | 23/01/24 | 23/08/03 | 7   | 4.3  | - | - | 0 | - |
-| 33  | [Portcullis Labs](https://labs.portcullis.co.uk/advisories/)        | 25   | 17/07/19 | 19/10/30 | 28  | 1.2  | 10 | 2.5 | 45 | 10 |
+| 31  | [Patchstack](https://patchstack.com/)                              | 30   | 23/01/24 | 23/08/03 | 7   | 4.3  | - | - | 0 | - |
+| 32  | [Portcullis Labs](https://labs.portcullis.co.uk/advisories/)        | 25   | 17/07/19 | 19/10/30 | 28  | 1.2  | 10 | 2.5 | 45 
+| 33  | [Cipher Labs](https://labs.cipher.com/projects/vulnerability-research/index.html) | 24 | 11/11/22 | 19/04/02 | 89  | 0.3  | 18 | 1.3 | 54 | 1 || 10 |
 | 34  | [Vulncheck](https://vulncheck.com/)                                | 22   | 22/10/14 | 23/07/19 | 9   | 2.4  | 16 | 1.3 | 1 | - |
 | 35  | [Assetnote](https://www.assetnote.io/)                             | 15   | 21/11/02 | 23/07/22 | 20  | 0.7  | 14 | 1.0 | 1 | 2 |
 | 36  | [WatchTowr Labs](https://labs.watchtowr.com/)                      | 14   | 22/07/01 | 23/06/13 | 11  | 1.3  | 10 | 1.4 | 2 | 4 |
