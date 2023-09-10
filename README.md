@@ -64,23 +64,24 @@ Descendent order acording to CVE column:
 | 27  | [Orange Cyberdefense](https://github.com/Orange-Cyberdefense/CVE-repository) | 39  | 19/07/28 | 23/07/06 | 59  | 0.6  | 26 |  1.5  | 1  | 18 | 
 | 28  | [Safe Breach](https://www.safebreach.com/cve-discoveries/)         | 39   | 19/06/19 | 23/04/14 | 45  | 0.9  | 25 | 1.6 | 4 | - |
 | 29  | [Versprite](https://versprite.com/)                                | 38   | 17/12/20 | 21/04/23 | 40  | 0.9  | 29 | 1.3 | 28 | - |
-| 30  | [SecureWorks (Dell)](https://www.secureworks.com/research/#resource-type=Advisory) | 34 | 09/11/11 | 18/12/20 | 109 | 0.3  | 21 |  1.6  | 52 | 14 |
-| 31  | [Patchstack](https://patchstack.com/)                              | 30   | 23/01/24 | 23/08/03 | 7   | 4.3  | - | - | 0 | - |
-| 32  | [Portcullis Labs](https://labs.portcullis.co.uk/advisories/)        | 25   | 17/07/19 | 19/10/30 | 28  | 1.2  | 10 | 2.5 | 45 
-| 33  | [Cipher Labs](https://labs.cipher.com/projects/vulnerability-research/index.html) | 24 | 11/11/22 | 19/04/02 | 89  | 0.3  | 18 | 1.3 | 54 | 1 || 10 |
-| 34  | [Vulncheck](https://vulncheck.com/)                                | 22   | 22/10/14 | 23/07/19 | 9   | 2.4  | 16 | 1.3 | 1 | - |
-| 35  | [Assetnote](https://www.assetnote.io/)                             | 15   | 21/11/02 | 23/07/22 | 20  | 0.7  | 14 | 1.0 | 1 | 2 |
-| 36  | [WatchTowr Labs](https://labs.watchtowr.com/)                      | 14   | 22/07/01 | 23/06/13 | 11  | 1.3  | 10 | 1.4 | 2 | 4 |
-| 37  | [Nettitude](https://labs.nettitude.com/category/blog/advisories/)  | 13 | 17/11/28 | 23/01/04 | 61 | 0.2 | 11 | 1.1 | 7 | 8 |
-| 38  | [Yoroi](https://yoroi.company/research/)                           | 12   | 22/11/02 | 23/04/24 | 14  | 0.8  | 3 | 4.0 | 3 | 2 |
-| 39  | [Horizon3.ai](https://www.horizon3.ai/red-team-blog/#disclosures)  | 11   | 21/01/05 | 23/02/14 | 25   | 0.4  | 8 | 1.3 | 6 | - |
-| 40  | [Synopsys](https://www.synopsys.com/blogs/software-security/tag/cybersecurity-research-center/) | 6 | 23/01/31 | 23/08/15 | 8 | 0.9 | 5 | 1.2 | 0 | 6 |
-| 41  | [Oxeye](https://www.oxeye.io/resources-category/research)           | 6   | 22/07/28 | 23/08/22 | 13  | 0.7  | 4 | 1.5 | 0 | 2 |
-| 42  | [Viettel Cyber Security](https://blog.viettelcybersecurity.com/tag/researches/) | 4 | 22/03/23 | 23/06/16 | 15 | 0.3  | 4 | 1.0 | 2 | 7 |
-| 43  | [SSD Labs](https://ssd-disclosure.com/advisories/)                  | 5   | 22/07/27 | 23/04/03 | 9   | 0.3  | 3 | 1.6 | 4 | 2 |
-| 44  | [Wiz](https://www.wiz.io/blog/tag/research)                        | 4   | 21/09/14 | 23/07/27 | 1   | 2.0  | 2 | 2.0 | 1 | 2 |
-| 45  | [Securitum](https://research.securitum.com/)                        | 2   | 16/06/14 | 20/02/12 | 44  | 0.1  | 2 | 1.0 | 42 | 1 |
-| 46  | [Legit Security](https://www.legitsecurity.com/)                   | 1   | 23/02/14 | 23/02/14 | 1   | 1.0  | 1 | 1.0 | 7 | 1 |
+| 30  | [Census Labs](https://census-labs.com/news/category/advisories/)   | 37   | 09/01/21 | 23/06/15 | 162   | 0.2  | 24 | 1.5 | 3 | 15 |
+| 31  | [SecureWorks (Dell)](https://www.secureworks.com/research/#resource-type=Advisory) | 34 | 09/11/11 | 18/12/20 | 109 | 0.3  | 21 |  1.6  | 52 | 14 |
+| 32  | [Patchstack](https://patchstack.com/)                              | 30   | 23/01/24 | 23/08/03 | 7   | 4.3  | - | - | 0 | - |
+| 33  | [Portcullis Labs](https://labs.portcullis.co.uk/advisories/)        | 25   | 17/07/19 | 19/10/30 | 28  | 1.2  | 10 | 2.5 | 45 
+| 34  | [Cipher Labs](https://labs.cipher.com/projects/vulnerability-research/index.html) | 24 | 11/11/22 | 19/04/02 | 89  | 0.3  | 18 | 1.3 | 54 | 1 || 10 |
+| 35  | [Vulncheck](https://vulncheck.com/)                                | 22   | 22/10/14 | 23/07/19 | 9   | 2.4  | 16 | 1.3 | 1 | - |
+| 36  | [Assetnote](https://www.assetnote.io/)                             | 15   | 21/11/02 | 23/07/22 | 20  | 0.7  | 14 | 1.0 | 1 | 2 |
+| 37  | [WatchTowr Labs](https://labs.watchtowr.com/)                      | 14   | 22/07/01 | 23/06/13 | 11  | 1.3  | 10 | 1.4 | 2 | 4 |
+| 38  | [Nettitude](https://labs.nettitude.com/category/blog/advisories/)  | 13 | 17/11/28 | 23/01/04 | 61 | 0.2 | 11 | 1.1 | 7 | 8 |
+| 39  | [Yoroi](https://yoroi.company/research/)                           | 12   | 22/11/02 | 23/04/24 | 14  | 0.8  | 3 | 4.0 | 3 | 2 |
+| 40  | [Horizon3.ai](https://www.horizon3.ai/red-team-blog/#disclosures)  | 11   | 21/01/05 | 23/02/14 | 25   | 0.4  | 8 | 1.3 | 6 | - |
+| 41  | [Synopsys](https://www.synopsys.com/blogs/software-security/tag/cybersecurity-research-center/) | 6 | 23/01/31 | 23/08/15 | 8 | 0.9 | 5 | 1.2 | 0 | 6 |
+| 42  | [Oxeye](https://www.oxeye.io/resources-category/research)           | 6   | 22/07/28 | 23/08/22 | 13  | 0.7  | 4 | 1.5 | 0 | 2 |
+| 43  | [Viettel Cyber Security](https://blog.viettelcybersecurity.com/tag/researches/) | 4 | 22/03/23 | 23/06/16 | 15 | 0.3  | 4 | 1.0 | 2 | 7 |
+| 44  | [SSD Labs](https://ssd-disclosure.com/advisories/)                  | 5   | 22/07/27 | 23/04/03 | 9   | 0.3  | 3 | 1.6 | 4 | 2 |
+| 45  | [Wiz](https://www.wiz.io/blog/tag/research)                        | 4   | 21/09/14 | 23/07/27 | 1   | 2.0  | 2 | 2.0 | 1 | 2 |
+| 46  | [Securitum](https://research.securitum.com/)                        | 2   | 16/06/14 | 20/02/12 | 44  | 0.1  | 2 | 1.0 | 42 | 1 |
+| 47  | [Legit Security](https://www.legitsecurity.com/)                   | 1   | 23/02/14 | 23/02/14 | 1   | 1.0  | 1 | 1.0 | 7 | 1 |
 
 ## Discarded
 
