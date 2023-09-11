@@ -40,7 +40,7 @@ Descendent order acording to CVE column:
 |  3  | [Tenable](https://www.tenable.com/security/research)                | 718  | 06/07/11 | 23/08/03 | 206 | 3.4  | 135 | 5.3 | 0 | - |
 |  4  | [Google Project Zero](https://bugs.chromium.org/p/project-zero/issues/list) | 700  | 14/03/11 | 23/06/01 | 112 | 6.2  | 60 | 11.6 | 3 | 33 |
 |  5  | [Claroty](https://claroty.com/team82/disclosure-dashboard)           | 517   | 18/05/06 | 23/08/17 | 63   | 8.2  | 101 | 5.1 | 0 | - |
-|  6  | [Core Security](https://www.coresecurity.com/core-labs/advisories)  | 355   | 16/05/18 | 22/02/01 | 69   | 5.1  | 90 | 3.9 | 7 | 33 |
+|  6  | [Core Security](https://www.coresecurity.com/core-labs/advisories)  | 352   | 16/05/18 | 22/02/01 | 69   | 5.1  | 90 | 3.9 | 7 | 33 |
 |  7  | [NCC Group](https://research.nccgroup.com/category/technical-advisories/) | 330 | 06/02/03 | 23/08/24 | 210 | 1.5  | 80 | 4.1 | 0 | 47 |
 |  8  | [Sec Consult](https://sec-consult.com/vulnerability-lab/)           | 282   | 03/02/28 | 23/07/05 | 244   | 1.1  | 84 | 3.3 | 1 | 60 |
 |  9  | [Trustwave - SpiderLabs](https://www.trustwave.com/en-us/resources/security-resources/security-advisories/) | 212 | 09/05/19 | 23/07/21 | 171 | 1.2  | 120 | 1.7 | 1 | 60 |
