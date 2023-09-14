@@ -28,8 +28,6 @@ An awesome CVELabs is an independent team that:
 * (C)oncentration: Total CVE / Vendors (CVE per vendor)
 * (I)nactivity: Today - Last CVE (months since last CVE)
 * (R)esearchers: Unique researchers over CVE
-  * (-) Not applicable: Poorly structured researcher records
-  * ( ) Blank space: Researcher pending or not available at the moment
 
 ## Labs
 
@@ -84,6 +82,9 @@ Descendent order acording to CVE column:
 | 45  | [Wiz](https://www.wiz.io/blog/tag/research)                        | 4   | 21/09/14 | 23/07/27 | 1   | 2.0  | 2 | 2.0 | 1 | 2 |
 | 46  | [Securitum](https://research.securitum.com/)                        | 2   | 16/06/14 | 20/02/12 | 44  | 0.1  | 2 | 1.0 | 42 | 1 |
 | 47  | [Legit Security](https://www.legitsecurity.com/)                   | 1   | 23/02/14 | 23/02/14 | 1   | 1.0  | 1 | 1.0 | 7 | 1 |
+
+* (-) Not applicable: Poorly structured researcher records
+* ( ) Blank space: Researcher pending or not available at the moment
 
 ## Discarded
 
