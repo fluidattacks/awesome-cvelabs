@@ -1,7 +1,7 @@
 import aiohttp
 import asyncio
-import re
 import json
+import re
 
 base_url = "https://gitlab.com/fluidattacks/universe/-/refs/trunk/logs_tree/airs/front/content/pages/advisories?format=json&offset={offset}&ref_type=heads"
 advisory_base_url = "https://gitlab.com/fluidattacks/universe/-/raw/trunk/airs/front/content/pages/advisories/{filename}/index.md?ref_type=heads&inline=true"
@@ -51,12 +51,15 @@ async def main():
     async with aiohttp.ClientSession() as session:
         advisory_names = []
         offset = 0
+        total_advisories = 0  # Agregamos un contador para el número total de advisories
+
         while True:
             current_base_url = base_url.format(offset=offset)
             names = await get_advisory_names(session, current_base_url)
             if not names:
                 break
             advisory_names.extend(names)
+            total_advisories += len(names)  # Actualizamos el contador
             offset += 25
 
         cves = set()
@@ -77,7 +80,7 @@ async def main():
                         authors.update(author_list)
                     else:
                         authors.add(author)
-        
+
         cves.discard('')
         vendors.discard('')
         authors.discard('')
@@ -89,6 +92,7 @@ async def main():
         print(f"Total de CVE's únicos: {total_cves}")
         print(f"Total de vendors únicos: {total_vendors}")
         print(f"Total de researchers únicos: {total_authors}")
+        print(f"Total de advisories: {total_advisories}")  # Mostramos el número total de advisories
 
 if __name__ == "__main__":
     loop = asyncio.get_event_loop()
