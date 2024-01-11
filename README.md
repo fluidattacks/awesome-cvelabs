@@ -26,7 +26,7 @@ An awesome CVELabs is an independent team that:
 * (Q)uantity: Total CVEs
 * (M)onths: Last CVE - First CVE
 * (P)roductivity: Total CVE / Months (CVE per month)
-* (V)endors: Unique vendors over CVE 
+* (V)endors: Unique vendors over CVE
 * (C)oncentration: Total CVE / Vendors (CVE per vendor)
 * (I)nactivity: Today - Last CVE (months since last CVE)
 * (R)esearchers: Unique researchers over CVE
@@ -47,7 +47,7 @@ Descendent order acording to CVE column:
 |  7  | [NCC Group](https://research.nccgroup.com/category/technical-advisories/) |214 | 340 | 06/02/03 | 23/10/31   |212 | 1.6 | 80  | 4.1 | 1   | 47  | 7.0 |
 |  8  | [Sec Consult](https://sec-consult.com/vulnerability-lab/)           |15  | 272 | 03/02/28     | 23/10/05   |247 | 1.1 | 84  | 3.3 | 1   | -   | -   |
 |  9  | [Positive Technologies](https://www.ptsecurity.com/ww-en/analytics/threatscape/) |467 | 248 | 09/03/04     | 22/12/03   |158 | 1.5 | 133 | 1.8 | 20  | 1   | 249.0|
-| 10  | [Fluid Attacks](https://fluidattacks.com/advisories/)              |123 | 247 | 20/12/15     | 23/11/15   | 35 | 7.0 | 65  | 3.8 | 0   | 9   | 27.4|
+| 10  | [Fluid Attacks](https://fluidattacks.com/advisories/)              | 139 | 236 | 20/12/15     | 24/01/03   | 35 | 7.0 | 69  | 3.8 | 0   | 9   | 27.4|
 | 11  | [Trustwave - SpiderLabs](https://www.trustwave.com/en-us/resources/security-resources/security-advisories/) |191 | 212 | 09/05/19 | 23/11/07 |175 | 1.2 | 120 | 1.7 | 0   | 60  | 3.5 |
 | 12  | [Withsecure](https://labs.withsecure.com/advisories/)             | 211 | 170 | 06/11/28     | 23/10/26   |202 | 0.8 | 73  | 1.7 | 1   | -   | -   |
 | 13  | [Flashback](https://www.flashback.sh/)                              | | 165 | 13/08/01     | 23/06/23   |107 | 1.5 | 30  | 5.5 | 5   | 2   | 82.5|
