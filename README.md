@@ -81,7 +81,7 @@ Descendent order according to CVE column:
 | 41  | [Synopsys](https://www.synopsys.com/blogs/software-security/tag/cybersecurity-research-center/) | 23 | 6 | 23/01/31 | 23/08/15 | 8 | 0.9 | 5 | 1.2 | 9 | 6 | 1.0 |
 | 42  | [Oxeye](https://www.oxeye.io/resources-category/research)                                    | 5 | 6   | 22/07/28 | 23/08/22 | 13  | 0.7  | 4 | 1.5 | 3 | 2 | 3.0 |
 | 43  | [SSD Labs](https://ssd-disclosure.com/advisories/)                                           | 5 | 5   | 22/07/27 | 23/04/03 | 9   | 0.3  | 3 | 1.6 | 6 | 2 | 2.5 |
-| 44  | [Viettel Cyber Security](https://blog.viettelcybersecurity.com/tag/researches/)             |  4 | 4 | 22/03/23 | 23/06/16 | 15 | 0.3  | 4 | 1.0 | 5 | 7 | 0.5 |
+| 44 | [Viettel Cyber Security](https://blog.viettelcybersecurity.com/tag/researches/)             |  4 | 4 | 22/03/23 | 23/06/16 | 15 | 0.3  | 4 | 1.0 | 5 | 7 | 0.5 |
 | 45  | [Wiz](https://www.wiz.io/blog/tag/research)                                                 | 2 | 4   | 21/09/14 | 23/07/27 | 1   | 2.0  | 2 | 2.0 | 4 | 2 | 2.0 |
 | 46  | [Securitum](https://research.securitum.com/)                                               | 2 | 2   | 16/06/14 | 20/02/12 | 44  | 0.1  | 2 | 1.0 | 42 | 1 | 2.0 |
 | 47  | [Legit Security](https://www.legitsecurity.com/)                                           | 1 | 1   | 23/02/14 | 23/02/14 | 1   | 1.0  | 1 | 1.0 | 8 | 1 | 1.0 |
