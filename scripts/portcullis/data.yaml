@@ -1,0 +1,149 @@
+lab: Portcullis Labs
+url: https://labs.portcullis.co.uk/advisories/
+scraped_at: '2026-03-17T21:23:31.936965Z'
+advisories:
+- url: https://www.talosintelligence.com/vulnerability_reports/TALOS-2019-0940
+  date: null
+  cve_ids:
+  - CVE-2019-5150
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.talosintelligence.com/vulnerability_reports/TALOS-2019-0941
+  date: null
+  cve_ids:
+  - CVE-2019-5151
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.talosintelligence.com/vulnerability_reports/TALOS-2019-0857
+  date: null
+  cve_ids:
+  - CVE-2019-5068
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.talosintelligence.com/vulnerability_reports/TALOS-2019-0906
+  date: null
+  cve_ids:
+  - CVE-2019-5114
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.talosintelligence.com/vulnerability_reports/TALOS-2019-0909
+  date: null
+  cve_ids:
+  - CVE-2019-5119
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.talosintelligence.com/vulnerability_reports/TALOS-2019-0911
+  date: null
+  cve_ids:
+  - CVE-2019-5121
+  - CVE-2019-5123
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://www.talosintelligence.com/vulnerability_reports/TALOS-2019-0908
+  date: null
+  cve_ids:
+  - CVE-2019-5117
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.talosintelligence.com/vulnerability_reports/TALOS-2019-0907
+  date: null
+  cve_ids:
+  - CVE-2019-5116
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.talosintelligence.com/vulnerability_reports/TALOS-2019-0910
+  date: null
+  cve_ids:
+  - CVE-2019-5120
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.talosintelligence.com/vulnerability_reports/TALOS-2019-0917
+  date: null
+  cve_ids:
+  - CVE-2019-5127
+  - CVE-2019-5129
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://www.talosintelligence.com/vulnerability_reports/TALOS-2019-0858
+  date: null
+  cve_ids:
+  - CVE-2019-5069
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.talosintelligence.com/vulnerability_reports/TALOS-2019-0859
+  date: null
+  cve_ids:
+  - CVE-2019-5070
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.talosintelligence.com/vulnerability_reports/TALOS-2018-0560
+  date: null
+  cve_ids:
+  - CVE-2018-3882
+  - CVE-2018-3883
+  - CVE-2018-3884
+  - CVE-2018-3885
+  researchers: []
+  vendors: []
+  cve_count: 4
+- url: https://www.talosintelligence.com/vulnerability_reports/TALOS-2018-0559
+  date: null
+  cve_ids:
+  - CVE-2018-3881
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.talosintelligence.com/vulnerability_reports/TALOS-2018-0624
+  date: null
+  cve_ids:
+  - CVE-2018-1655
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.talosintelligence.com/vulnerability_reports/SAP
+  date: null
+  cve_ids:
+  - CVE-2017-16349
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.talosintelligence.com/vulnerability_reports/TALOS-2018-0558
+  date: null
+  cve_ids:
+  - CVE-2017-1105
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0316
+  date: null
+  cve_ids:
+  - CVE-2017-2815
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0315
+  date: null
+  cve_ids:
+  - CVE-2016-9044
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.talosintelligence.com/vulnerability_reports/TALOS-2017-0314
+  date: null
+  cve_ids:
+  - CVE-2016-9045
+  researchers: []
+  vendors: []
+  cve_count: 1

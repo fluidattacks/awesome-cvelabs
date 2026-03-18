@@ -1,0 +1,2590 @@
+lab: Source Incite
+url: https://srcincite.io
+scraped_at: '2026-03-17T22:28:49.484704Z'
+advisories:
+- url: https://srcincite.io/advisories/src-2025-0007
+  date: null
+  cve_ids: []
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Samsung
+  cve_count: 0
+- url: https://srcincite.io/advisories/src-2025-0006
+  date: null
+  cve_ids: []
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Samsung
+  cve_count: 0
+- url: https://srcincite.io/advisories/src-2025-0005
+  date: null
+  cve_ids: []
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Samsung
+  cve_count: 0
+- url: https://srcincite.io/advisories/src-2025-0004
+  date: null
+  cve_ids:
+  - CVE-2026-25201
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Samsung
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2025-0003
+  date: null
+  cve_ids:
+  - CVE-2026-25200
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Samsung
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2025-0002
+  date: null
+  cve_ids:
+  - CVE-2026-25202
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Samsung
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2025-0001
+  date: null
+  cve_ids: []
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Samsung
+  cve_count: 0
+- url: https://srcincite.io/advisories/src-2024-0001
+  date: 24/01/15
+  cve_ids:
+  - CVE-2023-50164
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Trackplus
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2023-0004
+  date: null
+  cve_ids:
+  - CVE-2023-50164
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Apache
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2023-0003
+  date: null
+  cve_ids:
+  - CVE-2023-28760
+  researchers:
+  - Rocco Calvi and Steven Seeley
+  vendors:
+  - TP-Link
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2023-0002
+  date: null
+  cve_ids:
+  - CVE-2023-0755
+  researchers:
+  - Chris Anastasio and Steven Seeley
+  vendors:
+  - PTC
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2023-0001
+  date: null
+  cve_ids:
+  - CVE-2023-0754
+  researchers:
+  - Chris Anastasio and Steven Seeley
+  vendors:
+  - PTC
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2022-0023
+  date: null
+  cve_ids:
+  - CVE-2022-31700
+  researchers:
+  - Steven Seeley
+  vendors:
+  - VMWare
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2022-0022
+  date: null
+  cve_ids:
+  - CVE-2022-31678
+  researchers:
+  - Sina Kheirkhah and Steven Seeley
+  vendors:
+  - VMWare
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2022-0021
+  date: null
+  cve_ids:
+  - CVE-2021-39144
+  researchers:
+  - Sina Kheirkhah and Steven Seeley
+  vendors:
+  - VMWare
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2022-0020
+  date: null
+  cve_ids:
+  - CVE-2022-31672
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - VMWare
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2022-0019
+  date: null
+  cve_ids:
+  - CVE-2022-31674
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - VMWare
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2022-0018
+  date: null
+  cve_ids:
+  - CVE-2022-31673
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - VMWare
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2022-0017
+  date: null
+  cve_ids:
+  - CVE-2022-31675
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - VMWare
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2022-0016
+  date: null
+  cve_ids:
+  - CVE-2022-31664
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - VMWare
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2022-0015
+  date: null
+  cve_ids:
+  - CVE-2022-31665
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - VMWare
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2022-0014
+  date: null
+  cve_ids:
+  - CVE-2022-36126
+  researchers:
+  - Chris Anastasio (muffin) and Steven Seeley (mr_me)
+  vendors:
+  - Inductive
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2022-0013
+  date: null
+  cve_ids:
+  - CVE-2022-35890
+  researchers:
+  - Chris Anastasio (muffin) and Steven Seeley (mr_me)
+  vendors:
+  - Inductive
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2022-0012
+  date: null
+  cve_ids:
+  - CVE-2022-22961
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - VMWare
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2022-0011
+  date: null
+  cve_ids:
+  - CVE-2022-22960
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - VMWare
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2022-0010
+  date: null
+  cve_ids:
+  - CVE-2022-22959
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - VMWare
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2022-0009
+  date: null
+  cve_ids:
+  - CVE-2022-22957
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - VMWare
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2022-0008
+  date: null
+  cve_ids:
+  - CVE-2022-22958
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - VMWare
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2022-0007
+  date: null
+  cve_ids:
+  - CVE-2022-22956
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - VMWare
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2022-0006
+  date: null
+  cve_ids:
+  - CVE-2022-22955
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - VMWare
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2022-0005
+  date: null
+  cve_ids:
+  - CVE-2022-22954
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - VMWare
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2022-0004
+  date: null
+  cve_ids:
+  - CVE-2022-21968
+  researchers:
+  - Yuhao Weng and Zhiniang Peng
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2022-0003
+  date: null
+  cve_ids:
+  - CVE-2021-44715
+  researchers:
+  - Rocco Calvi (TecR0c) and Steven Seeley
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2022-0002
+  date: null
+  cve_ids:
+  - CVE-2022-23863
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Zoho
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2022-0001
+  date: null
+  cve_ids:
+  - CVE-2021-44515
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Zoho
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2021-0029
+  date: null
+  cve_ids: []
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Dedecms
+  cve_count: 0
+- url: https://srcincite.io/advisories/src-2021-0028
+  date: null
+  cve_ids:
+  - CVE-2021-41781
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2021-0027
+  date: null
+  cve_ids:
+  - CVE-2021-41784
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2021-0026
+  date: null
+  cve_ids:
+  - CVE-2021-41782
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2021-0025
+  date: null
+  cve_ids:
+  - CVE-2021-41783
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2021-0024
+  date: null
+  cve_ids:
+  - CVE-2021-41785
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2021-0023
+  date: null
+  cve_ids:
+  - CVE-2021-41780
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2021-0022
+  date: null
+  cve_ids: []
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Dedecms
+  cve_count: 0
+- url: https://srcincite.io/advisories/src-2021-0021
+  date: null
+  cve_ids:
+  - CVE-2021-32708
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - League
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2021-0020
+  date: null
+  cve_ids: []
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Eclipse
+  cve_count: 0
+- url: https://srcincite.io/advisories/src-2021-0019
+  date: null
+  cve_ids:
+  - CVE-2021-31965
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2021-0018
+  date: null
+  cve_ids:
+  - CVE-2021-31172
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2021-0017
+  date: null
+  cve_ids:
+  - CVE-2021-28169
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Jetty
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2021-0016
+  date: null
+  cve_ids:
+  - CVE-2021-28450
+  researchers:
+  - Yuhao Weng and Zhiniang Peng
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2021-0015
+  date: null
+  cve_ids:
+  - CVE-2021-32605
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - zzzcms
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2021-0014
+  date: null
+  cve_ids:
+  - CVE-2021-31827
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Progress
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2021-0013
+  date: null
+  cve_ids:
+  - CVE-2021-26412
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2021-0012
+  date: null
+  cve_ids:
+  - CVE-2021-27078
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2021-0011
+  date: null
+  cve_ids:
+  - CVE-2021-26854
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2021-0010
+  date: null
+  cve_ids:
+  - CVE-2021-26120
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Smarty
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2021-0009
+  date: null
+  cve_ids:
+  - CVE-2021-26119
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Smarty
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2021-0008
+  date: null
+  cve_ids:
+  - CVE-2021-26915
+  - CVE-2021-24085
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - NetMotion
+  cve_count: 2
+- url: https://srcincite.io/advisories/src-2021-0007
+  date: null
+  cve_ids:
+  - CVE-2021-26914
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - NetMotion
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2021-0006
+  date: null
+  cve_ids:
+  - CVE-2021-26913
+  - CVE-2021-24085
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - NetMotion
+  cve_count: 2
+- url: https://srcincite.io/advisories/src-2021-0005
+  date: null
+  cve_ids:
+  - CVE-2021-26912
+  - CVE-2021-24085
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - NetMotion
+  cve_count: 2
+- url: https://srcincite.io/advisories/src-2021-0004
+  date: null
+  cve_ids:
+  - CVE-2021-24085
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2021-0003
+  date: null
+  cve_ids:
+  - CVE-2021-24071
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2021-0002
+  date: null
+  cve_ids:
+  - CVE-2021-26121
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - CSCart
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2021-0001
+  date: null
+  cve_ids:
+  - CVE-2021-1718
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2020-0034
+  date: null
+  cve_ids:
+  - CVE-2020-17120
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2020-0033
+  date: null
+  cve_ids:
+  - CVE-2020-17117
+  - CVE-2020-17132
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Microsoft
+  cve_count: 2
+- url: https://srcincite.io/advisories/src-2020-0032
+  date: null
+  cve_ids:
+  - CVE-2020-17132
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2020-0031
+  date: null
+  cve_ids:
+  - CVE-2020-17141
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2020-0030
+  date: null
+  cve_ids:
+  - CVE-2020-17143
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2020-0029
+  date: null
+  cve_ids:
+  - CVE-2020-17089
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2020-0028
+  date: null
+  cve_ids:
+  - CVE-2020-17017
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2020-0027
+  date: null
+  cve_ids:
+  - CVE-2020-17085
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2020-0026
+  date: null
+  cve_ids:
+  - CVE-2020-17084
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2020-0025
+  date: null
+  cve_ids:
+  - CVE-2020-17083
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2020-0024
+  date: null
+  cve_ids:
+  - CVE-2020-16951
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2020-0023
+  date: null
+  cve_ids:
+  - CVE-2020-16979
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2020-0022
+  date: null
+  cve_ids:
+  - CVE-2020-16952
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2020-0021
+  date: null
+  cve_ids:
+  - CVE-2020-1523
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2020-0020
+  date: null
+  cve_ids:
+  - CVE-2020-1440
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2020-0019
+  date: null
+  cve_ids:
+  - CVE-2020-16875
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2020-0018
+  date: null
+  cve_ids:
+  - CVE-2020-9723
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2020-0017
+  date: null
+  cve_ids:
+  - CVE-2020-12248
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2020-0016
+  date: null
+  cve_ids:
+  - CVE-2020-11493
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2020-0015
+  date: null
+  cve_ids:
+  - CVE-2020-12247
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2020-0011
+  date: null
+  cve_ids:
+  - CVE-2020-10189
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - ManageEngine
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2020-0010
+  date: null
+  cve_ids: []
+  researchers:
+  - Chris Anastasio (muffin) and Steven Seeley (mr_me)
+  vendors:
+  - Schneider Electric
+  cve_count: 0
+- url: https://srcincite.io/advisories/src-2020-0009
+  date: null
+  cve_ids:
+  - CVE-2019-15980
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Cisco
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2020-0008
+  date: null
+  cve_ids:
+  - CVE-2019-15980
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Cisco
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2020-0007
+  date: null
+  cve_ids:
+  - CVE-2019-15980
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Cisco
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2020-0006
+  date: null
+  cve_ids:
+  - CVE-2019-15984
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Cisco
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2020-0005
+  date: null
+  cve_ids:
+  - CVE-2019-15984
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Cisco
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2020-0004
+  date: null
+  cve_ids:
+  - CVE-2019-15984
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Cisco
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2020-0003
+  date: null
+  cve_ids:
+  - CVE-2019-15984
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Cisco
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2020-0002
+  date: null
+  cve_ids:
+  - CVE-2019-15980
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Cisco
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2020-0001
+  date: null
+  cve_ids:
+  - CVE-2019-15984
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Cisco
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0083
+  date: null
+  cve_ids:
+  - CVE-2019-15958
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Cisco
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0082
+  date: null
+  cve_ids:
+  - CVE-2019-8169
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0081
+  date: null
+  cve_ids:
+  - CVE-2019-8167
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0080
+  date: null
+  cve_ids:
+  - CVE-2019-8161
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0079
+  date: null
+  cve_ids:
+  - CVE-2019-8182
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0078
+  date: null
+  cve_ids:
+  - CVE-2019-8168
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0077
+  date: null
+  cve_ids:
+  - CVE-2019-8164
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0076
+  date: null
+  cve_ids:
+  - CVE-2019-8098
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0075
+  date: null
+  cve_ids:
+  - CVE-2019-8099
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0074
+  date: null
+  cve_ids:
+  - CVE-2019-8100
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0073
+  date: null
+  cve_ids:
+  - CVE-2019-8101
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0072
+  date: null
+  cve_ids:
+  - CVE-2019-8102
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0071
+  date: null
+  cve_ids:
+  - CVE-2019-8103
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0070
+  date: null
+  cve_ids:
+  - CVE-2019-8104
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0069
+  date: null
+  cve_ids:
+  - CVE-2019-8106
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0068
+  date: null
+  cve_ids:
+  - CVE-2019-7965
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0067
+  date: null
+  cve_ids:
+  - CVE-2019-7966
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0066
+  date: null
+  cve_ids:
+  - CVE-2019-7967
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0065
+  date: null
+  cve_ids:
+  - CVE-2019-8002
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0064
+  date: null
+  cve_ids:
+  - CVE-2019-7969
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0063
+  date: null
+  cve_ids:
+  - CVE-2019-7970
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0062
+  date: null
+  cve_ids:
+  - CVE-2019-7971
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0061
+  date: null
+  cve_ids:
+  - CVE-2019-7972
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0060
+  date: null
+  cve_ids:
+  - CVE-2019-7973
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0059
+  date: null
+  cve_ids:
+  - CVE-2019-7974
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0058
+  date: null
+  cve_ids:
+  - CVE-2019-7975
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0057
+  date: null
+  cve_ids:
+  - CVE-2019-12798
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Artifex
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0056
+  date: null
+  cve_ids:
+  - CVE-2019-11967
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Hewlett Packard Enterprise
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0055
+  date: null
+  cve_ids:
+  - CVE-2019-11968
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Hewlett Packard Enterprise
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0054
+  date: null
+  cve_ids:
+  - CVE-2019-11980
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Hewlett Packard Enterprise
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0053
+  date: null
+  cve_ids:
+  - CVE-2019-11971
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Hewlett Packard Enterprise
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0052
+  date: null
+  cve_ids:
+  - CVE-2019-11972
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Hewlett Packard Enterprise
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0051
+  date: null
+  cve_ids:
+  - CVE-2019-11973
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Hewlett Packard Enterprise
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0050
+  date: null
+  cve_ids:
+  - CVE-2019-11970
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Hewlett Packard Enterprise
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0049
+  date: null
+  cve_ids:
+  - CVE-2019-11974
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Hewlett Packard Enterprise
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0048
+  date: null
+  cve_ids:
+  - CVE-2019-11975
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Hewlett Packard Enterprise
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0047
+  date: null
+  cve_ids:
+  - CVE-2019-11976
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Hewlett Packard Enterprise
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0046
+  date: null
+  cve_ids:
+  - CVE-2019-11977
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Hewlett Packard Enterprise
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0045
+  date: null
+  cve_ids:
+  - CVE-2019-11978
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Hewlett Packard Enterprise
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0044
+  date: null
+  cve_ids:
+  - CVE-2019-11984
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Hewlett Packard Enterprise
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0043
+  date: null
+  cve_ids:
+  - CVE-2019-11979
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Hewlett Packard Enterprise
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0042
+  date: null
+  cve_ids:
+  - CVE-2019-11969
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Hewlett Packard Enterprise
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0041
+  date: null
+  cve_ids:
+  - CVE-2019-1825
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Cisco
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0040
+  date: null
+  cve_ids:
+  - CVE-2019-1824
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Cisco
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0039
+  date: null
+  cve_ids:
+  - CVE-2019-1818
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Cisco
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0038
+  date: null
+  cve_ids:
+  - CVE-2019-1822
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Cisco
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0037
+  date: null
+  cve_ids:
+  - CVE-2019-1820
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Cisco
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0036
+  date: null
+  cve_ids:
+  - CVE-2019-1819
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Cisco
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0035
+  date: null
+  cve_ids:
+  - CVE-2019-1823
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Cisco
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0034
+  date: null
+  cve_ids:
+  - CVE-2019-1821
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Cisco
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0033
+  date: null
+  cve_ids:
+  - CVE-2019-2557
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Oracle
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0032
+  date: null
+  cve_ids:
+  - CVE-2018-20315
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0031
+  date: null
+  cve_ids:
+  - CVE-2018-20313
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0030
+  date: null
+  cve_ids:
+  - CVE-2018-20309
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0029
+  date: null
+  cve_ids:
+  - CVE-2018-20316
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0028
+  date: null
+  cve_ids:
+  - CVE-2018-20312
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0027
+  date: null
+  cve_ids:
+  - CVE-2018-20314
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0026
+  date: null
+  cve_ids:
+  - CVE-2018-20311
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0025
+  date: null
+  cve_ids:
+  - CVE-2018-20310
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0024
+  date: null
+  cve_ids:
+  - CVE-2019-7128
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0023
+  date: null
+  cve_ids:
+  - CVE-2019-7117
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0022
+  date: null
+  cve_ids:
+  - CVE-2019-7116
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0021
+  date: null
+  cve_ids:
+  - CVE-2019-7088
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0020
+  date: null
+  cve_ids:
+  - CVE-2019-9889
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Vanilla
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0019
+  date: null
+  cve_ids:
+  - CVE-2019-7087
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0018
+  date: null
+  cve_ids:
+  - CVE-2019-7086
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0017
+  date: null
+  cve_ids:
+  - CVE-2019-7085
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0016
+  date: null
+  cve_ids:
+  - CVE-2019-7084
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0015
+  date: null
+  cve_ids:
+  - CVE-2018-3305
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Oracle
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0014
+  date: null
+  cve_ids:
+  - CVE-2018-3304
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Oracle
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0013
+  date: null
+  cve_ids:
+  - CVE-2019-0578
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0012
+  date: null
+  cve_ids:
+  - CVE-2019-0577
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0011
+  date: null
+  cve_ids:
+  - CVE-2019-0576
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0010
+  date: null
+  cve_ids:
+  - CVE-2018-19447
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0009
+  date: null
+  cve_ids:
+  - CVE-2018-19418
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0008
+  date: null
+  cve_ids:
+  - CVE-2018-19450
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0007
+  date: null
+  cve_ids:
+  - CVE-2018-19451
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0006
+  date: null
+  cve_ids:
+  - CVE-2018-19449
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0005
+  date: null
+  cve_ids:
+  - CVE-2018-19446
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0004
+  date: null
+  cve_ids:
+  - CVE-2018-19445
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0003
+  date: null
+  cve_ids:
+  - CVE-2018-19448
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0002
+  date: null
+  cve_ids:
+  - CVE-2018-19444
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2019-0001
+  date: null
+  cve_ids:
+  - CVE-2018-19452
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2018-0035
+  date: null
+  cve_ids: []
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Vanilla
+  cve_count: 0
+- url: https://srcincite.io/advisories/src-2018-0034
+  date: null
+  cve_ids:
+  - CVE-2018-15442
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Cisco
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2018-0033
+  date: null
+  cve_ids:
+  - CVE-2018-19500
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Vanilla
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2018-0032
+  date: null
+  cve_ids:
+  - CVE-2018-19499
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Vanilla
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2018-0031
+  date: null
+  cve_ids:
+  - CVE-2018-19501
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Vanilla
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2018-0030
+  date: null
+  cve_ids:
+  - CVE-2018-18903
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Vanilla
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2018-0029
+  date: null
+  cve_ids:
+  - CVE-2018-8423
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2018-0028
+  date: null
+  cve_ids:
+  - CVE-2018-12835
+  researchers:
+  - Esteban Ruiz (mr_me)
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2018-0027
+  date: null
+  cve_ids:
+  - CVE-2018-17781
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2018-0026
+  date: null
+  cve_ids:
+  - CVE-2018-15514
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Docker
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2018-0025
+  date: null
+  cve_ids:
+  - CVE-2018-1021
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2018-0024
+  date: null
+  cve_ids:
+  - CVE-2018-5008
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2018-0023
+  date: null
+  cve_ids:
+  - CVE-2018-5015
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2018-0022
+  date: null
+  cve_ids:
+  - CVE-2018-12792
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2018-0021
+  date: null
+  cve_ids:
+  - CVE-2018-12791
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2018-0020
+  date: null
+  cve_ids:
+  - CVE-2018-10303
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2018-0019
+  date: null
+  cve_ids:
+  - CVE-2018-10302
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2018-0018
+  date: null
+  cve_ids:
+  - CVE-2018-7407
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2018-0017
+  date: null
+  cve_ids:
+  - CVE-2018-7406
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2018-0016
+  date: null
+  cve_ids:
+  - CVE-2018-5680
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2018-0015
+  date: null
+  cve_ids:
+  - CVE-2018-5679
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2018-0014
+  date: null
+  cve_ids:
+  - CVE-2018-5677
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2018-0013
+  date: null
+  cve_ids:
+  - CVE-2018-5675
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2018-0012
+  date: null
+  cve_ids:
+  - CVE-2018-5678
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2018-0011
+  date: null
+  cve_ids:
+  - CVE-2018-5676
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2018-0010
+  date: null
+  cve_ids:
+  - CVE-2018-5674
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2018-0009
+  date: null
+  cve_ids:
+  - CVE-2017-17557
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2018-0008
+  date: null
+  cve_ids:
+  - CVE-2018-4925
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2018-0007
+  date: null
+  cve_ids:
+  - CVE-2018-7502
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Beckoff
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2018-0006
+  date: null
+  cve_ids: []
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Synology
+  cve_count: 0
+- url: https://srcincite.io/advisories/src-2018-0005
+  date: null
+  cve_ids: []
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Synology
+  cve_count: 0
+- url: https://srcincite.io/advisories/src-2018-0004
+  date: null
+  cve_ids:
+  - CVE-2017-16745
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Delta Industrial Automation
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2018-0003
+  date: null
+  cve_ids:
+  - CVE-2017-16747
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Delta Industrial Automation
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2018-0002
+  date: null
+  cve_ids:
+  - CVE-2017-16749
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Delta Industrial Automation
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2018-0001
+  date: null
+  cve_ids:
+  - CVE-2017-16751
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Delta Industrial Automation
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2017-0029
+  date: null
+  cve_ids:
+  - CVE-2017-14606
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Kingsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2017-0028
+  date: null
+  cve_ids:
+  - CVE-2017-10309
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Oracle
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2017-0027
+  date: null
+  cve_ids:
+  - CVE-2017-14344
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Jungo
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2017-0026
+  date: null
+  cve_ids:
+  - CVE-2017-14153
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Jungo
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2017-0025
+  date: null
+  cve_ids:
+  - CVE-2017-14133
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Jungo
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2017-0024
+  date: null
+  cve_ids:
+  - CVE-2017-14075
+  researchers: []
+  vendors:
+  - Jungo
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2017-0023
+  date: null
+  cve_ids:
+  - CVE-2017-12541
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Hewlett Packard Enterprise
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2017-0022
+  date: null
+  cve_ids:
+  - CVE-2017-12539
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Hewlett Packard Enterprise
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2017-0021
+  date: null
+  cve_ids:
+  - CVE-2017-12538
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Hewlett Packard Enterprise
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2017-0020
+  date: null
+  cve_ids:
+  - CVE-2017-12537
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Hewlett Packard Enterprise
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2017-0019
+  date: null
+  cve_ids:
+  - CVE-2017-12536
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Hewlett Packard Enterprise
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2017-0018
+  date: null
+  cve_ids:
+  - CVE-2017-12535
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Hewlett Packard Enterprise
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2017-0017
+  date: null
+  cve_ids:
+  - CVE-2017-12534
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Hewlett Packard Enterprise
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2017-0016
+  date: null
+  cve_ids:
+  - CVE-2017-12533
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Hewlett Packard Enterprise
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2017-0015
+  date: null
+  cve_ids:
+  - CVE-2017-12532
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Hewlett Packard Enterprise
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2017-0014
+  date: null
+  cve_ids:
+  - CVE-2017-12531
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Hewlett Packard Enterprise
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2017-0013
+  date: null
+  cve_ids:
+  - CVE-2017-12530
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Hewlett Packard Enterprise
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2017-0012
+  date: null
+  cve_ids:
+  - CVE-2017-12529
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Hewlett Packard Enterprise
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2017-0011
+  date: null
+  cve_ids:
+  - CVE-2017-12528
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Hewlett Packard Enterprise
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2017-0010
+  date: null
+  cve_ids:
+  - CVE-2017-12527
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Hewlett Packard Enterprise
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2017-0009
+  date: null
+  cve_ids:
+  - CVE-2017-12540
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Hewlett Packard Enterprise
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2017-0008
+  date: null
+  cve_ids:
+  - CVE-2017-11220
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2017-0007
+  date: null
+  cve_ids:
+  - CVE-2017-11262
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2017-0006
+  date: null
+  cve_ids:
+  - CVE-2017-11272
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2017-0005
+  date: null
+  cve_ids:
+  - CVE-2017-7442
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Nitro
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2017-0004
+  date: null
+  cve_ids: []
+  researchers:
+  - Steven Seeley
+  vendors:
+  - ATutor
+  cve_count: 0
+- url: https://srcincite.io/advisories/src-2017-0003
+  date: null
+  cve_ids:
+  - CVE-2017-3054
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2017-0002
+  date: null
+  cve_ids:
+  - CVE-2017-3026
+  researchers:
+  - Steven Seeley (mr_me)
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2017-0001
+  date: null
+  cve_ids:
+  - CVE-2017-2980
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2016-0045
+  date: null
+  cve_ids:
+  - CVE-2016-7278
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2016-0044
+  date: null
+  cve_ids:
+  - CVE-2016-7265
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2016-0043
+  date: null
+  cve_ids:
+  - CVE-2016-7291
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2016-0042
+  date: null
+  cve_ids:
+  - CVE-2016-7290
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2016-0041
+  date: null
+  cve_ids:
+  - CVE-2016-8604
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2016-0040
+  date: null
+  cve_ids:
+  - CVE-2016-3359
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2016-0039
+  date: null
+  cve_ids:
+  - CVE-2016-3374
+  researchers:
+  - Roberto Suggi Liverani of
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2016-0038
+  date: null
+  cve_ids:
+  - CVE-2016-3363
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2016-0037
+  date: null
+  cve_ids:
+  - CVE-2016-3362
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2016-0036
+  date: null
+  cve_ids:
+  - CVE-2016-3361
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2016-0035
+  date: null
+  cve_ids:
+  - CVE-2016-0059
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2016-0034
+  date: null
+  cve_ids: []
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Samsung
+  cve_count: 0
+- url: https://srcincite.io/advisories/src-2016-0033
+  date: null
+  cve_ids: []
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Samsung
+  cve_count: 0
+- url: https://srcincite.io/advisories/src-2016-0032
+  date: null
+  cve_ids: []
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Samsung
+  cve_count: 0
+- url: https://srcincite.io/advisories/src-2016-0031
+  date: null
+  cve_ids: []
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Samsung
+  cve_count: 0
+- url: https://srcincite.io/advisories/src-2016-0030
+  date: null
+  cve_ids:
+  - CVE-2016-6477
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2016-0029
+  date: null
+  cve_ids:
+  - CVE-2016-6475
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2016-0028
+  date: null
+  cve_ids:
+  - CVE-2016-6478
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2016-0027
+  date: null
+  cve_ids:
+  - CVE-2016-6230
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2016-0026
+  date: null
+  cve_ids:
+  - CVE-2016-6476
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2016-0025
+  date: null
+  cve_ids:
+  - CVE-2016-3542
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Oracle
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2016-0024
+  date: null
+  cve_ids:
+  - CVE-2016-3533
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Oracle
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2016-0023
+  date: null
+  cve_ids:
+  - CVE-2016-3740
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2016-0022
+  date: null
+  cve_ids:
+  - CVE-2016-0140
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2016-0021
+  date: null
+  cve_ids:
+  - CVE-2016-0139
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2016-0020
+  date: null
+  cve_ids: []
+  researchers:
+  - Steven Seeley
+  vendors:
+  - ATutor
+  cve_count: 0
+- url: https://srcincite.io/advisories/src-2016-0019
+  date: null
+  cve_ids: []
+  researchers:
+  - Steven Seeley
+  vendors:
+  - ATutor
+  cve_count: 0
+- url: https://srcincite.io/advisories/src-2016-0018
+  date: null
+  cve_ids: []
+  researchers:
+  - Steven Seeley
+  vendors:
+  - ATutor
+  cve_count: 0
+- url: https://srcincite.io/advisories/src-2016-0017
+  date: null
+  cve_ids: []
+  researchers:
+  - Steven Seeley
+  vendors:
+  - ATutor
+  cve_count: 0
+- url: https://srcincite.io/advisories/src-2016-0016
+  date: null
+  cve_ids: []
+  researchers:
+  - Steven Seeley
+  vendors:
+  - ATutor
+  cve_count: 0
+- url: https://srcincite.io/advisories/src-2016-0015
+  date: null
+  cve_ids: []
+  researchers:
+  - Steven Seeley
+  vendors:
+  - ATutor
+  cve_count: 0
+- url: https://srcincite.io/advisories/src-2016-0014
+  date: null
+  cve_ids: []
+  researchers:
+  - Steven Seeley
+  vendors:
+  - ATutor
+  cve_count: 0
+- url: https://srcincite.io/advisories/src-2016-0013
+  date: null
+  cve_ids: []
+  researchers:
+  - Steven Seeley
+  vendors:
+  - ATutor
+  cve_count: 0
+- url: https://srcincite.io/advisories/src-2016-0012
+  date: null
+  cve_ids: []
+  researchers:
+  - Steven Seeley
+  vendors:
+  - ATutor
+  cve_count: 0
+- url: https://srcincite.io/advisories/src-2016-0011
+  date: null
+  cve_ids: []
+  researchers:
+  - Steven Seeley
+  vendors:
+  - ATutor
+  cve_count: 0
+- url: https://srcincite.io/advisories/src-2016-0010
+  date: null
+  cve_ids: []
+  researchers:
+  - Steven Seeley
+  vendors:
+  - ATutor
+  cve_count: 0
+- url: https://srcincite.io/advisories/src-2016-0009
+  date: null
+  cve_ids: []
+  researchers:
+  - Steven Seeley
+  vendors:
+  - ATutor
+  cve_count: 0
+- url: https://srcincite.io/advisories/src-2016-0008
+  date: null
+  cve_ids: []
+  researchers:
+  - Steven Seeley
+  vendors:
+  - ATutor
+  cve_count: 0
+- url: https://srcincite.io/advisories/src-2016-0007
+  date: null
+  cve_ids: []
+  researchers:
+  - Steven Seeley
+  vendors:
+  - ATutor
+  cve_count: 0
+- url: https://srcincite.io/advisories/src-2016-0006
+  date: null
+  cve_ids: []
+  researchers:
+  - Steven Seeley
+  vendors:
+  - ATutor
+  cve_count: 0
+- url: https://srcincite.io/advisories/src-2016-0005
+  date: null
+  cve_ids: []
+  researchers:
+  - Steven Seeley
+  vendors:
+  - ATutor
+  cve_count: 0
+- url: https://srcincite.io/advisories/src-2016-0004
+  date: null
+  cve_ids: []
+  researchers:
+  - Steven Seeley
+  vendors:
+  - ATutor
+  cve_count: 0
+- url: https://srcincite.io/advisories/src-2016-0003
+  date: null
+  cve_ids: []
+  researchers:
+  - Steven Seeley
+  vendors:
+  - ATutor
+  cve_count: 0
+- url: https://srcincite.io/advisories/src-2016-0002
+  date: null
+  cve_ids: []
+  researchers:
+  - Steven Seeley
+  vendors:
+  - ATutor
+  cve_count: 0
+- url: https://srcincite.io/advisories/src-2016-0001
+  date: null
+  cve_ids:
+  - CVE-2016-2539
+  researchers:
+  - Steven Seeley
+  vendors:
+  - ATutor
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2016-0000
+  date: null
+  cve_ids: []
+  researchers:
+  - Steven Seeley
+  vendors:
+  - ATutor
+  cve_count: 0
+- url: https://srcincite.io/advisories/src-2015-0003
+  date: null
+  cve_ids:
+  - CVE-2015-2653
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Oracle
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2015-0002
+  date: null
+  cve_ids:
+  - CVE-2015-2607
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Oracle
+  cve_count: 1
+- url: https://srcincite.io/advisories/src-2015-0001
+  date: null
+  cve_ids:
+  - CVE-2015-1699
+  researchers:
+  - Steven Seeley
+  vendors:
+  - Microsoft
+  cve_count: 1

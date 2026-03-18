@@ -1,0 +1,1661 @@
+lab: JFrog Security Research
+url: https://research.jfrog.com
+scraped_at: '2026-03-17T22:22:36.913458Z'
+advisories:
+- url: https://research.jfrog.com/vulnerabilities/mcp-run-python-lack-of-isolation-mcp-takeover-jfsa-2026-001653030/
+  date: 26/02/09
+  cve_ids:
+  - CVE-2026-25905
+  researchers:
+  - Natan Nehorai
+  vendors:
+  - mcp-run-python
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/mcp-run-python-deno-ssrf-jfsa-2026-001653029/
+  date: 26/02/09
+  cve_ids:
+  - CVE-2026-25904
+  researchers:
+  - Natan Nehorai
+  vendors:
+  - mcp-run-python
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/n8n-python-runner-sandbox-escape-jfsa-2026-001651077/
+  date: 26/01/18
+  cve_ids:
+  - CVE-2026-0863
+  researchers:
+  - Natan Nehorai
+  vendors:
+  - n8n
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/python-utcp-untrusted-manual-command-execution-jfsa-2025-001648329/
+  date: 25/12/11
+  cve_ids:
+  - CVE-2025-14542
+  researchers:
+  - Or Peles
+  vendors:
+  - utcp
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/litmus-jwt-missing-entropy-elevation-jfsa-2025-001648159/
+  date: 25/12/08
+  cve_ids:
+  - CVE-2025-14261
+  researchers:
+  - Natan Nehorai
+  vendors:
+  - Litmuschaos:litmus
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/dspy-sandbox-escape-arbitrary-file-read-jfsa-2025-001495652/
+  date: 25/11/04
+  cve_ids:
+  - CVE-2025-12695
+  researchers:
+  - Natan Nehorai
+  vendors:
+  - dspy
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/react-native-cli-command-injection-jfsa-2025-001495618/
+  date: 25/11/03
+  cve_ids:
+  - CVE-2025-11953
+  researchers:
+  - Or Peles
+  vendors:
+  - '@react-native-community/cli-server-api'
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/oatpp-mcp-prompt-hijacking-jfsa-2025-001494691/
+  date: 25/10/20
+  cve_ids:
+  - CVE-2025-6515
+  researchers:
+  - Ori Hollander
+  vendors:
+  - oatpp:oatpp-mcp
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/txtai-arbitrary-file-write-jfsa-2025-001471363/
+  date: 25/09/22
+  cve_ids:
+  - CVE-2025-10854
+  researchers:
+  - Ori Hollander
+  vendors:
+  - txtai
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/chaos-mesh-command-injection-cleaniptables-jfsa-2025-001449536/
+  date: 25/09/15
+  cve_ids:
+  - CVE-2025-59361
+  - CVE-2025-59358
+  researchers:
+  - Natan Nehorai
+  vendors:
+  - github.com/chaos-mesh/chaos-mesh
+  cve_count: 2
+- url: https://research.jfrog.com/vulnerabilities/chaos-mesh-command-injection-killprocesses-jfsa-2025-001449535/
+  date: 25/09/15
+  cve_ids:
+  - CVE-2025-59360
+  - CVE-2025-59358
+  researchers:
+  - Natan Nehorai
+  vendors:
+  - github.com/chaos-mesh/chaos-mesh
+  cve_count: 2
+- url: https://research.jfrog.com/vulnerabilities/chaos-mesh-command-injection-clean-tcs-jfsa-2025-001449534/
+  date: 25/09/15
+  cve_ids:
+  - CVE-2025-59359
+  - CVE-2025-59358
+  researchers:
+  - Natan Nehorai
+  vendors:
+  - github.com/chaos-mesh/chaos-mesh
+  cve_count: 2
+- url: https://research.jfrog.com/vulnerabilities/chaos-mesh-debugging-server-denial-of-service-jfsa-2025-001449533/
+  date: 25/09/15
+  cve_ids:
+  - CVE-2025-59358
+  researchers:
+  - Natan Nehorai
+  vendors:
+  - github.com/chaos-mesh/chaos-mesh
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/smolagents-local-python-sandbox-escape-jfsa-2025-001434277/
+  date: 25/09/03
+  cve_ids:
+  - CVE-2025-9959
+  researchers:
+  - Natan Nehorai
+  vendors:
+  - smolagents
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/flowise-os-command-remote-code-execution-jfsa-2025-001380578/
+  date: 25/08/14
+  cve_ids:
+  - CVE-2025-8943
+  researchers:
+  - Assaf Levkovich
+  vendors:
+  - flowise
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/flowise-js-injection-remote-code-exection-jfsa-2025-001379925/
+  date: 25/08/14
+  cve_ids:
+  - CVE-2025-55346
+  researchers:
+  - Assaf Levkovich
+  vendors:
+  - flowise
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/codex-cli-symlink-arbitrary-file-overwrite-jfsa-2025-001378631/
+  date: 25/08/13
+  cve_ids:
+  - CVE-2025-55345
+  researchers:
+  - Assaf Levkovich
+  vendors:
+  - '@openai/codex'
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/mcp-remote-command-injection-rce-jfsa-2025-001290844/
+  date: 25/07/09
+  cve_ids:
+  - CVE-2025-6514
+  researchers:
+  - Or Peles
+  vendors:
+  - mcp-remote
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/wget-shorthand-urls-ssrf-jfsa-2024-001063927/
+  date: 24/11/19
+  cve_ids:
+  - CVE-2024-10524
+  researchers:
+  - Goni Golan
+  vendors:
+  - GNU Wget
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/mage-ai-pipeline-interaction-request-remote-arbitrary-file-leak-jfsa-2024-001039605/
+  date: 24/08/23
+  cve_ids:
+  - CVE-2024-45190
+  researchers:
+  - Ori Hollander
+  vendors:
+  - mage-ai
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/mage-ai-git-content-request-remote-arbitrary-file-leak-jfsa-2024-001039604/
+  date: 24/08/23
+  cve_ids:
+  - CVE-2024-45189
+  researchers:
+  - Ori Hollander
+  vendors:
+  - mage-ai
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/mage-ai-file-content-request-remote-arbitrary-file-leak-jfsa-2024-001039603/
+  date: 24/08/23
+  cve_ids:
+  - CVE-2024-45188
+  researchers:
+  - Ori Hollander
+  vendors:
+  - mage-ai
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/mage-ai-deleted-users-rce-jfsa-2024-001039602/
+  date: 24/08/23
+  cve_ids:
+  - CVE-2024-45187
+  researchers:
+  - Ori Hollander
+  vendors:
+  - mage-ai
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/mage-ai-terminal-server-infoleak-jfsa-2024-001039574/
+  date: 24/08/22
+  cve_ids:
+  - CVE-2024-8072
+  researchers:
+  - Ori Hollander
+  vendors:
+  - mage-ai
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/wandb-weave-server-remote-arbitrary-file-leak-jfsa-2024-001039248/
+  date: 24/07/31
+  cve_ids:
+  - CVE-2024-7340
+  researchers:
+  - Natan Nehorai and Uriya Yavnieli
+  vendors:
+  - weave
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/guardrails-rail-xxe-jfsa-2024-001035519/
+  date: 24/07/21
+  cve_ids:
+  - CVE-2024-6961
+  researchers:
+  - Natan Nehorai
+  vendors:
+  - guardrails-ai
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/h2o-model-deserialization-rce-jfsa-2024-001035518/
+  date: 24/07/21
+  cve_ids:
+  - CVE-2024-6960
+  researchers:
+  - Ori Hollander
+  vendors:
+  - h2o-core
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/deeplake-kaggle-command-injection-jfsa-2024-001035320/
+  date: 24/07/04
+  cve_ids:
+  - CVE-2024-6507
+  researchers:
+  - Natan Nehorai
+  vendors:
+  - deeplake
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/vanna-prompt-injection-rce-jfsa-2024-001034449/
+  date: 24/05/31
+  cve_ids:
+  - CVE-2024-5565
+  researchers:
+  - Natan Nehorai
+  vendors:
+  - vanna
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/libxmljs2-namespaces-type-confusion-rce-jfsa-2024-001034098/
+  date: 24/05/02
+  cve_ids:
+  - CVE-2024-34394
+  researchers:
+  - Uriya Yavnieli
+  vendors:
+  - libxmljs2
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/libxmljs2-attrs-type-confusion-rce-jfsa-2024-001034097/
+  date: 24/05/02
+  cve_ids:
+  - CVE-2024-34393
+  researchers:
+  - Uriya Yavnieli
+  vendors:
+  - libxmljs2
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/libxmljs-namespaces-type-confusion-rce-jfsa-2024-001034096/
+  date: 24/05/02
+  cve_ids:
+  - CVE-2024-34392
+  researchers:
+  - Uriya Yavnieli
+  vendors:
+  - libxmljs
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/libxmljs-attrs-type-confusion-rce-jfsa-2024-001033988/
+  date: 24/05/02
+  cve_ids:
+  - CVE-2024-34391
+  researchers:
+  - Uriya Yavnieli
+  vendors:
+  - libxmljs
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/sqlparse-stack-exhaustion-dos-jfsa-2024-001031292/
+  date: 24/04/30
+  cve_ids:
+  - CVE-2024-4340
+  researchers:
+  - Uriya Yavnieli
+  vendors:
+  - sqlparse
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/lollms-webui-exposed-endpoints-dos-jfsa-2024-001028816/
+  date: 24/04/16
+  cve_ids:
+  - CVE-2024-1873
+  researchers:
+  - Naveh Racovsky
+  vendors:
+  - parisneo/lollms-webui
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/lollms-webui-exposed-endpoints-dos-jfsa-2024-001028815/
+  date: 24/04/15
+  cve_ids:
+  - CVE-2024-1646
+  researchers:
+  - Naveh Racovsky
+  vendors:
+  - parisneo/lollms-webui
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/lollms-webui-sqli-dos-jfsa-2024-001028814/
+  date: 24/04/15
+  cve_ids:
+  - CVE-2024-1601
+  researchers:
+  - Naveh Racovsky
+  vendors:
+  - parisneo/lollms-webui
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/lollms-webui-dos-jfsa-2024-001028813/
+  date: 24/04/15
+  cve_ids:
+  - CVE-2024-1569
+  researchers:
+  - Naveh Racovsky
+  vendors:
+  - parisneo/lollms-webui
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/mlflow-spark-udf-localpriv-jfsa-2024-000639017/
+  date: 24/02/23
+  cve_ids:
+  - CVE-2024-27134
+  researchers:
+  - Uriya Yavnieli
+  vendors:
+  - mlflow
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/mlflow-untrusted-dataset-xss-jfsa-2024-000631932/
+  date: 24/02/23
+  cve_ids:
+  - CVE-2024-27133
+  researchers:
+  - Uriya Yavnieli
+  vendors:
+  - mlflow
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/mlflow-untrusted-recipe-xss-jfsa-2024-000631930/
+  date: 24/02/23
+  cve_ids:
+  - CVE-2024-27132
+  researchers:
+  - Uriya Yavnieli
+  vendors:
+  - mlflow
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/stack-exhaustion-in-json-smart-leads-to-denial-of-service-when-parsing-malformed-json-xray-427633/
+  date: 23/03/13
+  cve_ids:
+  - CVE-2023-1370
+  researchers:
+  - Ori Hollander
+  vendors:
+  - net.minidev:json-smart
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/undefined-variable-usage-in-proxy-leads-to-remote-denial-of-service-xray-520917/
+  date: 23/05/30
+  cve_ids:
+  - CVE-2023-2968
+  researchers:
+  - Ori Hollander
+  vendors:
+  - proxy
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/yamale-schema-code-injection-xray-182135/
+  date: 21/10/05
+  cve_ids:
+  - CVE-2021-38305
+  researchers:
+  - Andrey Polkovnychenko
+  vendors:
+  - Yamale
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/snappy-java-integer-overflow-in-compress-leads-to-dos-xray-522075/
+  date: 23/06/19
+  cve_ids:
+  - CVE-2023-34454
+  researchers:
+  - Ori Hollander
+  vendors:
+  - org.xerial.snappy:snappy-java
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/snappy-java-integer-overflow-in-shuffle-leads-to-dos-xray-522076/
+  date: 23/06/19
+  cve_ids:
+  - CVE-2023-34453
+  researchers:
+  - Ori Hollander
+  vendors:
+  - org.xerial.snappy:snappy-java
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/ua-cpp-ua-extensionobject-type-confusion-xray-75752/
+  date: 22/06/01
+  cve_ids: []
+  researchers:
+  - Omer Kaspi
+  vendors:
+  - Unified Automation C++ Based OPC UA PubSub SDK
+  cve_count: 0
+- url: https://research.jfrog.com/vulnerabilities/ua-cpp-ua-int32-null-deref-xray-75753/
+  date: 22/06/01
+  cve_ids: []
+  researchers:
+  - Uriya Yavnieli
+  vendors:
+  - Unified Automation C++ Based OPC UA PubSub SDK
+  cve_count: 0
+- url: https://research.jfrog.com/vulnerabilities/ua-cpp-uaunistring-1-byte-oob-xray-75754/
+  date: 22/06/01
+  cve_ids: []
+  researchers:
+  - Omer Kaspi
+  vendors:
+  - Unified Automation C++ based OPC UA Client Server SDK
+  cve_count: 0
+- url: https://research.jfrog.com/vulnerabilities/ua-cpp-unlimited-file-handles-dos-xray-75758/
+  date: 22/06/01
+  cve_ids: []
+  researchers:
+  - Uriya Yavnieli
+  vendors:
+  - Unified Automation C++ based OPC UA Client Server SDK
+  cve_count: 0
+- url: https://research.jfrog.com/vulnerabilities/xss-in-nanohttpd-xray-141192/
+  date: 21/02/23
+  cve_ids:
+  - CVE-2020-13697
+  researchers:
+  - Andrey Polkovnychenko
+  vendors:
+  - NanoHTTPD
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/ua-cpp-replaceargs-oob-write-xray-75751/
+  date: 22/06/01
+  cve_ids: []
+  researchers:
+  - Omer Kaspi
+  vendors:
+  - Unified Automation C++ Based OPC UA PubSub SDK
+  cve_count: 0
+- url: https://research.jfrog.com/vulnerabilities/ua-cpp-uavariant-null-deref-xray-75756/
+  date: 22/06/01
+  cve_ids: []
+  researchers:
+  - Uriya Yavnieli
+  vendors:
+  - Unified Automation C++ based OPC UA Client Server SDK
+  cve_count: 0
+- url: https://research.jfrog.com/vulnerabilities/ua-cpp-uavariant-oob-read-xray-75757/
+  date: 22/06/01
+  cve_ids: []
+  researchers:
+  - Uriya Yavnieli
+  vendors:
+  - Unified Automation C++ based OPC UA Client Server SDK
+  cve_count: 0
+- url: https://research.jfrog.com/vulnerabilities/ua-net-standard-stack-dos-xray-229139/
+  date: 22/06/16
+  cve_ids:
+  - CVE-2022-29866
+  researchers:
+  - Uriya Yavniely
+  vendors:
+  - UA .NET Standard
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/ua-net-standard-stack-dos-xray-229142/
+  date: 22/06/16
+  cve_ids:
+  - CVE-2022-29863
+  researchers:
+  - Uriya Yavniely
+  vendors:
+  - UA .NET Standard
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/snappy-java-unchecked-chunk-length-dos-xray-522074/
+  date: 23/06/19
+  cve_ids:
+  - CVE-2023-34455
+  researchers:
+  - Ori Hollander
+  vendors:
+  - org.xerial.snappy:snappy-java
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/ua-cpp-uaunistring-infoleak-xray-75755/
+  date: 22/06/01
+  cve_ids: []
+  researchers:
+  - Omer Kaspi
+  vendors:
+  - Unified Automation C++ based OPC UA Client Server SDK
+  cve_count: 0
+- url: https://research.jfrog.com/vulnerabilities/uri-template-lite-redos-xray-211351/
+  date: 22/08/03
+  cve_ids:
+  - CVE-2021-43309
+  researchers:
+  - Denys Vozniuk
+  vendors:
+  - uri-template-lite
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/vite-arbitrary-html-file-leak/
+  date: 25/09/15
+  cve_ids:
+  - CVE-2025-58752
+  researchers:
+  - Ori Hollander
+  vendors:
+  - vite
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/vite-arbitrary-private-file-leak/
+  date: 25/09/15
+  cve_ids:
+  - CVE-2025-58751
+  researchers:
+  - Ori Hollander
+  vendors:
+  - vite
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/nichestack-dns-client-does-not-set-sufficiently-random-source-ports-xray-194058/
+  date: 21/08/04
+  cve_ids:
+  - CVE-2021-31228
+  researchers:
+  - Denys Vozniuk
+  vendors:
+  - InterNiche TCP/IP stack
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/realtek-multiple-wi-fi-modules-rce-xray-194071/
+  date: 21/02/03
+  cve_ids:
+  - CVE-2020-9395
+  researchers:
+  - Uriya Yavnieli
+  vendors:
+  - Realtek Ameba SDK
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/tensorflow-python-code-injection-xray-189178/
+  date: 21/11/16
+  cve_ids:
+  - CVE-2021-41228
+  researchers:
+  - Omer Kaspi
+  vendors:
+  - TensorFlow
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/vector-admin-filter-bypass/
+  date: 24/01/25
+  cve_ids:
+  - CVE-2024-0879
+  researchers:
+  - Natan Nehorai
+  vendors:
+  - vector-admin
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/webfingerjs-blind-ssrf/
+  date: 25/07/28
+  cve_ids:
+  - CVE-2025-54590
+  researchers:
+  - Ori Hollander
+  vendors:
+  - webfinger.js
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/nichestack-tcp-isns-are-generated-in-a-predictable-manner-xray-194054/
+  date: 21/08/04
+  cve_ids:
+  - CVE-2020-35685
+  researchers:
+  - Denys Vozniuk
+  vendors:
+  - InterNiche TCP/IP stack
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/qcmap-web-interface-null-pointer-dereference-xray-194064/
+  date: 20/10/14
+  cve_ids:
+  - CVE-2020-25858
+  - CVE-2020-3657
+  - CVE-2020-25859
+  researchers:
+  - Ori Hollander
+  vendors:
+  - Qualcomm QCMAP (closed source)
+  cve_count: 3
+- url: https://research.jfrog.com/vulnerabilities/realtek-8710-wpa2-stack-overflow-xray-194060/
+  date: 21/06/02
+  cve_ids:
+  - CVE-2020-27301
+  researchers:
+  - Uriya Yavnieli
+  vendors:
+  - Realtek Ameba SDK
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/realtek-8710-wpa2-stack-overflow-xray-194061/
+  date: 21/06/02
+  cve_ids:
+  - CVE-2020-27302
+  researchers:
+  - Uriya Yavnieli
+  vendors:
+  - Realtek Ameba SDK
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/snowflake-connector-python-redos-xray-257185/
+  date: 22/10/15
+  cve_ids:
+  - CVE-2022-42965
+  researchers:
+  - Denys Vozniuk
+  vendors:
+  - snowflake-connector-python
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/pjlib-pjsua-recorder-create-oob-r-xray-198027/
+  date: 22/03/01
+  cve_ids:
+  - CVE-2021-43302
+  researchers:
+  - Uriya Yavnieli
+  vendors:
+  - PJLIB
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/qnx-slinger-path-traversal-rce-xray-194072/
+  date: 20/08/12
+  cve_ids:
+  - CVE-2020-6932
+  researchers:
+  - Ilya Khivrich
+  vendors:
+  - QNX slinger
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/realtek-rtl8195-a-dos-xray-194066/
+  date: 21/02/03
+  cve_ids:
+  - CVE-2020-25857
+  researchers:
+  - Uriya Yavnieli
+  vendors:
+  - Realtek Ameba SDK
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/realtek-rtl8195-a-rce-xray-194067/
+  date: 21/02/03
+  cve_ids:
+  - CVE-2020-25856
+  researchers:
+  - Uriya Yavnieli
+  vendors:
+  - Realtek Ameba SDK
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/realtek-rtl8195-a-rce-xray-194068/
+  date: 21/02/03
+  cve_ids:
+  - CVE-2020-25855
+  researchers:
+  - Uriya Yavnieli
+  vendors:
+  - Realtek Ameba SDK
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/realtek-rtl8195-a-rce-xray-194069/
+  date: 21/02/03
+  cve_ids:
+  - CVE-2020-25854
+  researchers:
+  - Uriya Yavnieli
+  vendors:
+  - Realtek Ameba SDK
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/realtek-rtl8195-a-rce-xray-194070/
+  date: 21/02/03
+  cve_ids:
+  - CVE-2020-25853
+  researchers:
+  - Uriya Yavnieli
+  vendors:
+  - Realtek Ameba SDK
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/rust-cargo-symlink-arbitrary-file-overwrite/
+  date: 22/09/14
+  cve_ids:
+  - CVE-2022-36113
+  - CVE-2022-36114
+  researchers:
+  - Ori Hollander
+  vendors:
+  - Cargo
+  cve_count: 2
+- url: https://research.jfrog.com/vulnerabilities/semver-regex-redos-xray-211349/
+  date: 22/05/30
+  cve_ids:
+  - CVE-2021-43307
+  researchers:
+  - Denys Vozniuk
+  vendors:
+  - semver-regex
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/tensorflow-serving-stacko-dos/
+  date: 25/05/06
+  cve_ids:
+  - CVE-2025-0649
+  researchers:
+  - Ori Hollander
+  vendors:
+  - Tensorflow Serving
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/okio-gzip-source-unhandled-exception-dos-xray-589879/
+  date: 23/07/12
+  cve_ids:
+  - CVE-2023-3635
+  researchers:
+  - Uriya Yavnieli
+  vendors:
+  - com.squareup.okio:okio
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/peertube-activitypub-playlist-creation-blind-ssrf-dos/
+  date: 25/04/14
+  cve_ids:
+  - CVE-2025-32948
+  researchers:
+  - Ori Hollander
+  vendors:
+  - PeerTube
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/pjlib-pjsua-call-dump-dos-xray-198028/
+  date: 22/03/01
+  cve_ids:
+  - CVE-2021-43303
+  researchers:
+  - Uriya Yavnieli
+  vendors:
+  - PJLIB
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/pjlib-pjsua-player-create-rce-xray-198024/
+  date: 22/03/01
+  cve_ids:
+  - CVE-2021-43299
+  researchers:
+  - Uriya Yavnieli
+  vendors:
+  - PJLIB
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/pjlib-pjsua-playlist-create-rce-xray-198026/
+  date: 22/03/01
+  cve_ids:
+  - CVE-2021-43301
+  researchers:
+  - Uriya Yavnieli
+  vendors:
+  - PJLIB
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/pjlib-pjsua-recorder-create-rce-xray-198025/
+  date: 22/03/01
+  cve_ids:
+  - CVE-2021-43300
+  researchers:
+  - Uriya Yavnieli
+  vendors:
+  - PJLIB
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/plexus-archiver-arbitrary-file-overwrite-xray-526292/
+  date: 23/07/26
+  cve_ids:
+  - CVE-2023-37460
+  researchers:
+  - Uriya Yavnieli
+  vendors:
+  - org.codehaus.plexus:plexus-archiver
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/qcmap-cli-command-injection-xray-194065/
+  date: 20/10/14
+  cve_ids:
+  - CVE-2020-25859
+  - CVE-2020-3657
+  - CVE-2020-25858
+  researchers:
+  - Ori Hollander
+  vendors:
+  - Qualcomm QCMAP (closed source)
+  cve_count: 3
+- url: https://research.jfrog.com/vulnerabilities/qcmap-web-interface-rce-xray-194063/
+  date: 20/10/14
+  cve_ids:
+  - CVE-2020-3657
+  researchers:
+  - Ori Hollander
+  vendors:
+  - Qualcomm QCMAP (closed source)
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/rust-cargo-zip-bomb-dos/
+  date: 22/09/14
+  cve_ids:
+  - CVE-2022-36114
+  - CVE-2022-36113
+  researchers:
+  - Ori Hollander
+  vendors:
+  - Cargo
+  cve_count: 2
+- url: https://research.jfrog.com/vulnerabilities/libmodbus-modbus-fc-write-multiple-coils-oob-r-xray-150047/
+  date: 19/07/31
+  cve_ids:
+  - CVE-2019-14462
+  - CVE-2019-14463
+  researchers:
+  - Maor Vermucht
+  vendors:
+  - libmodbus
+  cve_count: 2
+- url: https://research.jfrog.com/vulnerabilities/libmodbus-modbus-fc-write-multiple-registers-oob-r-xray-150046/
+  date: 19/07/31
+  cve_ids:
+  - CVE-2019-14463
+  - CVE-2019-14462
+  researchers:
+  - Maor Vermucht
+  vendors:
+  - libmodbus
+  cve_count: 2
+- url: https://research.jfrog.com/vulnerabilities/nichestack-dns-client-txid-weak-random-xray-194057/
+  date: 21/08/04
+  cve_ids:
+  - CVE-2020-25926
+  researchers:
+  - Denys Vozniuk
+  vendors:
+  - InterNiche TCP/IP stack
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/pengutronix-rauc-signature-bypass-xray-194062/
+  date: 20/12/21
+  cve_ids:
+  - CVE-2020-25860
+  researchers:
+  - Uriya Yavnieli
+  vendors:
+  - Pengutronix RAUC
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/miniupnpd-copyipv6-ifdifferent-null-pointer-dereference-xray-162485/
+  date: 19/02/06
+  cve_ids:
+  - CVE-2019-12111
+  researchers:
+  - Ben Barnea
+  vendors:
+  - MiniUPnP
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/nichestack-dns-client-oob-r-xray-194047/
+  date: 21/08/04
+  cve_ids:
+  - CVE-2020-25767
+  researchers:
+  - Denys Vozniuk
+  vendors:
+  - InterNiche TCP/IP stack
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/nichestack-dns-client-oob-r-xray-194048/
+  date: 21/08/04
+  cve_ids:
+  - CVE-2020-25927
+  researchers:
+  - Denys Vozniuk
+  vendors:
+  - InterNiche TCP/IP stack
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/nichestack-icmp-payload-oob-r-xray-194052/
+  date: 21/08/04
+  cve_ids:
+  - CVE-2020-35683
+  researchers:
+  - Denys Vozniuk
+  vendors:
+  - InterNiche TCP/IP stack
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/nichestack-icmp-payload-oob-r-xray-194053/
+  date: 21/08/04
+  cve_ids:
+  - CVE-2020-35684
+  researchers:
+  - Denys Vozniuk
+  vendors:
+  - InterNiche TCP/IP stack
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/nichestack-tftp-filename-oob-r-xray-194059/
+  date: 21/08/04
+  cve_ids:
+  - CVE-2021-36762
+  researchers:
+  - Denys Vozniuk
+  vendors:
+  - InterNiche TCP/IP stack
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/nodejs-fs-permissions-bypass-cve-2025-55130/
+  date: 26/01/13
+  cve_ids:
+  - CVE-2025-55130
+  researchers:
+  - Natan Nehorai
+  vendors:
+  - Node.js
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/peertube-arbitrary-playlist-creation-activitypub/
+  date: 25/04/14
+  cve_ids:
+  - CVE-2025-32946
+  researchers:
+  - Ori Hollander
+  vendors:
+  - PeerTube
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/peertube-arbitrary-playlist-creation-rest/
+  date: 25/04/14
+  cve_ids:
+  - CVE-2025-32945
+  researchers:
+  - Ori Hollander
+  vendors:
+  - PeerTube
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/qemu-rce-xray-520621/
+  date: 23/05/23
+  cve_ids:
+  - CVE-2023-1601
+  - CVE-2021-4206
+  researchers:
+  - Yair Mizrahi
+  vendors:
+  - QEMU
+  cve_count: 2
+- url: https://research.jfrog.com/vulnerabilities/miniupnpd-addportmapping-null-pointer-dereference-xray-148211/
+  date: 19/02/06
+  cve_ids:
+  - CVE-2019-12110
+  researchers:
+  - Ben Barnea
+  vendors:
+  - MiniUPnP
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/miniupnpd-getoutboundpinholetimeout-null-pointer-dereference-xray-148212/
+  date: 19/02/06
+  cve_ids:
+  - CVE-2019-12109
+  researchers:
+  - Ben Barnea
+  vendors:
+  - MiniUPnP
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/miniupnpd-getoutboundpinholetimeout-null-pointer-dereference-xray-148213/
+  date: 19/02/06
+  cve_ids:
+  - CVE-2019-12108
+  researchers:
+  - Ben Barnea
+  vendors:
+  - MiniUPnP
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/miniupnpd-upnp-event-prepare-infoleak-xray-148214/
+  date: 19/02/06
+  cve_ids:
+  - CVE-2019-12107
+  researchers:
+  - Ben Barnea
+  vendors:
+  - MiniUPnP
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/netty-bzip2-decoder-dos-xray-186801/
+  date: 21/09/09
+  cve_ids:
+  - CVE-2021-37136
+  researchers:
+  - Ori Hollander
+  vendors:
+  - Netty
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/netty-snappy-decoder-dos-xray-186810/
+  date: 21/09/09
+  cve_ids:
+  - CVE-2021-37137
+  researchers:
+  - Ori Hollander
+  vendors:
+  - Netty
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/nichestack-http-server-dos-xray-194049/
+  date: 21/08/04
+  cve_ids:
+  - CVE-2021-31227
+  researchers:
+  - Denys Vozniuk
+  vendors:
+  - InterNiche TCP/IP stack
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/nichestack-ip-length-dos-xray-194051/
+  date: 21/08/04
+  cve_ids:
+  - CVE-2021-31401
+  researchers:
+  - Denys Vozniuk
+  vendors:
+  - InterNiche TCP/IP stack
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/nichestack-tcp-urg-dos-xray-194050/
+  date: 21/08/04
+  cve_ids:
+  - CVE-2021-31400
+  researchers:
+  - Denys Vozniuk
+  vendors:
+  - InterNiche TCP/IP stack
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/nichestack-unknown-http-panic-xray-194055/
+  date: 21/08/04
+  cve_ids:
+  - CVE-2020-27565
+  researchers:
+  - Denys Vozniuk
+  vendors:
+  - InterNiche TCP/IP stack
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/peertube-activitypub-crawl-dos/
+  date: 25/04/14
+  cve_ids:
+  - CVE-2025-32947
+  researchers:
+  - Ori Hollander
+  vendors:
+  - PeerTube
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/peertube-archive-persistent-dos/
+  date: 25/04/14
+  cve_ids:
+  - CVE-2025-32944
+  researchers:
+  - Ori Hollander
+  vendors:
+  - PeerTube
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/peertube-archive-resource-exhaustion/
+  date: 25/04/14
+  cve_ids:
+  - CVE-2025-32949
+  researchers:
+  - Ori Hollander
+  vendors:
+  - PeerTube
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/peertube-hls-path-traversal/
+  date: 25/04/14
+  cve_ids:
+  - CVE-2025-32943
+  researchers:
+  - Ori Hollander
+  vendors:
+  - PeerTube
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/picklescan-cve-2025-10155/
+  date: 25/09/21
+  cve_ids:
+  - CVE-2025-10155
+  researchers:
+  - David Cohen
+  vendors:
+  - picklescan
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/picklescan-cve-2025-10156/
+  date: 25/09/21
+  cve_ids:
+  - CVE-2025-10156
+  researchers:
+  - David Cohen
+  vendors:
+  - picklescan
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/picklescan-cve-2025-10157/
+  date: 25/09/21
+  cve_ids:
+  - CVE-2025-10157
+  researchers:
+  - David Cohen
+  vendors:
+  - picklescan
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/pymatgen-redos-xray-257184/
+  date: 22/10/15
+  cve_ids:
+  - CVE-2022-42964
+  researchers:
+  - Denys Vozniuk
+  vendors:
+  - pymatgen
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/integer-overflow-in-haproxy-leads-to-http-smuggling-xray-184496/
+  date: 21/07/09
+  cve_ids:
+  - CVE-2021-40346
+  researchers:
+  - Ori Hollander
+  vendors:
+  - HAProxy
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/markdown-link-extractor-redos-xray-211350/
+  date: 22/05/30
+  cve_ids:
+  - CVE-2021-43308
+  researchers:
+  - Denys Vozniuk
+  vendors:
+  - markdown-link-extractor
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/mleap-path-traversal-rce-xray-532656/
+  date: 23/11/15
+  cve_ids:
+  - CVE-2023-5245
+  researchers:
+  - David Fadida
+  vendors:
+  - ml.combust.mleap.mleap-tensorflow
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/nodejs-http-smuggling-xray-231662/
+  date: 22/10/04
+  cve_ids:
+  - CVE-2022-32215
+  researchers:
+  - Zhang Zeyu, Liav Gutman
+  vendors:
+  - Node.js
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/okhttp-client-brotli-dos/
+  date: 23/07/19
+  cve_ids:
+  - CVE-2023-3782
+  researchers:
+  - Omer Kaspi
+  vendors:
+  - com.squareup.okhttp3:okhttp-brotli
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/libtiff-buffer-overflow-dos-xray-259933/
+  date: 22/11/16
+  cve_ids:
+  - CVE-2022-34526
+  researchers:
+  - Nitay Meiron
+  vendors:
+  - libtiff
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/libxpm-heap-overflow-rce-xray-532777/
+  date: 23/10/04
+  cve_ids:
+  - CVE-2023-43787
+  researchers:
+  - Yair Mizrahi
+  vendors:
+  - libx11
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/libxpm-stack-exhaustion-dos-xray-532775/
+  date: 23/10/04
+  cve_ids:
+  - CVE-2023-43786
+  researchers:
+  - Yair Mizrahi
+  vendors:
+  - libx11
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/minissdpd-updatedevice-uaf-xray-161552/
+  date: 19/02/06
+  cve_ids:
+  - CVE-2019-12106
+  researchers:
+  - Ben Barnea
+  vendors:
+  - MiniUPnP
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/n8n-expression-node-rce/
+  date: 26/01/27
+  cve_ids:
+  - CVE-2026-1470
+  researchers:
+  - Natan Nehorai
+  vendors:
+  - n8n
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/n8n-git-node-rce/
+  date: 25/11/04
+  cve_ids:
+  - CVE-2025-62726
+  researchers:
+  - Assaf Levkovich
+  vendors:
+  - n8n
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/keras-untrusted-model-arbitrary-file-write/
+  date: 25/08/12
+  cve_ids:
+  - CVE-2025-8747
+  - CVE-2025-1550
+  researchers:
+  - Andrey Polkovnichenko
+  vendors:
+  - keras
+  cve_count: 2
+- url: https://research.jfrog.com/vulnerabilities/lemmynet-activitypub-federation-blind-ssrf/
+  date: 25/02/10
+  cve_ids:
+  - CVE-2025-25194
+  researchers:
+  - Natan Nehorai
+  vendors:
+  - activitypub_federation
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/libtiff-nullderef-dos-xray-522144/
+  date: 23/06/19
+  cve_ids:
+  - CVE-2023-3316
+  researchers:
+  - Yair Mizrahi
+  vendors:
+  - libtiff:libtiff
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/interniche-dns-client-heap-overflow-xray-194045/
+  date: 21/08/04
+  cve_ids:
+  - CVE-2020-25928
+  - CVE-2020-25926
+  - CVE-2021-31228
+  researchers:
+  - Denys Vozniuk
+  vendors:
+  - InterNiche TCP/IP stack
+  cve_count: 3
+- url: https://research.jfrog.com/vulnerabilities/interniche-http-server-heap-overflow-xray-194046/
+  date: 21/08/04
+  cve_ids:
+  - CVE-2021-31226
+  researchers:
+  - Denys Vozniuk
+  vendors:
+  - InterNiche TCP/IP stack
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/jettison-json-array-dos-xray-427911/
+  date: 23/03/16
+  cve_ids:
+  - CVE-2023-1436
+  researchers:
+  - Nitay Meiron
+  vendors:
+  - org.codehaus.jettison:jettison
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/jetty-xml-parser-xxe-xray-523189/
+  date: 23/07/12
+  cve_ids: []
+  researchers:
+  - Uriya Yavnieli
+  vendors:
+  - org.eclipse.jetty:xml
+  cve_count: 0
+- url: https://research.jfrog.com/vulnerabilities/jquery-validation-redos-xray-211348/
+  date: 22/05/30
+  cve_ids:
+  - CVE-2021-43306
+  researchers:
+  - Denys Vozniuk
+  vendors:
+  - jquery-validation
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/goahead-timing-attack-auth-bypass-xray-194044/
+  date: 22/01/01
+  cve_ids:
+  - CVE-2021-43298
+  researchers:
+  - Omer Kaspi
+  vendors:
+  - GoAhead
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/h2-console-jndi-rce-xray-193805/
+  date: 22/01/06
+  cve_ids:
+  - CVE-2021-42392
+  researchers:
+  - Andrey Polkovnychenko
+  vendors:
+  - H2 Database
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/hawk-redos-xray-209780/
+  date: 22/05/30
+  cve_ids:
+  - CVE-2022-29167
+  researchers:
+  - Denys Vozniuk
+  vendors:
+  - hawk
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/javassist-lce/
+  date: 22/08/11
+  cve_ids: []
+  researchers:
+  - Omer Kaspi
+  vendors:
+  - Javassist
+  cve_count: 0
+- url: https://research.jfrog.com/vulnerabilities/clickhouse-delta-divide-by-zero-dos-xray-199946/
+  date: 22/03/15
+  cve_ids:
+  - CVE-2021-42389
+  researchers:
+  - Uriya Yavnieli
+  vendors:
+  - ClickHouse
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/clickhouse-doubledelta-divide-by-zero-dos-xray-199947/
+  date: 22/03/15
+  cve_ids:
+  - CVE-2021-42390
+  researchers:
+  - Uriya Yavnieli
+  vendors:
+  - ClickHouse
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/clickhouse-gorilla-divide-by-zero-dos-xray-199948/
+  date: 22/03/15
+  cve_ids:
+  - CVE-2021-42391
+  researchers:
+  - Uriya Yavnieli
+  vendors:
+  - ClickHouse
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/fedify-infinite-loop-blind-ssrf/
+  date: 25/01/20
+  cve_ids:
+  - CVE-2025-23221
+  researchers:
+  - Natan Nehorai
+  vendors:
+  - '@fedify/fedify'
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/busybox-awk-next-input-file-uaf-xray-189476/
+  date: 21/11/09
+  cve_ids:
+  - CVE-2021-42379
+  researchers:
+  - JFrog Collab
+  vendors:
+  - BusyBox
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/envoy-decompressor-dos-xray-227941/
+  date: 22/06/09
+  cve_ids:
+  - CVE-2022-29225
+  researchers:
+  - Ori Hollander
+  vendors:
+  - Envoy Proxy
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/eth-account-redos-xray-248681/
+  date: 22/08/11
+  cve_ids:
+  - CVE-2022-1930
+  researchers:
+  - Denys Vozniuk
+  vendors:
+  - eth-account
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/apache-sharding-sphere-agent-deserialization-rce-xray-526292/
+  date: 23/07/23
+  cve_ids:
+  - CVE-2023-28754
+  researchers:
+  - Liav Gutman
+  vendors:
+  - org.apache.shardingsphere:shardingsphere
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/busybox-awk-getvar-i-uaf-xray-189475/
+  date: 21/10/09
+  cve_ids:
+  - CVE-2021-42378
+  researchers:
+  - JFrog Collab
+  vendors:
+  - BusyBox
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/busybox-awk-getvar-s-uaf-xray-189479/
+  date: 21/11/09
+  cve_ids:
+  - CVE-2021-42382
+  researchers:
+  - JFrog Collab
+  vendors:
+  - BusyBox
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/busybox-awk-handle-special-uaf-xray-189481/
+  date: 21/11/09
+  cve_ids:
+  - CVE-2021-42384
+  researchers:
+  - JFrog Collab
+  vendors:
+  - BusyBox
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/busybox-awk-hash-init-uaf-xray-189478/
+  date: 21/11/09
+  cve_ids:
+  - CVE-2021-42381
+  researchers:
+  - JFrog Collab
+  vendors:
+  - BusyBox
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/busybox-hush-null-pointer-dereference-xray-189794/
+  date: 21/11/09
+  cve_ids:
+  - CVE-2021-42376
+  researchers:
+  - JFrog Collab
+  vendors:
+  - BusyBox
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/busybox-man-null-pointer-dereference-xray-189471/
+  date: 21/11/09
+  cve_ids:
+  - CVE-2021-42373
+  researchers:
+  - JFrog Collab
+  vendors:
+  - BusyBox
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/civetweb-file-upload-rce-xray-188861/
+  date: 21/10/19
+  cve_ids:
+  - CVE-2020-27304
+  researchers:
+  - Denys Vozniuk
+  vendors:
+  - CivetWeb
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/clickhouse-lz4-oob-r-xray-199962/
+  date: 22/03/15
+  cve_ids:
+  - CVE-2021-42388
+  - CVE-2021-42387
+  researchers:
+  - Uriya Yavnieli
+  vendors:
+  - ClickHouse
+  cve_count: 2
+- url: https://research.jfrog.com/vulnerabilities/clickhouse-lz4-oob-r-xray-199963/
+  date: 22/03/15
+  cve_ids:
+  - CVE-2021-42387
+  - CVE-2021-42388
+  researchers:
+  - Uriya Yavnieli
+  vendors:
+  - ClickHouse
+  cve_count: 2
+- url: https://research.jfrog.com/vulnerabilities/apache-httpd-mod-sed-dos-xray-228464/
+  date: 22/06/09
+  cve_ids:
+  - CVE-2022-30522
+  researchers:
+  - Brian Moussalli
+  vendors:
+  - Apache's mod_sed filter module
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/busybox-awk-clrvar-uaf-xray-189477/
+  date: 21/11/09
+  cve_ids:
+  - CVE-2021-42380
+  researchers:
+  - JFrog Collab
+  vendors:
+  - BusyBox
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/busybox-awk-evaluate-uaf-xray-189480/
+  date: 21/11/09
+  cve_ids:
+  - CVE-2021-42383
+  researchers:
+  - JFrog Collab
+  vendors:
+  - BusyBox
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/busybox-awk-evaluate-uaf-xray-189482/
+  date: 21/11/09
+  cve_ids:
+  - CVE-2021-42385
+  researchers:
+  - JFrog Collab
+  vendors:
+  - BusyBox
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/busybox-awk-nvalloc-uaf-xray-189483/
+  date: 21/11/09
+  cve_ids:
+  - CVE-2021-42386
+  researchers:
+  - JFrog Collab
+  vendors:
+  - BusyBox
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/busybox-hush-untrusted-free-xray-189474/
+  date: 21/11/09
+  cve_ids:
+  - CVE-2021-42377
+  researchers:
+  - JFrog Collab
+  vendors:
+  - BusyBox
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/busybox-lzma-oob-r-xray-189472/
+  date: 21/11/09
+  cve_ids:
+  - CVE-2021-42374
+  researchers:
+  - JFrog Collab
+  vendors:
+  - BusyBox
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/clickhouse-lz4-rce-xray-199960/
+  date: 22/03/15
+  cve_ids:
+  - CVE-2021-43305
+  - CVE-2021-43304
+  researchers:
+  - Uriya Yavnieli
+  vendors:
+  - ClickHouse
+  cve_count: 2
+- url: https://research.jfrog.com/vulnerabilities/clickhouse-lz4-rce-xray-199961/
+  date: 22/03/15
+  cve_ids:
+  - CVE-2021-43304
+  - CVE-2021-43305
+  researchers:
+  - Uriya Yavnieli
+  vendors:
+  - ClickHouse
+  cve_count: 2
+- url: https://research.jfrog.com/vulnerabilities/cursor-cli-untrusted-project-rce/
+  date: 25/11/04
+  cve_ids:
+  - CVE-2025-61592
+  researchers:
+  - Assaf Levkovich
+  vendors:
+  - Cursor CLI
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/devcert-redos-xray-211352/
+  date: 22/05/30
+  cve_ids:
+  - CVE-2022-1929
+  researchers:
+  - Denys Vozniuk
+  vendors:
+  - devcert
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/busybox-ash-dos-xray-189473/
+  date: 21/11/09
+  cve_ids:
+  - CVE-2021-42375
+  researchers:
+  - JFrog Collab
+  vendors:
+  - BusyBox
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/cassandra-udf-rce-197962/
+  date: 22/02/15
+  cve_ids:
+  - CVE-2021-44521
+  researchers:
+  - Omer Kaspi
+  vendors:
+  - Apache Cassandra
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/cleo-redos-xray-257186/
+  date: 22/10/15
+  cve_ids:
+  - CVE-2022-42966
+  researchers:
+  - Denys Vozniuk
+  vendors:
+  - cleo
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/couchdb-session-hijacking-localpriv/
+  date: 23/12/14
+  cve_ids:
+  - CVE-2023-45725
+  researchers:
+  - Natan Nehorai
+  vendors:
+  - couchdb
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/caret-xss-rce/
+  date: 23/01/10
+  cve_ids:
+  - CVE-2022-42967
+  researchers:
+  - Denys Vozniuk
+  vendors:
+  - Caret Editor
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/conduit-hyper-dos/
+  date: 22/11/01
+  cve_ids:
+  - CVE-2022-39294
+  researchers:
+  - Ori Hollander
+  vendors:
+  - conduit-hyper
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/anythingllm-path-traversal-dos/
+  date: 24/01/22
+  cve_ids:
+  - CVE-2024-22422
+  researchers:
+  - Natan Nehorai
+  vendors:
+  - AnythingLLM
+  cve_count: 1
+- url: https://research.jfrog.com/vulnerabilities/archiver-zip-slip/
+  date: 25/04/14
+  cve_ids:
+  - CVE-2025-3445
+  - CVE-2024-0406
+  researchers:
+  - Ofri Ouzan
+  vendors:
+  - github.com/mholt/archiver/v3
+  cve_count: 2
+- url: https://research.jfrog.com/vulnerabilities/axum-core-dos/
+  date: 22/08/31
+  cve_ids:
+  - CVE-2022-3212
+  researchers:
+  - Ori Hollander
+  vendors:
+  - axum-core
+  cve_count: 1

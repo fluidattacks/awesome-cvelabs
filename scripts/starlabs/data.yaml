@@ -1,0 +1,1473 @@
+lab: Star Labs SG
+url: https://starlabs.sg
+scraped_at: '2026-03-17T22:22:33.960554Z'
+advisories:
+- url: https://starlabs.sg/advisories/24/24-7009/
+  date: 24/07/31
+  cve_ids:
+  - CVE-2024-7009
+  - CVE-2024-7008
+  - CVE-2024-1837
+  researchers:
+  - Devesh Logendran
+  vendors:
+  - Calibre
+  cve_count: 3
+- url: https://starlabs.sg/advisories/24/24-7008/
+  date: 24/07/31
+  cve_ids:
+  - CVE-2024-7008
+  - CVE-2024-6782
+  - CVE-2024-7009
+  researchers:
+  - Devesh Logendran
+  vendors:
+  - Calibre
+  cve_count: 3
+- url: https://starlabs.sg/advisories/24/24-6782/
+  date: 24/07/31
+  cve_ids:
+  - CVE-2024-6782
+  - CVE-2024-6781
+  - CVE-2024-7008
+  researchers:
+  - Amos Ng (@LFlare)
+  vendors:
+  - Calibre
+  cve_count: 3
+- url: https://starlabs.sg/advisories/24/24-6781/
+  date: 24/07/31
+  cve_ids:
+  - CVE-2024-6781
+  - CVE-2024-6782
+  researchers:
+  - Amos Ng (@LFlare)
+  vendors:
+  - Calibre
+  cve_count: 2
+- url: https://starlabs.sg/advisories/24/24-1838/
+  date: 24/07/22
+  cve_ids:
+  - CVE-2024-1838
+  - CVE-2024-1837
+  - CVE-2023-3368
+  researchers:
+  - Daniel Lim Wee Soong (@daniellimws)
+  vendors:
+  - Singtel/Askey
+  cve_count: 3
+- url: https://starlabs.sg/advisories/24/24-1837/
+  date: 24/07/22
+  cve_ids:
+  - CVE-2024-1837
+  - CVE-2024-7009
+  - CVE-2024-1838
+  researchers:
+  - Daniel Lim Wee Soong (@daniellimws)
+  vendors:
+  - Singtel/Askey
+  cve_count: 3
+- url: https://starlabs.sg/advisories/23/23-38625/
+  date: 23/08/22
+  cve_ids:
+  - CVE-2023-38625
+  - CVE-2023-38624
+  - CVE-2023-2110
+  researchers:
+  - Poh Jia Hao (@Chocologicall)
+  vendors:
+  - Trend Micro
+  cve_count: 3
+- url: https://starlabs.sg/advisories/23/23-38624/
+  date: 23/08/22
+  cve_ids:
+  - CVE-2023-38624
+  - CVE-2023-32530
+  - CVE-2023-38625
+  researchers:
+  - Poh Jia Hao (@Chocologicall)
+  vendors:
+  - Trend Micro
+  cve_count: 3
+- url: https://starlabs.sg/advisories/23/23-32530/
+  date: 23/08/22
+  cve_ids:
+  - CVE-2023-32530
+  - CVE-2023-32529
+  - CVE-2023-38624
+  researchers:
+  - Poh Jia Hao (@Chocologicall)
+  vendors:
+  - Trend Micro
+  cve_count: 3
+- url: https://starlabs.sg/advisories/23/23-32529/
+  date: 23/08/22
+  cve_ids:
+  - CVE-2023-32529
+  - CVE-2023-32524
+  - CVE-2023-32530
+  researchers:
+  - Poh Jia Hao (@Chocologicall)
+  vendors:
+  - Trend Micro
+  cve_count: 3
+- url: https://starlabs.sg/advisories/23/23-32524/
+  date: 23/08/22
+  cve_ids:
+  - CVE-2023-32524
+  - CVE-2023-32523
+  - CVE-2023-32529
+  researchers:
+  - Poh Jia Hao (@Chocologicall)
+  vendors:
+  - Trend Micro
+  cve_count: 3
+- url: https://starlabs.sg/advisories/23/23-32523/
+  date: 23/08/22
+  cve_ids:
+  - CVE-2023-32523
+  - CVE-2023-2315
+  - CVE-2023-32524
+  researchers:
+  - Poh Jia Hao (@Chocologicall)
+  vendors:
+  - Trend Micro
+  cve_count: 3
+- url: https://starlabs.sg/advisories/23/23-30591/
+  date: 23/09/29
+  cve_ids:
+  - CVE-2023-30591
+  - CVE-2023-4198
+  - CVE-2023-2315
+  researchers:
+  - Ngo Wei Lin (@Creastery)
+  vendors:
+  - NodeBB
+  cve_count: 3
+- url: https://starlabs.sg/advisories/23/23-4226/
+  date: 23/11/28
+  cve_ids:
+  - CVE-2023-4226
+  - CVE-2023-4223
+  - CVE-2023-4224
+  - CVE-2023-4225
+  - CVE-2023-34960
+  - CVE-2023-1713
+  researchers:
+  - Ngo Wei Lin (@Creastery)
+  vendors:
+  - Chamilo
+  cve_count: 6
+- url: https://starlabs.sg/advisories/23/23-4225/
+  date: 23/11/28
+  cve_ids:
+  - CVE-2023-4225
+  - CVE-2023-4223
+  - CVE-2023-4224
+  - CVE-2023-4226
+  - CVE-2023-34960
+  researchers:
+  - Ngo Wei Lin (@Creastery)
+  vendors:
+  - Chamilo
+  cve_count: 5
+- url: https://starlabs.sg/advisories/23/23-4224/
+  date: 23/11/28
+  cve_ids:
+  - CVE-2023-4224
+  - CVE-2023-4223
+  - CVE-2023-4225
+  - CVE-2023-4226
+  - CVE-2023-34960
+  researchers:
+  - Ngo Wei Lin (@Creastery)
+  vendors:
+  - Chamilo
+  cve_count: 5
+- url: https://starlabs.sg/advisories/23/23-4223/
+  date: 23/11/28
+  cve_ids:
+  - CVE-2023-4223
+  - CVE-2023-4224
+  - CVE-2023-4225
+  - CVE-2023-4226
+  - CVE-2023-34960
+  - CVE-2023-4222
+  researchers:
+  - Ngo Wei Lin (@Creastery)
+  vendors:
+  - Chamilo
+  cve_count: 6
+- url: https://starlabs.sg/advisories/23/23-4222/
+  date: 23/11/28
+  cve_ids:
+  - CVE-2023-4222
+  - CVE-2023-4221
+  - CVE-2023-34960
+  - CVE-2023-4223
+  researchers:
+  - Ngo Wei Lin (@Creastery)
+  vendors:
+  - Chamilo
+  cve_count: 4
+- url: https://starlabs.sg/advisories/23/23-4221/
+  date: 23/11/28
+  cve_ids:
+  - CVE-2023-4221
+  - CVE-2023-4222
+  - CVE-2023-34960
+  - CVE-2023-4220
+  researchers:
+  - Ngo Wei Lin (@Creastery)
+  vendors:
+  - Chamilo
+  cve_count: 4
+- url: https://starlabs.sg/advisories/23/23-4220/
+  date: 23/11/28
+  cve_ids:
+  - CVE-2023-4220
+  - CVE-2023-3368
+  - CVE-2023-34960
+  - CVE-2023-3545
+  - CVE-2023-4221
+  researchers:
+  - Ngo Wei Lin (@Creastery)
+  vendors:
+  - Chamilo
+  cve_count: 5
+- url: https://starlabs.sg/advisories/23/23-4198/
+  date: 23/10/11
+  cve_ids:
+  - CVE-2023-4198
+  - CVE-2023-4197
+  - CVE-2023-30591
+  researchers:
+  - Poh Jia Hao (@Chocologicall)
+  vendors:
+  - Dolibarr
+  cve_count: 3
+- url: https://starlabs.sg/advisories/23/23-4197/
+  date: 23/10/11
+  cve_ids:
+  - CVE-2023-4197
+  - CVE-2023-1720
+  - CVE-2023-4198
+  researchers:
+  - Poh Jia Hao (@Chocologicall)
+  vendors:
+  - Dolibarr
+  cve_count: 3
+- url: https://starlabs.sg/advisories/23/23-3545/
+  date: 23/11/28
+  cve_ids:
+  - CVE-2023-3545
+  - CVE-2023-3533
+  - CVE-2023-34960
+  - CVE-2023-4220
+  researchers:
+  - Ngo Wei Lin (@Creastery)
+  vendors:
+  - Chamilo
+  cve_count: 4
+- url: https://starlabs.sg/advisories/23/23-3533/
+  date: 23/11/28
+  cve_ids:
+  - CVE-2023-3533
+  - CVE-2023-34960
+  - CVE-2023-3368
+  - CVE-2023-3545
+  researchers:
+  - Ngo Wei Lin (@Creastery)
+  vendors:
+  - Chamilo
+  cve_count: 4
+- url: https://starlabs.sg/advisories/23/23-3514/
+  date: 23/07/14
+  cve_ids:
+  - CVE-2023-3514
+  - CVE-2023-3513
+  - CVE-2023-2017
+  researchers:
+  - Phan Thanh Duy (@PTDuy)
+  vendors:
+  - Razer
+  cve_count: 3
+- url: https://starlabs.sg/advisories/23/23-3513/
+  date: 23/07/14
+  cve_ids:
+  - CVE-2023-3513
+  - CVE-2023-2971
+  - CVE-2023-3514
+  researchers:
+  - Phan Thanh Duy (@PTDuy)
+  vendors:
+  - Razer
+  cve_count: 3
+- url: https://starlabs.sg/advisories/23/23-3368/
+  date: 23/11/28
+  cve_ids:
+  - CVE-2023-3368
+  - CVE-2023-34960
+  - CVE-2024-1838
+  - CVE-2023-3533
+  researchers:
+  - Ngo Wei Lin (@Creastery)
+  vendors:
+  - Chamilo
+  cve_count: 4
+- url: https://starlabs.sg/advisories/23/23-2971/
+  date: 23/08/19
+  cve_ids:
+  - CVE-2023-2971
+  - CVE-2023-2316
+  - CVE-2023-2318
+  - CVE-2023-3513
+  researchers:
+  - Li Jiantao (@CurseRed)
+  vendors:
+  - Typora
+  cve_count: 4
+- url: https://starlabs.sg/advisories/23/23-2318/
+  date: 23/08/19
+  cve_ids:
+  - CVE-2023-2318
+  - CVE-2023-2317
+  - CVE-2023-2971
+  researchers:
+  - Li Jiantao (@CurseRed)
+  vendors:
+  - MarkText
+  cve_count: 3
+- url: https://starlabs.sg/advisories/23/23-2317/
+  date: 23/08/19
+  cve_ids:
+  - CVE-2023-2317
+  - CVE-2023-2316
+  - CVE-2023-2318
+  researchers:
+  - Li Jiantao (@CurseRed)
+  vendors:
+  - Typora
+  cve_count: 3
+- url: https://starlabs.sg/advisories/23/23-2316/
+  date: 23/08/19
+  cve_ids:
+  - CVE-2023-2316
+  - CVE-2023-2110
+  - CVE-2023-2317
+  researchers:
+  - Li Jiantao (@CurseRed)
+  vendors:
+  - Typora
+  cve_count: 3
+- url: https://starlabs.sg/advisories/23/23-2315/
+  date: 23/09/18
+  cve_ids:
+  - CVE-2023-2315
+  - CVE-2023-30591
+  - CVE-2023-32523
+  researchers:
+  - Poh Jia Hao (@Chocologicall)
+  vendors:
+  - OpenCart
+  cve_count: 3
+- url: https://starlabs.sg/advisories/23/23-2110/
+  date: 23/08/19
+  cve_ids:
+  - CVE-2023-2110
+  - CVE-2023-38625
+  - CVE-2023-2316
+  researchers:
+  - Li Jiantao (@CurseRed)
+  vendors:
+  - Obsidian
+  cve_count: 3
+- url: https://starlabs.sg/advisories/23/23-2017/
+  date: 23/04/17
+  cve_ids:
+  - CVE-2023-2017
+  - CVE-2023-22731
+  - CVE-2023-3514
+  - CVE-2022-44667
+  researchers:
+  - Ngo Wei Lin (@Creastery)
+  vendors:
+  - Shopware AG
+  cve_count: 4
+- url: https://starlabs.sg/advisories/23/23-1720/
+  date: 23/11/01
+  cve_ids:
+  - CVE-2023-1720
+  - CVE-2023-1719
+  - CVE-2023-4197
+  researchers:
+  - Lam Jun Rong & Li Jiantao (@CurseRed)
+  vendors:
+  - Bitrix24
+  cve_count: 3
+- url: https://starlabs.sg/advisories/23/23-1719/
+  date: 23/11/01
+  cve_ids:
+  - CVE-2023-1719
+  - CVE-2023-1718
+  - CVE-2023-1720
+  researchers:
+  - Lam Jun Rong & Li Jiantao (@CurseRed)
+  vendors:
+  - Bitrix24
+  cve_count: 3
+- url: https://starlabs.sg/advisories/23/23-1718/
+  date: 23/11/01
+  cve_ids:
+  - CVE-2023-1718
+  - CVE-2023-1717
+  - CVE-2023-1719
+  researchers:
+  - Lam Jun Rong & Li Jiantao (@CurseRed)
+  vendors:
+  - Bitrix24
+  cve_count: 3
+- url: https://starlabs.sg/advisories/23/23-1717/
+  date: 23/11/01
+  cve_ids:
+  - CVE-2023-1717
+  - CVE-2023-1715
+  - CVE-2023-1716
+  - CVE-2023-1718
+  researchers:
+  - Lam Jun Rong & Li Jiantao (@CurseRed)
+  vendors:
+  - Bitrix24
+  cve_count: 4
+- url: https://starlabs.sg/advisories/23/23-1715/
+  date: 23/11/01
+  cve_ids:
+  - CVE-2023-1715
+  - CVE-2023-1716
+  - CVE-2023-1714
+  - CVE-2023-1717
+  researchers:
+  - Lam Jun Rong & Li Jiantao (@CurseRed)
+  vendors:
+  - Bitrix24
+  cve_count: 4
+- url: https://starlabs.sg/advisories/23/23-1714/
+  date: 23/11/01
+  cve_ids:
+  - CVE-2023-1714
+  - CVE-2023-1713
+  - CVE-2023-1715
+  - CVE-2023-1716
+  researchers:
+  - Lam Jun Rong & Li Jiantao (@CurseRed)
+  vendors:
+  - Bitrix24
+  cve_count: 4
+- url: https://starlabs.sg/advisories/23/23-1713/
+  date: 23/11/01
+  cve_ids:
+  - CVE-2023-1713
+  - CVE-2023-4226
+  - CVE-2023-1714
+  researchers:
+  - Lam Jun Rong & Li Jiantao (@CurseRed)
+  vendors:
+  - Bitrix24
+  cve_count: 3
+- url: https://starlabs.sg/advisories/22/22-44668/
+  date: 22/12/13
+  cve_ids:
+  - CVE-2022-44668
+  - CVE-2022-44667
+  - CVE-2022-26438
+  researchers:
+  - 'Timeline:'
+  vendors:
+  - Microsoft
+  cve_count: 3
+- url: https://starlabs.sg/advisories/22/22-44667/
+  date: 22/12/13
+  cve_ids:
+  - CVE-2022-44667
+  - CVE-2023-2017
+  - CVE-2022-44668
+  researchers:
+  - 'Timeline:'
+  vendors:
+  - Microsoft
+  cve_count: 3
+- url: https://starlabs.sg/advisories/22/22-36439/
+  date: 22/07/13
+  cve_ids:
+  - CVE-2022-26439
+  - CVE-2022-26438
+  - CVE-2021-4206
+  researchers:
+  - Schuyler Tay
+  vendors:
+  - Asus
+  cve_count: 3
+- url: https://starlabs.sg/advisories/22/22-36438/
+  date: 22/07/13
+  cve_ids:
+  - CVE-2022-26438
+  - CVE-2022-44668
+  - CVE-2022-26439
+  researchers:
+  - Schuyler Tay
+  vendors:
+  - Asus
+  cve_count: 3
+- url: https://starlabs.sg/advisories/22/22-28730/
+  date: 22/03/14
+  cve_ids:
+  - CVE-2022-28730
+  - CVE-2021-40369
+  - CVE-2022-0216
+  - CVE-2022-26718
+  researchers:
+  - Poh Jia Hao
+  vendors: []
+  cve_count: 4
+- url: https://starlabs.sg/advisories/22/22-26718/
+  date: 22/03/04
+  cve_ids:
+  - CVE-2022-26718
+  - CVE-2022-28730
+  - CVE-2022-21877
+  researchers:
+  - Peter Nguyễn Vũ Hoàng
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/22/22-21877/
+  date: 22/01/11
+  cve_ids:
+  - CVE-2022-21877
+  - CVE-2022-26718
+  - CVE-2021-30844
+  researchers:
+  - 'Timeline:'
+  vendors:
+  - Microsoft
+  cve_count: 3
+- url: https://starlabs.sg/advisories/22/22-0216/
+  date: 22/03/28
+  cve_ids:
+  - CVE-2022-0216
+  - CVE-2022-0168
+  - CVE-2022-28730
+  researchers:
+  - Muhammad Alifa Ramdhan (@n0psledbyte)
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/22/22-0168/
+  date: 22/03/28
+  cve_ids:
+  - CVE-2022-0168
+  - CVE-2021-4207
+  - CVE-2022-0216
+  researchers:
+  - Billy Jheng Bing Jhong (@st424204)
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/21/21-35409/
+  date: 21/06/10
+  cve_ids:
+  - CVE-2021-35409
+  - CVE-2021-30836
+  researchers:
+  - Daniel Lim Wee Soong (@daniellimws)
+  vendors: []
+  cve_count: 2
+- url: https://starlabs.sg/advisories/21/21-35408/
+  date: 21/06/08
+  cve_ids:
+  - CVE-2021-35408
+  - CVE-2021-0956
+  researchers:
+  - Daniel Lim Wee Soong (@daniellimws)
+  vendors: []
+  cve_count: 2
+- url: https://starlabs.sg/advisories/21/21-35407/
+  date: 21/06/10
+  cve_ids:
+  - CVE-2021-35407
+  researchers:
+  - Daniel Lim Wee Soong (@daniellimws)
+  vendors: []
+  cve_count: 1
+- url: https://starlabs.sg/advisories/21/21-35406/
+  date: 21/06/10
+  cve_ids:
+  - CVE-2021-35406
+  researchers:
+  - Daniel Lim Wee Soong (@daniellimws)
+  vendors: []
+  cve_count: 1
+- url: https://starlabs.sg/advisories/21/21-35405/
+  date: 21/06/10
+  cve_ids:
+  - CVE-2021-35406
+  researchers:
+  - Daniel Lim Wee Soong (@daniellimws)
+  vendors: []
+  cve_count: 1
+- url: https://starlabs.sg/advisories/21/21-35404/
+  date: 21/06/10
+  cve_ids:
+  - CVE-2021-35404
+  researchers:
+  - Daniel Lim Wee Soong (@daniellimws)
+  vendors: []
+  cve_count: 1
+- url: https://starlabs.sg/advisories/21/21-35403/
+  date: 21/06/10
+  cve_ids:
+  - CVE-2021-35403
+  researchers:
+  - Daniel Lim Wee Soong (@daniellimws)
+  vendors: []
+  cve_count: 1
+- url: https://starlabs.sg/advisories/21/21-35402/
+  date: 21/06/09
+  cve_ids:
+  - CVE-2021-35402
+  - CVE-2021-30836
+  - CVE-2021-35408
+  researchers:
+  - Daniel Lim Wee Soong (@daniellimws)
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/21/21-35401/
+  date: 21/06/10
+  cve_ids:
+  - CVE-2021-35401
+  researchers:
+  - Daniel Lim Wee Soong (@daniellimws)
+  vendors: []
+  cve_count: 1
+- url: https://starlabs.sg/advisories/21/21-35400/
+  date: 21/06/10
+  cve_ids:
+  - CVE-2021-35400
+  - CVE-2021-30868
+  researchers:
+  - Daniel Lim Wee Soong (@daniellimws)
+  vendors: []
+  cve_count: 2
+- url: https://starlabs.sg/advisories/21/21-34979/
+  date: 21/03/22
+  cve_ids:
+  - CVE-2021-34979
+  - CVE-2021-34978
+  - CVE-2021-0950
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/21/21-34978/
+  date: 21/03/22
+  cve_ids:
+  - CVE-2021-34978
+  - CVE-2021-3409
+  - CVE-2021-34979
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/21/21-34503/
+  date: 21/02/27
+  cve_ids:
+  - CVE-2021-34503
+  - CVE-2021-33760
+  - CVE-2021-1758
+  researchers:
+  - Phan Thanh Duy (@PTDuy)
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/21/21-33760/
+  date: 21/02/27
+  cve_ids:
+  - CVE-2021-33760
+  - CVE-2021-0950
+  - CVE-2021-34503
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/21/21-30868/
+  date: 21/06/18
+  cve_ids:
+  - CVE-2021-30868
+  - CVE-2021-30845
+  researchers:
+  - Peter Nguyễn Vũ Hoàng
+  vendors: []
+  cve_count: 2
+- url: https://starlabs.sg/advisories/21/21-30845/
+  date: 21/09/13
+  cve_ids:
+  - CVE-2021-30845
+  - CVE-2021-30844
+  - CVE-2021-30868
+  researchers:
+  - Peter Nguyễn Vũ Hoàng
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/21/21-30844/
+  date: 21/09/13
+  cve_ids:
+  - CVE-2021-30844
+  - CVE-2022-21877
+  - CVE-2021-30845
+  researchers:
+  - Peter Nguyễn Vũ Hoàng
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/21/21-30836/
+  date: 21/06/09
+  cve_ids:
+  - CVE-2021-30836
+  researchers:
+  - Ta Dinh Sung
+  vendors: []
+  cve_count: 1
+- url: https://starlabs.sg/advisories/21/21-30745/
+  date: 21/05/20
+  cve_ids:
+  - CVE-2021-30745
+  - CVE-2021-0956
+  - CVE-2021-0204
+  researchers:
+  - Peter Nguyễn Vũ Hoàng
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/21/21-4207/
+  date: 22/03/28
+  cve_ids:
+  - CVE-2021-4207
+  - CVE-2021-4206
+  - CVE-2022-0168
+  researchers:
+  - Billy Jheng Bing Jhong (@st424204)
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/21/21-4206/
+  date: 22/03/28
+  cve_ids:
+  - CVE-2021-4206
+  - CVE-2022-26439
+  - CVE-2021-4207
+  researchers:
+  - Billy Jheng Bing Jhong (@st424204)
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/21/21-3409/
+  date: 21/03/23
+  cve_ids:
+  - CVE-2021-3409
+  - CVE-2021-2321
+  - CVE-2021-34978
+  researchers:
+  - Muhammad Alifa Ramdhan (@n0psledbyte)
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/21/21-2321/
+  date: 21/04/06
+  cve_ids:
+  - CVE-2021-2321
+  - CVE-2021-0256
+  - CVE-2021-3409
+  researchers:
+  - Muhammad Alifa Ramdhan (@n0psledbyte)
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/21/21-1790/
+  date: 21/02/10
+  cve_ids:
+  - CVE-2021-1790
+  - CVE-2021-1758
+  - CVE-2020-24430
+  researchers:
+  - Peter Nguyễn Vũ Hoàng
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/21/21-1758/
+  date: 21/02/10
+  cve_ids:
+  - CVE-2021-1758
+  - CVE-2021-34503
+  - CVE-2021-1790
+  researchers:
+  - Peter Nguyễn Vũ Hoàng
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/21/21-1485/
+  date: 20/06/12
+  cve_ids:
+  - CVE-2021-1485
+  - CVE-2021-0219
+  - CVE-2020-15357
+  researchers:
+  - Darell Tan
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/21/21-0956/
+  date: 21/05/28
+  cve_ids:
+  - CVE-2021-0956
+  - CVE-2021-35408
+  - CVE-2021-30745
+  researchers:
+  - Nguyễn Hoàng Thạch (@hi_im_d4rkn3ss)
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/21/21-0950/
+  date: 21/03/05
+  cve_ids:
+  - CVE-2021-0950
+  - CVE-2021-34979
+  - CVE-2021-33760
+  researchers:
+  - Nguyễn Hoàng Thạch (@hi_im_d4rkn3ss)
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/21/21-0256/
+  date: 21/04/14
+  cve_ids:
+  - CVE-2021-0256
+  - CVE-2021-0255
+  - CVE-2021-2321
+  researchers:
+  - Nguyễn Hoàng Thạch (@hi_im_d4rkn3ss)
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/21/21-0255/
+  date: 21/04/14
+  cve_ids:
+  - CVE-2021-0255
+  - CVE-2021-0254
+  - CVE-2021-0256
+  researchers:
+  - Nguyễn Hoàng Thạch (@hi_im_d4rkn3ss)
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/21/21-0254/
+  date: 21/04/14
+  cve_ids:
+  - CVE-2021-0254
+  - CVE-2021-0223
+  - CVE-2021-0255
+  researchers:
+  - Nguyễn Hoàng Thạch (@hi_im_d4rkn3ss)
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/21/21-0223/
+  date: 21/04/14
+  cve_ids:
+  - CVE-2021-0223
+  - CVE-2021-0204
+  - CVE-2021-0254
+  researchers:
+  - Nguyễn Hoàng Thạch (@hi_im_d4rkn3ss)
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/21/21-0219/
+  date: 20/06/12
+  cve_ids:
+  - CVE-2021-0219
+  - CVE-2021-0218
+  - CVE-2021-1485
+  researchers:
+  - Nguyễn Hoàng Thạch (@hi_im_d4rkn3ss)
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/21/21-0218/
+  date: 20/06/12
+  cve_ids:
+  - CVE-2021-0218
+  - CVE-2020-1664
+  - CVE-2021-0219
+  researchers:
+  - Nguyễn Hoàng Thạch (@hi_im_d4rkn3ss)
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/21/21-0204/
+  date: 21/04/14
+  cve_ids:
+  - CVE-2021-0204
+  - CVE-2021-30745
+  - CVE-2021-0223
+  researchers:
+  - Nguyễn Hoàng Thạch (@hi_im_d4rkn3ss)
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/20/20-25546/
+  date: 20/05/22
+  cve_ids:
+  - CVE-2020-25546
+  - CVE-2020-25545
+  - CVE-2020-2575
+  researchers:
+  - Li Bailin
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/20/20-25545/
+  date: 20/05/22
+  cve_ids:
+  - CVE-2020-25545
+  - CVE-2020-15357
+  - CVE-2020-25546
+  researchers:
+  - Li Bailin
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/20/20-24430/
+  date: 20/08/21
+  cve_ids:
+  - CVE-2020-24430
+  - CVE-2021-1790
+  - CVE-2020-13937
+  researchers:
+  - Alan Chang Enze
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/20/20-15357/
+  date: 20/05/22
+  cve_ids:
+  - CVE-2020-15357
+  - CVE-2020-25545
+  - CVE-2020-25546
+  - CVE-2021-1485
+  researchers:
+  - Li Bailin
+  vendors: []
+  cve_count: 4
+- url: https://starlabs.sg/advisories/20/20-13937/
+  date: 20/07/17
+  cve_ids:
+  - CVE-2020-13937
+  - CVE-2020-24430
+  - CVE-2020-0634
+  researchers:
+  - Ngo Wei Lin (@Creastery)
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/20/20-10907/
+  date: 20/04/16
+  cve_ids:
+  - CVE-2020-10907
+  - CVE-2020-2894
+  - CVE-2020-3800
+  researchers:
+  - Peter Nguyễn Vũ Hoàng
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/20/20-9816/
+  date: 20/03/17
+  cve_ids:
+  - CVE-2020-9816
+  - CVE-2020-3801
+  - CVE-2020-2682
+  researchers:
+  - Peter Nguyễn Vũ Hoàng
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/20/20-3801/
+  date: 20/03/17
+  cve_ids:
+  - CVE-2020-3801
+  - CVE-2020-3800
+  - CVE-2020-9816
+  researchers:
+  - Phan Thanh Duy (@PTDuy)
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/20/20-3800/
+  date: 20/03/17
+  cve_ids:
+  - CVE-2020-3800
+  - CVE-2020-10907
+  - CVE-2020-3801
+  researchers:
+  - Phan Thanh Duy (@PTDuy)
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/20/20-2902/
+  date: 19/12/04
+  cve_ids:
+  - CVE-2020-2902
+  - CVE-2020-0889
+  - CVE-2020-0961
+  researchers:
+  - Pham Hong Phi (@anhdaden)
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/20/20-2894/
+  date: 20/04/30
+  cve_ids:
+  - CVE-2020-2894
+  - CVE-2020-2758
+  - CVE-2020-10907
+  researchers:
+  - Pham Hong Phi (@anhdaden)
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/20/20-2758/
+  date: 20/04/30
+  cve_ids:
+  - CVE-2020-2758
+  - CVE-2020-2748
+  - CVE-2020-2894
+  researchers:
+  - Calvin Fong
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/20/20-2748/
+  date: 20/04/30
+  cve_ids:
+  - CVE-2020-2748
+  - CVE-2020-2575
+  - CVE-2020-2758
+  researchers:
+  - Pham Hong Phi (@anhdaden), Calvin Fong
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/20/20-2682/
+  date: 20/01/15
+  cve_ids:
+  - CVE-2020-2682
+  - CVE-2020-9816
+  - CVE-2020-2674
+  researchers:
+  - Pham Hong Phi (@hanhdaden)
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/20/20-2674/
+  date: 20/01/14
+  cve_ids:
+  - CVE-2020-2674
+  - CVE-2020-2682
+  - CVE-2019-16452
+  researchers:
+  - Pham Hong Phi (@hanhdaden)
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/20/20-2575/
+  date: 20/04/30
+  cve_ids:
+  - CVE-2020-2575
+  - CVE-2020-25546
+  - CVE-2020-2748
+  researchers:
+  - Pham Hong Phi (@anhdaden)
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/20/20-1664/
+  date: 20/06/12
+  cve_ids:
+  - CVE-2020-1664
+  - CVE-2020-0634
+  - CVE-2021-0218
+  researchers:
+  - Nguyễn Hoàng Thạch (@hi_im_d4rkn3ss)
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/20/20-0961/
+  date: 19/11/13
+  cve_ids:
+  - CVE-2020-0961
+  - CVE-2020-2902
+  - CVE-2019-1406
+  researchers:
+  - Shi Ji (@Puzzorsj), Meysam Firouzi
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/20/20-0889/
+  date: 19/12/04
+  cve_ids:
+  - CVE-2020-0889
+  - CVE-2019-16452
+  - CVE-2020-2902
+  researchers:
+  - Shi Ji (@Puzzorsj), Meysam Firouzi
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/20/20-0634/
+  date: 20/06/12
+  cve_ids:
+  - CVE-2020-0634
+  - CVE-2020-13937
+  - CVE-2020-1664
+  researchers:
+  - Meysam Firouzi
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/19/19-16452/
+  date: 19/12/10
+  cve_ids:
+  - CVE-2019-16452
+  - CVE-2020-2674
+  - CVE-2020-0889
+  researchers:
+  - Phan Thanh Duy (@PTDuy)
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/19/19-16340/
+  date: 19/02/19
+  cve_ids:
+  - CVE-2019-16340
+  - CVE-2018-20336
+  - CVE-2019-7035
+  researchers:
+  - Shi Ji (@Puzzorsj)
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/19/19-16339/
+  date: 19/01/09
+  cve_ids:
+  - CVE-2019-16339
+  - CVE-2019-16338
+  - CVE-2018-20333
+  researchers:
+  - Shi Ji (@Puzzorsj)
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/19/19-16338/
+  date: 19/01/10
+  cve_ids:
+  - CVE-2019-16338
+  - CVE-2019-16337
+  - CVE-2019-16339
+  researchers:
+  - Shi Ji (@Puzzorsj)
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/19/19-16337/
+  date: 19/01/10
+  cve_ids:
+  - CVE-2019-16337
+  - CVE-2019-7035
+  - CVE-2019-16338
+  researchers:
+  - Shi Ji (@Puzzorsj)
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/19/19-9133/
+  date: 19/03/07
+  cve_ids:
+  - CVE-2019-9133
+  - CVE-2019-2722
+  - CVE-2018-20334
+  researchers:
+  - Phạm Hồng Phi (@anhdaden)
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/19/19-8221/
+  date: 19/10/15
+  cve_ids:
+  - CVE-2019-8221
+  - CVE-2019-8220
+  - CVE-2019-1250
+  researchers:
+  - Ta Dinh Sung
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/19/19-8220/
+  date: 19/10/15
+  cve_ids:
+  - CVE-2019-8220
+  - CVE-2019-3031
+  - CVE-2019-8221
+  researchers:
+  - Ta Dinh Sung
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/19/19-8039/
+  date: 19/06/20
+  cve_ids:
+  - CVE-2019-8039
+  - CVE-2019-8038
+  - CVE-2019-7142
+  researchers:
+  - Phan Thanh Duy (@PTDuy)
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/19/19-8038/
+  date: 19/06/20
+  cve_ids:
+  - CVE-2019-8038
+  - CVE-2019-8018
+  - CVE-2019-8039
+  researchers:
+  - Phan Thanh Duy (@PTDuy)
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/19/19-8018/
+  date: 19/08/13
+  cve_ids:
+  - CVE-2019-8018
+  - CVE-2019-8011
+  - CVE-2019-8038
+  researchers:
+  - Wei Lei
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/19/19-8011/
+  date: 19/08/13
+  cve_ids:
+  - CVE-2019-8011
+  - CVE-2019-1250
+  - CVE-2019-8018
+  researchers:
+  - Wei Lei
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/19/19-8010/
+  date: 19/05/07
+  cve_ids:
+  - CVE-2019-8010
+  - CVE-2019-7142
+  - CVE-2019-7118
+  researchers:
+  - Wei Lei
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/19/19-7142/
+  date: 19/05/14
+  cve_ids:
+  - CVE-2019-7142
+  - CVE-2019-8039
+  - CVE-2019-8010
+  researchers:
+  - Wei Lei
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/19/19-7123/
+  date: 19/04/09
+  cve_ids:
+  - CVE-2019-7123
+  - CVE-2019-7122
+  - CVE-2019-2722
+  researchers:
+  - Wei Lei
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/19/19-7122/
+  date: 19/04/09
+  cve_ids:
+  - CVE-2019-7122
+  - CVE-2019-7121
+  - CVE-2019-7123
+  researchers:
+  - Wei Lei
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/19/19-7121/
+  date: 19/04/09
+  cve_ids:
+  - CVE-2019-7121
+  - CVE-2019-7120
+  - CVE-2019-7122
+  researchers:
+  - Wei Lei
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/19/19-7120/
+  date: 19/04/09
+  cve_ids:
+  - CVE-2019-7120
+  - CVE-2019-7119
+  - CVE-2019-7121
+  researchers:
+  - Wei Lei
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/19/19-7119/
+  date: 19/04/09
+  cve_ids:
+  - CVE-2019-7119
+  - CVE-2019-7118
+  - CVE-2019-7120
+  researchers:
+  - Wei Lei
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/19/19-7118/
+  date: 19/04/09
+  cve_ids:
+  - CVE-2019-7118
+  - CVE-2019-8010
+  - CVE-2019-7119
+  researchers:
+  - Wei Lei
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/19/19-7035/
+  date: 19/02/12
+  cve_ids:
+  - CVE-2019-7035
+  - CVE-2019-16340
+  - CVE-2019-16337
+  researchers:
+  - Wei Lei
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/19/19-6985/
+  date: 18/11/28
+  cve_ids:
+  - CVE-2019-6985
+  - CVE-2019-6984
+  - CVE-2019-6982
+  researchers:
+  - Wei Lei
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/19/19-6984/
+  date: 18/11/28
+  cve_ids:
+  - CVE-2019-6984
+  - CVE-2018-20333
+  - CVE-2019-6985
+  researchers:
+  - Wei Lei
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/19/19-6983/
+  date: 18/11/27
+  cve_ids:
+  - CVE-2019-6983
+  - CVE-2019-6982
+  researchers:
+  - Wei Lei
+  vendors: []
+  cve_count: 2
+- url: https://starlabs.sg/advisories/19/19-6982/
+  date: 18/11/27
+  cve_ids:
+  - CVE-2019-6982
+  - CVE-2019-6985
+  - CVE-2019-6983
+  researchers:
+  - Wei Lei
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/19/19-3031/
+  date: 19/10/20
+  cve_ids:
+  - CVE-2019-3031
+  - CVE-2019-3026
+  - CVE-2019-8220
+  researchers:
+  - Phạm Hồng Phi (@anhdaden)
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/19/19-3026/
+  date: 19/10/20
+  cve_ids:
+  - CVE-2019-3026
+  - CVE-2019-3005
+  - CVE-2019-3031
+  researchers:
+  - Phạm Hồng Phi (@anhdaden)
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/19/19-3005/
+  date: 19/10/20
+  cve_ids:
+  - CVE-2019-3005
+  - CVE-2019-3002
+  - CVE-2019-3026
+  researchers:
+  - Phạm Hồng Phi (@anhdaden)
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/19/19-3002/
+  date: 19/10/20
+  cve_ids:
+  - CVE-2019-3002
+  - CVE-2019-2984
+  - CVE-2019-3005
+  researchers:
+  - Phạm Hồng Phi (@anhdaden)
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/19/19-2984/
+  date: 19/10/20
+  cve_ids:
+  - CVE-2019-2984
+  - CVE-2019-1406
+  - CVE-2019-3002
+  researchers:
+  - Phạm Hồng Phi (@anhdaden)
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/19/19-2722/
+  date: 19/03/20
+  cve_ids:
+  - CVE-2019-2722
+  - CVE-2019-7123
+  - CVE-2019-9133
+  researchers:
+  - Phạm Hồng Phi (@anhdaden)
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/19/19-1406/
+  date: 19/11/12
+  cve_ids:
+  - CVE-2019-1406
+  - CVE-2020-0961
+  - CVE-2019-2984
+  researchers:
+  - Shi Ji (@Puzzorsj) & Meysam Firouzi
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/19/19-1250/
+  date: 19/09/10
+  cve_ids:
+  - CVE-2019-1250
+  - CVE-2019-8221
+  - CVE-2019-8011
+  researchers:
+  - Shi Ji (@Puzzorsj) & Meysam Firouzi
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/18/18-20336/
+  date: 19/02/19
+  cve_ids:
+  - CVE-2018-20336
+  - CVE-2018-20334
+  - CVE-2018-20335
+  - CVE-2019-16340
+  researchers:
+  - Shi Ji (@Puzzorsj)
+  vendors: []
+  cve_count: 4
+- url: https://starlabs.sg/advisories/18/18-20335/
+  date: 19/02/19
+  cve_ids:
+  - CVE-2018-20335
+  - CVE-2018-20334
+  - CVE-2018-20336
+  researchers:
+  - Shi Ji (@Puzzorsj)
+  vendors: []
+  cve_count: 3
+- url: https://starlabs.sg/advisories/18/18-20334/
+  date: 19/02/19
+  cve_ids:
+  - CVE-2018-20334
+  - CVE-2018-20336
+  - CVE-2019-9133
+  - CVE-2018-20335
+  researchers:
+  - Shi Ji (@Puzzorsj)
+  vendors: []
+  cve_count: 4
+- url: https://starlabs.sg/advisories/18/18-20333/
+  date: 18/12/21
+  cve_ids:
+  - CVE-2018-20333
+  - CVE-2019-16339
+  - CVE-2019-6984
+  researchers:
+  - Shi Ji (@Puzzorsj)
+  vendors: []
+  cve_count: 3

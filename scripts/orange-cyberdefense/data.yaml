@@ -1,0 +1,523 @@
+lab: Orange Cyberdefense
+url: https://github.com/Orange-Cyberdefense/CVE-repository
+scraped_at: '2026-03-17T21:16:51.627639Z'
+advisories:
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2025-46816
+  date: null
+  cve_ids:
+  - CVE-2025-46816
+  researchers:
+  - '[Advisory][CVE-2025-46816_pub]'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2025-32786
+  date: null
+  cve_ids:
+  - CVE-2025-32786
+  researchers:
+  - '-'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2025-32432
+  date: null
+  cve_ids:
+  - CVE-2025-32432
+  researchers:
+  - '[Blog][CVE-2025-32432_pub]'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2025-32104
+  date: null
+  cve_ids:
+  - CVE-2025-32104
+  researchers:
+  - '-'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2025-22380
+  date: null
+  cve_ids:
+  - CVE-2025-22380
+  researchers:
+  - '-'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2025-22379
+  date: null
+  cve_ids:
+  - CVE-2025-22379
+  researchers:
+  - '-'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2025-22378
+  date: null
+  cve_ids:
+  - CVE-2025-22378
+  researchers:
+  - '-'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2024-58136
+  date: null
+  cve_ids:
+  - CVE-2024-58136
+  researchers:
+  - '[Blog][CVE-2025-32432_pub]'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2024-55931
+  date: null
+  cve_ids:
+  - CVE-2024-55931
+  researchers:
+  - '-'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2024-55930
+  date: null
+  cve_ids:
+  - CVE-2024-55930
+  researchers:
+  - '-'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2024-55929
+  date: null
+  cve_ids:
+  - CVE-2024-55929
+  researchers:
+  - '-'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2024-55928
+  date: null
+  cve_ids:
+  - CVE-2024-55928
+  researchers:
+  - '-'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2024-55927
+  date: null
+  cve_ids:
+  - CVE-2024-55927
+  researchers:
+  - '-'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2024-55926
+  date: null
+  cve_ids:
+  - CVE-2024-55926
+  researchers:
+  - '-'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2024-55925
+  date: null
+  cve_ids:
+  - CVE-2024-55925
+  researchers:
+  - '-'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2024-50339
+  date: null
+  cve_ids:
+  - CVE-2024-50339
+  researchers:
+  - '[Advisory][CVE-2024-50339_pub] & [Blog][CVE-2024-50339_pub2]'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2024-40638
+  date: null
+  cve_ids:
+  - CVE-2024-40638
+  researchers:
+  - '[Advisory][CVE-2024-40638_pub]'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2024-37149
+  date: null
+  cve_ids:
+  - CVE-2024-37149
+  researchers:
+  - '[Advisory][CVE-2024-37149_pub]'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2024-29889
+  date: null
+  cve_ids:
+  - CVE-2024-29889
+  researchers:
+  - '[Advisory][CVE-2024-29889_pub]'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2024-23767
+  date: null
+  cve_ids:
+  - CVE-2024-23767
+  researchers:
+  - '[Blog post][CVE-2024-23765_pub]'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2024-23766
+  date: null
+  cve_ids:
+  - CVE-2024-23766
+  researchers:
+  - '[Blog post][CVE-2024-23765_pub]'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2024-23765
+  date: null
+  cve_ids:
+  - CVE-2024-23765
+  researchers:
+  - '[Blog post][CVE-2024-23765_pub]'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2023-44256
+  date: null
+  cve_ids:
+  - CVE-2023-44256
+  researchers:
+  - '[Advisory][CVE-2023-44256_poc]'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2023-44249
+  date: null
+  cve_ids:
+  - CVE-2023-44249
+  researchers:
+  - '[Advisory][CVE-2023-44249_adv]'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2023-42787
+  date: null
+  cve_ids:
+  - CVE-2023-42787
+  researchers:
+  - '[Advisory][CVE-2023-42787_poc]'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2023-41320
+  date: null
+  cve_ids:
+  - CVE-2023-41320
+  researchers:
+  - '[Advisory][CVE-2023-41320_adv]'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2023-36626
+  date: null
+  cve_ids:
+  - CVE-2023-36626
+  researchers:
+  - '-'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2023-36625
+  date: null
+  cve_ids:
+  - CVE-2023-36625
+  researchers:
+  - '-'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2023-33303
+  date: null
+  cve_ids:
+  - CVE-2023-33303
+  researchers:
+  - '[Advisory][CVE-2023-33303_adv]'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2023-26469
+  date: null
+  cve_ids:
+  - CVE-2023-26469
+  researchers:
+  - '-'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2023-23565
+  date: null
+  cve_ids:
+  - CVE-2023-23565
+  researchers:
+  - '-'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2023-23564
+  date: null
+  cve_ids:
+  - CVE-2023-23564
+  researchers:
+  - '-'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2023-23563
+  date: null
+  cve_ids:
+  - CVE-2023-23563
+  researchers:
+  - '-'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2023-20065
+  date: null
+  cve_ids:
+  - CVE-2023-20065
+  researchers:
+  - '[Advisory][CVE-2023-20065_adv]'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2022-45186
+  date: null
+  cve_ids:
+  - CVE-2022-45186
+  researchers:
+  - '-'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2022-45185
+  date: null
+  cve_ids:
+  - CVE-2022-45185
+  researchers:
+  - '-'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2022-41573
+  date: null
+  cve_ids:
+  - CVE-2022-41573
+  researchers:
+  - '-'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2022-41572
+  date: null
+  cve_ids:
+  - CVE-2022-41572
+  researchers:
+  - '-'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2022-41571
+  date: null
+  cve_ids:
+  - CVE-2022-41571
+  researchers:
+  - '-'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2022-41570
+  date: null
+  cve_ids:
+  - CVE-2022-41570
+  researchers:
+  - '-'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2022-35914
+  date: null
+  cve_ids:
+  - CVE-2022-35914
+  researchers:
+  - '[Blog post][CVE-2022-35914_pub]'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2022-34346
+  date: null
+  cve_ids:
+  - CVE-2022-34346
+  researchers:
+  - '-'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2022-34328
+  date: null
+  cve_ids:
+  - CVE-2022-34328
+  researchers:
+  - '-'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2021-46107
+  date: null
+  cve_ids:
+  - CVE-2021-46107
+  researchers:
+  - '-'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2021-44032
+  date: null
+  cve_ids:
+  - CVE-2021-44032
+  researchers:
+  - '-'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2021-42056
+  date: null
+  cve_ids:
+  - CVE-2021-42056
+  researchers:
+  - '-'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2021-36355
+  date: null
+  cve_ids:
+  - CVE-2021-36355
+  researchers:
+  - '-'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2020-25287
+  date: null
+  cve_ids:
+  - CVE-2020-25287
+  researchers:
+  - '-'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2020-17454
+  date: null
+  cve_ids:
+  - CVE-2020-17454
+  researchers:
+  - '[Advisory][CVE-2020-17454_adv]'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2020-14950
+  date: null
+  cve_ids:
+  - CVE-2020-14950
+  researchers:
+  - '-'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2020-14462
+  date: null
+  cve_ids:
+  - CVE-2020-14462
+  researchers:
+  - '-'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2020-14421
+  date: null
+  cve_ids:
+  - CVE-2020-14421
+  researchers:
+  - '-'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2020-14295
+  date: null
+  cve_ids:
+  - CVE-2020-14295
+  researchers:
+  - '[Advisory][CVE-2020-14295_adv]'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2020-14146
+  date: null
+  cve_ids:
+  - CVE-2020-14146
+  researchers:
+  - '-'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2020-11712
+  date: null
+  cve_ids:
+  - CVE-2020-11712
+  researchers:
+  - '-'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2020-10787
+  date: null
+  cve_ids:
+  - CVE-2020-10787
+  researchers:
+  - '[Post][CVE-2020-10787_pub]'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2020-10786
+  date: null
+  cve_ids:
+  - CVE-2020-10786
+  researchers:
+  - '[Post][CVE-2020-10787_pub]'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2020-10220
+  date: null
+  cve_ids:
+  - CVE-2020-10220
+  researchers:
+  - '[Blog post][CVE-2020-10220_pub]'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2020-8776
+  date: null
+  cve_ids:
+  - CVE-2020-8776
+  researchers:
+  - '[Post][CVE-2020-8776_pub]'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2020-1949
+  date: null
+  cve_ids:
+  - CVE-2020-1949
+  researchers:
+  - '[Advisory][CVE-2020-1949_adv]'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2019-19585
+  date: null
+  cve_ids:
+  - CVE-2019-19585
+  researchers:
+  - '[Blog post][CVE-2019-19585_pub]'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2019-19509
+  date: null
+  cve_ids:
+  - CVE-2019-19509
+  researchers:
+  - '[Blog post][CVE-2019-19509_pub]'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2019-15253
+  date: null
+  cve_ids:
+  - CVE-2019-15253
+  researchers:
+  - '[Advisory][CVE-2019-15253_adv]'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2019-13029
+  date: null
+  cve_ids:
+  - CVE-2019-13029
+  researchers:
+  - '[Post][CVE-2019-13029_pub]'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/Orange-Cyberdefense/CVE-repository#cve-2022-38346
+  date: null
+  cve_ids:
+  - CVE-2022-38346
+  researchers: []
+  vendors: []
+  cve_count: 1

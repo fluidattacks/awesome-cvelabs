@@ -1,0 +1,555 @@
+lab: IOActive
+url: https://www.ioactive.com
+scraped_at: '2026-03-17T21:27:34.864089Z'
+advisories:
+- url: https://www.ioactive.com/tales-from-the-call-gate-an-smm-supervisor-vulnerability/
+  date: null
+  cve_ids:
+  - CVE-2023-20596
+  researchers:
+  - Joseph Tartaro
+  vendors:
+  - custom SMI handlers
+  cve_count: 1
+- url: https://www.ioactive.com/vulnerability-and-patch-management-every-day-is-a-zero-day/
+  date: null
+  cve_ids: []
+  researchers:
+  - John Sheehy
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/wideye-advisory-and-current-satcom-security-concerns/
+  date: 22/02/28
+  cve_ids: []
+  researchers:
+  - Ethan Shackelford
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/ioactive-advisory-id-tech-disclosure/
+  date: null
+  cve_ids: []
+  researchers:
+  - IOActive Research
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/microsoft-bluetooth-driver-spoofing-vulnerability/
+  date: null
+  cve_ids:
+  - CVE-2021-31182
+  researchers:
+  - Nathaniel Theis
+  vendors: []
+  cve_count: 1
+- url: https://www.ioactive.com/trivial-vulnerabilities-big-risks/
+  date: null
+  cve_ids: []
+  researchers:
+  - Tiago Assumpcao
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/cve-2020-16877-exploiting-microsoft-store-games/
+  date: null
+  cve_ids:
+  - CVE-2020-16877
+  researchers:
+  - Donato Ferrante
+  vendors: []
+  cve_count: 1
+- url: https://www.ioactive.com/file-squatting-exploitation-by-example/
+  date: null
+  cve_ids: []
+  researchers:
+  - Example - IOActive
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/cvss-vulnerability-management-and-organizational-risk/
+  date: null
+  cve_ids: []
+  researchers:
+  - Brook S
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/hootoo-security-advisory/
+  date: null
+  cve_ids: []
+  researchers:
+  - Tao Sauvage
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/hidden-exploitable-behaviors-in-programming-languages/
+  date: null
+  cve_ids: []
+  researchers:
+  - Fernando Arnaboldi
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/microsoft-kernel-graphic-driver-kernel-memory-address-disclosure/
+  date: null
+  cve_ids: []
+  researchers:
+  - Enrique Nissim
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/multiple-critical-vulnerabilities-found/
+  date: null
+  cve_ids: []
+  researchers:
+  - Thomas Kilbride
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/ninebot-by-segway-minipro-vulnerabilities/
+  date: null
+  cve_ids: []
+  researchers:
+  - Segway miniPRO Vulnerabilities - IOActive
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/secure-messaging-application-vulnerabilities-identified/
+  date: null
+  cve_ids: []
+  researchers:
+  - Mike Davis
+  vendors:
+  - through responsible disclosure and many
+  cve_count: 0
+- url: https://www.ioactive.com/security-vulnerabilities-in-routers/
+  date: null
+  cve_ids: []
+  researchers:
+  - Tao Sauvage
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/lets-terminate-xml-schema-vulnerabilities/
+  date: null
+  cve_ids: []
+  researchers:
+  - Fernando Arnaboldi
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/multiple-vulnerabilities-in-bhu-wifi-urouter/
+  date: 15/09/05
+  cve_ids: []
+  researchers:
+  - Tao Sauvage
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/securing-the-connected-car-commonalities-in-vehicle-vulnerabilities/
+  date: null
+  cve_ids: []
+  researchers:
+  - Corey Thuen
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/multiple-vulnerabilities-in-d-link-dcs-5009l-ip-camera/
+  date: null
+  cve_ids: []
+  researchers:
+  - Tao Sauvage
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/assessing-and-exploiting-xml-schemas-vulnerabilities/
+  date: null
+  cve_ids: []
+  researchers:
+  - Fernando Arnaboldi
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/privilege-escalation-vulnerabilities/
+  date: null
+  cve_ids:
+  - CVE-2015-8109
+  - CVE-2015-8110
+  researchers:
+  - Sofiane Talmat
+  vendors: []
+  cve_count: 2
+- url: https://www.ioactive.com/harman-kardon-uconnect-vulnerability/
+  date: null
+  cve_ids: []
+  researchers:
+  - Chris Valasek
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/remote-exploitation-of-an-unaltered-passenger-vehicle/
+  date: null
+  cve_ids: []
+  researchers:
+  - Chris Valasek
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/hacking-wireless-ghosts-vulnerable-for-years/
+  date: null
+  cve_ids: []
+  researchers:
+  - Lucas Apa
+  vendors:
+  - names from our paper to protect the cust
+  cve_count: 0
+- url: https://www.ioactive.com/petcube-remote-wireless-pet-camera-vulnerabilities/
+  date: null
+  cve_ids: []
+  researchers:
+  - Mike Davis
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/belkin-wemo-home-automation-vulnerabilities/
+  date: null
+  cve_ids: []
+  researchers:
+  - Mike Davis
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/oleumtech-wireless-sensor-network-vulnerabilites/
+  date: null
+  cve_ids: []
+  researchers:
+  - Lucas Apa
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/sielco-sistemi-winlog-multiple-vulnerabilities/
+  date: null
+  cve_ids: []
+  researchers:
+  - Carlos Hollman
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/vulnerability-bureaucracy-unchanged-after-12-years/
+  date: null
+  cve_ids: []
+  researchers:
+  - Cesar Cerrudo
+  vendors:
+  - not responding
+  cve_count: 0
+- url: https://www.ioactive.com/emulating-binaries-to-discover-vulnerabilities-in-industrial-devices/
+  date: null
+  cve_ids: []
+  researchers:
+  - Ruben Santamarta
+  vendors:
+  - Weidmüller
+  cve_count: 0
+- url: https://www.ioactive.com/dasdec-vulnerabilities/
+  date: null
+  cve_ids: []
+  researchers:
+  - Mike Davis
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/prosoft-technology-radiolinx-controlscape-prng-vulnerability/
+  date: null
+  cve_ids: []
+  researchers:
+  - Lucas Apa
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/you-can-not-trust-social-media-twitter-vulnerable/
+  date: null
+  cve_ids: []
+  researchers:
+  - Cesar Cerrudo
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/exploits-curdled-milk-and-nukes-oh-my/
+  date: null
+  cve_ids: []
+  researchers:
+  - Gunter Ollmann
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/wellintech-kingview-and-kinghistorian-multiple-vulnerabilities/
+  date: null
+  cve_ids: []
+  researchers:
+  - Carlos Hollman
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/xbmc-file-traversal-vulnerability/
+  date: null
+  cve_ids: []
+  researchers:
+  - Lucas Lundgren
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/multiple-vulnerabilities-in-fwknop/
+  date: null
+  cve_ids: []
+  researchers:
+  - Fernando Arnaboldi
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/windows-kernel-library-filename-parsing-vulnerability/
+  date: null
+  cve_ids: []
+  researchers:
+  - Lucas Apa
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/free-windows-vulnerability-for-nsa/
+  date: null
+  cve_ids: []
+  researchers:
+  - Cesar Cerrudo
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/windows-vulnerability-paradox/
+  date: null
+  cve_ids: []
+  researchers:
+  - Cesar Cerrudo
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/easy-and-quick-vulnerability-hunting-in-windows/
+  date: null
+  cve_ids: []
+  researchers:
+  - Cesar Cerrudo
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/multiple-vulnerabilities-in-accoria-web-server/
+  date: null
+  cve_ids: []
+  researchers:
+  - Ilja van Sprundel
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/microsoft-windows-cryptoapi-x-509-spoofing-vulnerability/
+  date: null
+  cve_ids:
+  - CVE-2009-2510
+  - CVE-2009-2511
+  researchers:
+  - Dan Kaminsky
+  vendors: []
+  cve_count: 2
+- url: https://www.ioactive.com/exploitation-in-the-new-win32-environment/
+  date: null
+  cve_ids: []
+  researchers:
+  - Walter Pearce
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/appletalk-response-packet-parsing-array-over-indexing-vulnerability/
+  date: null
+  cve_ids:
+  - CVE-2009-2193
+  researchers:
+  - Ilja van Sprundel
+  vendors: []
+  cve_count: 1
+- url: https://www.ioactive.com/diskimages-helper-band-size-vulnerability/
+  date: null
+  cve_ids:
+  - CVE-2009-0150
+  researchers:
+  - Tiller Beauchamp
+  vendors:
+  - 09
+  cve_count: 1
+- url: https://www.ioactive.com/multiple-vulnerabilities-in-apples-mobileme-service/
+  date: null
+  cve_ids: []
+  researchers:
+  - Richard van Eeden
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/multiple-total-remote-compromise-vulnerabilities-in-mercury-sitescope-monitoring-software/
+  date: null
+  cve_ids:
+  - CVE-2007-6257
+  researchers:
+  - Chris Paget
+  vendors: []
+  cve_count: 1
+- url: https://www.ioactive.com/ioactive-commonalities-vehicle-vulnerabilities-22update/
+  date: null
+  cve_ids: []
+  researchers:
+  - 15%
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/ioactive-security-advisory-hikvision-camera-denial-of-service/
+  date: null
+  cve_ids:
+  - CVE-2023-28811
+  researchers:
+  - Sergio Ruiz
+  vendors: []
+  cve_count: 1
+- url: https://www.ioactive.com/ioactive-security-advisory-movistar-4g-router-multiple-vulnerabilities/
+  date: null
+  cve_ids:
+  - CVE-2024-2414
+  - CVE-2024-2415
+  - CVE-2024-2416
+  researchers:
+  - Gabriel Gonzalez
+  vendors: []
+  cve_count: 3
+- url: https://www.ioactive.com/planet-networking-vulnerabilities-identified/
+  date: 22/09/29
+  cve_ids: []
+  researchers:
+  - Daniel Martinez
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/masmovil-comtrend-router-multiple-vulnerabilities/
+  date: 23/08/24
+  cve_ids: []
+  researchers:
+  - Gabriel Gonzalez
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/ioactive-security-advisory-kunbus-revolution-pi-multiple-vulnerabilities/
+  date: null
+  cve_ids: []
+  researchers:
+  - Ethan Shackelford
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/ioactive-security-advisory-lamassu-douro-bitcoin-atm-multiple-vulnerabilities/
+  date: null
+  cve_ids:
+  - CVE-2024-0175
+  - CVE-2024-0176
+  - CVE-2024-0177
+  researchers:
+  - Gabriel Gonzalez
+  vendors: []
+  cve_count: 3
+- url: https://www.ioactive.com/ioactive-security-advisory-socomec-net-vision-multiple-vulnerabilities/
+  date: null
+  cve_ids: []
+  researchers:
+  - Daniel Martinez
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/ge-reason-s20-industrial-managed-ethernet-switch-multiple-vulnerabilities/
+  date: null
+  cve_ids: []
+  researchers:
+  - Daniel Martinez
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/verint-ptz-cameras-multiple-vulnerabilities/
+  date: null
+  cve_ids: []
+  researchers:
+  - Mario Ballano
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/moog-exo-series-multiple-vulnerabilities/
+  date: null
+  cve_ids: []
+  researchers:
+  - Mario Ballano
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/ge-grid-solutions-reason-rt430-gnss-precision-time-clock-multiple-vulnerabilities/
+  date: null
+  cve_ids: []
+  researchers:
+  - Ehab Hussein
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/pppd-vulnerable-to-buffer-overflow-cve-2020-8597/
+  date: null
+  cve_ids:
+  - CVE-2020-8597
+  researchers:
+  - Ilja van Sprundel
+  vendors: []
+  cve_count: 1
+- url: https://www.ioactive.com/android-aosp-download-provider-sql-injection-in-query-projection-parameter-cve-2019-2211/
+  date: null
+  cve_ids:
+  - CVE-2019-2211
+  researchers:
+  - Daniel Kachakil
+  vendors: []
+  cve_count: 1
+- url: https://www.ioactive.com/android-aosp-download-provider-sql-injection-in-query-sort-parameter-cve-2019-2196/
+  date: null
+  cve_ids:
+  - CVE-2019-2196
+  researchers:
+  - Daniel Kachakil
+  vendors: []
+  cve_count: 1
+- url: https://www.ioactive.com/android-aosp-download-provider-sql-injection-in-query-selection-parameter-cve-2019-2198/
+  date: null
+  cve_ids:
+  - CVE-2019-2198
+  researchers:
+  - Daniel Kachakil
+  vendors: []
+  cve_count: 1
+- url: https://www.ioactive.com/android-aosp-download-provider-sql-injection-cve-2018-9493/
+  date: null
+  cve_ids:
+  - CVE-2018-9493
+  researchers:
+  - Daniel Kachakil
+  vendors: []
+  cve_count: 1
+- url: https://www.ioactive.com/android-aosp-download-provider-request-headers-disclosure-cve-2018-9546/
+  date: null
+  cve_ids:
+  - CVE-2018-9546
+  researchers:
+  - Daniel Kachakil
+  vendors: []
+  cve_count: 1
+- url: https://www.ioactive.com/android-aosp-download-provider-permission-bypass-cve-2018-9468/
+  date: null
+  cve_ids:
+  - CVE-2018-9468
+  researchers:
+  - Daniel Kachakil
+  vendors: []
+  cve_count: 1
+- url: https://www.ioactive.com/satellite-insecurity-vulnerability-analysis-of-wideye-satcom-terminals/
+  date: null
+  cve_ids: []
+  researchers:
+  - Ethan Shackelford
+  vendors:
+  - website  [2]  over the course of researc
+  cve_count: 0
+- url: https://www.ioactive.com/commonalities-in-vehicle-vulnerabilities/
+  date: null
+  cve_ids: []
+  researchers:
+  - Josh Hammond
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/trivial-vulnerabilities-serious-risks/
+  date: null
+  cve_ids: []
+  researchers:
+  - Tiago Assumpcao
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/exploiting-industrial-collaborative-robots/
+  date: null
+  cve_ids: []
+  researchers:
+  - Lucas Apa
+  vendors:
+  - in February 2017
+  cve_count: 0
+- url: https://www.ioactive.com/ioactive-security-advisory-circutor-sge-plc1000-sge-plc50-v-0-9-2-servicepack-140411/
+  date: 25/03/14
+  cve_ids: []
+  researchers:
+  - Gabriel Gonzalez
+  vendors: []
+  cve_count: 0
+- url: https://www.ioactive.com/linksys-smart-wi-fi-vulnerabilities/
+  date: null
+  cve_ids: []
+  researchers:
+  - Tao Sauvage
+  vendors:
+  - to validate the issues
+  cve_count: 0

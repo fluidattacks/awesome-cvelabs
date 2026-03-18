@@ -1,0 +1,772 @@
+lab: Synacktiv
+url: https://www.synacktiv.com
+scraped_at: '2026-03-17T22:23:30.399477Z'
+advisories:
+- url: https://www.synacktiv.com/advisories/activid-authentication-bypass.html
+  date: null
+  cve_ids: []
+  researchers:
+  - Vincent Herbulot
+  - Pierre Gertner
+  vendors:
+  - ActivID Authentication appliance
+  cve_count: 0
+- url: https://www.synacktiv.com/advisories/dangerous-feature-in-commvault-commserve-1134.html
+  date: null
+  cve_ids: []
+  researchers:
+  - Guillaume AndrÃ©
+  - Hugo Clout
+  vendors:
+  - Commvault CommServe
+  cve_count: 0
+- url: https://www.synacktiv.com/advisories/fortimanager-multiple-vulnerabilities.html
+  date: 25/01/27
+  cve_ids:
+  - CVE-2023-42791
+  - CVE-2024-23666
+  researchers:
+  - ClÃ©ment Amic
+  - Paul BarbÃ©
+  - Antoine Carrincazeaux
+  vendors:
+  - FortiManager
+  cve_count: 2
+- url: https://www.synacktiv.com/advisories/ivanti-sentry-mobileiron-sentry-unauthenticated-remote-code-execution.html
+  date: null
+  cve_ids:
+  - CVE-2023-38035
+  researchers:
+  - Mehdi Elyassa
+  vendors:
+  - Ivanti Sentry / MobileIron Sentry
+  cve_count: 1
+- url: https://www.synacktiv.com/advisories/ssrpm-arbitrary-password-reset-on-default-client-web-interface-installation.html
+  date: null
+  cve_ids: []
+  researchers:
+  - ClÃ©ment Amic
+  vendors:
+  - SSRPM
+  cve_count: 0
+- url: https://www.synacktiv.com/advisories/local-privilege-escalation-in-sap.html
+  date: null
+  cve_ids:
+  - CVE-2024-33005
+  researchers:
+  - Julien Egloff
+  vendors:
+  - SAP External Bind
+  cve_count: 1
+- url: https://www.synacktiv.com/advisories/remote-code-execution-on-pyres-termod-before-1004w.html
+  date: null
+  cve_ids:
+  - CVE-2024-39164
+  researchers:
+  - Pierre Martin
+  - Jacques Monin
+  - RÃ©mi Matasse
+  vendors:
+  - Pyres Termod
+  cve_count: 1
+- url: https://www.synacktiv.com/advisories/ivanti-epmm-mobileiron-core-multiple-vulnerabilities.html
+  date: 23/07/31
+  cve_ids:
+  - CVE-2023-25690
+  researchers:
+  - Mehdi Elyassa
+  vendors:
+  - Â
+  cve_count: 1
+- url: https://www.synacktiv.com/advisories/multiple-vulnerabilities-on-gestsup-3244.html
+  date: null
+  cve_ids:
+  - CVE-2024-23163
+  - CVE-2024-23164
+  - CVE-2024-23165
+  - CVE-2024-23166
+  - CVE-2024-23167
+  researchers:
+  - Pierre Martin
+  - Romain Brun (BZHunt)
+  vendors:
+  - GestSup
+  cve_count: 5
+- url: https://www.synacktiv.com/advisories/remote-code-execution-on-cisco-access-point-wap371-firmware-1307.html
+  date: null
+  cve_ids:
+  - CVE-2024-20287
+  researchers:
+  - Pierre Martin
+  vendors:
+  - Cisco Access Point WAP371
+  cve_count: 1
+- url: https://www.synacktiv.com/advisories/windows-authenticated-remote-command-execution.html
+  date: null
+  cve_ids:
+  - CVE-2025-33073
+  researchers:
+  - Wilfried BÃ©card
+  vendors:
+  - Windows
+  cve_count: 1
+- url: https://www.synacktiv.com/advisories/microsoft-configuration-manager-configmgr-2403-unauthenticated-sql-injections.html
+  date: null
+  cve_ids:
+  - CVE-2024-43468
+  researchers:
+  - Mehdi Elyassa
+  vendors:
+  - Microsoft Configuration Manager
+  cve_count: 1
+- url: https://www.synacktiv.com/advisories/oracle-retail-xstore-suite-pre-authenticated-path-traversal.html
+  date: null
+  cve_ids:
+  - CVE-2024-21136
+  researchers:
+  - Louis Wolfers
+  - Quentin Roland
+  vendors:
+  - Oracle Retail Xstore Suite
+  cve_count: 1
+- url: https://www.synacktiv.com/advisories/livewire-remote-command-execution-through-unmarshaling.html
+  date: null
+  cve_ids:
+  - CVE-2025-54068
+  researchers:
+  - RÃ©mi Matasse
+  - Pierre Martin
+  vendors:
+  - Livewire
+  cve_count: 1
+- url: https://www.synacktiv.com/advisories/solidserver-ddi-remote-command-execution-as-root.html
+  date: null
+  cve_ids: []
+  researchers:
+  - Thomas Lubishtani-Bizet
+  - Pierre Milioni
+  vendors:
+  - efficient iP - SOLIDserver DDI
+  cve_count: 0
+- url: https://www.synacktiv.com/advisories/crater-invoice-unauthenticated-remote-command-execution-when-appkey-known.html
+  date: null
+  cve_ids:
+  - CVE-2024-55556
+  researchers:
+  - RÃ©mi Matasse
+  - MickaÃ«l Benassouli
+  vendors:
+  - Crater Invoice / InvoiceShelf
+  cve_count: 1
+- url: https://www.synacktiv.com/advisories/sonarqube-github-integration-information-leakage.html
+  date: 22/11/28
+  cve_ids:
+  - CVE-2024-47910
+  researchers:
+  - ClÃ©ment Amic
+  - Hugo Vincent
+  vendors:
+  - SonarQube
+  cve_count: 1
+- url: https://www.synacktiv.com/advisories/jpgraph-professional-version-pre-authenticated-remote-code-execution.html
+  date: null
+  cve_ids:
+  - CVE-2024-39165
+  researchers:
+  - Alexandre DroullÃ©
+  vendors:
+  - JpGraph Professional Version
+  cve_count: 1
+- url: https://www.synacktiv.com/advisories/etic-telecom-ipl-dac-400-le-multiple-vulnerabilities.html
+  date: null
+  cve_ids: []
+  researchers:
+  - Pierre Martin
+  vendors:
+  - Etic Telecom
+  cve_count: 0
+- url: https://www.synacktiv.com/advisories/file-read-in-itop.html
+  date: null
+  cve_ids:
+  - CVE-2023-38511
+  researchers:
+  - JÃ©rÃ´me Mampianinazakason
+  vendors:
+  - iTop
+  cve_count: 1
+- url: https://www.synacktiv.com/advisories/local-privilege-escalation-in-windows-velociraptor-service.html
+  date: null
+  cve_ids:
+  - CVE-2024-10526
+  researchers:
+  - Jean-Baptiste Mesnard-Sense
+  vendors:
+  - Velociraptor
+  cve_count: 1
+- url: https://www.synacktiv.com/advisories/windows-10-plugscheduler-elevation-of-privilege.html
+  date: null
+  cve_ids:
+  - CVE-2024-26238
+  researchers:
+  - Guillaume AndrÃ©
+  vendors:
+  - Windows
+  cve_count: 1
+- url: https://www.synacktiv.com/advisories/unauthenticated-server-side-request-forgery-crlf-injection-in-geoserver-wms.html
+  date: null
+  cve_ids:
+  - CVE-2023-41339
+  - CVE-2023-43795
+  researchers:
+  - RÃ©mi Matasse
+  - Vincent Herbulot
+  vendors:
+  - Geoserver WMS
+  cve_count: 2
+- url: https://www.synacktiv.com/advisories/misp-arbitrary-file-read.html
+  date: 24/02/29
+  cve_ids:
+  - CVE-2024-29858
+  - CVE-2024-29859
+  researchers:
+  - RÃ©mi Matasse
+  - RaphaÃ«l Lob
+  vendors:
+  - MISP core
+  cve_count: 2
+- url: https://www.synacktiv.com/advisories/security-vulnerabilities-in-snipe-it.html
+  date: 25/06/26
+  cve_ids:
+  - CVE-2025-59712
+  - CVE-2025-59713
+  researchers:
+  - Thibaut Queney
+  - Mallory Mousson
+  vendors:
+  - Snipe-IT
+  cve_count: 2
+- url: https://www.synacktiv.com/advisories/scriptcase-pre-authenticated-remote-command-execution.html
+  date: null
+  cve_ids:
+  - CVE-2025-47227
+  - CVE-2025-47228
+  researchers:
+  - Alexandre DroullÃ©
+  - Alexandre Zanni
+  vendors:
+  - ScriptCase (
+  cve_count: 2
+- url: https://www.synacktiv.com/advisories/help-scout-mass-assignment-vulnerability-on-inbox-settings.html
+  date: null
+  cve_ids: []
+  researchers:
+  - ClÃ©ment Amic
+  vendors:
+  - Help Scout
+  cve_count: 0
+- url: https://www.synacktiv.com/advisories/multiple-vulnerabilities-in-delmia-apriso-2019-to-2024.html
+  date: null
+  cve_ids:
+  - CVE-2024-3300
+  - CVE-2024-3301
+  researchers:
+  - Mehdi Elyassa
+  vendors:
+  - Delmia Apriso
+  cve_count: 2
+- url: https://www.synacktiv.com/advisories/snipe-it-unauthenticated-remote-command-execution-when-appkey-known.html
+  date: null
+  cve_ids:
+  - CVE-2024-48987
+  - CVE-2018-15133
+  researchers:
+  - RÃ©mi Matasse
+  - MickaÃ«l Benassouli
+  vendors:
+  - Snipe-IT
+  cve_count: 2
+- url: https://www.synacktiv.com/advisories/netwrix-directory-manager-groupid-local-privilege-escalation-due-to-cross-site-scripting.html
+  date: null
+  cve_ids:
+  - CVE-2025-47189
+  researchers:
+  - Benjamin Sepe
+  vendors:
+  - Netwrix Directory Manager
+  cve_count: 1
+- url: https://www.synacktiv.com/advisories/code-execution-in-cisco-secure-client-with-nam.html
+  date: null
+  cve_ids:
+  - CVE-2024-20391
+  researchers:
+  - Julien Egloff
+  - Kevin Tellier
+  vendors:
+  - Cisco Secure Client with NAM
+  cve_count: 1
+- url: https://www.synacktiv.com/advisories/multiple-vulnerabilities-on-itop.html
+  date: 23/12/19
+  cve_ids:
+  - CVE-2024-32870
+  - CVE-2024-51739
+  - CVE-2024-51740
+  researchers:
+  - Pierre Martin
+  vendors:
+  - iTop
+  cve_count: 3
+- url: https://www.synacktiv.com/advisories/usercube-netwrix-multiple-vulnerabilities.html
+  date: null
+  cve_ids:
+  - CVE-2023-41264
+  researchers:
+  - Julien Egloff
+  - Antoine Carrincazeaux
+  vendors:
+  - Usercube
+  cve_count: 1
+- url: https://www.synacktiv.com/advisories/vulnerable-upgrade-mechanism-in-zkteco-f18-device.html
+  date: 23/06/02
+  cve_ids: []
+  researchers:
+  - Jean-Baptiste Mesnard-Sense
+  - Paul BarbÃ©
+  vendors:
+  - ZKTeco F18
+  cve_count: 0
+- url: https://www.synacktiv.com/advisories/sap-financial-consolidation-admin-authentication-bypass.html
+  date: null
+  cve_ids:
+  - CVE-2025-30016
+  researchers:
+  - Julien Egloff
+  - Alexis Danizan
+  vendors:
+  - SAP Financial Consolidation
+  cve_count: 1
+- url: https://www.synacktiv.com/advisories/phar-deserialization-cve-2023-28115-patch-bypass.html
+  date: null
+  cve_ids:
+  - CVE-2023-28115
+  - CVE-2023-41330
+  researchers:
+  - RÃ©mi Matasse
+  vendors:
+  - knplabs/knp-snappy
+  cve_count: 2
+- url: https://www.synacktiv.com/advisories/multiple-vulnerabilities-in-glpi.html
+  date: null
+  cve_ids:
+  - CVE-2023-41321
+  - CVE-2023-41322
+  - CVE-2023-41323
+  - CVE-2023-41324
+  researchers:
+  - Jean-Baptiste Mesnard-Sense
+  vendors:
+  - GLPI
+  cve_count: 4
+- url: https://www.synacktiv.com/advisories/multiple-vulnerabilities-in-collabora-online.html
+  date: null
+  cve_ids:
+  - CVE-2024-25114
+  - CVE-2023-49788
+  researchers:
+  - Damien Couturier
+  vendors:
+  - Collabora Online
+  cve_count: 2
+- url: https://www.synacktiv.com/advisories/invoiceninja-unauthenticated-remote-command-execution-when-appkey-known.html
+  date: null
+  cve_ids:
+  - CVE-2024-55555
+  researchers:
+  - RÃ©mi Matasse
+  - MickaÃ«l Benassouli
+  vendors:
+  - InvoiceNinja
+  cve_count: 1
+- url: https://www.synacktiv.com/en/advisories/activid-authentication-bypass.html
+  date: null
+  cve_ids: []
+  researchers:
+  - Vincent Herbulot
+  - Pierre Gertner
+  vendors:
+  - ActivID Authentication appliance
+  cve_count: 0
+- url: https://www.synacktiv.com/en/advisories/dangerous-feature-in-commvault-commserve-1134.html
+  date: null
+  cve_ids: []
+  researchers:
+  - Guillaume AndrÃ©
+  - Hugo Clout
+  vendors:
+  - Commvault CommServe
+  cve_count: 0
+- url: https://www.synacktiv.com/en/advisories/fortimanager-multiple-vulnerabilities.html
+  date: 25/01/27
+  cve_ids:
+  - CVE-2023-42791
+  - CVE-2024-23666
+  researchers:
+  - ClÃ©ment Amic
+  - Paul BarbÃ©
+  - Antoine Carrincazeaux
+  vendors:
+  - FortiManager
+  cve_count: 2
+- url: https://www.synacktiv.com/en/advisories/ivanti-sentry-mobileiron-sentry-unauthenticated-remote-code-execution.html
+  date: null
+  cve_ids:
+  - CVE-2023-38035
+  researchers:
+  - Mehdi Elyassa
+  vendors:
+  - Ivanti Sentry / MobileIron Sentry
+  cve_count: 1
+- url: https://www.synacktiv.com/en/advisories/ssrpm-arbitrary-password-reset-on-default-client-web-interface-installation.html
+  date: null
+  cve_ids: []
+  researchers:
+  - ClÃ©ment Amic
+  vendors:
+  - SSRPM
+  cve_count: 0
+- url: https://www.synacktiv.com/en/advisories/local-privilege-escalation-in-sap.html
+  date: null
+  cve_ids:
+  - CVE-2024-33005
+  researchers:
+  - Julien Egloff
+  vendors:
+  - SAP External Bind
+  cve_count: 1
+- url: https://www.synacktiv.com/en/advisories/remote-code-execution-on-pyres-termod-before-1004w.html
+  date: null
+  cve_ids:
+  - CVE-2024-39164
+  researchers:
+  - Pierre Martin
+  - Jacques Monin
+  - RÃ©mi Matasse
+  vendors:
+  - Pyres Termod
+  cve_count: 1
+- url: https://www.synacktiv.com/en/advisories/ivanti-epmm-mobileiron-core-multiple-vulnerabilities.html
+  date: 23/07/31
+  cve_ids:
+  - CVE-2023-25690
+  researchers:
+  - Mehdi Elyassa
+  vendors:
+  - Â
+  cve_count: 1
+- url: https://www.synacktiv.com/en/advisories/multiple-vulnerabilities-on-gestsup-3244.html
+  date: null
+  cve_ids:
+  - CVE-2024-23163
+  - CVE-2024-23164
+  - CVE-2024-23165
+  - CVE-2024-23166
+  - CVE-2024-23167
+  researchers:
+  - Pierre Martin
+  - Romain Brun (BZHunt)
+  vendors:
+  - GestSup
+  cve_count: 5
+- url: https://www.synacktiv.com/en/advisories/remote-code-execution-on-cisco-access-point-wap371-firmware-1307.html
+  date: null
+  cve_ids:
+  - CVE-2024-20287
+  researchers:
+  - Pierre Martin
+  vendors:
+  - Cisco Access Point WAP371
+  cve_count: 1
+- url: https://www.synacktiv.com/en/advisories/windows-authenticated-remote-command-execution.html
+  date: null
+  cve_ids:
+  - CVE-2025-33073
+  researchers:
+  - Wilfried BÃ©card
+  vendors:
+  - Windows
+  cve_count: 1
+- url: https://www.synacktiv.com/en/advisories/microsoft-configuration-manager-configmgr-2403-unauthenticated-sql-injections.html
+  date: null
+  cve_ids:
+  - CVE-2024-43468
+  researchers:
+  - Mehdi Elyassa
+  vendors:
+  - Microsoft Configuration Manager
+  cve_count: 1
+- url: https://www.synacktiv.com/en/advisories/oracle-retail-xstore-suite-pre-authenticated-path-traversal.html
+  date: null
+  cve_ids:
+  - CVE-2024-21136
+  researchers:
+  - Louis Wolfers
+  - Quentin Roland
+  vendors:
+  - Oracle Retail Xstore Suite
+  cve_count: 1
+- url: https://www.synacktiv.com/en/advisories/livewire-remote-command-execution-through-unmarshaling.html
+  date: null
+  cve_ids:
+  - CVE-2025-54068
+  researchers:
+  - RÃ©mi Matasse
+  - Pierre Martin
+  vendors:
+  - Livewire
+  cve_count: 1
+- url: https://www.synacktiv.com/en/advisories/solidserver-ddi-remote-command-execution-as-root.html
+  date: null
+  cve_ids: []
+  researchers:
+  - Thomas Lubishtani-Bizet
+  - Pierre Milioni
+  vendors:
+  - efficient iP - SOLIDserver DDI
+  cve_count: 0
+- url: https://www.synacktiv.com/en/advisories/crater-invoice-unauthenticated-remote-command-execution-when-appkey-known.html
+  date: null
+  cve_ids:
+  - CVE-2024-55556
+  researchers:
+  - RÃ©mi Matasse
+  - MickaÃ«l Benassouli
+  vendors:
+  - Crater Invoice / InvoiceShelf
+  cve_count: 1
+- url: https://www.synacktiv.com/en/advisories/sonarqube-github-integration-information-leakage.html
+  date: 22/11/28
+  cve_ids:
+  - CVE-2024-47910
+  researchers:
+  - ClÃ©ment Amic
+  - Hugo Vincent
+  vendors:
+  - SonarQube
+  cve_count: 1
+- url: https://www.synacktiv.com/en/advisories/jpgraph-professional-version-pre-authenticated-remote-code-execution.html
+  date: null
+  cve_ids:
+  - CVE-2024-39165
+  researchers:
+  - Alexandre DroullÃ©
+  vendors:
+  - JpGraph Professional Version
+  cve_count: 1
+- url: https://www.synacktiv.com/en/advisories/etic-telecom-ipl-dac-400-le-multiple-vulnerabilities.html
+  date: null
+  cve_ids: []
+  researchers:
+  - Pierre Martin
+  vendors:
+  - Etic Telecom
+  cve_count: 0
+- url: https://www.synacktiv.com/en/advisories/file-read-in-itop.html
+  date: null
+  cve_ids:
+  - CVE-2023-38511
+  researchers:
+  - JÃ©rÃ´me Mampianinazakason
+  vendors:
+  - iTop
+  cve_count: 1
+- url: https://www.synacktiv.com/en/advisories/local-privilege-escalation-in-windows-velociraptor-service.html
+  date: null
+  cve_ids:
+  - CVE-2024-10526
+  researchers:
+  - Jean-Baptiste Mesnard-Sense
+  vendors:
+  - Velociraptor
+  cve_count: 1
+- url: https://www.synacktiv.com/en/advisories/windows-10-plugscheduler-elevation-of-privilege.html
+  date: null
+  cve_ids:
+  - CVE-2024-26238
+  researchers:
+  - Guillaume AndrÃ©
+  vendors:
+  - Windows
+  cve_count: 1
+- url: https://www.synacktiv.com/en/advisories/unauthenticated-server-side-request-forgery-crlf-injection-in-geoserver-wms.html
+  date: null
+  cve_ids:
+  - CVE-2023-41339
+  - CVE-2023-43795
+  researchers:
+  - RÃ©mi Matasse
+  - Vincent Herbulot
+  vendors:
+  - Geoserver WMS
+  cve_count: 2
+- url: https://www.synacktiv.com/en/advisories/misp-arbitrary-file-read.html
+  date: 24/02/29
+  cve_ids:
+  - CVE-2024-29858
+  - CVE-2024-29859
+  researchers:
+  - RÃ©mi Matasse
+  - RaphaÃ«l Lob
+  vendors:
+  - MISP core
+  cve_count: 2
+- url: https://www.synacktiv.com/en/advisories/security-vulnerabilities-in-snipe-it.html
+  date: 25/06/26
+  cve_ids:
+  - CVE-2025-59712
+  - CVE-2025-59713
+  researchers:
+  - Thibaut Queney
+  - Mallory Mousson
+  vendors:
+  - Snipe-IT
+  cve_count: 2
+- url: https://www.synacktiv.com/en/advisories/scriptcase-pre-authenticated-remote-command-execution.html
+  date: null
+  cve_ids:
+  - CVE-2025-47227
+  - CVE-2025-47228
+  researchers:
+  - Alexandre DroullÃ©
+  - Alexandre Zanni
+  vendors:
+  - ScriptCase (
+  cve_count: 2
+- url: https://www.synacktiv.com/en/advisories/help-scout-mass-assignment-vulnerability-on-inbox-settings.html
+  date: null
+  cve_ids: []
+  researchers:
+  - ClÃ©ment Amic
+  vendors:
+  - Help Scout
+  cve_count: 0
+- url: https://www.synacktiv.com/en/advisories/multiple-vulnerabilities-in-delmia-apriso-2019-to-2024.html
+  date: null
+  cve_ids:
+  - CVE-2024-3300
+  - CVE-2024-3301
+  researchers:
+  - Mehdi Elyassa
+  vendors:
+  - Delmia Apriso
+  cve_count: 2
+- url: https://www.synacktiv.com/en/advisories/snipe-it-unauthenticated-remote-command-execution-when-appkey-known.html
+  date: null
+  cve_ids:
+  - CVE-2024-48987
+  - CVE-2018-15133
+  researchers:
+  - RÃ©mi Matasse
+  - MickaÃ«l Benassouli
+  vendors:
+  - Snipe-IT
+  cve_count: 2
+- url: https://www.synacktiv.com/en/advisories/netwrix-directory-manager-groupid-local-privilege-escalation-due-to-cross-site-scripting.html
+  date: null
+  cve_ids:
+  - CVE-2025-47189
+  researchers:
+  - Benjamin Sepe
+  vendors:
+  - Netwrix Directory Manager
+  cve_count: 1
+- url: https://www.synacktiv.com/en/advisories/code-execution-in-cisco-secure-client-with-nam.html
+  date: null
+  cve_ids:
+  - CVE-2024-20391
+  researchers:
+  - Julien Egloff
+  - Kevin Tellier
+  vendors:
+  - Cisco Secure Client with NAM
+  cve_count: 1
+- url: https://www.synacktiv.com/en/advisories/multiple-vulnerabilities-on-itop.html
+  date: 23/12/19
+  cve_ids:
+  - CVE-2024-32870
+  - CVE-2024-51739
+  - CVE-2024-51740
+  researchers:
+  - Pierre Martin
+  vendors:
+  - iTop
+  cve_count: 3
+- url: https://www.synacktiv.com/en/advisories/usercube-netwrix-multiple-vulnerabilities.html
+  date: null
+  cve_ids:
+  - CVE-2023-41264
+  researchers:
+  - Julien Egloff
+  - Antoine Carrincazeaux
+  vendors:
+  - Usercube
+  cve_count: 1
+- url: https://www.synacktiv.com/en/advisories/vulnerable-upgrade-mechanism-in-zkteco-f18-device.html
+  date: 23/06/02
+  cve_ids: []
+  researchers:
+  - Jean-Baptiste Mesnard-Sense
+  - Paul BarbÃ©
+  vendors:
+  - ZKTeco F18
+  cve_count: 0
+- url: https://www.synacktiv.com/en/advisories/sap-financial-consolidation-admin-authentication-bypass.html
+  date: null
+  cve_ids:
+  - CVE-2025-30016
+  researchers:
+  - Julien Egloff
+  - Alexis Danizan
+  vendors:
+  - SAP Financial Consolidation
+  cve_count: 1
+- url: https://www.synacktiv.com/en/advisories/phar-deserialization-cve-2023-28115-patch-bypass.html
+  date: null
+  cve_ids:
+  - CVE-2023-28115
+  - CVE-2023-41330
+  researchers:
+  - RÃ©mi Matasse
+  vendors:
+  - knplabs/knp-snappy
+  cve_count: 2
+- url: https://www.synacktiv.com/en/advisories/multiple-vulnerabilities-in-glpi.html
+  date: null
+  cve_ids:
+  - CVE-2023-41321
+  - CVE-2023-41322
+  - CVE-2023-41323
+  - CVE-2023-41324
+  researchers:
+  - Jean-Baptiste Mesnard-Sense
+  vendors:
+  - GLPI
+  cve_count: 4
+- url: https://www.synacktiv.com/en/advisories/multiple-vulnerabilities-in-collabora-online.html
+  date: null
+  cve_ids:
+  - CVE-2024-25114
+  - CVE-2023-49788
+  researchers:
+  - Damien Couturier
+  vendors:
+  - Collabora Online
+  cve_count: 2
+- url: https://www.synacktiv.com/en/advisories/invoiceninja-unauthenticated-remote-command-execution-when-appkey-known.html
+  date: null
+  cve_ids:
+  - CVE-2024-55555
+  researchers:
+  - RÃ©mi Matasse
+  - MickaÃ«l Benassouli
+  vendors:
+  - InvoiceNinja
+  cve_count: 1

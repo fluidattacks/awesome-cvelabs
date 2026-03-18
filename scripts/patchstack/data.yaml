@@ -1,0 +1,61 @@
+lab: Patchstack
+url: https://patchstack.com
+scraped_at: '2026-03-17T21:26:54.642941Z'
+advisories:
+- url: https://patchstack.com/articles/sql-injection-vulnerability-in-quiz-and-survey-master-qsm-plugin-affecting-40k-sites/
+  date: null
+  cve_ids:
+  - CVE-2025-67987
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://patchstack.com/articles/critical-arbitrary-file-upload-vulnerability-in-realhomes-crm-plugin-affecting-30k-sites/
+  date: null
+  cve_ids:
+  - CVE-2025-67968
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://patchstack.com/articles/critical-privilege-escalation-vulnerability-in-modular-ds-plugin-affecting-40k-sites-exploited-in-the-wild/
+  date: null
+  cve_ids:
+  - CVE-2026-23550
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://patchstack.com/articles/critical-arbitrary-file-upload-vulnerability-in-motors-theme-affecting-20k-sites/
+  date: null
+  cve_ids:
+  - CVE-2025-64374
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://patchstack.com/articles/privilege-escalation-vulnerability-in-soledad-theme-affecting-50k-sites/
+  date: null
+  cve_ids:
+  - CVE-2025-64188
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://patchstack.com/articles/php-object-injection-vulnerability-in-medicenter-theme-affecting-10k-sites/
+  date: null
+  cve_ids:
+  - CVE-2025-54014
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://patchstack.com/articles/two-critical-vulnerabilities-in-wordpress-king-addons-for-elementor-plugin-affecting-10k-sites/
+  date: null
+  cve_ids:
+  - CVE-2025-6327
+  - CVE-2025-6325
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://patchstack.com/articles/php-object-injection-patched-in-quiz-and-survey-master-plugin-affecting-40k-sites/
+  date: null
+  cve_ids:
+  - CVE-2025-49401
+  researchers: []
+  vendors: []
+  cve_count: 1

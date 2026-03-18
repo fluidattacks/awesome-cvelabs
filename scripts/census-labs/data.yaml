@@ -1,0 +1,185 @@
+lab: Census Labs
+url: https://census-labs.com
+scraped_at: '2026-03-17T21:31:43.695322Z'
+advisories:
+- url: https://census-labs.com/news/2023/03/16/reflected-xss-vulnerabilities-in-squidex-squidsvg-endpoint/
+  date: 23/03/16
+  cve_ids:
+  - CVE-2023-24278
+  researchers:
+  - Ioannis Christodoulakos
+  vendors:
+  - 'Products: Squidex  versions prior to 7'
+  cve_count: 1
+- url: https://census-labs.com/news/2022/12/23/multiple-vulnerabilities-in-snipe-it/
+  date: 22/12/23
+  cve_ids:
+  - CVE-2022-44380
+  - CVE-2022-44381
+  researchers:
+  - Charalampos Maraziaris
+  vendors:
+  - 'Products: Snipe-IT  versions prior to 6'
+  cve_count: 2
+- url: https://census-labs.com/news/2022/05/24/multiple-vulnerabilities-in-radare2/
+  date: 22/05/24
+  cve_ids:
+  - CVE-2022-0419
+  - CVE-2021-44974
+  - CVE-2021-44975
+  researchers:
+  - Angelos T
+  vendors:
+  - 'Products: radare2  versions prior to 5'
+  cve_count: 3
+- url: https://census-labs.com/news/2021/04/14/whatsapp-mitd-remote-exploitation-CVE-2021-24027/
+  date: 21/04/14
+  cve_ids:
+  - CVE-2021-24027
+  - CVE-2020-6516
+  researchers:
+  - Chariton Karamitas
+  vendors:
+  - devices remains quite large
+  cve_count: 2
+- url: https://census-labs.com/news/2020/10/21/microchip-cryptoauthlib-atcab_sign_base-buffer-overflow/
+  date: 20/10/21
+  cve_ids:
+  - CVE-2019-16128
+  researchers:
+  - George Poulios
+  vendors:
+  - 'Products: cryptoauthlib  versions prior'
+  cve_count: 1
+- url: https://census-labs.com/news/2020/10/21/microchip-cryptoauthlib-atcab_genkey_base-buffer-overflow/
+  date: 20/10/21
+  cve_ids:
+  - CVE-2019-16129
+  researchers:
+  - George Poulios
+  vendors:
+  - 'Products: cryptoauthlib  versions prior'
+  cve_count: 1
+- url: https://census-labs.com/news/2020/10/21/microchip-asf4-integer-overflows-in-flash_read-flash_write-and-flash_append/
+  date: 20/10/21
+  cve_ids:
+  - CVE-2019-16127
+  researchers:
+  - George Poulios
+  vendors:
+  - 'Products: ASF4 as distributed through  s'
+  cve_count: 1
+- url: https://census-labs.com/news/2020/10/08/samsung-hypervisor-rkp-arbitrary-zero-write/
+  date: 20/10/08
+  cve_ids:
+  - CVE-2019-19273
+  researchers:
+  - Aris Thallas
+  vendors:
+  - 'Products: Samsung mobile devices running'
+  cve_count: 1
+- url: https://census-labs.com/news/2020/01/31/multiple-null-pointer-dereference-vulnerabilities-in-newlib/
+  date: 20/01/31
+  cve_ids:
+  - CVE-2019-14871
+  - CVE-2019-14872
+  - CVE-2019-14873
+  - CVE-2019-14874
+  - CVE-2019-14875
+  - CVE-2019-14876
+  - CVE-2019-14877
+  - CVE-2019-14878
+  researchers:
+  - CENSUS
+  vendors:
+  - 'Products: newlib  versions prior to 3'
+  cve_count: 8
+- url: https://census-labs.com/news/2016/07/25/android-stagefright-impeg2d_vld_decode-stack-buffer-overflows/
+  date: 16/07/25
+  cve_ids:
+  - CVE-2016-0836
+  researchers:
+  - Anestis Bechtsoudis
+  vendors:
+  - 'Products: Android OS 6'
+  cve_count: 1
+- url: https://census-labs.com/news/2016/07/22/android-stagefright-impeg2d_dec_pic_data_thread-overflow/
+  date: 16/07/22
+  cve_ids:
+  - CVE-2016-0835
+  researchers:
+  - Anestis Bechtsoudis
+  vendors:
+  - 'Products: Android OS 6'
+  cve_count: 1
+- url: https://census-labs.com/news/2016/05/04/libstagefright-ih264d-read-mmco-commands-overflow/
+  date: 16/05/04
+  cve_ids:
+  - CVE-2016-0842
+  researchers:
+  - Anestis Bechtsoudis
+  vendors:
+  - 'Products: Android OS 6'
+  cve_count: 1
+- url: https://census-labs.com/news/2016/03/30/kamailio-seas-heap-overflow/
+  date: 16/03/30
+  cve_ids:
+  - CVE-2016-2385
+  researchers:
+  - Stelios Tsampas
+  vendors:
+  - 'Products: Kamailio 4'
+  cve_count: 1
+- url: https://census-labs.com/news/2016/03/23/libstagefright-mpeg2-heap-overflow/
+  date: 16/03/23
+  cve_ids:
+  - CVE-2016-0824
+  researchers:
+  - Anestis Bechtsoudis
+  vendors:
+  - 'Products: Android OS 6'
+  cve_count: 1
+- url: https://census-labs.com/news/2016/03/23/libstagefright-ih264d-heap-overflow/
+  date: 16/03/23
+  cve_ids:
+  - CVE-2016-0816
+  researchers:
+  - Anestis Bechtsoudis
+  vendors:
+  - 'Products: Android OS 6'
+  cve_count: 1
+- url: https://census-labs.com/news/2016/01/11/gdcm-buffer-overflow-imageregionreaderreadintobuffer/
+  date: 16/01/11
+  cve_ids:
+  - CVE-2015-8396
+  researchers:
+  - Stelios Tsampas
+  vendors:
+  - 'Products: Applications using  GDCM  vers'
+  cve_count: 1
+- url: https://census-labs.com/news/2012/01/03/linux-kernel-heap-exploitation/
+  date: 12/01/03
+  cve_ids:
+  - CVE-2004-0424
+  - CVE-2009-1046
+  - CVE-2010-2959
+  researchers:
+  - Patroklos Argyroudis
+  vendors: []
+  cve_count: 3
+- url: https://census-labs.com/news/2010/04/26/kernel-exploitation-mitigations/
+  date: 10/04/26
+  cve_ids:
+  - CVE-2008-3531
+  researchers:
+  - Patroklos Argyroudis
+  vendors: []
+  cve_count: 1
+- url: https://census-labs.com/news/2009/07/02/cve-2008-3531-exploit/
+  date: 09/07/02
+  cve_ids:
+  - CVE-2008-3531
+  researchers:
+  - Patroklos Argyroudis
+  vendors: []
+  cve_count: 1
