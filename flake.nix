@@ -16,7 +16,7 @@
     ]);
   in {
     devShells.${system}.default = pkgs.mkShell {
-      packages = [ pythonEnv ];
+      packages = [ pythonEnv pkgs.just ];
     };
   };
 }
