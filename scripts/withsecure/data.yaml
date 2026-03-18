@@ -1,0 +1,10 @@
+lab: WithSecure Labs
+url: https://labs.withsecure.com/advisories
+scraped_at: '2026-03-17T21:23:21.734946Z'
+advisories:
+- url: https://labs.withsecure.com/advisories/jetbrains-rider-ai-assistant-prompt-injection
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0

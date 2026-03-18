@@ -1,0 +1,881 @@
+lab: watchTowr
+url: https://labs.watchtowr.com
+scraped_at: '2026-03-17T22:23:13.895012Z'
+advisories:
+- url: https://labs.watchtowr.com/sometimes-you-can-just-feel-the-security-in-the-design-junos-os-evolved-cve-2026-21902-rce
+  date: 26/03/03
+  cve_ids:
+  - CVE-2026-21902
+  researchers:
+  - McCaulay Hudson
+  vendors:
+  - Juniper Junos Evolved  Pre-Auth RCE
+  cve_count: 1
+- url: https://labs.watchtowr.com/buy-a-help-desk-bundle-a-remote-access-solution-solarwinds-web-help-desk-pre-auth-rce-chain-s
+  date: 26/02/25
+  cve_ids:
+  - CVE-2025-26399
+  - CVE-2025-40552
+  - CVE-2025-40553
+  - CVE-2025-40554
+  - CVE-2024-28986
+  - CVE-2024-28988
+  - CVE-2026-1281
+  - CVE-2026-1340
+  - CVE-2026-21902
+  researchers:
+  - Piotr Bazydlo (@chudyPB)
+  vendors: []
+  cve_count: 9
+- url: https://labs.watchtowr.com/someone-knows-bash-far-too-well-and-we-love-it-ivanti-epmm-pre-auth-rces-cve-2026-1281-cve-2026-1340
+  date: null
+  cve_ids:
+  - CVE-2026-1281
+  - CVE-2026-1340
+  researchers:
+  - Piotr Bazydlo (@chudyPB)
+  vendors:
+  - Ivanti EPMM Pre-Auth RCEs  &
+  cve_count: 2
+- url: https://labs.watchtowr.com/attackers-with-decompilers-strike-again-smartertools-smartermail-wt-2026-0001-auth-bypass
+  date: 26/01/22
+  cve_ids:
+  - CVE-2025-52691
+  - CVE-2026-1281
+  - CVE-2026-1340
+  researchers:
+  - Piotr Bazydlo (@chudyPB)
+  vendors: []
+  cve_count: 3
+- url: https://labs.watchtowr.com/do-smart-people-ever-say-theyre-smart-smartertools-smartermail-pre-auth-rce-cve-2025-52691
+  date: 26/01/08
+  cve_ids:
+  - CVE-2025-52691
+  researchers:
+  - Piotr Bazydlo (@chudyPB)
+  vendors:
+  - SmarterTools SmarterMail Pre-Auth RCE
+  cve_count: 1
+- url: https://labs.watchtowr.com/soapwn-pwning-net-framework-applications-through-http-client-proxies-and-wsdl
+  date: 25/12/10
+  cve_ids:
+  - CVE-2025-34392
+  - CVE-2025-13659
+  - CVE-2025-52691
+  researchers:
+  - Piotr Bazydlo (@chudyPB)
+  vendors: []
+  cve_count: 3
+- url: https://labs.watchtowr.com/stop-putting-your-passwords-into-random-websites-yes-seriously-you-are-the-problem
+  date: 25/11/25
+  cve_ids:
+  - CVE-2025-64446
+  researchers:
+  - Jake Knott (@inkmoro)
+  vendors: []
+  cve_count: 1
+- url: https://labs.watchtowr.com/when-the-impersonation-function-gets-used-to-impersonate-users-fortinet-fortiweb-auth-bypass
+  date: 25/11/14
+  cve_ids:
+  - CVE-2025-64446
+  - CVE-2025-12101
+  researchers:
+  - Sina Kheirkhah (@SinSinology)
+  vendors:
+  - Fortinet FortiWeb Auth. Bypass
+  cve_count: 2
+- url: https://labs.watchtowr.com/is-it-citrixbleed4-well-no-is-it-good-also-no-citrix-netscalers-memory-leak-rxss-cve-2025-12101
+  date: 25/11/12
+  cve_ids:
+  - CVE-2025-12101
+  - CVE-2025-5777
+  - CVE-2025-34299
+  - CVE-2025-64446
+  researchers:
+  - Sina Kheirkhah (@SinSinology)
+  vendors:
+  - Citrix NetScaler Memory Leak & RXSS
+  cve_count: 4
+- url: https://labs.watchtowr.com/whats-that-coming-over-the-hill-monsta-ftp-remote-code-execution-cve-2025-34299
+  date: 25/11/07
+  cve_ids:
+  - CVE-2025-34299
+  - CVE-2022-31827
+  - CVE-2022-27469
+  - CVE-2022-27468
+  - CVE-2025-31827
+  - CVE-2025-9242
+  - CVE-2025-12101
+  researchers:
+  - Sonny
+  vendors:
+  - Monsta FTP Remote Code Execution
+  cve_count: 7
+- url: https://labs.watchtowr.com/8-million-requests-later-we-made-the-solarwinds-supply-chain-attack-look-amateur
+  date: 25/02/04
+  cve_ids:
+  - CVE-2024-55591
+  - CVE-2024-48248
+  researchers:
+  - Benjamin Harris
+  vendors: []
+  cve_count: 2
+- url: https://labs.watchtowr.com/we-spent-20-to-achieve-rce-and-accidentally-became-the-admins-of-mobi
+  date: 24/09/11
+  cve_ids:
+  - CVE-2015-5243
+  - CVE-2021-32749
+  - CVE-2024-40711
+  - CVE-2024-23113
+  researchers:
+  - Benjamin Harris
+  vendors: []
+  cve_count: 4
+- url: https://labs.watchtowr.com/palo-alto-putting-the-protecc-in-globalprotect-cve-2024-3400
+  date: 24/04/16
+  cve_ids:
+  - CVE-2024-3400
+  - CVE-2022-26377
+  - CVE-2024-27130
+  researchers:
+  - Sonny
+  vendors: []
+  cve_count: 3
+- url: https://labs.watchtowr.com/ibm-qradar-when-the-attacker-controls-your-security-stack
+  date: 24/04/12
+  cve_ids:
+  - CVE-2022-26377
+  - CVE-2023-46747
+  - CVE-2024-3400
+  researchers:
+  - Sonny
+  vendors: []
+  cve_count: 3
+- url: https://labs.watchtowr.com/yikes-watchguard-fireware-os-ikev2-out-of-bounds-write-cve-2025-9242
+  date: 25/10/16
+  cve_ids:
+  - CVE-2025-9242
+  - CVE-2025-3600
+  - CVE-2025-34299
+  researchers:
+  - McCaulay Hudson
+  vendors:
+  - WatchGuard Fireware OS IKEv2 Out-of-Bounds Write
+  cve_count: 3
+- url: https://labs.watchtowr.com/more-than-dos-progress-telerik-ui-for-asp-net-ajax-unsafe-reflection-cve-2025-3600
+  date: 25/10/10
+  cve_ids:
+  - CVE-2025-3600
+  - CVE-2017-9248
+  - CVE-2019-18935
+  - CVE-2025-34509
+  - CVE-2025-61882
+  - CVE-2025-9242
+  researchers:
+  - Piotr Bazydlo (@chudyPB)
+  vendors:
+  - Progress Telerik UI for ASP.NET AJAX Unsafe Reflection
+  cve_count: 6
+- url: https://labs.watchtowr.com/well-well-well-its-another-day-oracle-e-business-suite-pre-auth-rce-chain-cve-2025-61882well-well-well-its-another-day-oracle-e-business-suite-pre-auth-rce-chain-cve-2025-61882
+  date: 25/10/06
+  cve_ids:
+  - CVE-2025-61882
+  - CVE-2025-36604
+  - CVE-2025-3600
+  researchers:
+  - Sonny
+  vendors:
+  - Oracle E-Business Suite Pre-Auth RCE Chain
+  cve_count: 3
+- url: https://labs.watchtowr.com/its-never-simple-until-it-is-dell-unityvsa-pre-auth-command-injection-cve-2025-36604
+  date: 25/10/03
+  cve_ids:
+  - CVE-2025-36604
+  - CVE-2025-10035
+  - CVE-2025-61882
+  researchers:
+  - Sina Kheirkhah (@SinSinology)
+  vendors:
+  - Dell UnityVSA Pre-Auth Command Injection
+  cve_count: 3
+- url: https://labs.watchtowr.com/it-is-bad-exploitation-of-fortra-goanywhere-mft-cve-2025-10035-part-2
+  date: 25/09/25
+  cve_ids:
+  - CVE-2025-10035
+  - CVE-2025-36604
+  researchers:
+  - Ryan Dewhurst
+  vendors:
+  - Exploitation of Fortra GoAnywhere MFT
+  cve_count: 2
+- url: https://labs.watchtowr.com/is-this-bad-this-feels-bad-goanywhere-cve-2025-10035
+  date: 25/09/24
+  cve_ids:
+  - CVE-2025-10035
+  - CVE-2023-0669
+  - CVE-2025-57819
+  researchers:
+  - Sonny
+  vendors:
+  - Fortra GoAnywhere
+  cve_count: 3
+- url: https://labs.watchtowr.com/you-already-have-our-personal-data-take-our-phone-calls-too-freepbx-cve-2025-57819
+  date: 25/09/10
+  cve_ids:
+  - CVE-2025-57819
+  - CVE-2025-55211
+  - CVE-2025-10035
+  researchers:
+  - Sonny
+  vendors:
+  - FreePBX
+  cve_count: 3
+- url: https://labs.watchtowr.com/cache-me-if-you-can-sitecore-experience-platform-cache-poisoning-to-rce
+  date: 25/08/29
+  cve_ids:
+  - CVE-2025-34509
+  - CVE-2025-34510
+  - CVE-2025-34511
+  - CVE-2025-53693
+  - CVE-2025-53691
+  - CVE-2025-53694
+  - CVE-2025-54309
+  - CVE-2025-57819
+  researchers:
+  - Piotr Bazydlo (@chudyPB)
+  vendors: []
+  cve_count: 8
+- url: https://labs.watchtowr.com/the-one-where-we-just-steal-the-vulnerabilities-crushftp-cve-2025-54309
+  date: 25/08/27
+  cve_ids:
+  - CVE-2025-54309
+  researchers:
+  - Sonny
+  vendors:
+  - CrushFTP
+  cve_count: 1
+- url: https://labs.watchtowr.com/guess-who-would-be-stupid-enough-to-rob-the-same-vault-twice-pre-auth-rce-chains-in-commvault
+  date: 25/08/20
+  cve_ids:
+  - CVE-2025-34028
+  - CVE-2025-57788
+  - CVE-2025-57789
+  - CVE-2025-57790
+  - CVE-2025-57791
+  - CVE-2025-25256
+  - CVE-2025-54309
+  researchers:
+  - Piotr Bazydlo (@chudyPB)
+  vendors: []
+  cve_count: 7
+- url: https://labs.watchtowr.com/should-security-solutions-be-secure-maybe-were-all-wrong-fortinet-fortisiem-pre-auth-command-injection-cve-2025-25256
+  date: 25/08/15
+  cve_ids:
+  - CVE-2025-25256
+  - CVE-2025-40596
+  - CVE-2025-40597
+  - CVE-2025-40598
+  researchers:
+  - Sina Kheirkhah (@SinSinology)
+  vendors: []
+  cve_count: 4
+- url: https://labs.watchtowr.com/stack-overflows-heap-overflows-and-existential-dread-sonicwall-sma100-cve-2025-40596-cve-2025-40597-and-cve-2025-40598
+  date: 25/07/28
+  cve_ids:
+  - CVE-2025-40596
+  - CVE-2025-40597
+  - CVE-2025-40598
+  - CVE-2025-25257
+  - CVE-2025-25256
+  researchers:
+  - Sina Kheirkhah (@SinSinology)
+  vendors:
+  - SonicWall SMA100 ,  and
+  cve_count: 5
+- url: https://labs.watchtowr.com/pre-auth-sql-injection-to-rce-fortinet-fortiweb-fabric-connector-cve-2025-25257
+  date: 25/07/11
+  cve_ids:
+  - CVE-2025-25257
+  - CVE-2025-5777
+  - CVE-2025-40596
+  - CVE-2025-40597
+  - CVE-2025-40598
+  researchers:
+  - Sina Kheirkhah (@SinSinology)
+  vendors: []
+  cve_count: 5
+- url: https://labs.watchtowr.com/how-much-more-must-we-bleed-citrix-netscaler-memory-disclosure-citrixbleed-2-cve-2025-5777
+  date: 25/07/04
+  cve_ids:
+  - CVE-2025-5777
+  - CVE-2025-6543
+  - CVE-2023-4966
+  - CVE-2025-25257
+  researchers:
+  - Sina Kheirkhah (@SinSinology)
+  vendors:
+  - CitrixBleed 2
+  cve_count: 4
+- url: https://labs.watchtowr.com/is-b-for-backdoor-pre-auth-rce-chain-in-sitecore-experience-platform
+  date: 25/06/17
+  cve_ids:
+  - CVE-2025-27218
+  - CVE-2025-34509
+  - CVE-2025-34510
+  - CVE-2025-34511
+  - CVE-2025-4427
+  - CVE-2025-4428
+  - CVE-2025-5777
+  researchers:
+  - Piotr Bazydlo (@chudyPB)
+  vendors: []
+  cve_count: 7
+- url: https://labs.watchtowr.com/expression-payloads-meet-mayhem-cve-2025-4427-and-cve-2025-4428
+  date: 25/05/15
+  cve_ids:
+  - CVE-2025-4427
+  - CVE-2025-4428
+  - CVE-2023-35078
+  - CVE-2023-35082
+  - CVE-2025-2775
+  researchers:
+  - Sonny
+  vendors:
+  - and
+  cve_count: 5
+- url: https://labs.watchtowr.com/sysowned-your-friendly-rce-support-ticket
+  date: 25/05/07
+  cve_ids:
+  - CVE-2025-2775
+  - CVE-2025-2776
+  - CVE-2025-2777
+  - CVE-2024-36394
+  - CVE-2025-2778
+  - CVE-2023-44221
+  - CVE-2024-38475
+  - CVE-2025-4427
+  - CVE-2025-4428
+  researchers:
+  - Sina Kheirkhah (@SinSinology)
+  vendors: []
+  cve_count: 9
+- url: https://labs.watchtowr.com/sonicboom-from-stolen-tokens-to-remote-shells-sonicwall-sma100-cve-2023-44221-cve-2024-38475
+  date: 25/05/01
+  cve_ids:
+  - CVE-2023-44221
+  - CVE-2024-38475
+  - CVE-2025-34028
+  - CVE-2025-2775
+  researchers:
+  - Sina Kheirkhah (@SinSinology)
+  vendors:
+  - SonicBoom, From Stolen Tokens to Remote Shells - SonicWall SMA (CVE-2023-44221,
+  cve_count: 4
+- url: https://labs.watchtowr.com/fire-in-the-hole-were-breaching-the-vault-commvault-remote-code-execution-cve-2025-34028
+  date: 25/04/24
+  cve_ids:
+  - CVE-2025-34028
+  - CVE-2024-48248
+  - CVE-2025-32406
+  - CVE-2025-22457
+  - CVE-2023-44221
+  - CVE-2024-38475
+  researchers:
+  - Sonny
+  vendors: []
+  cve_count: 6
+- url: https://labs.watchtowr.com/is-the-sofistication-in-the-room-with-us-x-forwarded-for-and-ivanti-connect-secure-cve-2025-22457
+  date: 25/04/04
+  cve_ids:
+  - CVE-2025-22457
+  - CVE-2025-2748
+  - CVE-2025-34028
+  researchers:
+  - Aliz Hammond
+  vendors: []
+  cve_count: 3
+- url: https://labs.watchtowr.com/xss-to-rce-by-abusing-custom-file-handlers-kentico-xperience-cms-cve-2025-2748
+  date: 25/04/01
+  cve_ids:
+  - CVE-2025-2748
+  - CVE-2025-23120
+  - CVE-2025-22457
+  researchers:
+  - Piotr Bazydlo (@chudyPB)
+  vendors: []
+  cve_count: 3
+- url: https://labs.watchtowr.com/by-executive-order-we-are-banning-blacklists-domain-level-rce-in-veeam-backup-replication-cve-2025-23120
+  date: 25/03/20
+  cve_ids:
+  - CVE-2025-23120
+  - CVE-2024-40711
+  - CVE-2024-42455
+  - CVE-2025-2748
+  researchers:
+  - Piotr Bazydlo (@chudyPB)
+  vendors: []
+  cve_count: 4
+- url: https://labs.watchtowr.com/bypassing-authentication-like-its-the-90s-pre-auth-rce-chain-s-in-kentico-xperience-cms
+  date: 25/03/17
+  cve_ids:
+  - CVE-2019-10068
+  - CVE-2024-48248
+  - CVE-2025-23120
+  researchers:
+  - Piotr Bazydlo (@chudyPB)
+  vendors: []
+  cve_count: 3
+- url: https://labs.watchtowr.com/the-best-security-is-when-we-all-agree-to-keep-everything-secret-except-the-secrets-nakivo-backup-replication-cve-2024-48248
+  date: 25/02/26
+  cve_ids:
+  - CVE-2024-48248
+  researchers:
+  - Sonny
+  vendors: []
+  cve_count: 1
+- url: https://labs.watchtowr.com/get-fortirekt-i-am-the-super_admin-now-fortios-authentication-bypass-cve-2024-55591
+  date: 25/01/27
+  cve_ids:
+  - CVE-2024-55591
+  - CVE-2025-0282
+  researchers:
+  - Sonny
+  vendors: []
+  cve_count: 2
+- url: https://labs.watchtowr.com/exploitation-walkthrough-and-techniques-ivanti-connect-secure-rce-cve-2025-0282
+  date: 25/01/12
+  cve_ids:
+  - CVE-2025-0282
+  - CVE-2024-55591
+  researchers:
+  - Sina Kheirkhah (@SinSinology)
+  vendors: []
+  cve_count: 2
+- url: https://labs.watchtowr.com/do-secure-by-design-pledges-come-with-stickers-ivanti-connect-secure-rce-cve-2025-0282
+  date: 25/01/10
+  cve_ids:
+  - CVE-2025-0282
+  researchers:
+  - Sina Kheirkhah (@SinSinology)
+  vendors: []
+  cve_count: 1
+- url: https://labs.watchtowr.com/more-governments-backdoors-in-your-backdoors
+  date: 25/01/08
+  cve_ids:
+  - CVE-2024-50623
+  - CVE-2025-0282
+  researchers:
+  - Benjamin Harris
+  vendors: []
+  cve_count: 2
+- url: https://labs.watchtowr.com/cleo-cve-2024-50623
+  date: 24/12/11
+  cve_ids:
+  - CVE-2024-50623
+  - CVE-2024-35286
+  - CVE-2024-41713
+  researchers:
+  - Sina Kheirkhah (@SinSinology)
+  vendors: []
+  cve_count: 3
+- url: https://labs.watchtowr.com/where-theres-smoke-theres-fire-mitel-micollab-cve-2024-35286-cve-2024-41713-and-an-0day
+  date: 24/12/05
+  cve_ids:
+  - CVE-2024-35286
+  - CVE-2024-41713
+  - CVE-2024-0012
+  - CVE-2024-9474
+  - CVE-2024-50623
+  researchers:
+  - Sonny
+  vendors:
+  - Where There’s Smoke, There’s Fire - Mitel MiCollab
+  cve_count: 5
+- url: https://labs.watchtowr.com/pots-and-pans-aka-an-sslvpn-palo-alto-pan-os-cve-2024-0012-and-cve-2024-9474
+  date: 24/11/19
+  cve_ids:
+  - CVE-2024-0012
+  - CVE-2024-9474
+  - CVE-2024-3400
+  - CVE-2024-47575
+  - CVE-2024-35286
+  - CVE-2024-41713
+  researchers:
+  - Sonny
+  vendors:
+  - Pots and Pans, AKA an SSLVPN - Palo Alto PAN-OS
+  cve_count: 6
+- url: https://labs.watchtowr.com/hop-skip-fortijump-fortijumphigher-cve-2024-23113-cve-2024-47575
+  date: 24/11/14
+  cve_ids:
+  - CVE-2024-47575
+  - CVE-2024-23113
+  - CVE-2024-8068
+  - CVE-2024-8069
+  - CVE-2024-0012
+  - CVE-2024-9474
+  researchers:
+  - Sina Kheirkhah (@SinSinology)
+  vendors:
+  - Hop-Skip-FortiJump-FortiJump-Higher - Fortinet FortiManager
+  cve_count: 6
+- url: https://labs.watchtowr.com/visionaries-at-citrix-have-democratised-remote-network-access-citrix-virtual-apps-and-desktops-cve-unknown
+  date: 24/11/12
+  cve_ids:
+  - CVE-2024-8068
+  - CVE-2024-8069
+  - CVE-2024-6151
+  - CVE-2023-21554
+  - CVE-2024-23113
+  - CVE-2024-47575
+  researchers:
+  - Sina Kheirkhah (@SinSinology)
+  vendors:
+  - and
+  cve_count: 6
+- url: https://labs.watchtowr.com/fortinet-fortigate-cve-2024-23113-a-super-complex-vulnerability-in-a-super-secure-appliance-in-2024
+  date: 24/10/14
+  cve_ids:
+  - CVE-2024-23113
+  - CVE-2024-8068
+  - CVE-2024-8069
+  researchers:
+  - Aliz Hammond
+  vendors:
+  - Fortinet FortiGate
+  cve_count: 3
+- url: https://labs.watchtowr.com/veeam-backup-response-rce-with-auth-but-mostly-without-auth-cve-2024-40711-2
+  date: 24/09/09
+  cve_ids:
+  - CVE-2024-40711
+  - CVE-2024-5806
+  researchers:
+  - Sina Kheirkhah (@SinSinology)
+  vendors: []
+  cve_count: 2
+- url: https://labs.watchtowr.com/auth-bypass-in-un-limited-scenarios-progress-moveit-transfer-cve-2024-5806
+  date: 24/06/25
+  cve_ids:
+  - CVE-2024-5806
+  - CVE-2023-34362
+  - CVE-2024-4577
+  - CVE-2024-40711
+  researchers:
+  - Aliz Hammond
+  vendors: []
+  cve_count: 4
+- url: https://labs.watchtowr.com/no-way-php-strikes-again-cve-2024-4577
+  date: 24/06/07
+  cve_ids:
+  - CVE-2024-4577
+  - CVE-2012-1823
+  - CVE-2024-24919
+  - CVE-2024-5806
+  researchers:
+  - Aliz Hammond
+  vendors: []
+  cve_count: 4
+- url: https://labs.watchtowr.com/check-point-wrong-check-point-cve-2024-24919
+  date: 24/05/30
+  cve_ids:
+  - CVE-2024-24919
+  - CVE-2024-27130
+  - CVE-2024-4577
+  researchers:
+  - Aliz Hammond
+  vendors: []
+  cve_count: 3
+- url: https://labs.watchtowr.com/qnap-qts-qnapping-at-the-wheel-cve-2024-27130-and-friends
+  date: 24/05/17
+  cve_ids:
+  - CVE-2024-27130
+  - CVE-2023-50361
+  - CVE-2023-50362
+  - CVE-2023-50363
+  - CVE-2023-50364
+  - CVE-2024-21902
+  - CVE-2024-27127
+  - CVE-2024-27128
+  - CVE-2024-27129
+  - CVE-2024-27131
+  - CVE-2023-21902
+  - CVE-2024-3400
+  - CVE-2024-24919
+  researchers:
+  - Aliz Hammond
+  vendors: []
+  cve_count: 13
+- url: https://labs.watchtowr.com/double-k-o-rce-in-ibm-operation-decision-manager
+  date: 24/02/22
+  cve_ids:
+  - CVE-2024-22320
+  - CVE-2024-22319
+  - CVE-2024-22024
+  - CVE-2022-26377
+  researchers:
+  - Sonny
+  vendors: []
+  cve_count: 4
+- url: https://labs.watchtowr.com/are-we-now-part-of-ivanti
+  date: 24/02/09
+  cve_ids:
+  - CVE-2024-22024
+  - CVE-2023-46805
+  - CVE-2024-21887
+  - CVE-2024-21893
+  researchers:
+  - Sonny
+  vendors:
+  - Ivanti Connect Secure
+  cve_count: 4
+- url: https://labs.watchtowr.com/form-tools-we-need-to-talk-about-php
+  date: 24/02/08
+  cve_ids:
+  - CVE-2023-22518
+  - CVE-2024-22024
+  researchers:
+  - Sonny
+  vendors: []
+  cve_count: 2
+- url: https://labs.watchtowr.com/the-second-wednesday-of-the-first-month-of-every-quarter-juniper-0day-revisited
+  date: 24/01/18
+  cve_ids:
+  - CVE-2023-36844
+  - CVE-2023-36845
+  - CVE-2023-36846
+  - CVE-2024-21619
+  - CVE-2024-21620
+  - CVE-2023-46805
+  - CVE-2024-21887
+  researchers:
+  - Aliz Hammond
+  vendors: []
+  cve_count: 7
+- url: https://labs.watchtowr.com/welcome-to-2024-the-sslvpn-chaos-continues-ivanti-cve-2023-46805-cve-2024-21887
+  date: 24/01/13
+  cve_ids:
+  - CVE-2023-46805
+  - CVE-2024-21887
+  - CVE-2023-42344
+  researchers:
+  - Aliz Hammond
+  vendors:
+  - Welcome To 2024, The SSLVPN Chaos Continues - Ivanti
+  cve_count: 3
+- url: https://labs.watchtowr.com/xxe-you-can-depend-on-me-opencms
+  date: 23/11/21
+  cve_ids:
+  - CVE-2023-42344
+  - CVE-2023-42343
+  - CVE-2023-42345
+  - CVE-2023-42346
+  - CVE-2021-35464
+  - CVE-2021-44228
+  - CVE-2023-46805
+  - CVE-2024-21887
+  researchers:
+  - Sonny
+  vendors:
+  - OpenCMS  and Friends
+  cve_count: 8
+- url: https://labs.watchtowr.com/ghost-in-the-wire-sonic-in-the-wall
+  date: 23/10/20
+  cve_ids:
+  - CVE-2023-41713
+  - CVE-2023-39276
+  - CVE-2023-39277
+  - CVE-2023-39278
+  - CVE-2023-39279
+  - CVE-2023-39280
+  - CVE-2023-41711
+  - CVE-2023-41712
+  - CVE-2023-38545
+  - CVE-2023-42344
+  researchers:
+  - Aliz Hammond
+  vendors: []
+  cve_count: 10
+- url: https://labs.watchtowr.com/curl-cve-2023-38545-its-still-not-the-end-of-the-world
+  date: 23/10/11
+  cve_ids:
+  - CVE-2023-38545
+  researchers:
+  - Aliz Hammond
+  vendors: []
+  cve_count: 1
+- url: https://labs.watchtowr.com/yet-more-unauth-remote-command-execution-vulns-in-firewalls-sangfor-edition
+  date: 23/10/05
+  cve_ids:
+  - CVE-2023-38545
+  researchers:
+  - Sonny
+  vendors: []
+  cve_count: 1
+- url: https://labs.watchtowr.com/exim-0days-90s-vulns-in-90s-software
+  date: 23/10/02
+  cve_ids:
+  - CVE-2023-42117
+  - CVE-2023-42115
+  - CVE-2023-42116
+  - CVE-2023-42118
+  - CVE-2023-42114
+  - CVE-2023-42119
+  researchers:
+  - Aliz Hammond
+  vendors: []
+  cve_count: 6
+- url: https://labs.watchtowr.com/orbeon-forms-the-final-form
+  date: 23/09/08
+  cve_ids:
+  - CVE-2023-36844
+  researchers:
+  - Sonny
+  vendors: []
+  cve_count: 1
+- url: https://labs.watchtowr.com/cve-2023-36844-and-friends-rce-in-juniper-firewalls
+  date: 23/08/25
+  cve_ids:
+  - CVE-2023-36844
+  - CVE-2023-36846
+  - CVE-2023-36845
+  researchers:
+  - Sonny
+  vendors: []
+  cve_count: 3
+- url: https://labs.watchtowr.com/log4shell-is-dead-long-live-log4shell
+  date: 23/08/14
+  cve_ids:
+  - CVE-2023-27997
+  - CVE-2023-36844
+  researchers:
+  - Sonny
+  vendors: []
+  cve_count: 2
+- url: https://labs.watchtowr.com/xortigate-or-cve-2023-27997
+  date: 23/06/13
+  cve_ids:
+  - CVE-2023-27997
+  - CVE-2022-42475
+  researchers:
+  - Aliz Hammond
+  vendors:
+  - Xortigate, or
+  cve_count: 2
+- url: https://labs.watchtowr.com/fortinet-and-the-accidental-bug
+  date: 23/06/09
+  cve_ids:
+  - CVE-2022-42475
+  - CVE-2023-2825
+  - CVE-2023-27997
+  researchers:
+  - Aliz Hammond
+  vendors: []
+  cve_count: 3
+- url: https://labs.watchtowr.com/gitlab-arbitrary-file-read-gitlab-cve-2023-2825-analysis
+  date: 23/05/25
+  cve_ids:
+  - CVE-2023-2825
+  - CVE-2022-24086
+  researchers:
+  - Sonny
+  vendors: []
+  cve_count: 2
+- url: https://labs.watchtowr.com/adobe-commerce-magento-rce-cve-2022-24086
+  date: 23/04/10
+  cve_ids:
+  - CVE-2022-24086
+  - CVE-2023-2825
+  researchers:
+  - Aliz Hammond
+  vendors:
+  - Adobe Commerce (Magento)
+  cve_count: 2
+- url: https://labs.watchtowr.com/projeqtor-10-2-2-direct-object-injection-vulnerability
+  date: 23/03/19
+  cve_ids:
+  - CVE-2022-24086
+  researchers:
+  - Benjamin Harris
+  vendors: []
+  cve_count: 1
+- url: https://labs.watchtowr.com/i-dont-need-no-zero-dayz-part-1-docker-containers
+  date: 23/02/03
+  cve_ids:
+  - CVE-2022-42475
+  researchers:
+  - Aliz Hammond
+  vendors: []
+  cve_count: 1
+- url: https://labs.watchtowr.com/fortinet-no-more-funny-titles-cve-2022-42475
+  date: 23/01/31
+  cve_ids:
+  - CVE-2022-42475
+  - CVE-2022-36537
+  researchers:
+  - Aliz Hammond
+  vendors:
+  - Fortinet
+  cve_count: 2
+- url: https://labs.watchtowr.com/why-its-not-worth-goading-us-on-a-friday-cve-2022-36537-at-scale
+  date: 22/12/07
+  cve_ids:
+  - CVE-2022-36537
+  - CVE-2022-42475
+  researchers:
+  - Aliz Hammond
+  vendors:
+  - Why It's Not Worth Goading Us On A Friday -
+  cve_count: 2
+- url: https://labs.watchtowr.com/text4shell-where-theres-smoke-theres-fire
+  date: 22/11/08
+  cve_ids:
+  - CVE-2022-44889
+  - CVE-2022-36537
+  researchers:
+  - Aliz Hammond
+  vendors: []
+  cve_count: 2
+- url: https://labs.watchtowr.com/otherwise-known-as-the-hype-that-was-not
+  date: 22/11/02
+  cve_ids:
+  - CVE-2022-3786
+  - CVE-2022-3602
+  - CVE-2022-44889
+  researchers:
+  - Aliz Hammond
+  vendors: []
+  cve_count: 3
+- url: https://labs.watchtowr.com/cve-2022-44889-text4shell-analysed
+  date: 22/10/27
+  cve_ids:
+  - CVE-2022-44889
+  researchers:
+  - Aliz Hammond
+  vendors: []
+  cve_count: 1
+- url: https://labs.watchtowr.com/walled-off-handling-dns-poisoning-at-scale
+  date: 22/10/27
+  cve_ids:
+  - CVE-2022-44889
+  researchers:
+  - Weiming Theh
+  vendors: []
+  cve_count: 1
+- url: https://labs.watchtowr.com/fun-things-in-openvpn-access-server
+  date: 22/08/04
+  cve_ids:
+  - CVE-2022-33737
+  - CVE-2022-33738
+  researchers:
+  - Aliz Hammond
+  vendors: []
+  cve_count: 2
+- url: https://labs.watchtowr.com/openam-cve-2022-34298
+  date: 22/07/01
+  cve_ids:
+  - CVE-2022-34298
+  - CVE-2021-35464
+  researchers:
+  - Aliz Hammond
+  vendors: []
+  cve_count: 2

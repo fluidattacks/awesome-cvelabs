@@ -1,0 +1,5322 @@
+lab: Claroty Team82
+url: https://claroty.com/team82/disclosure-dashboard
+scraped_at: '2026-03-17T21:16:57.015130Z'
+advisories:
+- url: https://claroty.com/team82/blog/industrial-safety-reliability-one-cve-at-a-time
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2018-10597
+  date: null
+  cve_ids:
+  - CVE-2018-10597
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2018-10599
+  date: null
+  cve_ids:
+  - CVE-2018-10599
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2018-10601
+  date: null
+  cve_ids:
+  - CVE-2018-10601
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2018-18561
+  date: null
+  cve_ids:
+  - CVE-2018-18561
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2018-18562
+  date: null
+  cve_ids:
+  - CVE-2018-18562
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2018-18563
+  date: null
+  cve_ids:
+  - CVE-2018-18563
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2018-18564
+  date: null
+  cve_ids:
+  - CVE-2018-18564
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2018-18565
+  date: null
+  cve_ids:
+  - CVE-2018-18565
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2019-13554
+  date: null
+  cve_ids:
+  - CVE-2019-13554
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2019-13559
+  date: null
+  cve_ids:
+  - CVE-2019-13559
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2019-13921
+  date: null
+  cve_ids:
+  - CVE-2019-13921
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2019-18243
+  date: null
+  cve_ids:
+  - CVE-2019-18243
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2019-18255
+  date: null
+  cve_ids:
+  - CVE-2019-18255
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2019-19100-cve-2019-19101-cve-2019-19102
+  date: null
+  cve_ids:
+  - CVE-2019-19100
+  - CVE-2019-19101
+  - CVE-2019-19102
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2019-19101
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2019-19102
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2019-19108
+  date: null
+  cve_ids:
+  - CVE-2019-19108
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2019-19279
+  date: null
+  cve_ids:
+  - CVE-2019-19279
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2019-6820
+  date: null
+  cve_ids:
+  - CVE-2019-6820
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2019-6834
+  date: null
+  cve_ids:
+  - CVE-2019-6834
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-10291cve-2020-10292
+  date: null
+  cve_ids:
+  - CVE-2020-10291
+  - CVE-2020-10292
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-10292
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-10612
+  date: null
+  cve_ids:
+  - CVE-2020-10612
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-10616
+  date: null
+  cve_ids:
+  - CVE-2020-10616
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-10620
+  date: null
+  cve_ids:
+  - CVE-2020-10620
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-10641
+  date: null
+  cve_ids:
+  - CVE-2020-10641
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-10939
+  date: null
+  cve_ids:
+  - CVE-2020-10939
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-11999-cve-2020-12001-cve-2020-12003-cve-2020-12005
+  date: null
+  cve_ids:
+  - CVE-2020-11999
+  - CVE-2020-12001
+  - CVE-2020-12003
+  - CVE-2020-12005
+  researchers: []
+  vendors: []
+  cve_count: 4
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-12001
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-12003
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-12005
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-12015
+  date: null
+  cve_ids:
+  - CVE-2020-12015
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-12025
+  date: null
+  cve_ids:
+  - CVE-2020-12025
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-12033
+  date: null
+  cve_ids:
+  - CVE-2020-12033
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-12034-cve-2020-12038
+  date: null
+  cve_ids:
+  - CVE-2020-12034
+  - CVE-2020-12038
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-12038
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-12042-cve-2020-12046-cve-2020-10612-cve-2020-10616-cve-2020-10620
+  date: null
+  cve_ids:
+  - CVE-2020-12042
+  - CVE-2020-12046
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-12046
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-12499
+  date: null
+  cve_ids:
+  - CVE-2020-12499
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-12522
+  date: null
+  cve_ids:
+  - CVE-2020-12522
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-14496
+  date: null
+  cve_ids:
+  - CVE-2020-14496
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-14498
+  date: null
+  cve_ids:
+  - CVE-2020-14498
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-14500
+  date: null
+  cve_ids:
+  - CVE-2020-14500
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-14508
+  date: null
+  cve_ids:
+  - CVE-2020-14508
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-14509cve-2020-14517cve-2020-14519cve-2020-14515cve-2020-14513cve-2020-16233
+  date: null
+  cve_ids:
+  - CVE-2020-14509
+  - CVE-2020-14517
+  - CVE-2020-14519
+  - CVE-2020-14515
+  - CVE-2020-14513
+  - CVE-2020-16233
+  researchers: []
+  vendors: []
+  cve_count: 6
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-14510
+  date: null
+  cve_ids:
+  - CVE-2020-14510
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-14511
+  date: null
+  cve_ids:
+  - CVE-2020-14511
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-14512
+  date: null
+  cve_ids:
+  - CVE-2020-14512
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-14513
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-14515
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-14517
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-14519
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-14520
+  date: null
+  cve_ids:
+  - CVE-2020-14520
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-14521
+  date: null
+  cve_ids:
+  - CVE-2020-14521
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-14522
+  date: null
+  cve_ids:
+  - CVE-2020-14522
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-14523
+  date: null
+  cve_ids:
+  - CVE-2020-14523
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-14524cve-2020-14522
+  date: null
+  cve_ids:
+  - CVE-2020-14524
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-15782
+  date: null
+  cve_ids:
+  - CVE-2020-15782
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-16233
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-25159
+  date: null
+  cve_ids:
+  - CVE-2020-25159
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-25165
+  date: null
+  cve_ids:
+  - CVE-2020-25165
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-25195
+  date: null
+  cve_ids:
+  - CVE-2020-25195
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-25243
+  date: null
+  cve_ids:
+  - CVE-2020-25243
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-25244
+  date: null
+  cve_ids:
+  - CVE-2020-25244
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-27251
+  date: null
+  cve_ids:
+  - CVE-2020-27251
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-27253cve-2020-27251cve-2020-27255
+  date: null
+  cve_ids:
+  - CVE-2020-27253
+  - CVE-2020-27255
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-27255
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-27263
+  date: null
+  cve_ids:
+  - CVE-2020-27263
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-27265cve-2020-27263cve-2020-27267
+  date: null
+  cve_ids:
+  - CVE-2020-27265
+  - CVE-2020-27267
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-27267
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-27274
+  date: null
+  cve_ids:
+  - CVE-2020-27274
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-27295
+  date: null
+  cve_ids:
+  - CVE-2020-27295
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-27297cve-2020-27299cve-2020-27295
+  date: null
+  cve_ids:
+  - CVE-2020-27297
+  - CVE-2020-27299
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-27299
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-28214
+  date: null
+  cve_ids:
+  - CVE-2020-28214
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-6992
+  date: null
+  cve_ids:
+  - CVE-2020-6992
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-7494-cve-2020-7495-cve-2020-7496
+  date: null
+  cve_ids:
+  - CVE-2020-7494
+  - CVE-2020-7495
+  - CVE-2020-7496
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-7495
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-7496
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-7520
+  date: null
+  cve_ids:
+  - CVE-2020-7520
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-7528cve-2020-7529cve-2020-7530cve-2020-7531cve-2020-7532
+  date: null
+  cve_ids:
+  - CVE-2020-7528
+  - CVE-2020-7529
+  - CVE-2020-7530
+  - CVE-2020-7531
+  - CVE-2020-7532
+  researchers: []
+  vendors: []
+  cve_count: 5
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-7529
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-7530
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-7531
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-7532
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-7565-cve-2020-7566-cve-2020-7567-cve-2020-7568cve-2020-28214
+  date: null
+  cve_ids:
+  - CVE-2020-7565
+  - CVE-2020-7566
+  - CVE-2020-7567
+  - CVE-2020-7568
+  researchers: []
+  vendors: []
+  cve_count: 4
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-7566
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-7567
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-7568
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-7586
+  date: null
+  cve_ids:
+  - CVE-2020-7586
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-03554
+  date: null
+  cve_ids:
+  - CVE-2021-03554
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-10073
+  date: null
+  cve_ids:
+  - CVE-2021-10073
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-22280
+  date: null
+  cve_ids:
+  - CVE-2021-22280
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-22281
+  date: null
+  cve_ids:
+  - CVE-2021-22281
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-22282
+  date: null
+  cve_ids:
+  - CVE-2021-22282
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-22289
+  date: null
+  cve_ids:
+  - CVE-2021-22289
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-22439
+  date: null
+  cve_ids:
+  - CVE-2021-22439
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-22640
+  date: null
+  cve_ids:
+  - CVE-2021-22640
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-22642
+  date: null
+  cve_ids:
+  - CVE-2021-22642
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-22644
+  date: null
+  cve_ids:
+  - CVE-2021-22644
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-22646
+  date: null
+  cve_ids:
+  - CVE-2021-22646
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-22648
+  date: null
+  cve_ids:
+  - CVE-2021-22648
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-22650
+  date: null
+  cve_ids:
+  - CVE-2021-22650
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-22665
+  date: null
+  cve_ids:
+  - CVE-2021-22665
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-22678
+  date: null
+  cve_ids:
+  - CVE-2021-22678
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-22681
+  date: null
+  cve_ids:
+  - CVE-2021-22681
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-22682
+  date: null
+  cve_ids:
+  - CVE-2021-22682
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-22685
+  date: null
+  cve_ids:
+  - CVE-2021-22685
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-22713
+  date: null
+  cve_ids:
+  - CVE-2021-22713
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-22714
+  date: null
+  cve_ids:
+  - CVE-2021-22714
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-22732
+  date: null
+  cve_ids:
+  - CVE-2021-22732
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-22733
+  date: null
+  cve_ids:
+  - CVE-2021-22733
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-22734
+  date: null
+  cve_ids:
+  - CVE-2021-22734
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-22735
+  date: null
+  cve_ids:
+  - CVE-2021-22735
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-22736
+  date: null
+  cve_ids:
+  - CVE-2021-22736
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-22737
+  date: null
+  cve_ids:
+  - CVE-2021-22737
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-22738
+  date: null
+  cve_ids:
+  - CVE-2021-22738
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-22739
+  date: null
+  cve_ids:
+  - CVE-2021-22739
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-22740
+  date: null
+  cve_ids:
+  - CVE-2021-22740
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-22777
+  date: null
+  cve_ids:
+  - CVE-2021-22777
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-22817
+  date: null
+  cve_ids:
+  - CVE-2021-22817
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-23276
+  date: null
+  cve_ids:
+  - CVE-2021-23276
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-23277
+  date: null
+  cve_ids:
+  - CVE-2021-23277
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-23278
+  date: null
+  cve_ids:
+  - CVE-2021-23278
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-23279
+  date: null
+  cve_ids:
+  - CVE-2021-23279
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-23280
+  date: null
+  cve_ids:
+  - CVE-2021-23280
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-23281
+  date: null
+  cve_ids:
+  - CVE-2021-23281
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-23385
+  date: null
+  cve_ids:
+  - CVE-2021-23385
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-23393
+  date: null
+  cve_ids:
+  - CVE-2021-23393
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-23401
+  date: null
+  cve_ids:
+  - CVE-2021-23401
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-24769
+  date: null
+  cve_ids:
+  - CVE-2021-24769
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-26264
+  date: null
+  cve_ids:
+  - CVE-2021-26264
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-27406
+  date: null
+  cve_ids:
+  - CVE-2021-27406
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-27408
+  date: null
+  cve_ids:
+  - CVE-2021-27408
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-27410
+  date: null
+  cve_ids:
+  - CVE-2021-27410
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-27460
+  date: null
+  cve_ids:
+  - CVE-2021-27460
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-27462
+  date: null
+  cve_ids:
+  - CVE-2021-27462
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-27464
+  date: null
+  cve_ids:
+  - CVE-2021-27464
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-27466
+  date: null
+  cve_ids:
+  - CVE-2021-27466
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-27468
+  date: null
+  cve_ids:
+  - CVE-2021-27468
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-2747
+  date: null
+  cve_ids:
+  - CVE-2021-2747
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-27470
+  date: null
+  cve_ids:
+  - CVE-2021-27470
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-27471
+  date: null
+  cve_ids:
+  - CVE-2021-27471
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-27473
+  date: null
+  cve_ids:
+  - CVE-2021-27473
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-27474
+  date: null
+  cve_ids:
+  - CVE-2021-27474
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-27475
+  date: null
+  cve_ids:
+  - CVE-2021-27475
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-27476
+  date: null
+  cve_ids:
+  - CVE-2021-27476
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-27478
+  date: null
+  cve_ids:
+  - CVE-2021-27478
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-27482
+  date: null
+  cve_ids:
+  - CVE-2021-27482
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-27498
+  date: null
+  cve_ids:
+  - CVE-2021-27498
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-27500
+  date: null
+  cve_ids:
+  - CVE-2021-27500
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-29238
+  date: null
+  cve_ids:
+  - CVE-2021-29238
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-29240
+  date: null
+  cve_ids:
+  - CVE-2021-29240
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-29241
+  date: null
+  cve_ids:
+  - CVE-2021-29241
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-31338
+  date: null
+  cve_ids:
+  - CVE-2021-31338
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-31344
+  date: null
+  cve_ids:
+  - CVE-2021-31344
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-31345
+  date: null
+  cve_ids:
+  - CVE-2021-31345
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-31346
+  date: null
+  cve_ids:
+  - CVE-2021-31346
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-31881
+  date: null
+  cve_ids:
+  - CVE-2021-31881
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-31882
+  date: null
+  cve_ids:
+  - CVE-2021-31882
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-31883
+  date: null
+  cve_ids:
+  - CVE-2021-31883
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-31884
+  date: null
+  cve_ids:
+  - CVE-2021-31884
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-31885
+  date: null
+  cve_ids:
+  - CVE-2021-31885
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-31886
+  date: null
+  cve_ids:
+  - CVE-2021-31886
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-31887
+  date: null
+  cve_ids:
+  - CVE-2021-31887
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-31888
+  date: null
+  cve_ids:
+  - CVE-2021-31888
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-31889
+  date: null
+  cve_ids:
+  - CVE-2021-31889
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-31890
+  date: null
+  cve_ids:
+  - CVE-2021-31890
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-31893
+  date: null
+  cve_ids:
+  - CVE-2021-31893
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-32497
+  date: null
+  cve_ids:
+  - CVE-2021-32497
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-32498
+  date: null
+  cve_ids:
+  - CVE-2021-32498
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-32499
+  date: null
+  cve_ids:
+  - CVE-2021-32499
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-32611
+  date: null
+  cve_ids:
+  - CVE-2021-32611
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-32618
+  date: null
+  cve_ids:
+  - CVE-2021-32618
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-32933
+  date: null
+  cve_ids:
+  - CVE-2021-32933
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-32935
+  date: null
+  cve_ids:
+  - CVE-2021-32935
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-32937
+  date: null
+  cve_ids:
+  - CVE-2021-32937
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-32945
+  date: null
+  cve_ids:
+  - CVE-2021-32945
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-32949
+  date: null
+  cve_ids:
+  - CVE-2021-32949
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-3295
+  date: null
+  cve_ids:
+  - CVE-2021-3295
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-32957
+  date: null
+  cve_ids:
+  - CVE-2021-32957
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-32959
+  date: null
+  cve_ids:
+  - CVE-2021-32959
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-32961
+  date: null
+  cve_ids:
+  - CVE-2021-32961
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-32963
+  date: null
+  cve_ids:
+  - CVE-2021-32963
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-32971
+  date: null
+  cve_ids:
+  - CVE-2021-32971
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-32977
+  date: null
+  cve_ids:
+  - CVE-2021-32977
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-32979
+  date: null
+  cve_ids:
+  - CVE-2021-32979
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-32981
+  date: null
+  cve_ids:
+  - CVE-2021-32981
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-32985
+  date: null
+  cve_ids:
+  - CVE-2021-32985
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-32987
+  date: null
+  cve_ids:
+  - CVE-2021-32987
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-32999
+  date: null
+  cve_ids:
+  - CVE-2021-32999
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-33008
+  date: null
+  cve_ids:
+  - CVE-2021-33008
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-33010
+  date: null
+  cve_ids:
+  - CVE-2021-33010
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-33025
+  date: null
+  cve_ids:
+  - CVE-2021-33025
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-33056
+  date: null
+  cve_ids:
+  - CVE-2021-33056
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-33526
+  date: null
+  cve_ids:
+  - CVE-2021-33526
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-33527
+  date: null
+  cve_ids:
+  - CVE-2021-33527
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-33721
+  date: null
+  cve_ids:
+  - CVE-2021-33721
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-33722
+  date: null
+  cve_ids:
+  - CVE-2021-33722
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-33723
+  date: null
+  cve_ids:
+  - CVE-2021-33723
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-33724
+  date: null
+  cve_ids:
+  - CVE-2021-33724
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-33725
+  date: null
+  cve_ids:
+  - CVE-2021-33725
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-33726
+  date: null
+  cve_ids:
+  - CVE-2021-33726
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-33727
+  date: null
+  cve_ids:
+  - CVE-2021-33727
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-33728
+  date: null
+  cve_ids:
+  - CVE-2021-33728
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-33729
+  date: null
+  cve_ids:
+  - CVE-2021-33729
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-33730
+  date: null
+  cve_ids:
+  - CVE-2021-33730
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-33731
+  date: null
+  cve_ids:
+  - CVE-2021-33731
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-33732
+  date: null
+  cve_ids:
+  - CVE-2021-33732
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-33733
+  date: null
+  cve_ids:
+  - CVE-2021-33733
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-33734
+  date: null
+  cve_ids:
+  - CVE-2021-33734
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-33735
+  date: null
+  cve_ids:
+  - CVE-2021-33735
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-33736
+  date: null
+  cve_ids:
+  - CVE-2021-33736
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-3422
+  date: null
+  cve_ids:
+  - CVE-2021-3422
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-34566
+  date: null
+  cve_ids:
+  - CVE-2021-34566
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-34567
+  date: null
+  cve_ids:
+  - CVE-2021-34567
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-34568
+  date: null
+  cve_ids:
+  - CVE-2021-34568
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-34569
+  date: null
+  cve_ids:
+  - CVE-2021-34569
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-34605
+  date: null
+  cve_ids:
+  - CVE-2021-34605
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-34606
+  date: null
+  cve_ids:
+  - CVE-2021-34606
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-37177
+  date: null
+  cve_ids:
+  - CVE-2021-37177
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-37183
+  date: null
+  cve_ids:
+  - CVE-2021-37183
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-37190
+  date: null
+  cve_ids:
+  - CVE-2021-37190
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-37191
+  date: null
+  cve_ids:
+  - CVE-2021-37191
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-37192
+  date: null
+  cve_ids:
+  - CVE-2021-37192
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-37193
+  date: null
+  cve_ids:
+  - CVE-2021-37193
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-37207
+  date: null
+  cve_ids:
+  - CVE-2021-37207
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-37343
+  date: null
+  cve_ids:
+  - CVE-2021-37343
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-37344
+  date: null
+  cve_ids:
+  - CVE-2021-37344
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-37345
+  date: null
+  cve_ids:
+  - CVE-2021-37345
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-37346
+  date: null
+  cve_ids:
+  - CVE-2021-37346
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-37347
+  date: null
+  cve_ids:
+  - CVE-2021-37347
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-37348
+  date: null
+  cve_ids:
+  - CVE-2021-37348
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-37349
+  date: null
+  cve_ids:
+  - CVE-2021-37349
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-37350
+  date: null
+  cve_ids:
+  - CVE-2021-37350
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-37351
+  date: null
+  cve_ids:
+  - CVE-2021-37351
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-37352
+  date: null
+  cve_ids:
+  - CVE-2021-37352
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-37353
+  date: null
+  cve_ids:
+  - CVE-2021-37353
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-38395
+  date: null
+  cve_ids:
+  - CVE-2021-38395
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-38397
+  date: null
+  cve_ids:
+  - CVE-2021-38397
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-38399
+  date: null
+  cve_ids:
+  - CVE-2021-38399
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-38410
+  date: null
+  cve_ids:
+  - CVE-2021-38410
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-38449
+  date: null
+  cve_ids:
+  - CVE-2021-38449
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-38451
+  date: null
+  cve_ids:
+  - CVE-2021-38451
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-38452
+  date: null
+  cve_ids:
+  - CVE-2021-38452
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-38453
+  date: null
+  cve_ids:
+  - CVE-2021-38453
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-38454
+  date: null
+  cve_ids:
+  - CVE-2021-38454
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-38455
+  date: null
+  cve_ids:
+  - CVE-2021-38455
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-38456
+  date: null
+  cve_ids:
+  - CVE-2021-38456
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-38457
+  date: null
+  cve_ids:
+  - CVE-2021-38457
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-38458
+  date: null
+  cve_ids:
+  - CVE-2021-38458
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-38459
+  date: null
+  cve_ids:
+  - CVE-2021-38459
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-38460
+  date: null
+  cve_ids:
+  - CVE-2021-38460
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-38461
+  date: null
+  cve_ids:
+  - CVE-2021-38461
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-38463
+  date: null
+  cve_ids:
+  - CVE-2021-38463
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-38465
+  date: null
+  cve_ids:
+  - CVE-2021-38465
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-38467
+  date: null
+  cve_ids:
+  - CVE-2021-38467
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-38469
+  date: null
+  cve_ids:
+  - CVE-2021-38469
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-38471
+  date: null
+  cve_ids:
+  - CVE-2021-38471
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-38473
+  date: null
+  cve_ids:
+  - CVE-2021-38473
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-38475
+  date: null
+  cve_ids:
+  - CVE-2021-38475
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-38477
+  date: null
+  cve_ids:
+  - CVE-2021-38477
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-38479
+  date: null
+  cve_ids:
+  - CVE-2021-38479
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-3848
+  date: null
+  cve_ids:
+  - CVE-2021-3848
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-38481
+  date: null
+  cve_ids:
+  - CVE-2021-38481
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-4190
+  date: null
+  cve_ids:
+  - CVE-2021-4190
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-42373
+  date: null
+  cve_ids:
+  - CVE-2021-42373
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-42374
+  date: null
+  cve_ids:
+  - CVE-2021-42374
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-42375
+  date: null
+  cve_ids:
+  - CVE-2021-42375
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-42376
+  date: null
+  cve_ids:
+  - CVE-2021-42376
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-42377
+  date: null
+  cve_ids:
+  - CVE-2021-42377
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-42378
+  date: null
+  cve_ids:
+  - CVE-2021-42378
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-42379
+  date: null
+  cve_ids:
+  - CVE-2021-42379
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-42380
+  date: null
+  cve_ids:
+  - CVE-2021-42380
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-42381
+  date: null
+  cve_ids:
+  - CVE-2021-42381
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-42382
+  date: null
+  cve_ids:
+  - CVE-2021-42382
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-42383
+  date: null
+  cve_ids:
+  - CVE-2021-42383
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-42384
+  date: null
+  cve_ids:
+  - CVE-2021-42384
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-42385
+  date: null
+  cve_ids:
+  - CVE-2021-42385
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-42386
+  date: null
+  cve_ids:
+  - CVE-2021-42386
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-42543
+  date: null
+  cve_ids:
+  - CVE-2021-42543
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-42698
+  date: null
+  cve_ids:
+  - CVE-2021-42698
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-42699
+  date: null
+  cve_ids:
+  - CVE-2021-42699
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-42701
+  date: null
+  cve_ids:
+  - CVE-2021-42701
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-43933
+  date: null
+  cve_ids:
+  - CVE-2021-43933
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-43986
+  date: null
+  cve_ids:
+  - CVE-2021-43986
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-43988
+  date: null
+  cve_ids:
+  - CVE-2021-43988
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-43990
+  date: null
+  cve_ids:
+  - CVE-2021-43990
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-44463
+  date: null
+  cve_ids:
+  - CVE-2021-44463
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-44477
+  date: null
+  cve_ids:
+  - CVE-2021-44477
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-81019
+  date: null
+  cve_ids:
+  - CVE-2021-81019
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2021-85337
+  date: null
+  cve_ids:
+  - CVE-2021-85337
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-0138
+  date: null
+  cve_ids:
+  - CVE-2022-0138
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-0223
+  date: null
+  cve_ids:
+  - CVE-2022-0223
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-0582
+  date: null
+  cve_ids:
+  - CVE-2022-0582
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-0583
+  date: null
+  cve_ids:
+  - CVE-2022-0583
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-0585
+  date: null
+  cve_ids:
+  - CVE-2022-0585
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-0586
+  date: null
+  cve_ids:
+  - CVE-2022-0586
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-0835
+  date: null
+  cve_ids:
+  - CVE-2022-0835
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-0902
+  date: null
+  cve_ids:
+  - CVE-2022-0902
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-1159
+  date: null
+  cve_ids:
+  - CVE-2022-1159
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-1161
+  date: null
+  cve_ids:
+  - CVE-2022-1161
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-124
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-1356
+  date: null
+  cve_ids:
+  - CVE-2022-1356
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-1357
+  date: null
+  cve_ids:
+  - CVE-2022-1357
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-1358
+  date: null
+  cve_ids:
+  - CVE-2022-1358
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-1359
+  date: null
+  cve_ids:
+  - CVE-2022-1359
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-1360
+  date: null
+  cve_ids:
+  - CVE-2022-1360
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-1361
+  date: null
+  cve_ids:
+  - CVE-2022-1361
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-1362
+  date: null
+  cve_ids:
+  - CVE-2022-1362
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-1523
+  date: null
+  cve_ids:
+  - CVE-2022-1523
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-1738
+  date: null
+  cve_ids:
+  - CVE-2022-1738
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-1748
+  date: null
+  cve_ids:
+  - CVE-2022-1748
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-20685
+  date: null
+  cve_ids:
+  - CVE-2022-20685
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-21141
+  date: null
+  cve_ids:
+  - CVE-2022-21141
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-21143
+  date: null
+  cve_ids:
+  - CVE-2022-21143
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-21176
+  date: null
+  cve_ids:
+  - CVE-2022-21176
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-2119
+  date: null
+  cve_ids:
+  - CVE-2022-2119
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-21196
+  date: null
+  cve_ids:
+  - CVE-2022-21196
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-2120
+  date: null
+  cve_ids:
+  - CVE-2022-2120
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-21208
+  date: null
+  cve_ids:
+  - CVE-2022-21208
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-2121
+  date: null
+  cve_ids:
+  - CVE-2022-2121
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-21215
+  date: null
+  cve_ids:
+  - CVE-2022-21215
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-21800
+  date: null
+  cve_ids:
+  - CVE-2022-21800
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-22515
+  date: null
+  cve_ids:
+  - CVE-2022-22515
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-22522
+  date: null
+  cve_ids:
+  - CVE-2022-22522
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-22523
+  date: null
+  cve_ids:
+  - CVE-2022-22523
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-22524
+  date: null
+  cve_ids:
+  - CVE-2022-22524
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-22525
+  date: null
+  cve_ids:
+  - CVE-2022-22525
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-22526
+  date: null
+  cve_ids:
+  - CVE-2022-22526
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-22731
+  date: null
+  cve_ids:
+  - CVE-2022-22731
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-22732
+  date: null
+  cve_ids:
+  - CVE-2022-22732
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-23104
+  date: null
+  cve_ids:
+  - CVE-2022-23104
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-2332
+  date: null
+  cve_ids:
+  - CVE-2022-2332
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-2333
+  date: null
+  cve_ids:
+  - CVE-2022-2333
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-23448
+  date: null
+  cve_ids:
+  - CVE-2022-23448
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-23449
+  date: null
+  cve_ids:
+  - CVE-2022-23449
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-23450
+  date: null
+  cve_ids:
+  - CVE-2022-23450
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-23922
+  date: null
+  cve_ids:
+  - CVE-2022-23922
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-24298
+  date: null
+  cve_ids:
+  - CVE-2022-24298
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-24375
+  date: null
+  cve_ids:
+  - CVE-2022-24375
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-24381
+  date: null
+  cve_ids:
+  - CVE-2022-24381
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-2463
+  date: null
+  cve_ids:
+  - CVE-2022-2463
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-2464
+  date: null
+  cve_ids:
+  - CVE-2022-2464
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-2465
+  date: null
+  cve_ids:
+  - CVE-2022-2465
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-25231
+  date: null
+  cve_ids:
+  - CVE-2022-25231
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-25302
+  date: null
+  cve_ids:
+  - CVE-2022-25302
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-25304
+  date: null
+  cve_ids:
+  - CVE-2022-25304
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-25761
+  date: null
+  cve_ids:
+  - CVE-2022-25761
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-25888
+  date: null
+  cve_ids:
+  - CVE-2022-25888
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-25897
+  date: null
+  cve_ids:
+  - CVE-2022-25897
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-25903
+  date: null
+  cve_ids:
+  - CVE-2022-25903
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-26507
+  date: null
+  cve_ids:
+  - CVE-2022-26507
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-2788
+  date: null
+  cve_ids:
+  - CVE-2022-2788
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-2789
+  date: null
+  cve_ids:
+  - CVE-2022-2789
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-2790
+  date: null
+  cve_ids:
+  - CVE-2022-2790
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-2791
+  date: null
+  cve_ids:
+  - CVE-2022-2791
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-2792
+  date: null
+  cve_ids:
+  - CVE-2022-2792
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-2793
+  date: null
+  cve_ids:
+  - CVE-2022-2793
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-2825
+  date: null
+  cve_ids:
+  - CVE-2022-2825
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-2848
+  date: null
+  cve_ids:
+  - CVE-2022-2848
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-28811
+  date: null
+  cve_ids:
+  - CVE-2022-28811
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-28812
+  date: null
+  cve_ids:
+  - CVE-2022-28812
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-28813
+  date: null
+  cve_ids:
+  - CVE-2022-28813
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-28814
+  date: null
+  cve_ids:
+  - CVE-2022-28814
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-28815
+  date: null
+  cve_ids:
+  - CVE-2022-28815
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-28816
+  date: null
+  cve_ids:
+  - CVE-2022-28816
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-2970
+  date: null
+  cve_ids:
+  - CVE-2022-2970
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-2971
+  date: null
+  cve_ids:
+  - CVE-2022-2971
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-2972
+  date: null
+  cve_ids:
+  - CVE-2022-2972
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-2973
+  date: null
+  cve_ids:
+  - CVE-2022-2973
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-29841
+  date: null
+  cve_ids:
+  - CVE-2022-29841
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-30551
+  date: null
+  cve_ids:
+  - CVE-2022-30551
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-3086
+  date: null
+  cve_ids:
+  - CVE-2022-3086
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-3183
+  date: null
+  cve_ids:
+  - CVE-2022-3183
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-3184
+  date: null
+  cve_ids:
+  - CVE-2022-3184
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-3185
+  date: null
+  cve_ids:
+  - CVE-2022-3185
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-3186
+  date: null
+  cve_ids:
+  - CVE-2022-3186
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-3187
+  date: null
+  cve_ids:
+  - CVE-2022-3187
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-3188
+  date: null
+  cve_ids:
+  - CVE-2022-3188
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-3189
+  date: null
+  cve_ids:
+  - CVE-2022-3189
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-33317
+  date: null
+  cve_ids:
+  - CVE-2022-33317
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-33320
+  date: null
+  cve_ids:
+  - CVE-2022-33320
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-33916
+  date: null
+  cve_ids:
+  - CVE-2022-33916
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-34906
+  date: null
+  cve_ids:
+  - CVE-2022-34906
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-34907
+  date: null
+  cve_ids:
+  - CVE-2022-34907
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-36327
+  date: null
+  cve_ids:
+  - CVE-2022-36327
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-36328
+  date: null
+  cve_ids:
+  - CVE-2022-36328
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-36331
+  date: null
+  cve_ids:
+  - CVE-2022-36331
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-38138
+  date: null
+  cve_ids:
+  - CVE-2022-38138
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-38465
+  date: null
+  cve_ids:
+  - CVE-2022-38465
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-38469
+  date: null
+  cve_ids:
+  - CVE-2022-38469
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-40264
+  date: null
+  cve_ids:
+  - CVE-2022-40264
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-4062
+  date: null
+  cve_ids:
+  - CVE-2022-4062
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-41666
+  date: null
+  cve_ids:
+  - CVE-2022-41666
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-41667
+  date: null
+  cve_ids:
+  - CVE-2022-41667
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-41668
+  date: null
+  cve_ids:
+  - CVE-2022-41668
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-41669
+  date: null
+  cve_ids:
+  - CVE-2022-41669
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-41670
+  date: null
+  cve_ids:
+  - CVE-2022-41670
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-41671
+  date: null
+  cve_ids:
+  - CVE-2022-41671
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-43494
+  date: null
+  cve_ids:
+  - CVE-2022-43494
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-46141
+  date: null
+  cve_ids:
+  - CVE-2022-46141
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-46331
+  date: null
+  cve_ids:
+  - CVE-2022-46331
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-46658
+  date: null
+  cve_ids:
+  - CVE-2022-46658
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-46660
+  date: null
+  cve_ids:
+  - CVE-2022-46660
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-46732
+  date: null
+  cve_ids:
+  - CVE-2022-46732
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-46738
+  date: null
+  cve_ids:
+  - CVE-2022-46738
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-47311
+  date: null
+  cve_ids:
+  - CVE-2022-47311
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-47320
+  date: null
+  cve_ids:
+  - CVE-2022-47320
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-4945
+  date: null
+  cve_ids:
+  - CVE-2022-4945
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-0343
+  date: null
+  cve_ids:
+  - CVE-2023-0343
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-0344
+  date: null
+  cve_ids:
+  - CVE-2023-0344
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-0345
+  date: null
+  cve_ids:
+  - CVE-2023-0345
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-0346
+  date: null
+  cve_ids:
+  - CVE-2023-0346
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-0347
+  date: null
+  cve_ids:
+  - CVE-2023-0347
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-0348
+  date: null
+  cve_ids:
+  - CVE-2023-0348
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-0349
+  date: null
+  cve_ids:
+  - CVE-2023-0349
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-0350
+  date: null
+  cve_ids:
+  - CVE-2023-0350
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-0351
+  date: null
+  cve_ids:
+  - CVE-2023-0351
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-0352
+  date: null
+  cve_ids:
+  - CVE-2023-0352
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-0353
+  date: null
+  cve_ids:
+  - CVE-2023-0353
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-0354
+  date: null
+  cve_ids:
+  - CVE-2023-0354
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-0355
+  date: null
+  cve_ids:
+  - CVE-2023-0355
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-1516
+  date: null
+  cve_ids:
+  - CVE-2023-1516
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-1552
+  date: null
+  cve_ids:
+  - CVE-2023-1552
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-1731
+  date: null
+  cve_ids:
+  - CVE-2023-1731
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-22315
+  date: null
+  cve_ids:
+  - CVE-2023-22315
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-22389
+  date: null
+  cve_ids:
+  - CVE-2023-22389
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-23582
+  date: null
+  cve_ids:
+  - CVE-2023-23582
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-24020
+  date: null
+  cve_ids:
+  - CVE-2023-24020
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-25183
+  date: null
+  cve_ids:
+  - CVE-2023-25183
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-2586
+  date: null
+  cve_ids:
+  - CVE-2023-2586
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-2587
+  date: null
+  cve_ids:
+  - CVE-2023-2587
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-2588
+  date: null
+  cve_ids:
+  - CVE-2023-2588
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-2637
+  date: null
+  cve_ids:
+  - CVE-2023-2637
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-2638
+  date: null
+  cve_ids:
+  - CVE-2023-2638
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-2639
+  date: null
+  cve_ids:
+  - CVE-2023-2639
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-2729
+  date: null
+  cve_ids:
+  - CVE-2023-2729
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-27321
+  date: null
+  cve_ids:
+  - CVE-2023-27321
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-27334
+  date: null
+  cve_ids:
+  - CVE-2023-27334
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-27335
+  date: null
+  cve_ids:
+  - CVE-2023-27335
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-27357
+  date: null
+  cve_ids:
+  - CVE-2023-27357
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-27367
+  date: null
+  cve_ids:
+  - CVE-2023-27367
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-27368
+  date: null
+  cve_ids:
+  - CVE-2023-27368
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-27369
+  date: null
+  cve_ids:
+  - CVE-2023-27369
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-27370
+  date: null
+  cve_ids:
+  - CVE-2023-27370
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-2759
+  date: null
+  cve_ids:
+  - CVE-2023-2759
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-2760
+  date: null
+  cve_ids:
+  - CVE-2023-2760
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-28386
+  date: null
+  cve_ids:
+  - CVE-2023-28386
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-28412
+  date: null
+  cve_ids:
+  - CVE-2023-28412
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-28649
+  date: null
+  cve_ids:
+  - CVE-2023-28649
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-29377
+  date: null
+  cve_ids:
+  - CVE-2023-29377
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-29378
+  date: null
+  cve_ids:
+  - CVE-2023-29378
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-31048
+  date: null
+  cve_ids:
+  - CVE-2023-31048
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-31184
+  date: null
+  cve_ids:
+  - CVE-2023-31184
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-31185
+  date: null
+  cve_ids:
+  - CVE-2023-31185
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-31193
+  date: null
+  cve_ids:
+  - CVE-2023-31193
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-31240
+  date: null
+  cve_ids:
+  - CVE-2023-31240
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-31241
+  date: null
+  cve_ids:
+  - CVE-2023-31241
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-31245
+  date: null
+  cve_ids:
+  - CVE-2023-31245
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-32172
+  date: null
+  cve_ids:
+  - CVE-2023-32172
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-32202
+  date: null
+  cve_ids:
+  - CVE-2023-32202
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-32227
+  date: null
+  cve_ids:
+  - CVE-2023-32227
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-32346
+  date: null
+  cve_ids:
+  - CVE-2023-32346
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-32347
+  date: null
+  cve_ids:
+  - CVE-2023-32347
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-32348
+  date: null
+  cve_ids:
+  - CVE-2023-32348
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-32349
+  date: null
+  cve_ids:
+  - CVE-2023-32349
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-32350
+  date: null
+  cve_ids:
+  - CVE-2023-32350
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-32787
+  date: null
+  cve_ids:
+  - CVE-2023-32787
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-33177
+  date: null
+  cve_ids:
+  - CVE-2023-33177
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-33178
+  date: null
+  cve_ids:
+  - CVE-2023-33178
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-33179
+  date: null
+  cve_ids:
+  - CVE-2023-33179
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-33180
+  date: null
+  cve_ids:
+  - CVE-2023-33180
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-33181
+  date: null
+  cve_ids:
+  - CVE-2023-33181
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-3321
+  date: null
+  cve_ids:
+  - CVE-2023-3321
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-3322
+  date: null
+  cve_ids:
+  - CVE-2023-3322
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-3323
+  date: null
+  cve_ids:
+  - CVE-2023-3323
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-3324
+  date: null
+  cve_ids:
+  - CVE-2023-3324
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-33363
+  date: null
+  cve_ids:
+  - CVE-2023-33363
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-33364
+  date: null
+  cve_ids:
+  - CVE-2023-33364
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-33365
+  date: null
+  cve_ids:
+  - CVE-2023-33365
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-33366
+  date: null
+  cve_ids:
+  - CVE-2023-33366
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-33367
+  date: null
+  cve_ids:
+  - CVE-2023-33367
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-33368
+  date: null
+  cve_ids:
+  - CVE-2023-33368
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-33369
+  date: null
+  cve_ids:
+  - CVE-2023-33369
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-33370
+  date: null
+  cve_ids:
+  - CVE-2023-33370
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-33371
+  date: null
+  cve_ids:
+  - CVE-2023-33371
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-33372
+  date: null
+  cve_ids:
+  - CVE-2023-33372
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-33373
+  date: null
+  cve_ids:
+  - CVE-2023-33373
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-33374
+  date: null
+  cve_ids:
+  - CVE-2023-33374
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-33375
+  date: null
+  cve_ids:
+  - CVE-2023-33375
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-33376
+  date: null
+  cve_ids:
+  - CVE-2023-33376
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-33377
+  date: null
+  cve_ids:
+  - CVE-2023-33377
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-33378
+  date: null
+  cve_ids:
+  - CVE-2023-33378
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-33379
+  date: null
+  cve_ids:
+  - CVE-2023-33379
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-37213
+  date: null
+  cve_ids:
+  - CVE-2023-37213
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-38125
+  date: null
+  cve_ids:
+  - CVE-2023-38125
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-38126
+  date: null
+  cve_ids:
+  - CVE-2023-38126
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-3825
+  date: null
+  cve_ids:
+  - CVE-2023-3825
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-38422
+  date: null
+  cve_ids:
+  - CVE-2023-38422
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-38949
+  date: null
+  cve_ids:
+  - CVE-2023-38949
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-38950
+  date: null
+  cve_ids:
+  - CVE-2023-38950
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-38951
+  date: null
+  cve_ids:
+  - CVE-2023-38951
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-38952
+  date: null
+  cve_ids:
+  - CVE-2023-38952
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-38954
+  date: null
+  cve_ids:
+  - CVE-2023-38954
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-38955
+  date: null
+  cve_ids:
+  - CVE-2023-38955
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-38956
+  date: null
+  cve_ids:
+  - CVE-2023-38956
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-38958
+  date: null
+  cve_ids:
+  - CVE-2023-38958
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-39227
+  date: null
+  cve_ids:
+  - CVE-2023-39227
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-39457
+  date: null
+  cve_ids:
+  - CVE-2023-39457
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-39460
+  date: null
+  cve_ids:
+  - CVE-2023-39460
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-39461
+  date: null
+  cve_ids:
+  - CVE-2023-39461
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-39462
+  date: null
+  cve_ids:
+  - CVE-2023-39462
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-39465
+  date: null
+  cve_ids:
+  - CVE-2023-39465
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-39466
+  date: null
+  cve_ids:
+  - CVE-2023-39466
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-39467
+  date: null
+  cve_ids:
+  - CVE-2023-39467
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-39468
+  date: null
+  cve_ids:
+  - CVE-2023-39468
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-39477
+  date: null
+  cve_ids:
+  - CVE-2023-39477
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-39478
+  date: null
+  cve_ids:
+  - CVE-2023-39478
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-39479
+  date: null
+  cve_ids:
+  - CVE-2023-39479
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-39480
+  date: null
+  cve_ids:
+  - CVE-2023-39480
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-39481
+  date: null
+  cve_ids:
+  - CVE-2023-39481
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-39482
+  date: null
+  cve_ids:
+  - CVE-2023-39482
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-39979
+  date: null
+  cve_ids:
+  - CVE-2023-39979
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-39980
+  date: null
+  cve_ids:
+  - CVE-2023-39980
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-39981
+  date: null
+  cve_ids:
+  - CVE-2023-39981
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-40150
+  date: null
+  cve_ids:
+  - CVE-2023-40150
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-40151
+  date: null
+  cve_ids:
+  - CVE-2023-40151
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-41738
+  date: null
+  cve_ids:
+  - CVE-2023-41738
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-41739
+  date: null
+  cve_ids:
+  - CVE-2023-41739
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-41740
+  date: null
+  cve_ids:
+  - CVE-2023-41740
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-41741
+  date: null
+  cve_ids:
+  - CVE-2023-41741
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-42488
+  date: null
+  cve_ids:
+  - CVE-2023-42488
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-42489
+  date: null
+  cve_ids:
+  - CVE-2023-42489
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-42490
+  date: null
+  cve_ids:
+  - CVE-2023-42490
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-42491
+  date: null
+  cve_ids:
+  - CVE-2023-42491
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-42492
+  date: null
+  cve_ids:
+  - CVE-2023-42492
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-42493
+  date: null
+  cve_ids:
+  - CVE-2023-42493
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-42494
+  date: null
+  cve_ids:
+  - CVE-2023-42494
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-42770
+  date: null
+  cve_ids:
+  - CVE-2023-42770
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-43609
+  date: null
+  cve_ids:
+  - CVE-2023-43609
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-46687
+  date: null
+  cve_ids:
+  - CVE-2023-46687
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-46706
+  date: null
+  cve_ids:
+  - CVE-2023-46706
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-47867
+  date: null
+  cve_ids:
+  - CVE-2023-47867
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-49115
+  date: null
+  cve_ids:
+  - CVE-2023-49115
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-49610
+  date: null
+  cve_ids:
+  - CVE-2023-49610
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-49617
+  date: null
+  cve_ids:
+  - CVE-2023-49617
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-49716
+  date: null
+  cve_ids:
+  - CVE-2023-49716
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-49899
+  date: null
+  cve_ids:
+  - CVE-2023-49899
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-49900
+  date: null
+  cve_ids:
+  - CVE-2023-49900
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-51761
+  date: null
+  cve_ids:
+  - CVE-2023-51761
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-5389
+  date: null
+  cve_ids:
+  - CVE-2023-5389
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-5390
+  date: null
+  cve_ids:
+  - CVE-2023-5390
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-6221
+  date: null
+  cve_ids:
+  - CVE-2023-6221
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-6926
+  date: null
+  cve_ids:
+  - CVE-2023-6926
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2023-7238
+  date: null
+  cve_ids:
+  - CVE-2023-7238
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-0860
+  date: null
+  cve_ids:
+  - CVE-2024-0860
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-1180
+  date: null
+  cve_ids:
+  - CVE-2024-1180
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-12371
+  date: null
+  cve_ids:
+  - CVE-2024-12371
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-12372
+  date: null
+  cve_ids:
+  - CVE-2024-12372
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-12373
+  date: null
+  cve_ids:
+  - CVE-2024-12373
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-21473
+  date: null
+  cve_ids:
+  - CVE-2024-21473
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-21764
+  date: null
+  cve_ids:
+  - CVE-2024-21764
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-21794
+  date: null
+  cve_ids:
+  - CVE-2024-21794
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-21852
+  date: null
+  cve_ids:
+  - CVE-2024-21852
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-21866
+  date: null
+  cve_ids:
+  - CVE-2024-21866
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-21869
+  date: null
+  cve_ids:
+  - CVE-2024-21869
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-22016
+  date: null
+  cve_ids:
+  - CVE-2024-22016
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-22096
+  date: null
+  cve_ids:
+  - CVE-2024-22096
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-22170
+  date: null
+  cve_ids:
+  - CVE-2024-22170
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-2420
+  date: null
+  cve_ids:
+  - CVE-2024-2420
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-2421
+  date: null
+  cve_ids:
+  - CVE-2024-2421
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-2422
+  date: null
+  cve_ids:
+  - CVE-2024-2422
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-25136
+  date: null
+  cve_ids:
+  - CVE-2024-25136
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-25137
+  date: null
+  cve_ids:
+  - CVE-2024-25137
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-25138
+  date: null
+  cve_ids:
+  - CVE-2024-25138
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-27767
+  date: null
+  cve_ids:
+  - CVE-2024-27767
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-27768
+  date: null
+  cve_ids:
+  - CVE-2024-27768
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-27769
+  date: null
+  cve_ids:
+  - CVE-2024-27769
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-27770
+  date: null
+  cve_ids:
+  - CVE-2024-27770
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-27771
+  date: null
+  cve_ids:
+  - CVE-2024-27771
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-27772
+  date: null
+  cve_ids:
+  - CVE-2024-27772
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-27773
+  date: null
+  cve_ids:
+  - CVE-2024-27773
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-27774
+  date: null
+  cve_ids:
+  - CVE-2024-27774
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-27776
+  date: null
+  cve_ids:
+  - CVE-2024-27776
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-31408
+  date: null
+  cve_ids:
+  - CVE-2024-31408
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-31409
+  date: null
+  cve_ids:
+  - CVE-2024-31409
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-31410
+  date: null
+  cve_ids:
+  - CVE-2024-31410
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-31856
+  date: null
+  cve_ids:
+  - CVE-2024-31856
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-32042
+  date: null
+  cve_ids:
+  - CVE-2024-32042
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-32047
+  date: null
+  cve_ids:
+  - CVE-2024-32047
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-32053
+  date: null
+  cve_ids:
+  - CVE-2024-32053
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-33615
+  date: null
+  cve_ids:
+  - CVE-2024-33615
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-33625
+  date: null
+  cve_ids:
+  - CVE-2024-33625
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-34025
+  date: null
+  cve_ids:
+  - CVE-2024-34025
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-36388
+  date: null
+  cve_ids:
+  - CVE-2024-36388
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-36389
+  date: null
+  cve_ids:
+  - CVE-2024-36389
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-36390
+  date: null
+  cve_ids:
+  - CVE-2024-36390
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-36391
+  date: null
+  cve_ids:
+  - CVE-2024-36391
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-36392
+  date: null
+  cve_ids:
+  - CVE-2024-36392
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-3746
+  date: null
+  cve_ids:
+  - CVE-2024-3746
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-38434
+  date: null
+  cve_ids:
+  - CVE-2024-38434
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-38435
+  date: null
+  cve_ids:
+  - CVE-2024-38435
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-39290
+  date: null
+  cve_ids:
+  - CVE-2024-39290
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-39348
+  date: null
+  cve_ids:
+  - CVE-2024-39348
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-41925
+  date: null
+  cve_ids:
+  - CVE-2024-41925
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-42494
+  date: null
+  cve_ids:
+  - CVE-2024-42494
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-45367
+  date: null
+  cve_ids:
+  - CVE-2024-45367
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-45722
+  date: null
+  cve_ids:
+  - CVE-2024-45722
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-45837
+  date: null
+  cve_ids:
+  - CVE-2024-45837
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-46874
+  date: null
+  cve_ids:
+  - CVE-2024-46874
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-47043
+  date: null
+  cve_ids:
+  - CVE-2024-47043
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-47142
+  date: null
+  cve_ids:
+  - CVE-2024-47142
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-47146
+  date: null
+  cve_ids:
+  - CVE-2024-47146
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-47253
+  date: null
+  cve_ids:
+  - CVE-2024-47253
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-47254
+  date: null
+  cve_ids:
+  - CVE-2024-47254
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-47255
+  date: null
+  cve_ids:
+  - CVE-2024-47255
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-47256
+  date: null
+  cve_ids:
+  - CVE-2024-47256
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-47547
+  date: null
+  cve_ids:
+  - CVE-2024-47547
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-47791
+  date: null
+  cve_ids:
+  - CVE-2024-47791
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-48871
+  date: null
+  cve_ids:
+  - CVE-2024-48871
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-48874
+  date: null
+  cve_ids:
+  - CVE-2024-48874
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-49396
+  date: null
+  cve_ids:
+  - CVE-2024-49396
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-49397
+  date: null
+  cve_ids:
+  - CVE-2024-49397
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-49398
+  date: null
+  cve_ids:
+  - CVE-2024-49398
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-49399
+  date: null
+  cve_ids:
+  - CVE-2024-49399
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-50380
+  date: null
+  cve_ids:
+  - CVE-2024-50380
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-50381
+  date: null
+  cve_ids:
+  - CVE-2024-50381
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-51727
+  date: null
+  cve_ids:
+  - CVE-2024-51727
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-52320
+  date: null
+  cve_ids:
+  - CVE-2024-52320
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-52324
+  date: null
+  cve_ids:
+  - CVE-2024-52324
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-5242
+  date: null
+  cve_ids:
+  - CVE-2024-5242
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-5243
+  date: null
+  cve_ids:
+  - CVE-2024-5243
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-5244
+  date: null
+  cve_ids:
+  - CVE-2024-5244
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-52558
+  date: null
+  cve_ids:
+  - CVE-2024-52558
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-5557
+  date: null
+  cve_ids:
+  - CVE-2024-5557
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-5558
+  date: null
+  cve_ids:
+  - CVE-2024-5558
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-6098
+  date: null
+  cve_ids:
+  - CVE-2024-6098
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-6242
+  date: null
+  cve_ids:
+  - CVE-2024-6242
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-6618
+  date: null
+  cve_ids:
+  - CVE-2024-6618
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-6619
+  date: null
+  cve_ids:
+  - CVE-2024-6619
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-6785
+  date: null
+  cve_ids:
+  - CVE-2024-6785
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-6786
+  date: null
+  cve_ids:
+  - CVE-2024-6786
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-6787
+  date: null
+  cve_ids:
+  - CVE-2024-6787
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2024-7847
+  date: null
+  cve_ids:
+  - CVE-2024-7847
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-0430
+  date: null
+  cve_ids:
+  - CVE-2025-0430
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-0680
+  date: null
+  cve_ids:
+  - CVE-2025-0680
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-0681
+  date: null
+  cve_ids:
+  - CVE-2025-0681
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-0960
+  date: null
+  cve_ids:
+  - CVE-2025-0960
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-1001
+  date: null
+  cve_ids:
+  - CVE-2025-1001
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-1002
+  date: null
+  cve_ids:
+  - CVE-2025-1002
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-1204
+  date: null
+  cve_ids:
+  - CVE-2025-1204
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-12556
+  date: null
+  cve_ids:
+  - CVE-2025-12556
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-2079
+  date: null
+  cve_ids:
+  - CVE-2025-2079
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-2080
+  date: null
+  cve_ids:
+  - CVE-2025-2080
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-2081
+  date: null
+  cve_ids:
+  - CVE-2025-2081
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-26468
+  date: null
+  cve_ids:
+  - CVE-2025-26468
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-30023
+  date: null
+  cve_ids:
+  - CVE-2025-30023
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-30024
+  date: null
+  cve_ids:
+  - CVE-2025-30024
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-30025
+  date: null
+  cve_ids:
+  - CVE-2025-30025
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-30026
+  date: null
+  cve_ids:
+  - CVE-2025-30026
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-30034
+  date: null
+  cve_ids:
+  - CVE-2025-30034
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-30183
+  date: null
+  cve_ids:
+  - CVE-2025-30183
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-30184
+  date: null
+  cve_ids:
+  - CVE-2025-30184
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-30507
+  date: null
+  cve_ids:
+  - CVE-2025-30507
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-30515
+  date: null
+  cve_ids:
+  - CVE-2025-30515
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-3128
+  date: null
+  cve_ids:
+  - CVE-2025-3128
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-3232
+  date: null
+  cve_ids:
+  - CVE-2025-3232
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-4041
+  date: null
+  cve_ids:
+  - CVE-2025-4041
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-41426
+  date: null
+  cve_ids:
+  - CVE-2025-41426
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-41450
+  date: null
+  cve_ids:
+  - CVE-2025-41450
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-41451
+  date: null
+  cve_ids:
+  - CVE-2025-41451
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-41452
+  date: null
+  cve_ids:
+  - CVE-2025-41452
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-41733
+  date: null
+  cve_ids:
+  - CVE-2025-41733
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-41734
+  date: null
+  cve_ids:
+  - CVE-2025-41734
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-41735
+  date: null
+  cve_ids:
+  - CVE-2025-41735
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-41736
+  date: null
+  cve_ids:
+  - CVE-2025-41736
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-41737
+  date: null
+  cve_ids:
+  - CVE-2025-41737
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-44954
+  date: null
+  cve_ids:
+  - CVE-2025-44954
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-44955
+  date: null
+  cve_ids:
+  - CVE-2025-44955
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-44957
+  date: null
+  cve_ids:
+  - CVE-2025-44957
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-44958
+  date: null
+  cve_ids:
+  - CVE-2025-44958
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-44960
+  date: null
+  cve_ids:
+  - CVE-2025-44960
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-44961
+  date: null
+  cve_ids:
+  - CVE-2025-44961
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-44962
+  date: null
+  cve_ids:
+  - CVE-2025-44962
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-44963
+  date: null
+  cve_ids:
+  - CVE-2025-44963
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-44964
+  date: null
+  cve_ids:
+  - CVE-2025-44964
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-46412
+  date: null
+  cve_ids:
+  - CVE-2025-46412
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-49151
+  date: null
+  cve_ids:
+  - CVE-2025-49151
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-49152
+  date: null
+  cve_ids:
+  - CVE-2025-49152
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-49153
+  date: null
+  cve_ids:
+  - CVE-2025-49153
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-49851
+  date: null
+  cve_ids:
+  - CVE-2025-49851
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-49852
+  date: null
+  cve_ids:
+  - CVE-2025-49852
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-49853
+  date: null
+  cve_ids:
+  - CVE-2025-49853
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-53077
+  date: null
+  cve_ids:
+  - CVE-2025-53077
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-53078
+  date: null
+  cve_ids:
+  - CVE-2025-53078
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-53079
+  date: null
+  cve_ids:
+  - CVE-2025-53079
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-53080
+  date: null
+  cve_ids:
+  - CVE-2025-53080
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-53081
+  date: null
+  cve_ids:
+  - CVE-2025-53081
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-53082
+  date: null
+  cve_ids:
+  - CVE-2025-53082
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-6071
+  date: null
+  cve_ids:
+  - CVE-2025-6071
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-6072
+  date: null
+  cve_ids:
+  - CVE-2025-6072
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-6073
+  date: null
+  cve_ids:
+  - CVE-2025-6073
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-6074
+  date: null
+  cve_ids:
+  - CVE-2025-6074
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-6243
+  date: null
+  cve_ids:
+  - CVE-2025-6243
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-64126
+  date: null
+  cve_ids:
+  - CVE-2025-64126
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-64127
+  date: null
+  cve_ids:
+  - CVE-2025-64127
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-64128
+  date: null
+  cve_ids:
+  - CVE-2025-64128
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-64129
+  date: null
+  cve_ids:
+  - CVE-2025-64129
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-64130
+  date: null
+  cve_ids:
+  - CVE-2025-64130
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-0779
+  date: null
+  cve_ids:
+  - CVE-2026-0779
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-0780
+  date: null
+  cve_ids:
+  - CVE-2026-0780
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-0781
+  date: null
+  cve_ids:
+  - CVE-2026-0781
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-0782
+  date: null
+  cve_ids:
+  - CVE-2026-0782
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-0783
+  date: null
+  cve_ids:
+  - CVE-2026-0783
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-0784
+  date: null
+  cve_ids:
+  - CVE-2026-0784
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-0785
+  date: null
+  cve_ids:
+  - CVE-2026-0785
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-0786
+  date: null
+  cve_ids:
+  - CVE-2026-0786
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-0787
+  date: null
+  cve_ids:
+  - CVE-2026-0787
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-0788
+  date: null
+  cve_ids:
+  - CVE-2026-0788
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-0789
+  date: null
+  cve_ids:
+  - CVE-2026-0789
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-0790
+  date: null
+  cve_ids:
+  - CVE-2026-0790
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-0791
+  date: null
+  cve_ids:
+  - CVE-2026-0791
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-0792
+  date: null
+  cve_ids:
+  - CVE-2026-0792
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-0793
+  date: null
+  cve_ids:
+  - CVE-2026-0793
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-0794
+  date: null
+  cve_ids:
+  - CVE-2026-0794
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-0795
+  date: null
+  cve_ids:
+  - CVE-2026-0795
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-0796
+  date: null
+  cve_ids:
+  - CVE-2026-0796
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-20742
+  date: null
+  cve_ids:
+  - CVE-2026-20742
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-20761
+  date: null
+  cve_ids:
+  - CVE-2026-20761
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-20764
+  date: null
+  cve_ids:
+  - CVE-2026-20764
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-20797
+  date: null
+  cve_ids:
+  - CVE-2026-20797
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-20902
+  date: null
+  cve_ids:
+  - CVE-2026-20902
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-20910
+  date: null
+  cve_ids:
+  - CVE-2026-20910
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-21389
+  date: null
+  cve_ids:
+  - CVE-2026-21389
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-21654
+  date: null
+  cve_ids:
+  - CVE-2026-21654
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-21656
+  date: null
+  cve_ids:
+  - CVE-2026-21656
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-21657
+  date: null
+  cve_ids:
+  - CVE-2026-21657
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-21658
+  date: null
+  cve_ids:
+  - CVE-2026-21658
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-21659
+  date: null
+  cve_ids:
+  - CVE-2026-21659
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-21660
+  date: null
+  cve_ids:
+  - CVE-2026-21660
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-21718
+  date: null
+  cve_ids:
+  - CVE-2026-21718
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-22877
+  date: null
+  cve_ids:
+  - CVE-2026-22877
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-22885
+  date: null
+  cve_ids:
+  - CVE-2026-22885
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-23702
+  date: null
+  cve_ids:
+  - CVE-2026-23702
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-24452
+  date: null
+  cve_ids:
+  - CVE-2026-24452
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-24517
+  date: null
+  cve_ids:
+  - CVE-2026-24517
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-24663
+  date: null
+  cve_ids:
+  - CVE-2026-24663
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-24689
+  date: null
+  cve_ids:
+  - CVE-2026-24689
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-24695
+  date: null
+  cve_ids:
+  - CVE-2026-24695
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-25037
+  date: null
+  cve_ids:
+  - CVE-2026-25037
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-25085
+  date: null
+  cve_ids:
+  - CVE-2026-25085
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-25105
+  date: null
+  cve_ids:
+  - CVE-2026-25105
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-25109
+  date: null
+  cve_ids:
+  - CVE-2026-25109
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-25111
+  date: null
+  cve_ids:
+  - CVE-2026-25111
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-25195
+  date: null
+  cve_ids:
+  - CVE-2026-25195
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-25196
+  date: null
+  cve_ids:
+  - CVE-2026-25196
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-25721
+  date: null
+  cve_ids:
+  - CVE-2026-25721
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-3037
+  date: null
+  cve_ids:
+  - CVE-2026-3037
+  researchers: []
+  vendors: []
+  cve_count: 1

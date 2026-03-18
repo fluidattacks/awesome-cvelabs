@@ -1,0 +1,402 @@
+lab: SafeBreach Labs
+url: https://www.safebreach.com/blog/research/
+scraped_at: '2026-03-17T22:23:31.996209Z'
+advisories:
+- url: https://www.safebreach.com/vulnerability/cve-2025-59199/
+  date: 26/01/26
+  cve_ids:
+  - CVE-2025-59199
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2025-59200/
+  date: 26/01/26
+  cve_ids:
+  - CVE-2025-59200
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2025-59502/
+  date: 26/01/26
+  cve_ids:
+  - CVE-2025-59502
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2025-49760/
+  date: 26/01/26
+  cve_ids:
+  - CVE-2025-49760
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2025-49716/
+  date: 26/01/26
+  cve_ids:
+  - CVE-2025-49716
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2025-49722/
+  date: 26/01/26
+  cve_ids:
+  - CVE-2025-49722
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2025-32724/
+  date: 26/01/26
+  cve_ids:
+  - CVE-2025-32724
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2025-29969/
+  date: 25/05/13
+  cve_ids:
+  - CVE-2025-29969
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2025-26673/
+  date: 25/04/08
+  cve_ids:
+  - CVE-2025-26673
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2024-10668/
+  date: 24/11/07
+  cve_ids:
+  - CVE-2024-10668
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2024-38202/
+  date: 24/08/07
+  cve_ids:
+  - CVE-2024-38202
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2024-21302/
+  date: 24/08/07
+  cve_ids:
+  - CVE-2024-21302
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2024-38272/
+  date: 24/06/26
+  cve_ids:
+  - CVE-2024-38272
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2024-38271/
+  date: 24/06/26
+  cve_ids:
+  - CVE-2024-38271
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2023-36396/
+  date: 23/12/21
+  cve_ids:
+  - CVE-2023-36396
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2023-36010-2/
+  date: 23/12/21
+  cve_ids:
+  - CVE-2023-36010
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2023-32054/
+  date: 23/12/21
+  cve_ids:
+  - CVE-2023-32054
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2023-24934/
+  date: 23/04/08
+  cve_ids:
+  - CVE-2023-24934
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2023-24934-2/
+  date: 23/04/06
+  cve_ids:
+  - CVE-2023-24860
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2023-23411/
+  date: 23/03/05
+  cve_ids:
+  - CVE-2023-23411
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2022-45797/
+  date: 22/12/12
+  cve_ids:
+  - CVE-2022-45797
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/141047/
+  date: 22/12/08
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://www.safebreach.com/vulnerability/cve-2022-4173/
+  date: 22/11/10
+  cve_ids:
+  - CVE-2022-4173
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2022-38015/
+  date: 22/11/08
+  cve_ids:
+  - CVE-2022-38015
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2022-37971/
+  date: 22/10/08
+  cve_ids:
+  - CVE-2022-37971
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2021-34507/
+  date: 21/07/08
+  cve_ids:
+  - CVE-2021-34507
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2021-28476/
+  date: 21/05/08
+  cve_ids:
+  - CVE-2021-28476
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2020-1337/
+  date: 20/08/08
+  cve_ids:
+  - CVE-2020-1337
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2020-1048/
+  date: 20/05/08
+  cve_ids:
+  - CVE-2020-1048
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2019-20400/
+  date: 20/02/15
+  cve_ids:
+  - CVE-2019-20400
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2019-20406/
+  date: 20/02/10
+  cve_ids:
+  - CVE-2019-20406
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2019-19115/
+  date: 20/01/08
+  cve_ids:
+  - CVE-2019-19115
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2019-19235/
+  date: 19/12/20
+  cve_ids:
+  - CVE-2019-19235
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2019-19705/
+  date: 19/12/15
+  cve_ids:
+  - CVE-2019-19705
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2019-18670/
+  date: 19/12/10
+  cve_ids:
+  - CVE-2019-18670
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2019-20362/
+  date: 19/12/05
+  cve_ids:
+  - CVE-2019-20362
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2019-15628/
+  date: 19/11/20
+  cve_ids:
+  - CVE-2019-15628
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2019-16861/
+  date: 19/11/19
+  cve_ids:
+  - CVE-2019-16861
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2019-15689/
+  date: 19/11/18
+  cve_ids:
+  - CVE-2019-15689
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2019-7365/
+  date: 19/11/17
+  cve_ids:
+  - CVE-2019-7365
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2019-6189/
+  date: 19/11/15
+  cve_ids:
+  - CVE-2019-6189
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2019-14568/
+  date: 19/11/13
+  cve_ids:
+  - CVE-2019-14568
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2019-16647/
+  date: 19/10/26
+  cve_ids:
+  - CVE-2019-16647
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2019-3648/
+  date: 19/10/24
+  cve_ids:
+  - CVE-2019-3648
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2019-12758/
+  date: 19/10/22
+  cve_ids:
+  - CVE-2019-12758
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2019-18196/
+  date: 19/10/20
+  cve_ids:
+  - CVE-2019-18196
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2019-5695/
+  date: 19/10/18
+  cve_ids:
+  - CVE-2019-5695
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2019-5694/
+  date: 19/10/15
+  cve_ids:
+  - CVE-2019-5694
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2019-8461/
+  date: 19/10/13
+  cve_ids:
+  - CVE-2019-8461
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2019-18215/
+  date: 19/10/10
+  cve_ids:
+  - CVE-2019-18215
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2019-17449/
+  date: 19/10/07
+  cve_ids:
+  - CVE-2019-17449
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2019-17093/
+  date: 19/10/04
+  cve_ids:
+  - CVE-2019-17093
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2019-6333/
+  date: 19/09/15
+  cve_ids:
+  - CVE-2019-6333
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2019-15295/
+  date: 19/08/15
+  cve_ids:
+  - CVE-2019-15295
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2019-6145/
+  date: 19/08/13
+  cve_ids:
+  - CVE-2019-6145
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2019-14684/
+  date: 19/08/11
+  cve_ids:
+  - CVE-2019-14684
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.safebreach.com/vulnerability/cve-2019-12280/
+  date: 19/06/08
+  cve_ids:
+  - CVE-2019-12280
+  researchers: []
+  vendors: []
+  cve_count: 1

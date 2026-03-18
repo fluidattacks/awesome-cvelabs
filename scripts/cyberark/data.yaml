@@ -1,0 +1,1075 @@
+lab: CyberArk Labs
+url: https://labs.cyberark.com/cyberark-labs-security-advisories/
+scraped_at: '2026-03-17T21:23:32.698412Z'
+advisories:
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2022-31020
+  date: null
+  cve_ids:
+  - CVE-2022-31020
+  researchers:
+  - Shaked Reiner
+  vendors:
+  - Hyperledge
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2022-36116
+  date: null
+  cve_ids:
+  - CVE-2022-36116
+  researchers:
+  - Nimrod Stoler
+  vendors:
+  - Blue Prism
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2022-36115
+  date: null
+  cve_ids:
+  - CVE-2022-36115
+  researchers:
+  - Nimrod Stoler
+  vendors:
+  - Blue Prism
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2022-36118
+  date: null
+  cve_ids:
+  - CVE-2022-36118
+  researchers:
+  - Nimrod Stoler
+  vendors:
+  - Blue Prism
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2022-36117
+  date: null
+  cve_ids:
+  - CVE-2022-36117
+  researchers:
+  - Nimrod Stoler
+  vendors:
+  - Blue Prism
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2022-36662
+  date: null
+  cve_ids:
+  - CVE-2022-36662
+  researchers:
+  - Nimrod Stoler
+  vendors:
+  - Blue Prism
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2022-36120
+  date: null
+  cve_ids:
+  - CVE-2022-36120
+  researchers:
+  - Nimrod Stoler
+  vendors:
+  - Blue Prism
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2022-4842
+  date: null
+  cve_ids:
+  - CVE-2022-4842
+  researchers:
+  - Alon Zahavi / Tal Lossos
+  vendors:
+  - Linux Kernel – NTFS
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2022-0122
+  date: null
+  cve_ids:
+  - CVE-2022-0122
+  researchers:
+  - Tal Lossos
+  vendors:
+  - Linux Kernel – NVME
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2022-34682
+  date: null
+  cve_ids:
+  - CVE-2022-34682
+  researchers:
+  - Tal Lossos
+  vendors:
+  - Nvidia
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2022-31615
+  date: null
+  cve_ids:
+  - CVE-2022-31615
+  researchers:
+  - Tal Lossos
+  vendors:
+  - Nvidia
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2022-44903
+  date: null
+  cve_ids:
+  - CVE-2022-44903
+  researchers:
+  - Omer Tsarfati
+  vendors:
+  - EVGA
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2022-30346
+  date: null
+  cve_ids:
+  - CVE-2022-30346
+  researchers:
+  - Omer Tsarfati
+  vendors:
+  - MSI
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2022-34292
+  date: null
+  cve_ids:
+  - CVE-2022-34292
+  researchers:
+  - Eviatar Gerzi
+  vendors:
+  - Docker
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2022-31647
+  date: null
+  cve_ids:
+  - CVE-2022-31647
+  researchers:
+  - Eviatar Gerzi
+  vendors:
+  - Docker
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2022-29023
+  date: null
+  cve_ids:
+  - CVE-2022-29023
+  researchers:
+  - Tal Lossos
+  vendors:
+  - OpenRazer
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2022-29022
+  date: null
+  cve_ids:
+  - CVE-2022-29022
+  researchers:
+  - Tal Lossos
+  vendors:
+  - OpenRazer
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2022-29021
+  date: null
+  cve_ids:
+  - CVE-2022-29021
+  researchers:
+  - Tal Lossos
+  vendors:
+  - OpenRazer
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2022-22774
+  date: null
+  cve_ids:
+  - CVE-2022-22774
+  researchers:
+  - Niv Levy
+  vendors:
+  - TIBCO
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2022-28547
+  date: null
+  cve_ids:
+  - CVE-2022-28547
+  researchers:
+  - Niv Levy
+  vendors:
+  - LiquidPixels
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2022-38730
+  date: null
+  cve_ids:
+  - CVE-2022-38730
+  researchers:
+  - Eviatar Gerzi
+  vendors:
+  - Docker
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2022-37326
+  date: null
+  cve_ids:
+  - CVE-2022-37326
+  researchers:
+  - Eviatar Gerzi
+  vendors:
+  - Docker
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2022-25637
+  date: null
+  cve_ids:
+  - CVE-2022-25637
+  researchers:
+  - Omer Tsarfati
+  vendors:
+  - Razer
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2022-25365
+  date: null
+  cve_ids:
+  - CVE-2022-25365
+  researchers:
+  - Eviatar Gerzi
+  vendors:
+  - Docker
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2022-23774
+  date: null
+  cve_ids:
+  - CVE-2022-23774
+  researchers:
+  - Eviatar Gerzi
+  vendors:
+  - Docker
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2021-3847
+  date: null
+  cve_ids:
+  - CVE-2021-3847
+  researchers:
+  - Alon Zahavi
+  vendors:
+  - Linux
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2021-37326
+  date: null
+  cve_ids:
+  - CVE-2021-37326
+  researchers:
+  - Eviatar Gerzi
+  vendors:
+  - Netsarang
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2021-40332
+  date: null
+  cve_ids:
+  - CVE-2021-40332
+  researchers:
+  - Eran Shimony,Mark Cherp
+  vendors:
+  - Realtek
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2021-40328
+  date: null
+  cve_ids:
+  - CVE-2021-40328
+  researchers:
+  - Eran Shimony,Mark Cherp
+  vendors:
+  - Realtek
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2021-0160
+  date: null
+  cve_ids:
+  - CVE-2021-0160
+  researchers:
+  - Eran Shimony
+  vendors:
+  - Intel
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2021-34466
+  date: null
+  cve_ids:
+  - CVE-2021-34466
+  researchers:
+  - Omer Tsarfati
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2021-32460
+  date: null
+  cve_ids:
+  - CVE-2021-32460
+  researchers:
+  - Mark CherpEran.Shimony
+  vendors:
+  - Trend Micro
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2021-32198
+  date: null
+  cve_ids:
+  - CVE-2021-32198
+  researchers:
+  - Eviatar Gerzi
+  vendors:
+  - EmTec Innovative Software
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2021-0120
+  date: null
+  cve_ids:
+  - CVE-2021-0120
+  researchers:
+  - Eran Shimony,Mark Cherp
+  vendors:
+  - Microsft
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2021-42095
+  date: null
+  cve_ids:
+  - CVE-2021-42095
+  researchers:
+  - Eviatar Gerzi
+  vendors:
+  - Netsarang
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2021-40147
+  date: null
+  cve_ids:
+  - CVE-2021-40147
+  researchers:
+  - Eviatar Gerzi
+  vendors:
+  - EmTec Innovative Software
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2021-31701
+  date: null
+  cve_ids:
+  - CVE-2021-31701
+  researchers:
+  - Eviatar Gerzi
+  vendors:
+  - Thomas Wolff
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2021-4717
+  date: null
+  cve_ids:
+  - CVE-2021-4717
+  researchers:
+  - Ido Hoorvitch
+  vendors:
+  - IBM
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2021-28847
+  date: null
+  cve_ids:
+  - CVE-2021-28847
+  researchers:
+  - Eviatar Gerzi
+  vendors:
+  - William Taur Mobatek
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2021-26928
+  date: null
+  cve_ids:
+  - CVE-2021-26928
+  researchers:
+  - Nir Chako
+  vendors:
+  - Tigera
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2021-28848
+  date: null
+  cve_ids:
+  - CVE-2021-28848
+  researchers:
+  - Eviatar Gerzi
+  vendors:
+  - Thomas Wolff
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2021-33500
+  date: null
+  cve_ids:
+  - CVE-2021-33500
+  researchers:
+  - Eviatar Gerzi
+  vendors:
+  - Simon Tatham
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2021-26940
+  date: null
+  cve_ids:
+  - CVE-2021-26940
+  researchers:
+  - Eviatar Gerzi
+  vendors:
+  - Simon Tatham
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2021-1704
+  date: null
+  cve_ids:
+  - CVE-2021-1704
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-28349
+  date: null
+  cve_ids:
+  - CVE-2020-28349
+  researchers:
+  - Emmanuel Ouanounou
+  vendors:
+  - Chirpstack
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-27534
+  date: null
+  cve_ids:
+  - CVE-2020-27534
+  researchers:
+  - Eviatar Gerzi
+  vendors:
+  - Docker
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-27352
+  date: null
+  cve_ids:
+  - CVE-2020-27352
+  researchers:
+  - Gilad Reti,Nimrod Stoler
+  vendors:
+  - Canonical
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-12335
+  date: null
+  cve_ids:
+  - CVE-2020-12335
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Intel
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-3991
+  date: null
+  cve_ids:
+  - CVE-2020-3991
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Vmware
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-25046
+  date: null
+  cve_ids:
+  - CVE-2020-25046
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Kaspersky
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-25045
+  date: null
+  cve_ids:
+  - CVE-2020-25045
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Kaspersky
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-25044
+  date: null
+  cve_ids:
+  - CVE-2020-25044
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Kaspersky
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-25043
+  date: null
+  cve_ids:
+  - CVE-2020-25043
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Kaspersky
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-7310
+  date: null
+  cve_ids:
+  - CVE-2020-7310
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - McAffe
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-22460
+  date: null
+  cve_ids:
+  - CVE-2020-22460
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Intel
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-15534
+  date: null
+  cve_ids:
+  - CVE-2020-15534
+  researchers:
+  - Eviatar Gerzi
+  vendors:
+  - Pulse Secure
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-15523
+  date: null
+  cve_ids:
+  - CVE-2020-15523
+  researchers:
+  - Eran.Shimony,Ido Hoorvitch
+  vendors:
+  - Python \ DUO
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-8759
+  date: null
+  cve_ids:
+  - CVE-2020-8759
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Intel
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-9200
+  date: null
+  cve_ids:
+  - CVE-2020-9200
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Huawei
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-14212
+  date: null
+  cve_ids:
+  - CVE-2020-14212
+  researchers:
+  - Assaf Sion
+  vendors:
+  - FFmpeg
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-13903
+  date: null
+  cve_ids:
+  - CVE-2020-13903
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Avira
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-13813
+  date: null
+  cve_ids:
+  - CVE-2020-13813
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Foxit
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-5357
+  date: null
+  cve_ids:
+  - CVE-2020-5357
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Dell
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-1817
+  date: null
+  cve_ids:
+  - CVE-2020-1817
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Huawei
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-7250
+  date: null
+  cve_ids:
+  - CVE-2020-7250
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - McAffe
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-1885
+  date: null
+  cve_ids:
+  - CVE-2020-1885
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Facebook
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-9290
+  date: null
+  cve_ids:
+  - CVE-2020-9290
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Fortient
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-7482
+  date: null
+  cve_ids:
+  - CVE-2020-7482
+  researchers:
+  - Niv Levy
+  vendors:
+  - Schneider Electric
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-7481
+  date: null
+  cve_ids:
+  - CVE-2020-7481
+  researchers:
+  - Niv Levy
+  vendors:
+  - Schneider Electric
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-7480
+  date: null
+  cve_ids:
+  - CVE-2020-7480
+  researchers:
+  - Niv Levy
+  vendors:
+  - Schneider Electric
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-8959
+  date: null
+  cve_ids:
+  - CVE-2020-8959
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Western Digital
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-8242
+  date: null
+  cve_ids:
+  - CVE-2020-8242
+  researchers:
+  - Eviatar Gerzi
+  vendors:
+  - Pulse Secure
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-7808
+  date: null
+  cve_ids:
+  - CVE-2020-7808
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - LG
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-7807
+  date: null
+  cve_ids:
+  - CVE-2020-7807
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - LG
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-7806
+  date: null
+  cve_ids:
+  - CVE-2020-7806
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - LG
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-6015
+  date: null
+  cve_ids:
+  - CVE-2020-6015
+  researchers:
+  - Ido Hoorvitch
+  vendors:
+  - CheckPoint
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-5962
+  date: null
+  cve_ids:
+  - CVE-2020-5962
+  researchers:
+  - Eviatar Gerzi
+  vendors:
+  - Nvidia
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-5324
+  date: null
+  cve_ids:
+  - CVE-2020-5324
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Dell
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-5316
+  date: null
+  cve_ids:
+  - CVE-2020-5316
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Dell
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-3427
+  date: null
+  cve_ids:
+  - CVE-2020-3427
+  researchers:
+  - Ido Hoorvitch
+  vendors:
+  - DUO SECURITY
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-1986
+  date: null
+  cve_ids:
+  - CVE-2020-1986
+  researchers:
+  - Eviatar Gerzi
+  vendors:
+  - Palo Alto
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-1985
+  date: null
+  cve_ids:
+  - CVE-2020-1985
+  researchers:
+  - Eviatar Gerzi
+  vendors:
+  - Palo Alto
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-1984
+  date: null
+  cve_ids:
+  - CVE-2020-1984
+  researchers:
+  - Eviatar Gerzi
+  vendors:
+  - Palo Alto
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-1317
+  date: null
+  cve_ids:
+  - CVE-2020-1317
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-1194
+  date: null
+  cve_ids:
+  - CVE-2020-1194
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-0635
+  date: null
+  cve_ids:
+  - CVE-2020-0635
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2020-0565
+  date: null
+  cve_ids:
+  - CVE-2020-0565
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Intel
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2019-10030
+  date: null
+  cve_ids:
+  - CVE-2019-10030
+  researchers:
+  - Nimrod.Stoler
+  vendors:
+  - CloudBees
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2019-19548
+  date: null
+  cve_ids:
+  - CVE-2019-19548
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Symantec
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2019-19689
+  date: null
+  cve_ids:
+  - CVE-2019-19689
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - TrendMicro
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2019-19688
+  date: null
+  cve_ids:
+  - CVE-2019-19688
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - TrendMicro
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2019-17546
+  date: null
+  cve_ids:
+  - CVE-2019-17546
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Intel
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2019-16283
+  date: null
+  cve_ids:
+  - CVE-2019-16283
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - HP
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2019-14597
+  date: null
+  cve_ids:
+  - CVE-2019-14597
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Intel
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2019-3749
+  date: null
+  cve_ids:
+  - CVE-2019-3749
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Dell
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2019-3750
+  date: null
+  cve_ids:
+  - CVE-2019-3750
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Dell
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2019-8463
+  date: null
+  cve_ids:
+  - CVE-2019-8463
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Checkpoint
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2019-11152
+  date: null
+  cve_ids:
+  - CVE-2019-11152
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Intel
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2019-8071
+  date: null
+  cve_ids:
+  - CVE-2019-8071
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2019-3745
+  date: null
+  cve_ids:
+  - CVE-2019-3745
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Dell
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2019-3726
+  date: null
+  cve_ids:
+  - CVE-2019-3726
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Dell
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2019-16191
+  date: null
+  cve_ids:
+  - CVE-2019-16191
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Samsung
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2019-14596
+  date: null
+  cve_ids:
+  - CVE-2019-14596
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Intel
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2019-11189
+  date: null
+  cve_ids:
+  - CVE-2019-11189
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Intel
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2019-8236
+  date: null
+  cve_ids:
+  - CVE-2019-8236
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2019-11146
+  date: null
+  cve_ids:
+  - CVE-2019-11146
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Intel
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2019-7957
+  date: null
+  cve_ids:
+  - CVE-2019-7957
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Adobe
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2019-6196
+  date: null
+  cve_ids:
+  - CVE-2019-6196
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Lenovo
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2019-6176
+  date: null
+  cve_ids:
+  - CVE-2019-6176
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Lenovo
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2019-6175
+  date: null
+  cve_ids:
+  - CVE-2019-6175
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Lenovo
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2019-6173
+  date: null
+  cve_ids:
+  - CVE-2019-6173
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Lenovo
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2019-6163
+  date: null
+  cve_ids:
+  - CVE-2019-6163
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Lenovo
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2019-5245
+  date: null
+  cve_ids:
+  - CVE-2019-5245
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Huawei
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2019-1161
+  date: null
+  cve_ids:
+  - CVE-2019-1161
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2019-1142
+  date: null
+  cve_ids:
+  - CVE-2019-1142
+  researchers:
+  - Eran.Shimony
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2019-1105
+  date: null
+  cve_ids:
+  - CVE-2019-1105
+  researchers:
+  - or ida
+  vendors:
+  - Microsoft
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2018-19990
+  date: null
+  cve_ids:
+  - CVE-2018-19990
+  researchers:
+  - Nimrod.Stoler
+  vendors:
+  - CloudBees
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2018-10008
+  date: null
+  cve_ids:
+  - CVE-2018-10008
+  researchers:
+  - Nimrod.Stoler
+  vendors:
+  - CloudBees
+  cve_count: 1
+- url: https://labs.cyberark.com/cyberark-labs-security-advisories/#CVE-2018-17246
+  date: null
+  cve_ids:
+  - CVE-2018-17246
+  researchers:
+  - Nethanel Coppenhagen
+  vendors:
+  - Elastic
+  cve_count: 1

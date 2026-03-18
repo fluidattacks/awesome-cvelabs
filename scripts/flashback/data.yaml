@@ -1,0 +1,68 @@
+lab: Flashback
+url: https://www.flashback.sh
+scraped_at: '2026-03-17T22:23:31.272492Z'
+advisories:
+- url: https://www.flashback.sh/blog/weekend-destroyer-wd-pr4100-rce
+  date: 23/02/02
+  cve_ids:
+  - CVE-2021-36224
+  - CVE-2021-36225
+  - CVE-2021-36226
+  researchers:
+  - Radek Domanski
+  vendors: []
+  cve_count: 3
+- url: https://www.flashback.sh/blog/flashback-connects-cisco-rv340-ssl-vpn-rce
+  date: 22/03/07
+  cve_ids:
+  - CVE-2022-20699
+  researchers:
+  - Radek Domanski
+  vendors: []
+  cve_count: 1
+- url: https://www.flashback.sh/blog/minesweeper-tplink-archer-lan-rce
+  date: 20/11/21
+  cve_ids:
+  - CVE-2020-28347
+  - CVE-2020-10882
+  researchers:
+  - Radek Domanski
+  vendors: []
+  cve_count: 2
+- url: https://www.flashback.sh/blog/rockwell-factorytalk-rce
+  date: 20/11/20
+  cve_ids:
+  - CVE-2020-12027
+  - CVE-2020-12028
+  - CVE-2020-12029
+  researchers:
+  - Radek Domanski
+  vendors: []
+  cve_count: 3
+- url: https://www.flashback.sh/blog/tokyo-drift-netgear-r6700-lan-rce
+  date: 20/06/25
+  cve_ids:
+  - CVE-2020-10923
+  - CVE-2020-10924
+  researchers:
+  - Radek Domanski
+  vendors: []
+  cve_count: 2
+- url: https://www.flashback.sh/blog/rce-me-v2-inductive-automation-ignition-rce
+  date: 20/06/25
+  cve_ids:
+  - CVE-2020-10644
+  - CVE-2020-12004
+  researchers:
+  - Radek Domanski
+  vendors: []
+  cve_count: 2
+- url: https://www.flashback.sh/blog/lao-bomb-tplink-archer-lan-rce
+  date: 20/06/18
+  cve_ids:
+  - CVE-2020-10883
+  - CVE-2020-10884
+  researchers:
+  - Radek Domanski
+  vendors: []
+  cve_count: 2

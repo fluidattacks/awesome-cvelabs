@@ -1,0 +1,109 @@
+lab: FortiGuard
+url: https://www.fortiguard.com/psirt
+scraped_at: '2026-03-17T21:23:26.853915Z'
+advisories:
+- url: https://www.fortiguard.com/psirt/cve-2025-15467
+  date: null
+  cve_ids:
+  - CVE-2025-15467
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.fortiguard.com/psirt/cve-2025-68686
+  date: null
+  cve_ids:
+  - CVE-2025-68686
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.fortiguard.com/psirt/cve-2026-22629
+  date: null
+  cve_ids:
+  - CVE-2026-22629
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.fortiguard.com/psirt/cve-2026-22627
+  date: null
+  cve_ids:
+  - CVE-2026-22627
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.fortiguard.com/psirt/cve-2025-54820
+  date: null
+  cve_ids:
+  - CVE-2025-54820
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.fortiguard.com/psirt/cve-2025-68648
+  date: null
+  cve_ids:
+  - CVE-2025-68648
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.fortiguard.com/psirt/cve-2025-68482
+  date: null
+  cve_ids:
+  - CVE-2025-68482
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.fortiguard.com/psirt/cve-2026-22572
+  date: null
+  cve_ids:
+  - CVE-2026-22572
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.fortiguard.com/psirt/cve-2026-25836
+  date: null
+  cve_ids:
+  - CVE-2026-25836
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.fortiguard.com/psirt/cve-2025-48418
+  date: null
+  cve_ids:
+  - CVE-2025-48418
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.fortiguard.com/psirt/cve-2025-49784
+  date: null
+  cve_ids:
+  - CVE-2025-49784
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.fortiguard.com/psirt/cve-2025-53608
+  date: null
+  cve_ids:
+  - CVE-2025-53608
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.fortiguard.com/psirt/cve-2026-22628
+  date: null
+  cve_ids:
+  - CVE-2026-22628
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.fortiguard.com/psirt/cve-2025-57740
+  date: null
+  cve_ids:
+  - CVE-2025-57740
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.fortiguard.com/psirt/cve-2025-55018
+  date: null
+  cve_ids:
+  - CVE-2025-55018
+  researchers: []
+  vendors: []
+  cve_count: 1

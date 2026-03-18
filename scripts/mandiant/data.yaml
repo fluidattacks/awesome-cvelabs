@@ -1,0 +1,1235 @@
+lab: Mandiant
+url: https://github.com/mandiant/Vulnerability-Disclosures
+scraped_at: '2026-03-17T21:26:41.353751Z'
+advisories:
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2019-0001
+  date: null
+  cve_ids:
+  - CVE-2019-5535
+  researchers: []
+  vendors:
+  - '- 18 March 2019 - VMWare responded confi'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2019-0002
+  date: null
+  cve_ids:
+  - CVE-2019-7245
+  researchers: []
+  vendors:
+  - '- 2 February 2019 - Vendor response'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2019-0003
+  date: null
+  cve_ids:
+  - CVE-2019-7630
+  researchers: []
+  vendors:
+  - '- 11 February 2019 - Confirmed issue was'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2019-0004
+  date: null
+  cve_ids:
+  - CVE-2019-7240
+  researchers: []
+  vendors:
+  - '- 11 November 2019 - Second attempt to c'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2019-0005
+  date: null
+  cve_ids:
+  - CVE-2019-15661
+  researchers: []
+  vendors:
+  - '- 26 August 2019 - Second attempt to con'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2019-0006
+  date: null
+  cve_ids:
+  - CVE-2019-15662
+  researchers: []
+  vendors:
+  - '- 26 August 2019 - Second attempt to con'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2019-0007
+  date: null
+  cve_ids:
+  - CVE-2019-15663
+  researchers: []
+  vendors:
+  - '- 26 August 2019 - Second attempt to con'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2019-0008
+  date: null
+  cve_ids:
+  - CVE-2019-15664
+  researchers: []
+  vendors:
+  - '- 26 August 2019 - Second attempt to con'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2019-0009
+  date: null
+  cve_ids:
+  - CVE-2019-15665
+  researchers: []
+  vendors:
+  - '- 26 August 2019 - Second attempt to con'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2019-0010
+  date: null
+  cve_ids:
+  - CVE-2019-7244
+  researchers: []
+  vendors:
+  - '- 31 January 2019 - Vendor confirmation'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2019-0011
+  date: null
+  cve_ids:
+  - CVE-2019-18626
+  researchers: []
+  vendors:
+  - '- 18 October 2019 - Second attempt to co'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2019-0012
+  date: null
+  cve_ids:
+  - CVE-2019-7113
+  researchers: []
+  vendors:
+  - '- 24 January 2019 - Adobe responded conf'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2019-0013
+  date: null
+  cve_ids:
+  - CVE-2019-8066
+  researchers: []
+  vendors:
+  - '- 06 February 2019 - Adobe responded con'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2019-0014
+  date: null
+  cve_ids:
+  - CVE-2019-7247
+  researchers: []
+  vendors:
+  - '- 4 November 2019 - vendor response'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2019-0015
+  date: null
+  cve_ids:
+  - CVE-2019-7246
+  researchers: []
+  vendors:
+  - '- 4 November 2019 - vendor response'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2020-0001
+  date: null
+  cve_ids:
+  - CVE-2020-0853
+  researchers: []
+  vendors:
+  - '- 10 December 2019 - Microsoft confirmed'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2020-0002
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2020-0003
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2020-0004
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2020-0005
+  date: null
+  cve_ids:
+  - CVE-2020-1117
+  researchers: []
+  vendors:
+  - '- 18 February 2020 - Issue confirmed'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2020-0006
+  date: null
+  cve_ids:
+  - CVE-2020-1397
+  researchers: []
+  vendors:
+  - '- 04 March 2020 - Issue confirmed'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2020-0007
+  date: null
+  cve_ids:
+  - CVE-2020-15467
+  researchers: []
+  vendors:
+  - '- 03 June 2020 - Issue confirmed by Cohe'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2020-0008
+  date: null
+  cve_ids:
+  - CVE-2020-0997
+  researchers: []
+  vendors:
+  - '- 02 July 2020 - Issue confirmed'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2020-0009
+  date: null
+  cve_ids:
+  - CVE-2020-16968
+  researchers: []
+  vendors:
+  - '- 02 July 2020 - Issue confirmed'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2020-0010
+  date: null
+  cve_ids:
+  - CVE-2020-17022
+  researchers: []
+  vendors:
+  - '- 06 July 2020 - Issue confirmed'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2020-0011
+  date: null
+  cve_ids:
+  - CVE-2020-17101
+  researchers: []
+  vendors:
+  - '- 13 July 2020 - Issue confirmed'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2020-0012
+  date: null
+  cve_ids:
+  - CVE-2020-17107
+  researchers: []
+  vendors:
+  - '- 14 July 2020 - Issue confirmed'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2020-0013
+  date: null
+  cve_ids:
+  - CVE-2020-17106
+  researchers: []
+  vendors:
+  - '- 14 July 2020 - Issue confirmed'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2020-0014
+  date: null
+  cve_ids:
+  - CVE-2020-17108
+  researchers: []
+  vendors:
+  - '- 22 July 2020 - Issue confirmed'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2020-0015
+  date: null
+  cve_ids:
+  - CVE-2020-17109
+  researchers: []
+  vendors:
+  - '- 31 July 2020 - Issue confirmed'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2020-0016
+  date: null
+  cve_ids:
+  - CVE-2020-17110
+  researchers: []
+  vendors:
+  - '- 01 September 2020 - Issue confirmed'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2020-0017
+  date: null
+  cve_ids:
+  - CVE-2020-17105
+  researchers: []
+  vendors:
+  - '- 14 August 2020 - Issue confirmed'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2020-0018
+  date: null
+  cve_ids:
+  - CVE-2020-14871
+  researchers: []
+  vendors:
+  - '- 24 August 2020 - Issue confirmed'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2020-0019
+  date: null
+  cve_ids:
+  - CVE-2020-9306
+  researchers:
+  - Jake Valletta
+  - Sam Sabetan
+  vendors:
+  - '- 04 Februrary 2020 - Issue confirmed by'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2020-0020
+  date: null
+  cve_ids:
+  - CVE-2020-12878
+  researchers:
+  - Jake Valletta
+  - Sam Sabetan
+  vendors:
+  - '- 11 March 2020 - Issue confirmed by Dig'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2021-0001
+  date: null
+  cve_ids:
+  - CVE-2020-25218
+  - CVE-2020-25217
+  researchers:
+  - Jake Valletta
+  - Michael Maturi
+  vendors:
+  - '- 9 September 2020 - CVE reserved with M'
+  cve_count: 2
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2021-0002
+  date: null
+  cve_ids:
+  - CVE-2020-25217
+  - CVE-2020-25218
+  researchers:
+  - Jake Valletta
+  - Michael Maturi
+  vendors:
+  - '- 9 September 2020 - CVE reserved with M'
+  cve_count: 2
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2021-0003
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2021-0004
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2021-0005
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2021-0006
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2021-0007
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2021-0008
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2021-0009
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2021-0010
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2021-0011
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2021-0012
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2021-0013
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2021-0014
+  date: null
+  cve_ids:
+  - CVE-2021-20021
+  researchers:
+  - Josh Fleischer
+  - Chris DiGiamo
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2021-0015
+  date: null
+  cve_ids:
+  - CVE-2021-20021
+  - CVE-2021-20022
+  researchers:
+  - Josh Fleischer
+  - Chris DiGiamo
+  vendors: []
+  cve_count: 2
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2021-0016
+  date: null
+  cve_ids:
+  - CVE-2021-20021
+  - CVE-2021-20023
+  researchers:
+  - Josh Fleischer
+  - Chris DiGiamo
+  vendors: []
+  cve_count: 2
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2021-0017
+  date: null
+  cve_ids:
+  - CVE-2021-32559
+  researchers:
+  - Joshua Triplett
+  - Doug McClouds
+  - Chris Ingram
+  - Andrew Tappert
+  vendors:
+  - '- 11 May 2021 - Issue confirmed'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2021-0018
+  date: null
+  cve_ids:
+  - CVE-2021-20099
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2021-0019
+  date: null
+  cve_ids:
+  - CVE-2021-33889
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2021-0020
+  date: null
+  cve_ids:
+  - CVE-2021-28372
+  researchers: []
+  vendors:
+  - '- 7 June 2021 - Issue confirmed by Throu'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2021-0021
+  date: null
+  cve_ids:
+  - CVE-2021-36921
+  researchers: []
+  vendors:
+  - Contacted
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2021-0022
+  date: null
+  cve_ids:
+  - CVE-2021-36921
+  - CVE-2021-36982
+  researchers: []
+  vendors:
+  - Contacted
+  cve_count: 2
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2021-0023
+  date: null
+  cve_ids:
+  - CVE-2021-37597
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2021-0024
+  date: null
+  cve_ids:
+  - CVE-2021-37598
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/FEYE-2021-0025
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/MNDT-2021-0001
+  date: null
+  cve_ids:
+  - CVE-2021-38671
+  - CVE-2021-34483
+  - CVE-2021-26878
+  - CVE-2020-1030
+  researchers: []
+  vendors: []
+  cve_count: 4
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/MNDT-2021-0002
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/MNDT-2021-0003
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/MNDT-2021-0004
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/MNDT-2021-0005
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/MNDT-2021-0006
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/MNDT-2021-0007
+  date: null
+  cve_ids:
+  - CVE-2021-30359
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/MNDT-2021-0008
+  date: null
+  cve_ids:
+  - CVE-2021-42254
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/MNDT-2021-0009
+  date: null
+  cve_ids:
+  - CVE-2020-27356
+  researchers:
+  - Chuck Gabriele
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/MNDT-2021-0010
+  date: null
+  cve_ids:
+  - CVE-2021-42711
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/MNDT-2021-0011
+  date: null
+  cve_ids:
+  - CVE-2021-41526
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/MNDT-2021-0012
+  date: null
+  cve_ids:
+  - CVE-2021-44207
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/2022/MNDT-2022-0001
+  date: null
+  cve_ids:
+  - CVE-2021-30360
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/2022/MNDT-2022-0002
+  date: null
+  cve_ids:
+  - CVE-2021-42810
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/2022/MNDT-2022-0003
+  date: null
+  cve_ids:
+  - CVE-2022-22717
+  - CVE-2021-38671
+  - CVE-2021-34483
+  - CVE-2021-26878
+  - CVE-2020-1030
+  researchers: []
+  vendors: []
+  cve_count: 5
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/2022/MNDT-2022-0004
+  date: null
+  cve_ids:
+  - CVE-2022-23280
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/2022/MNDT-2022-0005
+  date: null
+  cve_ids:
+  - CVE-2021-42714
+  researchers:
+  - Ronnie Salomonsen
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/2022/MNDT-2022-0006
+  date: null
+  cve_ids:
+  - CVE-2021-42713
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/2022/MNDT-2022-0007
+  date: null
+  cve_ids:
+  - CVE-2021-42712
+  researchers:
+  - Ronnie Salomonsen
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/2022/MNDT-2022-0008
+  date: null
+  cve_ids:
+  - CVE-2022-21917
+  researchers: []
+  vendors:
+  - '- 20 September 2021 - Issue confirmed'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/2022/MNDT-2022-0009
+  date: null
+  cve_ids:
+  - CVE-2022-21844
+  researchers: []
+  vendors:
+  - '- 04 October 2021 - Issue confirmed'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/2022/MNDT-2022-0010
+  date: null
+  cve_ids:
+  - CVE-2022-21926
+  researchers: []
+  vendors:
+  - '- 14 September 2021 - Issue confirmed'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/2022/MNDT-2022-0011
+  date: null
+  cve_ids:
+  - CVE-2022-21927
+  researchers: []
+  vendors:
+  - '- 20 September 2021 - Issue confirmed'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/2022/MNDT-2022-0012
+  date: null
+  cve_ids:
+  - CVE-2022-22006
+  researchers: []
+  vendors:
+  - '- 20 September 2021 - Issue confirmed'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/2022/MNDT-2022-0013
+  date: null
+  cve_ids:
+  - CVE-2022-22007
+  researchers: []
+  vendors:
+  - '- 23 April 2021 - Issue confirmed'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/2022/MNDT-2022-0014
+  date: null
+  cve_ids:
+  - CVE-2022-24453
+  researchers: []
+  vendors:
+  - '- 20 October 2021 - Issue confirmed'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/2022/MNDT-2022-0015
+  date: null
+  cve_ids:
+  - CVE-2022-24456
+  researchers: []
+  vendors:
+  - '- 15 November 2021 - Issue confirmed'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/2022/MNDT-2022-0016
+  date: null
+  cve_ids:
+  - CVE-2022-24457
+  researchers: []
+  vendors:
+  - '- 20 October 2021 - Issue confirmed'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/2022/MNDT-2022-0017
+  date: null
+  cve_ids:
+  - CVE-2022-23296
+  researchers:
+  - Ronnie Salomonsen
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/2022/MNDT-2022-0018
+  date: null
+  cve_ids:
+  - CVE-2022-24319
+  researchers:
+  - Cameron Stokes
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/2022/MNDT-2022-0019
+  date: null
+  cve_ids:
+  - CVE-2022-24320
+  researchers:
+  - Cameron Stokes
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/2022/MNDT-2022-0020
+  date: null
+  cve_ids:
+  - CVE-2021-33616
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/2022/MNDT-2022-0021
+  date: null
+  cve_ids:
+  - CVE-2021-38362
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/2022/MNDT-2022-0022
+  date: null
+  cve_ids:
+  - CVE-2021-42255
+  researchers:
+  - Ronnie Salomonsen
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/2022/MNDT-2022-0023
+  date: null
+  cve_ids:
+  - CVE-2021-27765
+  researchers:
+  - Ronnie Salomonsen
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/2022/MNDT-2022-0024
+  date: null
+  cve_ids:
+  - CVE-2021-27766
+  researchers:
+  - Ronnie Salomonsen
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/2022/MNDT-2022-0025
+  date: null
+  cve_ids:
+  - CVE-2021-27767
+  researchers:
+  - Ronnie Salomonsen
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/2022/MNDT-2022-0026
+  date: null
+  cve_ids:
+  - CVE-2022-26691
+  researchers:
+  - Joshua Mason
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/2022/MNDT-2022-0027
+  date: null
+  cve_ids:
+  - CVE-2021-33615
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/2022/MNDT-2022-0028
+  date: null
+  cve_ids:
+  - CVE-2022-29594
+  researchers: []
+  vendors:
+  - '* 28 April 2022 - Vendor created patch a'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/2022/MNDT-2022-0029
+  date: null
+  cve_ids:
+  - CVE-2022-22187
+  researchers:
+  - Ronnie Salomonsen
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/2022/MNDT-2022-0030
+  date: null
+  cve_ids:
+  - CVE-2020-6917
+  - CVE-2020-6918
+  - CVE-2020-6919
+  - CVE-2020-6920
+  - CVE-2020-6921
+  - CVE-2020-6922
+  researchers:
+  - Jake Valletta
+  - Roderic Deichler
+  vendors: []
+  cve_count: 6
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/2022/MNDT-2022-0031
+  date: null
+  cve_ids:
+  - CVE-2022-21558
+  researchers:
+  - Ronnie Salomonsen
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/2022/MNDT-2022-0032
+  date: null
+  cve_ids:
+  - CVE-2022-26704
+  researchers:
+  - Joshua Mason
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/2022/MNDT-2022-0033
+  date: null
+  cve_ids:
+  - CVE-2022-32819
+  researchers:
+  - Joshua Mason
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/2022/MNDT-2022-0034
+  date: null
+  cve_ids:
+  - CVE-2022-28741
+  - CVE-2022-28742
+  - CVE-2022-28740
+  researchers: []
+  vendors:
+  - "Contacted\r- 22 Apr 2022 – Issue confirme"
+  cve_count: 3
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/2022/MNDT-2022-0035
+  date: null
+  cve_ids:
+  - CVE-2022-28741
+  researchers: []
+  vendors:
+  - "Contacted\r- 22 Apr 2022 – Issue confirme"
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/2022/MNDT-2022-0036
+  date: null
+  cve_ids:
+  - CVE-2022-28741
+  - CVE-2022-28742
+  researchers: []
+  vendors:
+  - "Contacted\r- 22 Apr 2022 – Issue confirme"
+  cve_count: 2
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/2022/MNDT-2022-0037
+  date: null
+  cve_ids:
+  - CVE-2021-25657
+  researchers:
+  - Ronnie Salomonsen
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/2022/MNDT-2022-0038
+  date: null
+  cve_ids:
+  - CVE-2022-30170
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/2022/MNDT-2022-0039
+  date: null
+  cve_ids:
+  - CVE-2022-37969
+  researchers:
+  - Genwei Jiang
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/2022/MNDT-2022-0040
+  date: null
+  cve_ids:
+  - CVE-2022-34827
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/tree/master/2022/MNDT-2022-0041
+  date: null
+  cve_ids:
+  - CVE-2022-46366
+  - CVE-2020-17531
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2023/MNDT-2023-0001.md
+  date: null
+  cve_ids:
+  - CVE-2021-41989
+  researchers:
+  - Ronnie Salomonsen
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2023/MNDT-2023-0002.md
+  date: null
+  cve_ids:
+  - CVE-2021-41988
+  researchers:
+  - Ronnie Salomonsen
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2023/MNDT-2023-0003.md
+  date: null
+  cve_ids:
+  - CVE-2022-42455
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2023/MNDT-2023-0004.md
+  date: null
+  cve_ids:
+  - CVE-2023-21823
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2023/MNDT-2023-0005.md
+  date: null
+  cve_ids:
+  - CVE-2023-28252
+  researchers:
+  - Genwei Jiang
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2023/MNDT-2023-0006.md
+  date: null
+  cve_ids:
+  - CVE-2023-28478
+  researchers:
+  - Greg MacManus
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2023/MNDT-2023-0007.md
+  date: null
+  cve_ids:
+  - CVE-2023-33162
+  researchers:
+  - Dhanesh Kizhakkinan
+  - Genwei Jiang
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2023/MNDT-2023-0008.md
+  date: null
+  cve_ids:
+  - CVE-2023-26077
+  researchers:
+  - Andrew Oliveau
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2023/MNDT-2023-0009.md
+  date: null
+  cve_ids:
+  - CVE-2023-26078
+  researchers:
+  - Andrew Oliveau
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2023/MNDT-2023-0010.md
+  date: null
+  cve_ids:
+  - CVE-2023-37243
+  researchers:
+  - Andrew Oliveau
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2023/MNDT-2023-0011.md
+  date: null
+  cve_ids:
+  - CVE-2023-27470
+  researchers:
+  - Andrew Oliveau
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2023/MNDT-2023-0012.md
+  date: null
+  cve_ids:
+  - CVE-2023-28614
+  researchers: []
+  vendors:
+  - patches for this vulnerability
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2023/MNDT-2023-0013.md
+  date: null
+  cve_ids:
+  - CVE-2023-36762
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2023/MNDT-2023-0015.md
+  date: null
+  cve_ids:
+  - CVE-2023-3181
+  researchers:
+  - Andrew Oliveau
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2023/MNDT-2023-0016.md
+  date: null
+  cve_ids:
+  - CVE-2023-37244
+  researchers:
+  - Andrew Oliveau
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2023/MNDT-2023-0017.md
+  date: null
+  cve_ids:
+  - CVE-2016-0321
+  researchers: []
+  vendors:
+  - updated the security bulletin for CVE-20
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2023/MNDT-2023-0018.md
+  date: null
+  cve_ids: []
+  researchers:
+  - David Lebrun
+  vendors:
+  - to provide additional information
+  cve_count: 0
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2023/MNDT-2023-0019.md
+  date: null
+  cve_ids:
+  - CVE-2023-7101
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2024/MNDT-2024-0001.md
+  date: null
+  cve_ids:
+  - CVE-2023-47145
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2024/MNDT-2024-0002.md
+  date: null
+  cve_ids:
+  - CVE-2023-4472
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2024/MNDT-2024-0003.md
+  date: null
+  cve_ids:
+  - CVE-2023-26603
+  researchers:
+  - Andrew Oliveau
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2024/MNDT-2024-0004.md
+  date: null
+  cve_ids:
+  - CVE-2024-38287
+  researchers: []
+  vendors:
+  - is unresponsive and possibly defunct
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2024/MNDT-2024-0005.md
+  date: null
+  cve_ids:
+  - CVE-2024-38288
+  researchers: []
+  vendors:
+  - is unresponsive and possibly defunct
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2024/MNDT-2024-0006.md
+  date: null
+  cve_ids:
+  - CVE-2024-38289
+  researchers: []
+  vendors:
+  - is unresponsive and possibly defunct
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2024/MNDT-2024-0007.md
+  date: null
+  cve_ids:
+  - CVE-2024-6585
+  researchers: []
+  vendors:
+  - '* March 26'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2024/MNDT-2024-0008.md
+  date: null
+  cve_ids:
+  - CVE-2024-6586
+  researchers: []
+  vendors:
+  - '* March 8'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2024/MNDT-2024-0009.md
+  date: null
+  cve_ids:
+  - CVE-2023-6080
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2025/MNDT-2025-0001.md
+  date: null
+  cve_ids:
+  - CVE-2024-11861
+  researchers:
+  - EnerSys in 2022
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2025/MNDT-2025-0002.md
+  date: null
+  cve_ids:
+  - CVE-2024-12442
+  researchers:
+  - Nick Guttilla
+  - Neal Trischitta
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2025/MNDT-2025-0003.md
+  date: null
+  cve_ids:
+  - CVE-2025-2171
+  researchers:
+  - Louis Dion-Marcil
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2025/MNDT-2025-0004.md
+  date: null
+  cve_ids:
+  - CVE-2025-2172
+  researchers:
+  - Louis Dion-Marcil
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2025/MNDT-2025-0005.md
+  date: null
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2025/MNDT-2025-0006.md
+  date: null
+  cve_ids:
+  - CVE-2025-4665
+  researchers: []
+  vendors:
+  - '* 2025-09-16: Vulnerability patched by v'
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2025/MNDT-2025-0007.md
+  date: null
+  cve_ids:
+  - CVE-2025-53690
+  researchers:
+  - Josh Fleischer
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2025/MNDT-2025-0008.md
+  date: null
+  cve_ids:
+  - CVE-2025-12480
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2025/MNDT-2025-0009.md
+  date: null
+  cve_ids:
+  - CVE-2025-64740
+  researchers:
+  - Cory Baker
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2026/MNDT-2026-0001.md
+  date: null
+  cve_ids:
+  - CVE-2025-57792
+  researchers:
+  - Abdulrahman Nour
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2026/MNDT-2026-0002.md
+  date: null
+  cve_ids:
+  - CVE-2025-57793
+  researchers:
+  - Abdulrahman Nour
+  - '2025-04-28: Initial report to Explorance'
+  - '2025-05-02: Initial Patch released'
+  - '2025-05-06: Final patch released to customers'
+  - '[Explorance Blue Website](https://www.explorance.com/products/blue)'
+  - '[cve.org CVE-2025-57793](https://www.cve.org/CVERecord?id=CVE-2025-57793)'
+  - '[Explorance Blue Security Advisories'
+  - '[Explorance Blue Security Advisory'
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2026/MNDT-2026-0003.md
+  date: null
+  cve_ids:
+  - CVE-2025-57794
+  researchers:
+  - Abdulrahman Nour
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2026/MNDT-2026-0004.md
+  date: null
+  cve_ids:
+  - CVE-2025-57795
+  researchers:
+  - Abdulrahman Nour
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2026/MNDT-2026-0005.md
+  date: null
+  cve_ids:
+  - CVE-2025-57796
+  researchers:
+  - Abdulrahman Nour
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2026/MNDT-2026-0006.md
+  date: null
+  cve_ids:
+  - CVE-2026-22769
+  researchers:
+  - Peter Ukhanov
+  vendors: []
+  cve_count: 1
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2026/MNDT-2026-0007.md
+  date: null
+  cve_ids:
+  - CVE-2026-26365
+  - CVE-2026-2636
+  researchers:
+  - Jake Murphy
+  vendors: []
+  cve_count: 2
+- url: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2026/MNDT-2026-0008.md
+  date: null
+  cve_ids: []
+  researchers:
+  - Matthias Heil
+  vendors: []
+  cve_count: 0

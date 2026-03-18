@@ -1,3 +1,5 @@
 criteria
 objectives
 pool
+__pycache__/
+lab_schema.json

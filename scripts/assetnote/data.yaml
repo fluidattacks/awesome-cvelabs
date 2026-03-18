@@ -1,0 +1,269 @@
+lab: Assetnote
+url: https://www.assetnote.io
+scraped_at: '2026-03-17T22:22:38.166693Z'
+advisories:
+- url: https://www.assetnote.io/resources/research/doing-the-due-diligence-analyzing-the-next-js-middleware-bypass-cve-2025-29927
+  date: 25/03/24
+  cve_ids:
+  - CVE-2025-29927
+  - CVE-2024-8534
+  - CVE-2025-0108
+  researchers:
+  - Objective
+  vendors:
+  - Analyzing the Next.js Middleware Bypass
+  cve_count: 3
+- url: https://www.assetnote.io/resources/research/nginx-apache-path-confusion-to-auth-bypass-in-pan-os
+  date: 25/02/12
+  cve_ids:
+  - CVE-2025-0108
+  - CVE-2024-0012
+  - CVE-2024-9474
+  - CVE-2025-29927
+  - CVE-2024-8534
+  researchers:
+  - Objective
+  vendors:
+  - PAN-OS
+  cve_count: 5
+- url: https://www.assetnote.io/resources/research/how-an-obscure-php-footgun-led-to-rce-in-craft-cms
+  date: 24/12/19
+  cve_ids:
+  - CVE-2024-56145
+  - CVE-2025-29927
+  - CVE-2024-8534
+  - CVE-2025-0108
+  researchers:
+  - Objective
+  vendors: []
+  cve_count: 4
+- url: https://www.assetnote.io/resources/research/advisory-next-js-ssrf-cve-2024-34351
+  date: 24/05/09
+  cve_ids:
+  - CVE-2024-34351
+  - CVE-2023-40044
+  - CVE-2023-40033
+  - CVE-2023-38646
+  - CVE-2023-24489
+  - CVE-2023-24488
+  - CVE-2023-29489
+  researchers:
+  - Objective
+  vendors:
+  - Next.js SSRF
+  cve_count: 7
+- url: https://www.assetnote.io/resources/research/advisory-progress-ws-ftp-rce-cve-2023-40044
+  date: 23/09/30
+  cve_ids:
+  - CVE-2023-40044
+  - CVE-2024-34351
+  - CVE-2023-40033
+  - CVE-2023-38646
+  - CVE-2023-24489
+  - CVE-2023-24488
+  - CVE-2023-29489
+  researchers:
+  - Objective
+  vendors:
+  - FTP RCE
+  cve_count: 7
+- url: https://www.assetnote.io/resources/research/advisory-flarum-lfi-cve-2023-40033
+  date: 23/08/28
+  cve_ids:
+  - CVE-2023-40033
+  - CVE-2024-34351
+  - CVE-2023-40044
+  - CVE-2023-38646
+  - CVE-2023-24489
+  - CVE-2023-24488
+  - CVE-2023-29489
+  researchers:
+  - Objective
+  vendors:
+  - Flarum LFI -
+  cve_count: 7
+- url: https://www.assetnote.io/resources/research/advisory-metabase-pre-auth-rce-cve-2023-38646
+  date: 23/07/22
+  cve_ids:
+  - CVE-2023-38646
+  - CVE-2024-34351
+  - CVE-2023-40044
+  - CVE-2023-40033
+  - CVE-2023-24489
+  - CVE-2023-24488
+  - CVE-2023-29489
+  researchers:
+  - Objective
+  vendors:
+  - Metabase Pre-Auth RCE
+  cve_count: 7
+- url: https://www.assetnote.io/resources/research/advisory-sharefile-pre-auth-rce-cve-2023-24489
+  date: 23/07/04
+  cve_ids:
+  - CVE-2023-24489
+  - CVE-2024-34351
+  - CVE-2023-40044
+  - CVE-2023-40033
+  - CVE-2023-38646
+  - CVE-2023-24488
+  - CVE-2023-29489
+  researchers:
+  - Objective
+  vendors:
+  - ShareFile Pre-Auth RCE
+  cve_count: 7
+- url: https://www.assetnote.io/resources/research/advisory-citrix-gateway-open-redirect-and-xss-cve-2023-24488
+  date: 23/06/29
+  cve_ids:
+  - CVE-2023-24488
+  - CVE-2024-34351
+  - CVE-2023-40044
+  - CVE-2023-40033
+  - CVE-2023-38646
+  - CVE-2023-24489
+  - CVE-2023-29489
+  researchers:
+  - Objective
+  vendors:
+  - Citrix Gateway Open Redirect and XSS
+  cve_count: 7
+- url: https://www.assetnote.io/resources/research/advisory-oracle-opera-pre-auth-rce-cve-2023-21932
+  date: 23/04/30
+  cve_ids:
+  - CVE-2023-21932
+  - CVE-2024-34351
+  - CVE-2023-40044
+  - CVE-2023-40033
+  - CVE-2023-38646
+  - CVE-2023-24489
+  - CVE-2023-24488
+  researchers:
+  - Objective
+  vendors:
+  - Oracle Opera Pre-Auth RCE
+  cve_count: 7
+- url: https://www.assetnote.io/resources/research/advisory-reflected-cross-site-scripting-in-cpanel-cve-2023-29489
+  date: 23/04/26
+  cve_ids:
+  - CVE-2023-29489
+  - CVE-2024-34351
+  - CVE-2023-40044
+  - CVE-2023-40033
+  - CVE-2023-38646
+  - CVE-2023-24489
+  - CVE-2023-24488
+  researchers:
+  - Objective
+  vendors:
+  - cPanel
+  cve_count: 7
+- url: https://www.assetnote.io/resources/research/advisory-multiple-vulnerabilities-in-progress-ipswitch-whatsup-gold
+  date: 22/06/09
+  cve_ids:
+  - CVE-2022-29845
+  - CVE-2022-29846
+  - CVE-2022-29847
+  - CVE-2022-29848
+  - CVE-2024-34351
+  - CVE-2023-40044
+  - CVE-2023-40033
+  - CVE-2023-38646
+  - CVE-2023-24489
+  - CVE-2023-24488
+  researchers:
+  - Objective
+  vendors: []
+  cve_count: 10
+- url: https://www.assetnote.io/resources/research/citrix-denial-of-service-analysis-of-cve-2024-8534
+  date: 24/12/13
+  cve_ids:
+  - CVE-2024-8534
+  - CVE-2025-29927
+  - CVE-2025-0108
+  researchers:
+  - Objective
+  vendors:
+  - Analysis of
+  cve_count: 3
+- url: https://www.assetnote.io/resources/research/leveraging-an-order-of-operations-bug-to-achieve-rce-in-sitecore-8-x---10-x
+  date: 24/11/22
+  cve_ids:
+  - CVE-2024-46938
+  - CVE-2025-29927
+  - CVE-2024-8534
+  - CVE-2025-0108
+  researchers:
+  - Objective
+  vendors: []
+  cve_count: 4
+- url: https://www.assetnote.io/resources/research/insecurity-through-censorship-vulnerabilities-caused-by-the-great-firewall
+  date: 24/09/27
+  cve_ids:
+  - CVE-2025-29927
+  - CVE-2024-8534
+  - CVE-2025-0108
+  researchers:
+  - Objective
+  vendors: []
+  cve_count: 3
+- url: https://www.assetnote.io/resources/research/chaining-three-bugs-to-access-all-your-servicenow-data
+  date: 24/07/11
+  cve_ids:
+  - CVE-2024-4879
+  - CVE-2024-5178
+  - CVE-2024-5217
+  - CVE-2025-29927
+  - CVE-2024-8534
+  - CVE-2025-0108
+  researchers:
+  - Objective
+  vendors: []
+  cve_count: 6
+- url: https://www.assetnote.io/resources/research/why-nested-deserialization-is-harmful-magento-xxe-cve-2024-34102
+  date: 24/06/26
+  cve_ids:
+  - CVE-2024-34102
+  - CVE-2024-2961
+  - CVE-2025-29927
+  - CVE-2024-8534
+  - CVE-2025-0108
+  researchers:
+  - Objective
+  vendors:
+  - Magento XXE
+  cve_count: 5
+- url: https://www.assetnote.io/resources/research/digging-for-ssrf-in-nextjs-apps
+  date: 24/05/09
+  cve_ids:
+  - CVE-2024-34351
+  - CVE-2025-29927
+  - CVE-2024-8534
+  - CVE-2025-0108
+  researchers:
+  - Objective
+  vendors: []
+  cve_count: 4
+- url: https://www.assetnote.io/resources/research/two-bytes-is-plenty-fortigate-rce-with-cve-2024-21762
+  date: 24/03/15
+  cve_ids:
+  - CVE-2024-21762
+  - CVE-2025-29927
+  - CVE-2024-8534
+  - CVE-2025-0108
+  researchers:
+  - Objective
+  vendors:
+  - FortiGate RCE with
+  cve_count: 4
+- url: https://www.assetnote.io/resources/research/continuing-the-citrix-saga-cve-2023-5914-cve-2023-6184
+  date: 24/02/20
+  cve_ids:
+  - CVE-2023-5914
+  - CVE-2023-6184
+  - CVE-2025-29927
+  - CVE-2024-8534
+  - CVE-2025-0108
+  researchers:
+  - Objective
+  vendors: []
+  cve_count: 5

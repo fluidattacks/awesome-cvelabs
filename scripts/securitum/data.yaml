@@ -1,0 +1,32 @@
+lab: Securitum
+url: https://www.securitum.com
+scraped_at: '2026-03-17T21:26:36.138444Z'
+advisories:
+- url: https://www.securitum.com/artificial_intelligence-assisted_fuzzing.html
+  date: null
+  cve_ids:
+  - CVE-2022-3602
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.securitum.com/remote-code-execution-by-fail2ban.html
+  date: null
+  cve_ids:
+  - CVE-2021-32749
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.securitum.com/is-running-legacy-software-with-no-publicly-known-exploits-safe.html
+  date: null
+  cve_ids:
+  - CVE-2007-5245
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.securitum.com/prototype-pollution-and-bypassing-client-side-html-sanitizers.html
+  date: null
+  cve_ids:
+  - CVE-2019-7609
+  researchers: []
+  vendors: []
+  cve_count: 1

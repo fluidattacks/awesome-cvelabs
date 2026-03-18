@@ -1,0 +1,10 @@
+lab: SEC Consult
+url: https://sec-consult.com
+scraped_at: '2026-03-17T21:31:47.759862Z'
+advisories:
+- url: https://sec-consult.com/sitemap.xml?sitemap=advisory&amp;cHash=17c228bb865dd60853e6d25e95f9f518
+  date: 26/03/17
+  cve_ids: []
+  researchers: []
+  vendors: []
+  cve_count: 0

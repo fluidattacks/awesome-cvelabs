@@ -1,0 +1,46 @@
+lab: Wiz Research
+url: https://www.wiz.io
+scraped_at: '2026-03-17T22:22:46.756614Z'
+advisories:
+- url: https://www.wiz.io/blog/twenty-years-of-cloud-security-research
+  date: 26/03/13
+  cve_ids:
+  - CVE-2025-32433
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.wiz.io/blog/snipping-the-long-tail-of-shai-hulud-2-0
+  date: 25/12/30
+  cve_ids:
+  - CVE-2025-14847
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.wiz.io/blog/mongobleed-cve-2025-14847-exploited-in-the-wild-mongodb
+  date: 25/12/28
+  cve_ids:
+  - CVE-2025-14847
+  researchers: []
+  vendors:
+  - MongoBleed
+  cve_count: 1
+- url: https://www.wiz.io/blog/wiz-zeroday-cloud-hacking-competition-behind-the-scenes
+  date: 25/12/16
+  cve_ids:
+  - CVE-2025-8110
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.wiz.io/blog/wiz-research-gogs-cve-2025-8110-rce-exploit
+  date: 25/12/10
+  cve_ids:
+  - CVE-2025-8110
+  - CVE-2024-55947
+  - CVE-2024-56731
+  - CVE-2024-54148
+  - CVE-2023-46747
+  - CVE-2025-55182
+  researchers:
+  - overwriting
+  vendors: []
+  cve_count: 6
