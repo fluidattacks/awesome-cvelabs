@@ -1,51 +1,52 @@
 #!/usr/bin/env python3
-"""VulnCheck scraper. Outputs data.json.
-Source: Nuxt.js SPA — only ~20 most recent entries in static HTML.
-Full pagination requires JS rendering.
+"""VulnCheck scraper — Playwright edition.
+Source: Nuxt.js SPA at /advisories — JS rendering required for full CVE list.
 """
-import re, sys
+import asyncio, re, sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-import requests
+from bs4 import BeautifulSoup
+from playwright.async_api import async_playwright
 
 sys.path.insert(0, str(Path(__file__).parents[2]))
 from lab_model import CVELab, Advisory
 
 LAB = "VulnCheck"
 URL = "https://vulncheck.com/advisories"
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; awesome-cvelabs-scraper/1.0)"}
 CVE_RE = re.compile(r"CVE-\d{4}-\d{4,5}", re.IGNORECASE)
 
 
-def scrape() -> list[Advisory]:
-    try:
-        resp = requests.get(URL, headers=HEADERS, timeout=30)
-        resp.raise_for_status()
-    except requests.RequestException as e:
-        print(f"  Error: {e}")
-        return []
+async def scrape() -> list[Advisory]:
+    async with async_playwright() as p:
+        browser = await p.chromium.launch()
+        page = await browser.new_page()
+        try:
+            await page.goto(URL, wait_until="networkidle", timeout=30000)
+        except Exception:
+            pass  # grab whatever rendered before timeout
 
-    cves = re.findall(r"CVE-\d{4}-\d{4,5}", resp.text)
-    seen: set[str] = set()
-    advisories = []
-    for cve in cves:
-        cve = cve.upper()
-        if cve not in seen:
-            seen.add(cve)
-            advisories.append(Advisory(
-                url=f"https://vulncheck.com/advisories/{cve.lower()}",
-                cve_ids=[cve],
-            ))
+        html = await page.content()
+        soup = BeautifulSoup(html, "html.parser")
+        text = soup.get_text(" ")
 
-    if len(advisories) < 25:
-        print(f"  NOTE: Only {len(advisories)} CVEs in static HTML — Nuxt.js SPA requires JS for full list")
+        seen: set[str] = set()
+        advisories = []
+        for cve in CVE_RE.findall(text):
+            cve = cve.upper()
+            if cve not in seen:
+                seen.add(cve)
+                advisories.append(Advisory(
+                    url=f"https://vulncheck.com/advisories/{cve.lower()}",
+                    cve_ids=[cve],
+                ))
 
+        await browser.close()
     return advisories
 
 
 if __name__ == "__main__":
-    advisories = scrape()
+    advisories = [a for a in asyncio.run(scrape()) if a.cve_ids]
     lab = CVELab(lab=LAB, url=URL,
                  scraped_at=datetime.now(timezone.utc),
                  advisories=advisories)

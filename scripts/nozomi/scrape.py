@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
-"""Nozomi Networks scraper. Outputs data.json.
-Source: JS-rendered advisory page. Attempts sitemap + static HTML extraction.
-Full detail requires headless browser.
+"""Nozomi Networks scraper — Playwright edition.
+Source: Sitemap → advisory pages → CVE IDs from URL slugs + page content.
 """
-import re, sys
+import asyncio, re, sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-import requests
+from bs4 import BeautifulSoup
+from playwright.async_api import async_playwright
 
 sys.path.insert(0, str(Path(__file__).parents[2]))
 from lab_model import CVELab, Advisory
@@ -15,59 +15,88 @@ from lab_model import CVELab, Advisory
 LAB = "Nozomi Networks"
 URL = "https://www.nozominetworks.com/vulnerability-advisories"
 SITEMAP_URL = "https://www.nozominetworks.com/sitemap.xml"
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; awesome-cvelabs-scraper/1.0)"}
 CVE_RE = re.compile(r"CVE-\d{4}-\d{4,5}", re.IGNORECASE)
 
 
-def _get_advisory_urls() -> list[str]:
+async def _get_advisory_urls(api) -> list[str]:
     seen: set[str] = set()
     urls = []
 
     try:
-        resp = requests.get(SITEMAP_URL, headers=HEADERS, timeout=30)
-        resp.raise_for_status()
-        locs = re.findall(r"<loc>([^<]+)</loc>", resp.text)
+        resp = await api.get(SITEMAP_URL)
+        content = await resp.text()
+        locs = re.findall(r"<loc>([^<]+)</loc>", content)
         for loc in locs:
             if "vulnerabilit" in loc.lower() and loc not in seen:
                 seen.add(loc)
                 urls.append(loc)
-    except requests.RequestException:
+    except Exception:
         pass
-
-    # Fallback: extract CVEs from index page
-    if not urls:
-        try:
-            resp2 = requests.get(URL, headers=HEADERS, timeout=30)
-            resp2.raise_for_status()
-            cves = re.findall(r"CVE-\d{4}-\d{4,5}", resp2.text)
-            for cve in cves:
-                cve = cve.upper()
-                if cve not in seen:
-                    seen.add(cve)
-                    urls.append(f"{URL}#{cve.lower()}")
-        except requests.RequestException:
-            pass
 
     return urls
 
 
-def scrape() -> list[Advisory]:
-    adv_urls = _get_advisory_urls()
-    advisories = []
-    seen_cves: set[str] = set()
+async def _parse_page(page, url: str) -> Advisory | None:
+    try:
+        resp = await page.goto(url, wait_until="domcontentloaded", timeout=30000)
+        if resp and resp.status != 200:
+            return None
+    except Exception:
+        return None
 
-    for url in adv_urls:
-        cves_in_url = [c.upper() for c in CVE_RE.findall(url)]
-        new_cves = [c for c in dict.fromkeys(cves_in_url) if c not in seen_cves]
-        for c in new_cves:
-            seen_cves.add(c)
-        advisories.append(Advisory(url=url, cve_ids=new_cves))
+    html = await page.content()
+    soup = BeautifulSoup(html, "html.parser")
+    text = soup.get_text(" ")
+
+    cves = list(dict.fromkeys(c.upper() for c in CVE_RE.findall(text)))
+    if not cves:
+        # Fall back to CVEs in URL slug
+        cves = list(dict.fromkeys(c.upper() for c in CVE_RE.findall(url)))
+
+    return Advisory(url=url, cve_ids=cves)
+
+
+async def scrape() -> list[Advisory]:
+    advisories = []
+    async with async_playwright() as p:
+        api = await p.request.new_context()
+        adv_urls = await _get_advisory_urls(api)
+        await api.dispose()
+
+        if adv_urls:
+            browser = await p.chromium.launch()
+            page = await browser.new_page()
+            seen_cves: set[str] = set()
+            for url in adv_urls:
+                adv = await _parse_page(page, url)
+                if adv:
+                    new_cves = [c for c in adv.cve_ids if c not in seen_cves]
+                    for c in new_cves:
+                        seen_cves.add(c)
+                    advisories.append(Advisory(url=adv.url, cve_ids=new_cves))
+            await browser.close()
+        else:
+            # Fallback: extract CVEs from the index page
+            browser = await p.chromium.launch()
+            page = await browser.new_page()
+            try:
+                await page.goto(URL, wait_until="networkidle", timeout=30000)
+            except Exception:
+                pass
+            html = await page.content()
+            await browser.close()
+            seen: set[str] = set()
+            for cve in CVE_RE.findall(html):
+                cve = cve.upper()
+                if cve not in seen:
+                    seen.add(cve)
+                    advisories.append(Advisory(url=f"{URL}#{cve.lower()}", cve_ids=[cve]))
 
     return advisories
 
 
 if __name__ == "__main__":
-    advisories = scrape()
+    advisories = [a for a in asyncio.run(scrape()) if a.cve_ids]
     lab = CVELab(lab=LAB, url=URL,
                  scraped_at=datetime.now(timezone.utc),
                  advisories=advisories)

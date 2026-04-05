@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
-"""Star Labs SG scraper. Outputs data.json.
+"""Star Labs SG scraper — Playwright edition.
 Source: Sitemap → /advisories/ pages → date, CVE IDs, researchers, vendors.
-Page structure has labeled fields: Product / Vendor / Credits in sequential lines.
 """
-import re, sys, time
+import asyncio, html as html_mod, re, sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-import requests
 from bs4 import BeautifulSoup
+from playwright.async_api import async_playwright
 
 sys.path.insert(0, str(Path(__file__).parents[2]))
 from lab_model import CVELab, Advisory
@@ -16,15 +15,21 @@ from lab_model import CVELab, Advisory
 LAB = "Star Labs SG"
 URL = "https://starlabs.sg"
 SITEMAP_URL = "https://starlabs.sg/sitemap.xml"
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; awesome-cvelabs-scraper/1.0)"}
 CVE_RE = re.compile(r"CVE-\d{4}-\d{4,5}", re.IGNORECASE)
-DATE_RE = re.compile(r"(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s+\d{4}", re.IGNORECASE)
+DATE_RE = re.compile(
+    r"(January|February|March|April|May|June|July|August|September|October|November|December)"
+    r"\s+\d{1,2},\s+\d{4}",
+    re.IGNORECASE,
+)
 
 
-def _get_advisory_urls() -> list[str]:
-    resp = requests.get(SITEMAP_URL, headers=HEADERS, timeout=30)
-    resp.raise_for_status()
-    locs = re.findall(r"<loc>([^<]+/advisories/[^<]+)</loc>", resp.text)
+async def _get_advisory_urls(page) -> list[str]:
+    try:
+        await page.goto(SITEMAP_URL, wait_until="domcontentloaded", timeout=30000)
+    except Exception:
+        return []
+    content = html_mod.unescape(await page.content())
+    locs = re.findall(r"<loc>([^<]+/advisories/[^<]+)</loc>", content)
     seen: set[str] = set()
     urls = []
     for loc in locs:
@@ -42,20 +47,20 @@ def _get_advisory_urls() -> list[str]:
     return urls
 
 
-def _parse_page(url: str) -> Advisory | None:
+async def _parse_page(page, url: str) -> Advisory | None:
     try:
-        resp = requests.get(url, headers=HEADERS, timeout=30)
-        if resp.status_code != 200:
+        resp = await page.goto(url, wait_until="domcontentloaded", timeout=30000)
+        if resp and resp.status != 200:
             return None
-    except requests.RequestException:
+    except Exception:
         return None
 
-    soup = BeautifulSoup(resp.text, "html.parser")
+    html = await page.content()
+    soup = BeautifulSoup(html, "html.parser")
     lines = [l.strip() for l in soup.get_text("\n").splitlines() if l.strip()]
 
     cves = list(dict.fromkeys(c.upper() for c in CVE_RE.findall(" ".join(lines))))
 
-    # Date: "July 31, 2024 · 5 min · Name"
     date_str = None
     for line in lines[:30]:
         m = DATE_RE.search(line)
@@ -67,7 +72,6 @@ def _parse_page(url: str) -> Advisory | None:
             except ValueError:
                 pass
 
-    # Structured fields: label on one line, value on next
     vendor, researcher = [], []
     for i, line in enumerate(lines):
         if line == "Vendor" and i + 1 < len(lines):
@@ -75,7 +79,6 @@ def _parse_page(url: str) -> Advisory | None:
             if v and v not in ("Vendor", "Product", "Severity", "CVE Identifier"):
                 vendor = [v]
         elif line in ("Credits", "Credit") and i + 1 < len(lines):
-            # Collect researcher names until next section header
             for j in range(i + 1, min(i + 6, len(lines))):
                 r_line = lines[j]
                 if r_line in ("Summary", "Description", "Timeline", "References", "#"):
@@ -83,7 +86,6 @@ def _parse_page(url: str) -> Advisory | None:
                 if r_line and not r_line.startswith("CVE-") and len(r_line) < 80:
                     researcher.append(r_line)
 
-    # Researcher fallback: byline "· Name" in date line
     if not researcher:
         for line in lines[:30]:
             parts = [p.strip() for p in line.split("·")]
@@ -97,19 +99,22 @@ def _parse_page(url: str) -> Advisory | None:
                     researchers=researcher, vendors=vendor)
 
 
-def scrape() -> list[Advisory]:
-    adv_urls = _get_advisory_urls()
+async def scrape() -> list[Advisory]:
     advisories = []
-    for url in adv_urls:
-        adv = _parse_page(url)
-        if adv:
-            advisories.append(adv)
-        time.sleep(0.15)
+    async with async_playwright() as p:
+        browser = await p.chromium.launch()
+        page = await browser.new_page()
+        adv_urls = await _get_advisory_urls(page)
+        for url in adv_urls:
+            adv = await _parse_page(page, url)
+            if adv:
+                advisories.append(adv)
+        await browser.close()
     return advisories
 
 
 if __name__ == "__main__":
-    advisories = scrape()
+    advisories = [a for a in asyncio.run(scrape()) if a.cve_ids]
     lab = CVELab(lab=LAB, url=URL,
                  scraped_at=datetime.now(timezone.utc),
                  advisories=advisories)

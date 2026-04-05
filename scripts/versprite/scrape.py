@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""VerSprite scraper. Outputs data.json.
+"""VerSprite scraper — Playwright edition.
 Source: WordPress REST API /wp-json/wp/v2/advisories — date, CVE IDs from content.
 """
-import re, sys, time
+import asyncio, re, sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-import requests
+from playwright.async_api import async_playwright
 
 sys.path.insert(0, str(Path(__file__).parents[2]))
 from lab_model import CVELab, Advisory
@@ -14,12 +14,10 @@ from lab_model import CVELab, Advisory
 LAB = "VerSprite"
 URL = "https://versprite.com/advisories/"
 API_BASE = "https://versprite.com/wp-json/wp/v2/advisories"
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; awesome-cvelabs-scraper/1.0)"}
 CVE_RE = re.compile(r"CVE-\d{4}-\d{4,5}", re.IGNORECASE)
 
 
 def _wp_date(date_str: str) -> str | None:
-    """Convert WordPress ISO date (2024-03-15T...) to YY/MM/DD."""
     try:
         dt = datetime.fromisoformat(date_str.replace("Z", "+00:00"))
         return dt.strftime("%y/%m/%d")
@@ -27,33 +25,30 @@ def _wp_date(date_str: str) -> str | None:
         return None
 
 
-def scrape() -> list[Advisory]:
+async def scrape() -> list[Advisory]:
     all_posts = []
-    page = 1
-    while True:
-        try:
-            resp = requests.get(
-                API_BASE,
-                params={"per_page": 100, "page": page},
-                headers=HEADERS,
-                timeout=30,
-            )
-            if resp.status_code == 400:
+    async with async_playwright() as p:
+        api = await p.request.new_context()
+        page_num = 1
+        while True:
+            try:
+                resp = await api.get(API_BASE, params={"per_page": 100, "page": page_num})
+                if resp.status == 400:
+                    break
+                if resp.status != 200:
+                    break
+                data = await resp.json()
+                if not data:
+                    break
+                all_posts.extend(data)
+                total_pages = int(resp.headers.get("x-wp-totalpages") or 1)
+                if page_num >= total_pages:
+                    break
+                page_num += 1
+            except Exception as e:
+                print(f"  Error page {page_num}: {e}")
                 break
-            resp.raise_for_status()
-        except requests.RequestException as e:
-            print(f"  Error page {page}: {e}")
-            break
-
-        data = resp.json()
-        if not data:
-            break
-        all_posts.extend(data)
-        total_pages = int(resp.headers.get("X-WP-TotalPages", 1))
-        if page >= total_pages:
-            break
-        page += 1
-        time.sleep(0.1)
+        await api.dispose()
 
     advisories = []
     seen_cves: set[str] = set()
@@ -80,7 +75,7 @@ def scrape() -> list[Advisory]:
 
 
 if __name__ == "__main__":
-    advisories = scrape()
+    advisories = [a for a in asyncio.run(scrape()) if a.cve_ids]
     lab = CVELab(lab=LAB, url=URL,
                  scraped_at=datetime.now(timezone.utc),
                  advisories=advisories)

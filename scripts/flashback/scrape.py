@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
-"""Flashback scraper. Outputs data.json.
+"""Flashback scraper — Playwright edition.
 Source: Squarespace JSON API /blog?format=json → date, CVE IDs, vendors, researchers.
 Vendor and researcher extracted from post title/body.
 """
-import re, sys, time
+import asyncio, re, sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-import requests
 from bs4 import BeautifulSoup
+from playwright.async_api import async_playwright
 
 sys.path.insert(0, str(Path(__file__).parents[2]))
 from lab_model import CVELab, Advisory
@@ -16,7 +16,6 @@ from lab_model import CVELab, Advisory
 LAB = "Flashback"
 URL = "https://www.flashback.sh"
 BLOG_JSON = URL + "/blog?format=json"
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; awesome-cvelabs-scraper/1.0)"}
 CVE_RE = re.compile(r"CVE-\d{4}-\d{4,5}", re.IGNORECASE)
 
 
@@ -29,14 +28,17 @@ def _vendor_from_title(title: str) -> list[str]:
     return []
 
 
-def scrape() -> list[Advisory]:
-    try:
-        resp = requests.get(BLOG_JSON, headers=HEADERS, timeout=30)
-        resp.raise_for_status()
-        data = resp.json()
-    except Exception as e:
-        print(f"  Error fetching blog JSON: {e}")
-        return []
+async def scrape() -> list[Advisory]:
+    async with async_playwright() as p:
+        api = await p.request.new_context()
+        try:
+            resp = await api.get(BLOG_JSON)
+            data = await resp.json()
+        except Exception as e:
+            print(f"  Error fetching blog JSON: {e}")
+            await api.dispose()
+            return []
+        await api.dispose()
 
     items = sorted(data.get("items", []), key=lambda x: x.get("publishOn", 0), reverse=True)
     advisories = []
@@ -49,7 +51,6 @@ def scrape() -> list[Advisory]:
         if full_url.startswith("/"):
             full_url = URL + full_url
 
-        # Date from publishOn (ms timestamp)
         date_str = None
         publish_on = item.get("publishOn")
         if publish_on:
@@ -59,7 +60,6 @@ def scrape() -> list[Advisory]:
             except (ValueError, OSError):
                 pass
 
-        # CVEs from body HTML
         body_html = item.get("body", "") or ""
         body_text = BeautifulSoup(body_html, "html.parser").get_text(" ")
         title = item.get("title", "")
@@ -68,10 +68,8 @@ def scrape() -> list[Advisory]:
         for c in new_cves:
             seen_cves.add(c)
 
-        # Vendor from title
         vendor = _vendor_from_title(title)
 
-        # Researcher: look for "author" field or "by <name>" in body
         researcher = []
         author = item.get("author", {})
         if isinstance(author, dict):
@@ -92,7 +90,7 @@ def scrape() -> list[Advisory]:
 
 
 if __name__ == "__main__":
-    advisories = scrape()
+    advisories = [a for a in asyncio.run(scrape()) if a.cve_ids]
     lab = CVELab(lab=LAB, url=URL,
                  scraped_at=datetime.now(timezone.utc),
                  advisories=advisories)

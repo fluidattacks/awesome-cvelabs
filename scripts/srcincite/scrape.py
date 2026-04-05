@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
-"""Source Incite scraper. Outputs data.json.
-Source: /advisories/ listing → each advisory page → date, CVE IDs, researchers, vendors.
-Page structure uses labeled fields: CVE ID / Affected Vendors / Affected Products / Credit.
+"""Source Incite scraper — Playwright edition.
+Source: /advisories/ listing → each src-XXXX advisory page → date, CVE IDs, researchers, vendors.
 """
-import re, sys, time
+import asyncio, re, sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-import requests
 from bs4 import BeautifulSoup
+from playwright.async_api import async_playwright
 
 sys.path.insert(0, str(Path(__file__).parents[2]))
 from lab_model import CVELab, Advisory
@@ -16,16 +15,20 @@ from lab_model import CVELab, Advisory
 LAB = "Source Incite"
 URL = "https://srcincite.io"
 INDEX_URL = URL + "/advisories/"
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; awesome-cvelabs-scraper/1.0)"}
 CVE_RE = re.compile(r"CVE-\d{4}-\d{4,5}", re.IGNORECASE)
-# "2024-01-15 – Release of advisory"
 RELEASE_RE = re.compile(r"(\d{4}-\d{2}-\d{2})\s*[–-]\s*Release of advisory", re.IGNORECASE)
 
 
-def _get_advisory_urls() -> list[str]:
-    resp = requests.get(INDEX_URL, headers=HEADERS, timeout=30)
-    resp.raise_for_status()
-    soup = BeautifulSoup(resp.text, "html.parser")
+async def _get_advisory_urls(page) -> list[str]:
+    try:
+        resp = await page.goto(INDEX_URL, wait_until="domcontentloaded", timeout=30000)
+        if resp and resp.status != 200:
+            return []
+    except Exception:
+        return []
+
+    html = await page.content()
+    soup = BeautifulSoup(html, "html.parser")
     seen: set[str] = set()
     urls = []
     for a_tag in soup.find_all("a", href=True):
@@ -42,21 +45,21 @@ def _get_advisory_urls() -> list[str]:
     return urls
 
 
-def _parse_page(url: str) -> Advisory | None:
+async def _parse_page(page, url: str) -> Advisory | None:
     try:
-        resp = requests.get(url, headers=HEADERS, timeout=30)
-        if resp.status_code != 200:
+        resp = await page.goto(url, wait_until="domcontentloaded", timeout=30000)
+        if resp and resp.status != 200:
             return None
-    except requests.RequestException:
+    except Exception:
         return None
 
-    soup = BeautifulSoup(resp.text, "html.parser")
+    html = await page.content()
+    soup = BeautifulSoup(html, "html.parser")
     lines = [l.strip() for l in soup.get_text("\n").splitlines() if l.strip()]
     full_text = "\n".join(lines)
 
     cves = list(dict.fromkeys(c.upper() for c in CVE_RE.findall(full_text)))
 
-    # Date: "YYYY-MM-DD – Release of advisory" in Disclosure Timeline
     date_str = None
     m = RELEASE_RE.search(full_text)
     if m:
@@ -66,7 +69,6 @@ def _parse_page(url: str) -> Advisory | None:
         except ValueError:
             pass
 
-    # Vendor: "Affected Vendors:\n<vendor>"
     vendor = []
     for i, line in enumerate(lines):
         if line in ("Affected Vendors:", "Affected Vendor:") and i + 1 < len(lines):
@@ -75,12 +77,10 @@ def _parse_page(url: str) -> Advisory | None:
                 vendor = [v]
             break
 
-    # Researcher: "Credit:\nThis vulnerability was discovered by <Name> of Source Incite"
     researcher = []
     for i, line in enumerate(lines):
         if line == "Credit:" and i + 1 < len(lines):
-            credit_line = lines[i + 1]
-            m2 = re.search(r"discovered by\s+(.+?)(?:\s+of\s+|\s*$)", credit_line, re.IGNORECASE)
+            m2 = re.search(r"discovered by\s+(.+?)(?:\s+of\s+|\s*$)", lines[i + 1], re.IGNORECASE)
             if m2:
                 name = m2.group(1).strip()
                 if name and len(name) < 80:
@@ -91,19 +91,22 @@ def _parse_page(url: str) -> Advisory | None:
                     researchers=researcher, vendors=vendor)
 
 
-def scrape() -> list[Advisory]:
-    adv_urls = _get_advisory_urls()
+async def scrape() -> list[Advisory]:
     advisories = []
-    for url in adv_urls:
-        adv = _parse_page(url)
-        if adv:
-            advisories.append(adv)
-        time.sleep(0.15)
+    async with async_playwright() as p:
+        browser = await p.chromium.launch()
+        page = await browser.new_page()
+        adv_urls = await _get_advisory_urls(page)
+        for url in adv_urls:
+            adv = await _parse_page(page, url)
+            if adv:
+                advisories.append(adv)
+        await browser.close()
     return advisories
 
 
 if __name__ == "__main__":
-    advisories = scrape()
+    advisories = [a for a in asyncio.run(scrape()) if a.cve_ids]
     lab = CVELab(lab=LAB, url=URL,
                  scraped_at=datetime.now(timezone.utc),
                  advisories=advisories)

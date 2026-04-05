@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
-"""JFrog Security Research scraper. Outputs data.json.
+"""JFrog Security Research scraper — Playwright edition.
 Source: Sitemap → /vulnerabilities/ pages → date, CVE IDs, researchers, vendors.
 Page structure: Component / Discovered By / Published date in sequential lines.
 """
-import re, sys, time
+import asyncio, re, sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-import requests
 from bs4 import BeautifulSoup
+from playwright.async_api import async_playwright
 
 sys.path.insert(0, str(Path(__file__).parents[2]))
 from lab_model import CVELab, Advisory
@@ -16,9 +16,7 @@ from lab_model import CVELab, Advisory
 LAB = "JFrog Security Research"
 URL = "https://research.jfrog.com"
 SITEMAP_URL = "https://research.jfrog.com/sitemap.xml"
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; awesome-cvelabs-scraper/1.0)"}
 CVE_RE = re.compile(r"CVE-\d{4}-\d{4,5}", re.IGNORECASE)
-# "Published 9 Feb, 2026 | Last updated..."
 PUB_RE = re.compile(r"Published\s+(\d{1,2}\s+\w+,?\s+\d{4})", re.IGNORECASE)
 
 
@@ -27,10 +25,13 @@ def _extract_jfsa_id(url: str) -> tuple:
     return (int(m.group(1)), int(m.group(2))) if m else (0, 0)
 
 
-def _get_advisory_urls() -> list[str]:
-    resp = requests.get(SITEMAP_URL, headers=HEADERS, timeout=30)
-    resp.raise_for_status()
-    locs = re.findall(r"<loc>(https://research\.jfrog\.com[^<]+)</loc>", resp.text)
+async def _get_advisory_urls(api) -> list[str]:
+    try:
+        resp = await api.get(SITEMAP_URL)
+        content = await resp.text()
+    except Exception:
+        return []
+    locs = re.findall(r"<loc>(https://research\.jfrog\.com[^<]+)</loc>", content)
     seen: set[str] = set()
     urls = []
     for url in locs:
@@ -42,21 +43,21 @@ def _get_advisory_urls() -> list[str]:
     return urls
 
 
-def _parse_page(url: str) -> Advisory | None:
+async def _parse_page(page, url: str) -> Advisory | None:
     try:
-        resp = requests.get(url, headers=HEADERS, timeout=30)
-        if resp.status_code != 200:
+        resp = await page.goto(url, wait_until="domcontentloaded", timeout=30000)
+        if resp and resp.status != 200:
             return None
-    except requests.RequestException:
+    except Exception:
         return None
 
-    soup = BeautifulSoup(resp.text, "html.parser")
+    html = await page.content()
+    soup = BeautifulSoup(html, "html.parser")
     lines = [l.strip() for l in soup.get_text("\n").splitlines() if l.strip()]
     full_text = " ".join(lines)
 
     cves = list(dict.fromkeys(c.upper() for c in CVE_RE.findall(full_text)))
 
-    # Date: "Published 9 Feb, 2026"
     date_str = None
     m = PUB_RE.search(full_text)
     if m:
@@ -69,7 +70,6 @@ def _parse_page(url: str) -> Advisory | None:
             except ValueError:
                 pass
 
-    # Researcher: "Discovered By\n<name>\nof the JFrog..."
     researcher = []
     for i, line in enumerate(lines):
         if line in ("Discovered By", "Discovered by"):
@@ -79,7 +79,6 @@ def _parse_page(url: str) -> Advisory | None:
                     researcher = [name]
             break
 
-    # Vendor/Component: "Component\n<value>"
     vendor = []
     for i, line in enumerate(lines):
         if line == "Component" and i + 1 < len(lines):
@@ -92,19 +91,24 @@ def _parse_page(url: str) -> Advisory | None:
                     researchers=researcher, vendors=vendor)
 
 
-def scrape() -> list[Advisory]:
-    adv_urls = _get_advisory_urls()
+async def scrape() -> list[Advisory]:
     advisories = []
-    for url in adv_urls:
-        adv = _parse_page(url)
-        if adv:
-            advisories.append(adv)
-        time.sleep(0.15)
+    async with async_playwright() as p:
+        api = await p.request.new_context()
+        browser = await p.chromium.launch()
+        page = await browser.new_page()
+        adv_urls = await _get_advisory_urls(api)
+        for url in adv_urls:
+            adv = await _parse_page(page, url)
+            if adv:
+                advisories.append(adv)
+        await browser.close()
+        await api.dispose()
     return advisories
 
 
 if __name__ == "__main__":
-    advisories = scrape()
+    advisories = [a for a in asyncio.run(scrape()) if a.cve_ids]
     lab = CVELab(lab=LAB, url=URL,
                  scraped_at=datetime.now(timezone.utc),
                  advisories=advisories)

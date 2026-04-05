@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
-"""Wiz Research scraper. Outputs data.json.
+"""Wiz Research scraper — Playwright edition.
 Source: /blog/tag/research pagination → article pages → date, CVE IDs, vendors, researchers.
+Uses Playwright to handle Next.js client-side rendering.
 """
-import re, sys, time
+import asyncio, re, sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-import requests
 from bs4 import BeautifulSoup
+from playwright.async_api import async_playwright
 
 sys.path.insert(0, str(Path(__file__).parents[2]))
 from lab_model import CVELab, Advisory
@@ -15,10 +16,10 @@ from lab_model import CVELab, Advisory
 LAB = "Wiz Research"
 URL = "https://www.wiz.io"
 START_URL = URL + "/blog/tag/research"
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; awesome-cvelabs-scraper/1.0)"}
 CVE_RE = re.compile(r"CVE-\d{4}-\d{4,5}", re.IGNORECASE)
 DATE_RE = re.compile(
-    r"\b((?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},?\s+\d{4}|\d{4}-\d{2}-\d{2})\b",
+    r"\b((?:January|February|March|April|May|June|July|August|September|"
+    r"October|November|December)\s+\d{1,2},?\s+\d{4}|\d{4}-\d{2}-\d{2})\b",
     re.IGNORECASE,
 )
 
@@ -32,20 +33,31 @@ def _is_blog_post_href(href: str) -> bool:
     return bool(slug) and "/" not in slug
 
 
-def _get_advisory_urls() -> list[str]:
+def _vendor_from_title(title: str) -> list[str]:
+    m = re.search(r"([A-Z][A-Za-z0-9\.\-\s]+?)\s+(?:\()?CVE-\d{4}-\d+", title)
+    if m:
+        product = m.group(1).strip()
+        if product and 2 < len(product) < 60:
+            return [product]
+    return []
+
+
+async def _get_advisory_urls(page) -> list[str]:
     seen: set[str] = set()
     urls = []
-    page = 1
+    page_num = 1
+
     while True:
-        page_url = START_URL if page == 1 else f"{START_URL}?page={page}"
+        page_url = START_URL if page_num == 1 else f"{START_URL}?page={page_num}"
         try:
-            resp = requests.get(page_url, headers=HEADERS, timeout=30)
-            if resp.status_code == 404:
+            resp = await page.goto(page_url, wait_until="networkidle", timeout=30000)
+            if resp and resp.status == 404:
                 break
-            resp.raise_for_status()
-        except requests.RequestException:
+        except Exception:
             break
-        soup = BeautifulSoup(resp.text, "html.parser")
+
+        html = await page.content()
+        soup = BeautifulSoup(html, "html.parser")
         new_found = False
         for a_tag in soup.find_all("a", href=True):
             href = a_tag["href"]
@@ -59,30 +71,21 @@ def _get_advisory_urls() -> list[str]:
                     new_found = True
         if not new_found:
             break
-        page += 1
-        time.sleep(0.1)
+        page_num += 1
+
     return urls
 
 
-def _vendor_from_title(title: str) -> list[str]:
-    # Pattern: product mentioned before CVE
-    m = re.search(r"([A-Z][A-Za-z0-9\.\-\s]+?)\s+(?:\()?CVE-\d{4}-\d+", title)
-    if m:
-        product = m.group(1).strip()
-        if product and 2 < len(product) < 60:
-            return [product]
-    return []
-
-
-def _parse_page(url: str) -> Advisory | None:
+async def _parse_page(page, url: str) -> Advisory | None:
     try:
-        resp = requests.get(url, headers=HEADERS, timeout=30)
-        if resp.status_code != 200:
+        resp = await page.goto(url, wait_until="networkidle", timeout=30000)
+        if resp and resp.status != 200:
             return None
-    except requests.RequestException:
+    except Exception:
         return None
 
-    soup = BeautifulSoup(resp.text, "html.parser")
+    html = await page.content()
+    soup = BeautifulSoup(html, "html.parser")
     lines = [l.strip() for l in soup.get_text("\n").splitlines() if l.strip()]
     full_text = " ".join(lines)
 
@@ -103,7 +106,7 @@ def _parse_page(url: str) -> Advisory | None:
             except ValueError:
                 pass
 
-    # Researcher: meta author
+    # Researcher: meta author tag
     researcher = []
     meta_author = soup.find("meta", {"name": "author"})
     if meta_author and meta_author.get("content"):
@@ -129,19 +132,26 @@ def _parse_page(url: str) -> Advisory | None:
                     researchers=researcher, vendors=vendor)
 
 
-def scrape() -> list[Advisory]:
-    adv_urls = _get_advisory_urls()
+async def scrape() -> list[Advisory]:
     advisories = []
-    for url in adv_urls:
-        adv = _parse_page(url)
-        if adv:
-            advisories.append(adv)
-        time.sleep(0.15)
+
+    async with async_playwright() as p:
+        browser = await p.chromium.launch()
+        page = await browser.new_page()
+
+        adv_urls = await _get_advisory_urls(page)
+        for url in adv_urls:
+            adv = await _parse_page(page, url)
+            if adv:
+                advisories.append(adv)
+
+        await browser.close()
+
     return advisories
 
 
 if __name__ == "__main__":
-    advisories = scrape()
+    advisories = [a for a in asyncio.run(scrape()) if a.cve_ids]
     lab = CVELab(lab=LAB, url=URL,
                  scraped_at=datetime.now(timezone.utc),
                  advisories=advisories)

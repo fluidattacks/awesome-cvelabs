@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
-"""Securitum scraper. Outputs data.json.
+"""Securitum scraper — Playwright edition.
 Source: insights.html index → individual article pages for CVE IDs.
 """
-import re, sys, time
+import asyncio, re, sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-import requests
 from bs4 import BeautifulSoup
+from playwright.async_api import async_playwright
 
 sys.path.insert(0, str(Path(__file__).parents[2]))
 from lab_model import CVELab, Advisory
@@ -15,7 +15,6 @@ from lab_model import CVELab, Advisory
 LAB = "Securitum"
 URL = "https://www.securitum.com"
 INDEX_URL = URL + "/insights.html"
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; awesome-cvelabs-scraper/1.0)"}
 CVE_RE = re.compile(r"CVE-\d{4}-\d{4,5}", re.IGNORECASE)
 NAV_PAGES = {
     "index.html", "services.html", "web-application-penetration-testing.html",
@@ -31,10 +30,10 @@ NAV_PAGES = {
 }
 
 
-def _article_urls() -> list[str]:
-    resp = requests.get(INDEX_URL, headers=HEADERS, timeout=30)
-    resp.raise_for_status()
-    hrefs = list(dict.fromkeys(re.findall(r'href="([^"#?]+\.html)"', resp.text)))
+async def _article_urls(page) -> list[str]:
+    await page.goto(INDEX_URL, wait_until="networkidle")
+    html = await page.content()
+    hrefs = list(dict.fromkeys(re.findall(r'href="([^"#?]+\.html)"', html)))
     urls = []
     seen: set[str] = set()
     for href in hrefs:
@@ -50,32 +49,37 @@ def _article_urls() -> list[str]:
     return urls
 
 
-def scrape() -> list[Advisory]:
-    article_urls = _article_urls()
+async def scrape() -> list[Advisory]:
     advisories = []
     seen_cves: set[str] = set()
 
-    for art_url in article_urls:
-        try:
-            resp = requests.get(art_url, headers=HEADERS, timeout=30)
-            if resp.status_code != 200:
-                continue
-        except requests.RequestException:
-            continue
+    async with async_playwright() as p:
+        browser = await p.chromium.launch()
+        page = await browser.new_page()
 
-        cves = [c.upper() for c in CVE_RE.findall(resp.text)]
-        new_cves = [c for c in dict.fromkeys(cves) if c not in seen_cves]
-        if new_cves:
-            for c in new_cves:
-                seen_cves.add(c)
-            advisories.append(Advisory(url=art_url, cve_ids=new_cves))
-        time.sleep(0.2)
+        article_urls = await _article_urls(page)
+
+        for art_url in article_urls:
+            try:
+                await page.goto(art_url, wait_until="networkidle", timeout=30000)
+                html = await page.content()
+            except Exception:
+                continue
+
+            cves = [c.upper() for c in CVE_RE.findall(html)]
+            new_cves = [c for c in dict.fromkeys(cves) if c not in seen_cves]
+            if new_cves:
+                for c in new_cves:
+                    seen_cves.add(c)
+                advisories.append(Advisory(url=art_url, cve_ids=new_cves))
+
+        await browser.close()
 
     return advisories
 
 
 if __name__ == "__main__":
-    advisories = scrape()
+    advisories = [a for a in asyncio.run(scrape()) if a.cve_ids]
     lab = CVELab(lab=LAB, url=URL,
                  scraped_at=datetime.now(timezone.utc),
                  advisories=advisories)
