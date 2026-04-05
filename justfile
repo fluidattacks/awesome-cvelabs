@@ -34,6 +34,20 @@ print(f'\n{38 - len(errors)}/38 OK')
 schema:
     {{python}} lab_model.py > lab_schema.json
 
+# Run the 5 newly migrated test labs (bishopfox, core-security, fluid-attacks, integrity-labs, sentinelone)
+scrape-test:
+    for lab in bishopfox core-security fluid-attacks integrity-labs sentinelone; do \
+        echo "=== $lab ==="; \
+        {{python}} scripts/$lab/scrape.py; \
+    done
+
+# Run the 5 playwright-migrated scrapers (small labs)
+scrape-playwright:
+    for lab in securitum wiz assetnote census-labs core-labs; do \
+        echo "=== $lab ==="; \
+        {{python}} scripts/$lab/scrape.py; \
+    done
+
 # Enter the nix dev shell
 dev:
     nix develop
