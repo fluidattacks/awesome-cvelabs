@@ -1,13 +1,7 @@
 lab: Claroty Team82
 url: https://claroty.com/team82/disclosure-dashboard
-scraped_at: '2026-03-17T21:16:57.015130Z'
+scraped_at: '2026-04-03T02:54:07.384612Z'
 advisories:
-- url: https://claroty.com/team82/blog/industrial-safety-reliability-one-cve-at-a-time
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
 - url: https://claroty.com/team82/disclosure-dashboard/cve-2018-10597
   date: null
   cve_ids:
@@ -108,18 +102,6 @@ advisories:
   researchers: []
   vendors: []
   cve_count: 3
-- url: https://claroty.com/team82/disclosure-dashboard/cve-2019-19101
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
-- url: https://claroty.com/team82/disclosure-dashboard/cve-2019-19102
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
 - url: https://claroty.com/team82/disclosure-dashboard/cve-2019-19108
   date: null
   cve_ids:
@@ -156,12 +138,6 @@ advisories:
   researchers: []
   vendors: []
   cve_count: 2
-- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-10292
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
 - url: https://claroty.com/team82/disclosure-dashboard/cve-2020-10612
   date: null
   cve_ids:
@@ -207,24 +183,6 @@ advisories:
   researchers: []
   vendors: []
   cve_count: 4
-- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-12001
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
-- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-12003
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
-- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-12005
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
 - url: https://claroty.com/team82/disclosure-dashboard/cve-2020-12015
   date: null
   cve_ids:
@@ -254,12 +212,6 @@ advisories:
   researchers: []
   vendors: []
   cve_count: 2
-- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-12038
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
 - url: https://claroty.com/team82/disclosure-dashboard/cve-2020-12042-cve-2020-12046-cve-2020-10612-cve-2020-10616-cve-2020-10620
   date: null
   cve_ids:
@@ -268,12 +220,6 @@ advisories:
   researchers: []
   vendors: []
   cve_count: 2
-- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-12046
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
 - url: https://claroty.com/team82/disclosure-dashboard/cve-2020-12499
   date: null
   cve_ids:
@@ -349,30 +295,6 @@ advisories:
   researchers: []
   vendors: []
   cve_count: 1
-- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-14513
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
-- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-14515
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
-- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-14517
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
-- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-14519
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
 - url: https://claroty.com/team82/disclosure-dashboard/cve-2020-14520
   date: null
   cve_ids:
@@ -415,12 +337,6 @@ advisories:
   researchers: []
   vendors: []
   cve_count: 1
-- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-16233
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
 - url: https://claroty.com/team82/disclosure-dashboard/cve-2020-25159
   date: null
   cve_ids:
@@ -471,12 +387,6 @@ advisories:
   researchers: []
   vendors: []
   cve_count: 2
-- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-27255
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
 - url: https://claroty.com/team82/disclosure-dashboard/cve-2020-27263
   date: null
   cve_ids:
@@ -492,12 +402,6 @@ advisories:
   researchers: []
   vendors: []
   cve_count: 2
-- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-27267
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
 - url: https://claroty.com/team82/disclosure-dashboard/cve-2020-27274
   date: null
   cve_ids:
@@ -520,12 +424,6 @@ advisories:
   researchers: []
   vendors: []
   cve_count: 2
-- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-27299
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
 - url: https://claroty.com/team82/disclosure-dashboard/cve-2020-28214
   date: null
   cve_ids:
@@ -549,18 +447,6 @@ advisories:
   researchers: []
   vendors: []
   cve_count: 3
-- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-7495
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
-- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-7496
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
 - url: https://claroty.com/team82/disclosure-dashboard/cve-2020-7520
   date: null
   cve_ids:
@@ -579,30 +465,6 @@ advisories:
   researchers: []
   vendors: []
   cve_count: 5
-- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-7529
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
-- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-7530
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
-- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-7531
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
-- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-7532
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
 - url: https://claroty.com/team82/disclosure-dashboard/cve-2020-7565-cve-2020-7566-cve-2020-7567-cve-2020-7568cve-2020-28214
   date: null
   cve_ids:
@@ -613,24 +475,6 @@ advisories:
   researchers: []
   vendors: []
   cve_count: 4
-- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-7566
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
-- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-7567
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
-- url: https://claroty.com/team82/disclosure-dashboard/cve-2020-7568
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
 - url: https://claroty.com/team82/disclosure-dashboard/cve-2020-7586
   date: null
   cve_ids:
@@ -2122,12 +1966,6 @@ advisories:
   researchers: []
   vendors: []
   cve_count: 1
-- url: https://claroty.com/team82/disclosure-dashboard/cve-2022-124
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
 - url: https://claroty.com/team82/disclosure-dashboard/cve-2022-1356
   date: null
   cve_ids:
@@ -4578,6 +4416,20 @@ advisories:
   researchers: []
   vendors: []
   cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-13901
+  date: null
+  cve_ids:
+  - CVE-2025-13901
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2025-13902
+  date: null
+  cve_ids:
+  - CVE-2025-13902
+  researchers: []
+  vendors: []
+  cve_count: 1
 - url: https://claroty.com/team82/disclosure-dashboard/cve-2025-2079
   date: null
   cve_ids:
@@ -5310,6 +5162,41 @@ advisories:
   date: null
   cve_ids:
   - CVE-2026-25721
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-28252
+  date: null
+  cve_ids:
+  - CVE-2026-28252
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-28253
+  date: null
+  cve_ids:
+  - CVE-2026-28253
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-28254
+  date: null
+  cve_ids:
+  - CVE-2026-28254
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-28255
+  date: null
+  cve_ids:
+  - CVE-2026-28255
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://claroty.com/team82/disclosure-dashboard/cve-2026-28256
+  date: null
+  cve_ids:
+  - CVE-2026-28256
   researchers: []
   vendors: []
   cve_count: 1

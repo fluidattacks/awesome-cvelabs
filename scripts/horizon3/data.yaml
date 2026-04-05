@@ -1,53 +1,54 @@
 lab: Horizon3
 url: https://www.horizon3.ai
-scraped_at: '2026-03-17T22:22:30.052143Z'
+scraped_at: '2026-04-03T03:07:43.946544Z'
 advisories:
-- url: https://horizon3.ai/attack-research/when-read-only-isnt-k8s-nodes-proxy-get-to-rce/
-  date: 26/03/16
-  cve_ids: []
-  researchers: []
-  vendors:
-  - 'When “Read-Only” Isn’t: K8s nodes/proxy GET to'
-  cve_count: 0
 - url: https://horizon3.ai/attack-research/vulnerabilities/n-able-n-central-vulnerabilities-cve-2025-9316-cve-2025-11700/
-  date: 26/03/16
+  date: 26/04/01
   cve_ids:
   - CVE-2025-9316
   - CVE-2025-11700
   - CVE-2025-11367
-  - CVE-2026-20127
-  - CVE-2026-1603
-  - CVE-2026-1281
-  - CVE-2026-1340
+  - CVE-2026-20131
+  - CVE-2026-3055
+  - CVE-2026-20079
   researchers: []
   vendors:
   - N-able N-central Vulnerabilities ()
-  cve_count: 7
+  cve_count: 6
 - url: https://horizon3.ai/attack-research/vulnerabilities/cve2025-9242/
-  date: 26/03/16
+  date: 26/04/01
   cve_ids:
   - CVE-2025-9242
-  - CVE-2026-20127
-  - CVE-2026-1603
-  - CVE-2026-1281
-  - CVE-2026-1340
+  - CVE-2026-20131
+  - CVE-2026-3055
+  - CVE-2026-20079
   researchers: []
   vendors:
   - CVE‑2025‑9242
-  cve_count: 5
-- url: https://horizon3.ai/attack-research/vulnerabilities/cve-2026-24061/
-  date: 26/03/16
+  cve_count: 4
+- url: https://horizon3.ai/attack-research/vulnerabilities/cve-2026-3055/
+  date: 26/04/01
   cve_ids:
-  - CVE-2026-24061
+  - CVE-2026-3055
+  - CVE-2026-4368
+  - CVE-2026-20131
+  - CVE-2026-20079
   - CVE-2026-20127
-  - CVE-2026-1603
-  - CVE-2026-1281
-  - CVE-2026-1340
   researchers: []
   vendors: []
   cve_count: 5
+- url: https://horizon3.ai/attack-research/vulnerabilities/cve-2026-24061/
+  date: 26/04/01
+  cve_ids:
+  - CVE-2026-24061
+  - CVE-2026-20131
+  - CVE-2026-3055
+  - CVE-2026-20079
+  researchers: []
+  vendors: []
+  cve_count: 4
 - url: https://horizon3.ai/attack-research/vulnerabilities/cve-2026-22200/
-  date: 26/03/16
+  date: 26/04/01
   cve_ids:
   - CVE-2026-22200
   - CVE-2024-2961
@@ -56,223 +57,236 @@ advisories:
   - CVE-2021-44077
   - CVE-2025-2775
   - CVE-2025-2776
-  - CVE-2026-20127
-  - CVE-2026-1603
-  - CVE-2026-1281
-  - CVE-2026-1340
+  - CVE-2026-20131
+  - CVE-2026-3055
+  - CVE-2026-20079
   researchers: []
   vendors: []
-  cve_count: 11
+  cve_count: 10
+- url: https://horizon3.ai/attack-research/vulnerabilities/cve-2026-20131/
+  date: 26/04/01
+  cve_ids:
+  - CVE-2026-20131
+  - CVE-2026-3055
+  - CVE-2026-20079
+  - CVE-2026-20127
+  researchers: []
+  vendors: []
+  cve_count: 4
 - url: https://horizon3.ai/attack-research/vulnerabilities/cve-2026-20127/
-  date: 26/03/16
+  date: 26/04/01
   cve_ids:
   - CVE-2026-20127
-  - CVE-2026-1603
-  - CVE-2026-1281
-  - CVE-2026-1340
-  - CVE-2026-1731
+  - CVE-2026-20131
+  - CVE-2026-3055
+  - CVE-2026-20079
   researchers: []
   vendors: []
-  cve_count: 5
+  cve_count: 4
+- url: https://horizon3.ai/attack-research/vulnerabilities/cve-2026-20079/
+  date: 26/04/01
+  cve_ids:
+  - CVE-2026-20079
+  - CVE-2026-20131
+  - CVE-2026-3055
+  - CVE-2026-20127
+  researchers: []
+  vendors: []
+  cve_count: 4
 - url: https://horizon3.ai/attack-research/vulnerabilities/cve-2026-1731/
-  date: 26/03/16
+  date: 26/04/01
   cve_ids:
   - CVE-2026-1731
-  - CVE-2026-20127
-  - CVE-2026-1603
-  - CVE-2026-1281
-  - CVE-2026-1340
+  - CVE-2026-20131
+  - CVE-2026-3055
+  - CVE-2026-20079
   researchers: []
   vendors: []
-  cve_count: 5
+  cve_count: 4
 - url: https://horizon3.ai/attack-research/vulnerabilities/cve-2026-1603/
-  date: 26/03/16
+  date: 26/04/01
   cve_ids:
   - CVE-2026-1603
-  - CVE-2026-20127
-  - CVE-2026-1281
-  - CVE-2026-1340
-  - CVE-2026-1731
+  - CVE-2026-20131
+  - CVE-2026-3055
+  - CVE-2026-20079
   researchers: []
   vendors: []
-  cve_count: 5
+  cve_count: 4
 - url: https://horizon3.ai/attack-research/vulnerabilities/cve-2026-1281-cve-2026-1340/
-  date: 26/03/16
+  date: 26/04/01
   cve_ids:
   - CVE-2026-1281
   - CVE-2026-1340
-  - CVE-2026-20127
-  - CVE-2026-1603
-  - CVE-2026-1731
+  - CVE-2026-20131
+  - CVE-2026-3055
+  - CVE-2026-20079
   researchers: []
   vendors: []
   cve_count: 5
 - url: https://horizon3.ai/attack-research/vulnerabilities/cve-2025-8356/
-  date: 26/03/16
+  date: 26/04/01
   cve_ids:
   - CVE-2025-8356
-  - CVE-2026-20127
-  - CVE-2026-1603
-  - CVE-2026-1281
-  - CVE-2026-1340
+  - CVE-2026-20131
+  - CVE-2026-3055
+  - CVE-2026-20079
   researchers: []
   vendors: []
-  cve_count: 5
+  cve_count: 4
 - url: https://horizon3.ai/attack-research/vulnerabilities/cve-2025-7776/
-  date: 26/03/16
+  date: 26/04/01
   cve_ids:
   - CVE-2025-7776
-  - CVE-2026-20127
-  - CVE-2026-1603
-  - CVE-2026-1281
-  - CVE-2026-1340
+  - CVE-2026-20131
+  - CVE-2026-3055
+  - CVE-2026-20079
   researchers: []
   vendors: []
-  cve_count: 5
+  cve_count: 4
 - url: https://horizon3.ai/attack-research/vulnerabilities/cve-2025-64446/
-  date: 26/03/16
+  date: 26/04/01
   cve_ids:
   - CVE-2025-64446
-  - CVE-2026-20127
-  - CVE-2026-1603
-  - CVE-2026-1281
-  - CVE-2026-1340
+  - CVE-2026-20131
+  - CVE-2026-3055
+  - CVE-2026-20079
   researchers: []
   vendors:
   - Fortinet FortiWeb Authentication Bypass via Path Traversal Vulnerability ()
-  cve_count: 5
+  cve_count: 4
 - url: https://horizon3.ai/attack-research/vulnerabilities/cve-2025-64155-fortinet-fortisiem/
-  date: 26/03/16
+  date: 26/04/01
   cve_ids:
   - CVE-2025-64155
-  - CVE-2026-20127
-  - CVE-2026-1603
-  - CVE-2026-1281
-  - CVE-2026-1340
+  - CVE-2026-20131
+  - CVE-2026-3055
+  - CVE-2026-20079
   researchers: []
   vendors: []
-  cve_count: 5
+  cve_count: 4
 - url: https://horizon3.ai/attack-research/vulnerabilities/cve-2025-61882/
-  date: 26/03/16
+  date: 26/04/01
   cve_ids:
   - CVE-2025-61882
-  - CVE-2026-20127
-  - CVE-2026-1603
-  - CVE-2026-1281
-  - CVE-2026-1340
+  - CVE-2026-20131
+  - CVE-2026-3055
+  - CVE-2026-20079
   researchers: []
   vendors: []
-  cve_count: 5
+  cve_count: 4
 - url: https://horizon3.ai/attack-research/vulnerabilities/cve-2025-61757/
-  date: 26/03/16
+  date: 26/04/01
   cve_ids:
   - CVE-2025-61757
-  - CVE-2026-20127
-  - CVE-2026-1603
-  - CVE-2026-1281
-  - CVE-2026-1340
+  - CVE-2026-20131
+  - CVE-2026-3055
+  - CVE-2026-20079
   researchers: []
   vendors:
   - Oracle Identity Manager Pre-Auth RCE
-  cve_count: 5
+  cve_count: 4
 - url: https://horizon3.ai/attack-research/vulnerabilities/cve-2025-59287/
-  date: 26/03/16
+  date: 26/04/01
   cve_ids:
   - CVE-2025-59287
-  - CVE-2026-20127
-  - CVE-2026-1603
-  - CVE-2026-1281
-  - CVE-2026-1340
+  - CVE-2026-20131
+  - CVE-2026-3055
+  - CVE-2026-20079
   researchers: []
   vendors: []
-  cve_count: 5
+  cve_count: 4
 - url: https://horizon3.ai/attack-research/vulnerabilities/cve-2025-57819/
-  date: 26/03/16
+  date: 26/04/01
   cve_ids:
   - CVE-2025-57819
   - CVE-2025-66039
   - CVE-2025-61675
   - CVE-2025-61678
-  - CVE-2026-20127
-  - CVE-2026-1603
-  - CVE-2026-1281
-  - CVE-2026-1340
+  - CVE-2026-20131
+  - CVE-2026-3055
+  - CVE-2026-20079
   researchers: []
   vendors:
   - 'UPDATED:'
-  cve_count: 8
+  cve_count: 7
 - url: https://horizon3.ai/attack-research/vulnerabilities/cve-2025-5777/
-  date: 26/03/16
+  date: 26/04/01
   cve_ids:
   - CVE-2025-5777
-  - CVE-2026-20127
-  - CVE-2026-1603
-  - CVE-2026-1281
-  - CVE-2026-1340
+  - CVE-2026-20131
+  - CVE-2026-3055
+  - CVE-2026-20079
   researchers: []
   vendors: []
-  cve_count: 5
+  cve_count: 4
 - url: https://horizon3.ai/attack-research/vulnerabilities/cve-2025-55182/
-  date: 26/03/16
+  date: 26/04/01
   cve_ids:
   - CVE-2025-55182
   - CVE-2025-66478
-  - CVE-2026-20127
-  - CVE-2026-1603
-  - CVE-2026-1281
-  - CVE-2026-1340
+  - CVE-2026-20131
+  - CVE-2026-3055
+  - CVE-2026-20079
   researchers: []
   vendors:
   - React Server Components Remote Code Execution
-  cve_count: 6
+  cve_count: 5
 - url: https://horizon3.ai/attack-research/vulnerabilities/cve-2025-54309/
-  date: 26/03/16
+  date: 26/04/01
   cve_ids:
   - CVE-2025-54309
-  - CVE-2026-20127
-  - CVE-2026-1603
-  - CVE-2026-1281
-  - CVE-2026-1340
+  - CVE-2026-20131
+  - CVE-2026-3055
+  - CVE-2026-20079
   researchers: []
   vendors: []
-  cve_count: 5
+  cve_count: 4
 - url: https://horizon3.ai/attack-research/vulnerabilities/cve-2025-53770/
-  date: 26/03/16
+  date: 26/04/01
   cve_ids:
   - CVE-2025-53770
   - CVE-2025-49706
   - CVE-2025-49704
-  - CVE-2026-20127
-  - CVE-2026-1603
-  - CVE-2026-1281
-  - CVE-2026-1340
+  - CVE-2026-20131
+  - CVE-2026-3055
+  - CVE-2026-20079
   researchers: []
   vendors: []
-  cve_count: 7
+  cve_count: 6
 - url: https://horizon3.ai/attack-research/vulnerabilities/cve-2025-52691/
-  date: 26/03/16
+  date: 26/04/01
   cve_ids:
   - CVE-2025-52691
-  - CVE-2026-20127
-  - CVE-2026-1603
-  - CVE-2026-1281
-  - CVE-2026-1340
+  - CVE-2026-20131
+  - CVE-2026-3055
+  - CVE-2026-20079
   researchers: []
   vendors: []
-  cve_count: 5
+  cve_count: 4
 - url: https://horizon3.ai/attack-research/vulnerabilities/cve-2025-49844/
-  date: 26/03/16
+  date: 26/04/01
   cve_ids:
   - CVE-2025-49844
-  - CVE-2026-20127
-  - CVE-2026-1603
-  - CVE-2026-1281
-  - CVE-2026-1340
+  - CVE-2026-20131
+  - CVE-2026-3055
+  - CVE-2026-20079
   researchers: []
   vendors: []
-  cve_count: 5
+  cve_count: 4
+- url: https://horizon3.ai/attack-research/vulnerabilities/cve-2025-47812/
+  date: 26/04/01
+  cve_ids:
+  - CVE-2025-47812
+  - CVE-2026-20131
+  - CVE-2026-3055
+  - CVE-2026-20079
+  researchers: []
+  vendors:
+  - CVE‑2025‑47812
+  cve_count: 4
 - url: https://horizon3.ai/attack-research/vulnerabilities/cve-2025-40551/
-  date: 26/03/16
+  date: 26/04/01
   cve_ids:
   - CVE-2025-40551
   - CVE-2025-40536
@@ -280,190 +294,143 @@ advisories:
   - CVE-2024-28986
   - CVE-2024-28988
   - CVE-2025-26399
-  - CVE-2026-20127
-  - CVE-2026-1603
-  - CVE-2026-1281
-  - CVE-2026-1340
+  - CVE-2026-20131
+  - CVE-2026-3055
+  - CVE-2026-20079
   researchers: []
   vendors: []
-  cve_count: 10
+  cve_count: 9
 - url: https://horizon3.ai/attack-research/vulnerabilities/cve-2025-37164/
-  date: 26/03/16
+  date: 26/04/01
   cve_ids:
   - CVE-2025-37164
-  - CVE-2026-20127
-  - CVE-2026-1603
-  - CVE-2026-1281
-  - CVE-2026-1340
+  - CVE-2026-20131
+  - CVE-2026-3055
+  - CVE-2026-20079
   researchers: []
   vendors: []
-  cve_count: 5
+  cve_count: 4
 - url: https://horizon3.ai/attack-research/vulnerabilities/cve-2025-34509/
-  date: 26/03/16
+  date: 26/04/01
   cve_ids:
   - CVE-2025-34509
   - CVE-2025-34510
   - CVE-2025-34511
-  - CVE-2026-20127
-  - CVE-2026-1603
-  - CVE-2026-1281
-  - CVE-2026-1340
+  - CVE-2026-20131
+  - CVE-2026-3055
+  - CVE-2026-20079
   researchers: []
   vendors: []
-  cve_count: 7
+  cve_count: 6
 - url: https://horizon3.ai/attack-research/vulnerabilities/cve-2025-34508/
-  date: 26/03/16
+  date: 26/04/01
   cve_ids:
   - CVE-2025-34508
-  - CVE-2026-20127
-  - CVE-2026-1603
-  - CVE-2026-1281
-  - CVE-2026-1340
+  - CVE-2026-20131
+  - CVE-2026-3055
+  - CVE-2026-20079
   researchers: []
   vendors: []
-  cve_count: 5
-- url: https://horizon3.ai/attack-research/vulnerabilities/cve-2025-32756/
-  date: 26/03/16
+  cve_count: 4
+- url: https://horizon3.ai/attack-research/vulnerabilities/cve-2025-25256/
+  date: 26/04/01
   cve_ids:
-  - CVE-2025-32756
-  - CVE-2026-20127
-  - CVE-2026-1603
-  - CVE-2026-1281
-  - CVE-2026-1340
+  - CVE-2025-25256
+  - CVE-2026-20131
+  - CVE-2026-3055
+  - CVE-2026-20079
   researchers: []
-  vendors: []
-  cve_count: 5
+  vendors:
+  - CVE‑2025‑25256
+  cve_count: 4
 - url: https://horizon3.ai/attack-research/vulnerabilities/cve-2025-20362-cve-2025-20333-cve-2025-20363/
-  date: 26/03/16
+  date: 26/04/01
   cve_ids:
   - CVE-2025-20362
   - CVE-2025-20333
   - CVE-2025-20363
-  - CVE-2026-20127
-  - CVE-2026-1603
-  - CVE-2026-1281
-  - CVE-2026-1340
-  researchers: []
-  vendors: []
-  cve_count: 7
-- url: https://horizon3.ai/attack-research/vulnerabilities/cve-2025-20281/
-  date: 26/03/16
-  cve_ids:
-  - CVE-2025-20281
-  - CVE-2026-20127
-  - CVE-2026-1603
-  - CVE-2026-1281
-  - CVE-2026-1340
-  researchers: []
-  vendors: []
-  cve_count: 5
-- url: https://horizon3.ai/attack-research/vulnerabilities/cve-2025-20188/
-  date: 26/03/16
-  cve_ids:
-  - CVE-2025-20188
-  - CVE-2026-20127
-  - CVE-2026-1603
-  - CVE-2026-1281
-  - CVE-2026-1340
-  researchers: []
-  vendors: []
-  cve_count: 5
-- url: https://horizon3.ai/attack-research/vulnerabilities/cve-2025-14847/
-  date: 26/03/16
-  cve_ids:
-  - CVE-2025-14847
-  - CVE-2026-20127
-  - CVE-2026-1603
-  - CVE-2026-1281
-  - CVE-2026-1340
-  researchers: []
-  vendors:
-  - MongoDB Server Uninitialized Heap Memory Disclosure (MongoBleed)
-  cve_count: 5
-- url: https://horizon3.ai/attack-research/vulnerabilities/cve-2025-14733/
-  date: 26/03/16
-  cve_ids:
-  - CVE-2025-14733
-  - CVE-2026-20127
-  - CVE-2026-1603
-  - CVE-2026-1281
-  - CVE-2026-1340
-  researchers: []
-  vendors:
-  - WatchGuard Fireware OS VPN Vulnerability
-  cve_count: 5
-- url: https://horizon3.ai/attack-research/vulnerabilities/cve-2025-14611/
-  date: 26/03/16
-  cve_ids:
-  - CVE-2025-14611
-  - CVE-2026-20127
-  - CVE-2026-1603
-  - CVE-2026-1281
-  - CVE-2026-1340
-  researchers: []
-  vendors:
-  - Gladinet CentreStack / Triofox Local File Inclusion (LFI)
-  cve_count: 5
-- url: https://horizon3.ai/attack-research/vulnerabilities/cve-2025-12480/
-  date: 26/03/16
-  cve_ids:
-  - CVE-2025-12480
-  - CVE-2026-20127
-  - CVE-2026-1603
-  - CVE-2026-1281
-  - CVE-2026-1340
-  researchers: []
-  vendors: []
-  cve_count: 5
-- url: https://horizon3.ai/attack-research/vulnerabilities/cve-2025-11371/
-  date: 26/03/16
-  cve_ids:
-  - CVE-2025-11371
-  - CVE-2025-30406
-  - CVE-2026-20127
-  - CVE-2026-1603
-  - CVE-2026-1281
-  - CVE-2026-1340
+  - CVE-2026-20131
+  - CVE-2026-3055
+  - CVE-2026-20079
   researchers: []
   vendors: []
   cve_count: 6
-- url: https://horizon3.ai/attack-research/vulnerabilities/cve-2025-11250/
-  date: 26/03/16
+- url: https://horizon3.ai/attack-research/vulnerabilities/cve-2025-20281/
+  date: 26/04/01
   cve_ids:
-  - CVE-2025-11250
-  - CVE-2026-20127
-  - CVE-2026-1603
-  - CVE-2026-1281
-  - CVE-2026-1340
+  - CVE-2025-20281
+  - CVE-2026-20131
+  - CVE-2026-3055
+  - CVE-2026-20079
+  researchers: []
+  vendors: []
+  cve_count: 4
+- url: https://horizon3.ai/attack-research/vulnerabilities/cve-2025-14847/
+  date: 26/04/01
+  cve_ids:
+  - CVE-2025-14847
+  - CVE-2026-20131
+  - CVE-2026-3055
+  - CVE-2026-20079
+  researchers: []
+  vendors:
+  - MongoDB Server Uninitialized Heap Memory Disclosure (MongoBleed)
+  cve_count: 4
+- url: https://horizon3.ai/attack-research/vulnerabilities/cve-2025-14733/
+  date: 26/04/01
+  cve_ids:
+  - CVE-2025-14733
+  - CVE-2026-20131
+  - CVE-2026-3055
+  - CVE-2026-20079
+  researchers: []
+  vendors:
+  - WatchGuard Fireware OS VPN Vulnerability
+  cve_count: 4
+- url: https://horizon3.ai/attack-research/vulnerabilities/cve-2025-14611/
+  date: 26/04/01
+  cve_ids:
+  - CVE-2025-14611
+  - CVE-2026-20131
+  - CVE-2026-3055
+  - CVE-2026-20079
+  researchers: []
+  vendors:
+  - Gladinet CentreStack / Triofox Local File Inclusion (LFI)
+  cve_count: 4
+- url: https://horizon3.ai/attack-research/vulnerabilities/cve-2025-12480/
+  date: 26/04/01
+  cve_ids:
+  - CVE-2025-12480
+  - CVE-2026-20131
+  - CVE-2026-3055
+  - CVE-2026-20079
+  researchers: []
+  vendors: []
+  cve_count: 4
+- url: https://horizon3.ai/attack-research/vulnerabilities/cve-2025-11371/
+  date: 26/04/01
+  cve_ids:
+  - CVE-2025-11371
+  - CVE-2025-30406
+  - CVE-2026-20131
+  - CVE-2026-3055
+  - CVE-2026-20079
   researchers: []
   vendors: []
   cve_count: 5
-- url: https://horizon3.ai/attack-research/vulnerabilities/cve%e2%80%912025%e2%80%9147812/
-  date: 26/03/16
+- url: https://horizon3.ai/attack-research/vulnerabilities/cve-2025-11250/
+  date: 26/04/01
   cve_ids:
-  - CVE-2025-47812
-  - CVE-2026-20127
-  - CVE-2026-1603
-  - CVE-2026-1281
-  - CVE-2026-1340
+  - CVE-2025-11250
+  - CVE-2026-20131
+  - CVE-2026-3055
+  - CVE-2026-20079
   researchers: []
-  vendors:
-  - CVE‑2025‑47812
-  cve_count: 5
-- url: https://horizon3.ai/attack-research/vulnerabilities/cve%e2%80%912025%e2%80%9125256/
-  date: 26/03/16
-  cve_ids:
-  - CVE-2025-25256
-  - CVE-2026-20127
-  - CVE-2026-1603
-  - CVE-2026-1281
-  - CVE-2026-1340
-  researchers: []
-  vendors:
-  - CVE‑2025‑25256
-  cve_count: 5
+  vendors: []
+  cve_count: 4
 - url: https://horizon3.ai/attack-research/the-freepbx-rabbit-hole-cve-2025-66039-and-others/
-  date: 26/03/16
+  date: 26/04/01
   cve_ids:
   - CVE-2025-66039
   - CVE-2025-61675
@@ -473,22 +440,8 @@ advisories:
   vendors:
   - 'The FreePBX Rabbit Hole: and others'
   cve_count: 4
-- url: https://horizon3.ai/attack-research/n0-attack-paths/how-hackers-weaponize-slack-lessons-from-real-slack-dump-attacks/
-  date: 26/03/16
-  cve_ids: []
-  researchers: []
-  vendors:
-  - 'How Hackers Weaponize Slack: Lessons From Real Slack Dump'
-  cve_count: 0
-- url: https://horizon3.ai/attack-research/n0-attack-paths/hack-the-box-retro/
-  date: 26/03/16
-  cve_ids: []
-  researchers: []
-  vendors:
-  - Hack The Box – Retro
-  cve_count: 0
 - url: https://horizon3.ai/attack-research/disclosures/cve-2025-64155-three-years-of-remotely-rooting-the-fortinet-fortisiem/
-  date: 26/03/16
+  date: 26/04/01
   cve_ids:
   - CVE-2025-64155
   - CVE-2025-25256
@@ -499,7 +452,7 @@ advisories:
   - ': Three Years of Remotely Rooting the Fortinet FortiSIEM'
   cve_count: 4
 - url: https://horizon3.ai/attack-research/defending-with-ad-tripwires-goad-walkthrough/
-  date: 26/03/16
+  date: 26/04/01
   cve_ids:
   - CVE-2022-33679
   researchers: []
@@ -507,7 +460,7 @@ advisories:
   - 'Defending with AD Tripwires: GOAD Walkthrough'
   cve_count: 1
 - url: https://horizon3.ai/attack-research/cve-2025-40551-another-solarwinds-web-help-desk-deserialization-issue/
-  date: 26/03/16
+  date: 26/04/01
   cve_ids:
   - CVE-2025-40551
   - CVE-2024-28986
@@ -519,15 +472,8 @@ advisories:
   vendors:
   - ': Another Solarwinds Web Help Desk Deserialization Issue'
   cve_count: 6
-- url: https://horizon3.ai/attack-research/attack-blogs/what-7000-nodezero-rat-attempts-show-us-about-cyber-security/
-  date: 26/03/16
-  cve_ids: []
-  researchers: []
-  vendors:
-  - What 7,000+ NodeZero RAT Attempts Show Us About Cyber Security
-  cve_count: 0
 - url: https://horizon3.ai/attack-research/attack-blogs/ticket-to-shell-exploiting-php-filters-and-cnext-in-osticket-cve-2026-22200/
-  date: 26/03/16
+  date: 26/04/01
   cve_ids:
   - CVE-2026-22200
   - CVE-2024-2961
@@ -542,7 +488,7 @@ advisories:
   - 'Ticket to Shell: Exploiting PHP Filters and CNEXT in osTicket ()'
   cve_count: 8
 - url: https://horizon3.ai/attack-research/attack-blogs/the-quiet-attack-path/
-  date: 26/03/16
+  date: 26/04/01
   cve_ids:
   - CVE-2022-33679
   researchers: []
@@ -550,7 +496,7 @@ advisories:
   - The Quiet Attack Path
   cve_count: 1
 - url: https://horizon3.ai/attack-research/attack-blogs/the-ni8mare-test-n8n-rce-under-the-microscope-cve-2026-21858/
-  date: 26/03/16
+  date: 26/04/01
   cve_ids:
   - CVE-2026-21858
   researchers: []
@@ -558,7 +504,7 @@ advisories:
   - 'The Ni8mare Test: n8n RCE Under the Microscope ()'
   cve_count: 1
 - url: https://horizon3.ai/attack-research/attack-blogs/n-able-n-central-from-n-days-to-0-days/
-  date: 26/03/16
+  date: 26/04/01
   cve_ids:
   - CVE-2025-8875
   - CVE-2025-8876
@@ -569,7 +515,7 @@ advisories:
   - 'N-able N-central: From N-days to 0-days'
   cve_count: 4
 - url: https://horizon3.ai/attack-research/attack-blogs/from-support-ticket-to-zero-day/
-  date: 26/03/16
+  date: 26/04/01
   cve_ids:
   - CVE-2025-8355
   - CVE-2025-8356
@@ -578,7 +524,7 @@ advisories:
   - From Support Ticket to Zero Day
   cve_count: 2
 - url: https://horizon3.ai/attack-research/attack-blogs/cve-2025-5777-citrixbleed-2-write-up-maybe/
-  date: 26/03/16
+  date: 26/04/01
   cve_ids:
   - CVE-2025-5777
   - CVE-2025-5349
@@ -590,32 +536,10 @@ advisories:
   - ': CitrixBleed 2 Write-Up… Maybe?'
   cve_count: 5
 - url: https://horizon3.ai/attack-research/attack-blogs/cve-2025-34508-another-file-sharing-application-another-path-traversal/
-  date: 26/03/16
+  date: 26/04/01
   cve_ids:
   - CVE-2025-34508
   researchers: []
   vendors:
   - ': Another File Sharing Application, Another Path Traversal'
   cve_count: 1
-- url: https://horizon3.ai/attack-research/attack-blogs/cve-2025-32756-low-rise-jeans-are-back-and-so-are-buffer-overflows/
-  date: 26/03/16
-  cve_ids:
-  - CVE-2025-32756
-  researchers: []
-  vendors:
-  - ': Low-Rise Jeans are Back and so are Buffer Overflows'
-  cve_count: 1
-- url: https://horizon3.ai/attack-research/attack-blogs/cisco-ios-xe-wlc-arbitrary-file-upload-vulnerability-cve-2025-20188-analysis/
-  date: 26/03/16
-  cve_ids:
-  - CVE-2025-20188
-  researchers: []
-  vendors:
-  - Cisco IOS XE WLC Arbitrary File Upload Vulnerability () Analysis
-  cve_count: 1
-- url: https://horizon3.ai/attack-research/attack-blogs/beyond-the-perimeter-why-deception-is-critical-to-protecting-the-worlds-most-sensitive-organisations/
-  date: 26/03/16
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0

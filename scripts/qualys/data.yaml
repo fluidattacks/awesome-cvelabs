@@ -1,35 +1,7 @@
 lab: Qualys
 url: https://www.qualys.com/research/security-advisories/
-scraped_at: '2026-03-17T21:23:31.197957Z'
+scraped_at: '2026-04-03T03:13:17.410225Z'
 advisories:
-- url: https://www.qualys.com/research/security-advisories/#CVE-2025-5054
-  date: null
-  cve_ids:
-  - CVE-2025-5054
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.qualys.com/research/security-advisories/#CVE-2025-4598
-  date: null
-  cve_ids:
-  - CVE-2025-4598
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.qualys.com/research/security-advisories/#CVE-2025-26465
-  date: null
-  cve_ids:
-  - CVE-2025-26465
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.qualys.com/research/security-advisories/#CVE-2025-26466
-  date: null
-  cve_ids:
-  - CVE-2025-26466
-  researchers: []
-  vendors: []
-  cve_count: 1
 - url: https://www.qualys.com/research/security-advisories/#CVE-2012-0671
   date: null
   cve_ids:
@@ -482,6 +454,34 @@ advisories:
   date: null
   cve_ids:
   - CVE-2023-6246
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.qualys.com/research/security-advisories/#CVE-2025-5054
+  date: null
+  cve_ids:
+  - CVE-2025-5054
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.qualys.com/research/security-advisories/#CVE-2025-4598
+  date: null
+  cve_ids:
+  - CVE-2025-4598
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.qualys.com/research/security-advisories/#CVE-2025-26465
+  date: null
+  cve_ids:
+  - CVE-2025-26465
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://www.qualys.com/research/security-advisories/#CVE-2025-26466
+  date: null
+  cve_ids:
+  - CVE-2025-26466
   researchers: []
   vendors: []
   cve_count: 1

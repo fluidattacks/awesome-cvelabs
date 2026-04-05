@@ -1,33 +1,15 @@
 lab: Synacktiv
 url: https://www.synacktiv.com
-scraped_at: '2026-03-17T22:23:30.399477Z'
+scraped_at: '2026-04-03T03:20:06.365341Z'
 advisories:
-- url: https://www.synacktiv.com/advisories/activid-authentication-bypass.html
-  date: null
-  cve_ids: []
-  researchers:
-  - Vincent Herbulot
-  - Pierre Gertner
-  vendors:
-  - ActivID Authentication appliance
-  cve_count: 0
-- url: https://www.synacktiv.com/advisories/dangerous-feature-in-commvault-commserve-1134.html
-  date: null
-  cve_ids: []
-  researchers:
-  - Guillaume AndrÃ©
-  - Hugo Clout
-  vendors:
-  - Commvault CommServe
-  cve_count: 0
 - url: https://www.synacktiv.com/advisories/fortimanager-multiple-vulnerabilities.html
   date: 25/01/27
   cve_ids:
   - CVE-2023-42791
   - CVE-2024-23666
   researchers:
-  - ClÃ©ment Amic
-  - Paul BarbÃ©
+  - Clément Amic
+  - Paul Barbé
   - Antoine Carrincazeaux
   vendors:
   - FortiManager
@@ -41,14 +23,6 @@ advisories:
   vendors:
   - Ivanti Sentry / MobileIron Sentry
   cve_count: 1
-- url: https://www.synacktiv.com/advisories/ssrpm-arbitrary-password-reset-on-default-client-web-interface-installation.html
-  date: null
-  cve_ids: []
-  researchers:
-  - ClÃ©ment Amic
-  vendors:
-  - SSRPM
-  cve_count: 0
 - url: https://www.synacktiv.com/advisories/local-privilege-escalation-in-sap.html
   date: null
   cve_ids:
@@ -65,7 +39,7 @@ advisories:
   researchers:
   - Pierre Martin
   - Jacques Monin
-  - RÃ©mi Matasse
+  - Rémi Matasse
   vendors:
   - Pyres Termod
   cve_count: 1
@@ -76,7 +50,7 @@ advisories:
   researchers:
   - Mehdi Elyassa
   vendors:
-  - Â
+  - Ivanti EPMM / MobileIron Core
   cve_count: 1
 - url: https://www.synacktiv.com/advisories/multiple-vulnerabilities-on-gestsup-3244.html
   date: null
@@ -106,7 +80,7 @@ advisories:
   cve_ids:
   - CVE-2025-33073
   researchers:
-  - Wilfried BÃ©card
+  - Wilfried Bécard
   vendors:
   - Windows
   cve_count: 1
@@ -134,27 +108,18 @@ advisories:
   cve_ids:
   - CVE-2025-54068
   researchers:
-  - RÃ©mi Matasse
+  - Rémi Matasse
   - Pierre Martin
   vendors:
   - Livewire
   cve_count: 1
-- url: https://www.synacktiv.com/advisories/solidserver-ddi-remote-command-execution-as-root.html
-  date: null
-  cve_ids: []
-  researchers:
-  - Thomas Lubishtani-Bizet
-  - Pierre Milioni
-  vendors:
-  - efficient iP - SOLIDserver DDI
-  cve_count: 0
 - url: https://www.synacktiv.com/advisories/crater-invoice-unauthenticated-remote-command-execution-when-appkey-known.html
   date: null
   cve_ids:
   - CVE-2024-55556
   researchers:
-  - RÃ©mi Matasse
-  - MickaÃ«l Benassouli
+  - Rémi Matasse
+  - Mickaël Benassouli
   vendors:
   - Crater Invoice / InvoiceShelf
   cve_count: 1
@@ -163,7 +128,7 @@ advisories:
   cve_ids:
   - CVE-2024-47910
   researchers:
-  - ClÃ©ment Amic
+  - Clément Amic
   - Hugo Vincent
   vendors:
   - SonarQube
@@ -173,24 +138,16 @@ advisories:
   cve_ids:
   - CVE-2024-39165
   researchers:
-  - Alexandre DroullÃ©
+  - Alexandre Droullé
   vendors:
   - JpGraph Professional Version
   cve_count: 1
-- url: https://www.synacktiv.com/advisories/etic-telecom-ipl-dac-400-le-multiple-vulnerabilities.html
-  date: null
-  cve_ids: []
-  researchers:
-  - Pierre Martin
-  vendors:
-  - Etic Telecom
-  cve_count: 0
 - url: https://www.synacktiv.com/advisories/file-read-in-itop.html
   date: null
   cve_ids:
   - CVE-2023-38511
   researchers:
-  - JÃ©rÃ´me Mampianinazakason
+  - Jérôme Mampianinazakason
   vendors:
   - iTop
   cve_count: 1
@@ -208,7 +165,7 @@ advisories:
   cve_ids:
   - CVE-2024-26238
   researchers:
-  - Guillaume AndrÃ©
+  - Guillaume André
   vendors:
   - Windows
   cve_count: 1
@@ -218,7 +175,7 @@ advisories:
   - CVE-2023-41339
   - CVE-2023-43795
   researchers:
-  - RÃ©mi Matasse
+  - Rémi Matasse
   - Vincent Herbulot
   vendors:
   - Geoserver WMS
@@ -229,8 +186,8 @@ advisories:
   - CVE-2024-29858
   - CVE-2024-29859
   researchers:
-  - RÃ©mi Matasse
-  - RaphaÃ«l Lob
+  - Rémi Matasse
+  - Raphaël Lob
   vendors:
   - MISP core
   cve_count: 2
@@ -251,19 +208,11 @@ advisories:
   - CVE-2025-47227
   - CVE-2025-47228
   researchers:
-  - Alexandre DroullÃ©
+  - Alexandre Droullé
   - Alexandre Zanni
   vendors:
   - ScriptCase (
   cve_count: 2
-- url: https://www.synacktiv.com/advisories/help-scout-mass-assignment-vulnerability-on-inbox-settings.html
-  date: null
-  cve_ids: []
-  researchers:
-  - ClÃ©ment Amic
-  vendors:
-  - Help Scout
-  cve_count: 0
 - url: https://www.synacktiv.com/advisories/multiple-vulnerabilities-in-delmia-apriso-2019-to-2024.html
   date: null
   cve_ids:
@@ -280,8 +229,8 @@ advisories:
   - CVE-2024-48987
   - CVE-2018-15133
   researchers:
-  - RÃ©mi Matasse
-  - MickaÃ«l Benassouli
+  - Rémi Matasse
+  - Mickaël Benassouli
   vendors:
   - Snipe-IT
   cve_count: 2
@@ -325,15 +274,6 @@ advisories:
   vendors:
   - Usercube
   cve_count: 1
-- url: https://www.synacktiv.com/advisories/vulnerable-upgrade-mechanism-in-zkteco-f18-device.html
-  date: 23/06/02
-  cve_ids: []
-  researchers:
-  - Jean-Baptiste Mesnard-Sense
-  - Paul BarbÃ©
-  vendors:
-  - ZKTeco F18
-  cve_count: 0
 - url: https://www.synacktiv.com/advisories/sap-financial-consolidation-admin-authentication-bypass.html
   date: null
   cve_ids:
@@ -350,7 +290,7 @@ advisories:
   - CVE-2023-28115
   - CVE-2023-41330
   researchers:
-  - RÃ©mi Matasse
+  - Rémi Matasse
   vendors:
   - knplabs/knp-snappy
   cve_count: 2
@@ -381,37 +321,19 @@ advisories:
   cve_ids:
   - CVE-2024-55555
   researchers:
-  - RÃ©mi Matasse
-  - MickaÃ«l Benassouli
+  - Rémi Matasse
+  - Mickaël Benassouli
   vendors:
   - InvoiceNinja
   cve_count: 1
-- url: https://www.synacktiv.com/en/advisories/activid-authentication-bypass.html
-  date: null
-  cve_ids: []
-  researchers:
-  - Vincent Herbulot
-  - Pierre Gertner
-  vendors:
-  - ActivID Authentication appliance
-  cve_count: 0
-- url: https://www.synacktiv.com/en/advisories/dangerous-feature-in-commvault-commserve-1134.html
-  date: null
-  cve_ids: []
-  researchers:
-  - Guillaume AndrÃ©
-  - Hugo Clout
-  vendors:
-  - Commvault CommServe
-  cve_count: 0
 - url: https://www.synacktiv.com/en/advisories/fortimanager-multiple-vulnerabilities.html
   date: 25/01/27
   cve_ids:
   - CVE-2023-42791
   - CVE-2024-23666
   researchers:
-  - ClÃ©ment Amic
-  - Paul BarbÃ©
+  - Clément Amic
+  - Paul Barbé
   - Antoine Carrincazeaux
   vendors:
   - FortiManager
@@ -425,14 +347,6 @@ advisories:
   vendors:
   - Ivanti Sentry / MobileIron Sentry
   cve_count: 1
-- url: https://www.synacktiv.com/en/advisories/ssrpm-arbitrary-password-reset-on-default-client-web-interface-installation.html
-  date: null
-  cve_ids: []
-  researchers:
-  - ClÃ©ment Amic
-  vendors:
-  - SSRPM
-  cve_count: 0
 - url: https://www.synacktiv.com/en/advisories/local-privilege-escalation-in-sap.html
   date: null
   cve_ids:
@@ -449,7 +363,7 @@ advisories:
   researchers:
   - Pierre Martin
   - Jacques Monin
-  - RÃ©mi Matasse
+  - Rémi Matasse
   vendors:
   - Pyres Termod
   cve_count: 1
@@ -460,7 +374,7 @@ advisories:
   researchers:
   - Mehdi Elyassa
   vendors:
-  - Â
+  - Ivanti EPMM / MobileIron Core
   cve_count: 1
 - url: https://www.synacktiv.com/en/advisories/multiple-vulnerabilities-on-gestsup-3244.html
   date: null
@@ -490,7 +404,7 @@ advisories:
   cve_ids:
   - CVE-2025-33073
   researchers:
-  - Wilfried BÃ©card
+  - Wilfried Bécard
   vendors:
   - Windows
   cve_count: 1
@@ -518,27 +432,18 @@ advisories:
   cve_ids:
   - CVE-2025-54068
   researchers:
-  - RÃ©mi Matasse
+  - Rémi Matasse
   - Pierre Martin
   vendors:
   - Livewire
   cve_count: 1
-- url: https://www.synacktiv.com/en/advisories/solidserver-ddi-remote-command-execution-as-root.html
-  date: null
-  cve_ids: []
-  researchers:
-  - Thomas Lubishtani-Bizet
-  - Pierre Milioni
-  vendors:
-  - efficient iP - SOLIDserver DDI
-  cve_count: 0
 - url: https://www.synacktiv.com/en/advisories/crater-invoice-unauthenticated-remote-command-execution-when-appkey-known.html
   date: null
   cve_ids:
   - CVE-2024-55556
   researchers:
-  - RÃ©mi Matasse
-  - MickaÃ«l Benassouli
+  - Rémi Matasse
+  - Mickaël Benassouli
   vendors:
   - Crater Invoice / InvoiceShelf
   cve_count: 1
@@ -547,7 +452,7 @@ advisories:
   cve_ids:
   - CVE-2024-47910
   researchers:
-  - ClÃ©ment Amic
+  - Clément Amic
   - Hugo Vincent
   vendors:
   - SonarQube
@@ -557,24 +462,16 @@ advisories:
   cve_ids:
   - CVE-2024-39165
   researchers:
-  - Alexandre DroullÃ©
+  - Alexandre Droullé
   vendors:
   - JpGraph Professional Version
   cve_count: 1
-- url: https://www.synacktiv.com/en/advisories/etic-telecom-ipl-dac-400-le-multiple-vulnerabilities.html
-  date: null
-  cve_ids: []
-  researchers:
-  - Pierre Martin
-  vendors:
-  - Etic Telecom
-  cve_count: 0
 - url: https://www.synacktiv.com/en/advisories/file-read-in-itop.html
   date: null
   cve_ids:
   - CVE-2023-38511
   researchers:
-  - JÃ©rÃ´me Mampianinazakason
+  - Jérôme Mampianinazakason
   vendors:
   - iTop
   cve_count: 1
@@ -592,7 +489,7 @@ advisories:
   cve_ids:
   - CVE-2024-26238
   researchers:
-  - Guillaume AndrÃ©
+  - Guillaume André
   vendors:
   - Windows
   cve_count: 1
@@ -602,7 +499,7 @@ advisories:
   - CVE-2023-41339
   - CVE-2023-43795
   researchers:
-  - RÃ©mi Matasse
+  - Rémi Matasse
   - Vincent Herbulot
   vendors:
   - Geoserver WMS
@@ -613,8 +510,8 @@ advisories:
   - CVE-2024-29858
   - CVE-2024-29859
   researchers:
-  - RÃ©mi Matasse
-  - RaphaÃ«l Lob
+  - Rémi Matasse
+  - Raphaël Lob
   vendors:
   - MISP core
   cve_count: 2
@@ -635,19 +532,11 @@ advisories:
   - CVE-2025-47227
   - CVE-2025-47228
   researchers:
-  - Alexandre DroullÃ©
+  - Alexandre Droullé
   - Alexandre Zanni
   vendors:
   - ScriptCase (
   cve_count: 2
-- url: https://www.synacktiv.com/en/advisories/help-scout-mass-assignment-vulnerability-on-inbox-settings.html
-  date: null
-  cve_ids: []
-  researchers:
-  - ClÃ©ment Amic
-  vendors:
-  - Help Scout
-  cve_count: 0
 - url: https://www.synacktiv.com/en/advisories/multiple-vulnerabilities-in-delmia-apriso-2019-to-2024.html
   date: null
   cve_ids:
@@ -664,8 +553,8 @@ advisories:
   - CVE-2024-48987
   - CVE-2018-15133
   researchers:
-  - RÃ©mi Matasse
-  - MickaÃ«l Benassouli
+  - Rémi Matasse
+  - Mickaël Benassouli
   vendors:
   - Snipe-IT
   cve_count: 2
@@ -709,15 +598,6 @@ advisories:
   vendors:
   - Usercube
   cve_count: 1
-- url: https://www.synacktiv.com/en/advisories/vulnerable-upgrade-mechanism-in-zkteco-f18-device.html
-  date: 23/06/02
-  cve_ids: []
-  researchers:
-  - Jean-Baptiste Mesnard-Sense
-  - Paul BarbÃ©
-  vendors:
-  - ZKTeco F18
-  cve_count: 0
 - url: https://www.synacktiv.com/en/advisories/sap-financial-consolidation-admin-authentication-bypass.html
   date: null
   cve_ids:
@@ -734,7 +614,7 @@ advisories:
   - CVE-2023-28115
   - CVE-2023-41330
   researchers:
-  - RÃ©mi Matasse
+  - Rémi Matasse
   vendors:
   - knplabs/knp-snappy
   cve_count: 2
@@ -765,8 +645,8 @@ advisories:
   cve_ids:
   - CVE-2024-55555
   researchers:
-  - RÃ©mi Matasse
-  - MickaÃ«l Benassouli
+  - Rémi Matasse
+  - Mickaël Benassouli
   vendors:
   - InvoiceNinja
   cve_count: 1

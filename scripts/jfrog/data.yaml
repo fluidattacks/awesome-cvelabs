@@ -1,6 +1,6 @@
 lab: JFrog Security Research
 url: https://research.jfrog.com
-scraped_at: '2026-03-17T22:22:36.913458Z'
+scraped_at: '2026-04-03T03:09:54.351532Z'
 advisories:
 - url: https://research.jfrog.com/vulnerabilities/mcp-run-python-lack-of-isolation-mcp-takeover-jfsa-2026-001653030/
   date: 26/02/09
@@ -419,38 +419,6 @@ advisories:
   vendors:
   - org.xerial.snappy:snappy-java
   cve_count: 1
-- url: https://research.jfrog.com/vulnerabilities/ua-cpp-ua-extensionobject-type-confusion-xray-75752/
-  date: 22/06/01
-  cve_ids: []
-  researchers:
-  - Omer Kaspi
-  vendors:
-  - Unified Automation C++ Based OPC UA PubSub SDK
-  cve_count: 0
-- url: https://research.jfrog.com/vulnerabilities/ua-cpp-ua-int32-null-deref-xray-75753/
-  date: 22/06/01
-  cve_ids: []
-  researchers:
-  - Uriya Yavnieli
-  vendors:
-  - Unified Automation C++ Based OPC UA PubSub SDK
-  cve_count: 0
-- url: https://research.jfrog.com/vulnerabilities/ua-cpp-uaunistring-1-byte-oob-xray-75754/
-  date: 22/06/01
-  cve_ids: []
-  researchers:
-  - Omer Kaspi
-  vendors:
-  - Unified Automation C++ based OPC UA Client Server SDK
-  cve_count: 0
-- url: https://research.jfrog.com/vulnerabilities/ua-cpp-unlimited-file-handles-dos-xray-75758/
-  date: 22/06/01
-  cve_ids: []
-  researchers:
-  - Uriya Yavnieli
-  vendors:
-  - Unified Automation C++ based OPC UA Client Server SDK
-  cve_count: 0
 - url: https://research.jfrog.com/vulnerabilities/xss-in-nanohttpd-xray-141192/
   date: 21/02/23
   cve_ids:
@@ -460,30 +428,6 @@ advisories:
   vendors:
   - NanoHTTPD
   cve_count: 1
-- url: https://research.jfrog.com/vulnerabilities/ua-cpp-replaceargs-oob-write-xray-75751/
-  date: 22/06/01
-  cve_ids: []
-  researchers:
-  - Omer Kaspi
-  vendors:
-  - Unified Automation C++ Based OPC UA PubSub SDK
-  cve_count: 0
-- url: https://research.jfrog.com/vulnerabilities/ua-cpp-uavariant-null-deref-xray-75756/
-  date: 22/06/01
-  cve_ids: []
-  researchers:
-  - Uriya Yavnieli
-  vendors:
-  - Unified Automation C++ based OPC UA Client Server SDK
-  cve_count: 0
-- url: https://research.jfrog.com/vulnerabilities/ua-cpp-uavariant-oob-read-xray-75757/
-  date: 22/06/01
-  cve_ids: []
-  researchers:
-  - Uriya Yavnieli
-  vendors:
-  - Unified Automation C++ based OPC UA Client Server SDK
-  cve_count: 0
 - url: https://research.jfrog.com/vulnerabilities/ua-net-standard-stack-dos-xray-229139/
   date: 22/06/16
   cve_ids:
@@ -511,14 +455,6 @@ advisories:
   vendors:
   - org.xerial.snappy:snappy-java
   cve_count: 1
-- url: https://research.jfrog.com/vulnerabilities/ua-cpp-uaunistring-infoleak-xray-75755/
-  date: 22/06/01
-  cve_ids: []
-  researchers:
-  - Omer Kaspi
-  vendors:
-  - Unified Automation C++ based OPC UA Client Server SDK
-  cve_count: 0
 - url: https://research.jfrog.com/vulnerabilities/uri-template-lite-redos-xray-211351/
   date: 22/08/03
   cve_ids:
@@ -1269,14 +1205,6 @@ advisories:
   vendors:
   - org.codehaus.jettison:jettison
   cve_count: 1
-- url: https://research.jfrog.com/vulnerabilities/jetty-xml-parser-xxe-xray-523189/
-  date: 23/07/12
-  cve_ids: []
-  researchers:
-  - Uriya Yavnieli
-  vendors:
-  - org.eclipse.jetty:xml
-  cve_count: 0
 - url: https://research.jfrog.com/vulnerabilities/jquery-validation-redos-xray-211348/
   date: 22/05/30
   cve_ids:
@@ -1313,14 +1241,6 @@ advisories:
   vendors:
   - hawk
   cve_count: 1
-- url: https://research.jfrog.com/vulnerabilities/javassist-lce/
-  date: 22/08/11
-  cve_ids: []
-  researchers:
-  - Omer Kaspi
-  vendors:
-  - Javassist
-  cve_count: 0
 - url: https://research.jfrog.com/vulnerabilities/clickhouse-delta-divide-by-zero-dos-xray-199946/
   date: 22/03/15
   cve_ids:
