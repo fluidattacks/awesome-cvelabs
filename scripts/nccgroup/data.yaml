@@ -1,15 +1,7 @@
 lab: NCC Group
 url: https://www.nccgroup.com
-scraped_at: '2026-03-17T22:25:22.784869Z'
+scraped_at: '2026-04-03T03:11:25.532688Z'
 advisories:
-- url: https://www.nccgroup.com/research/technical-advisory-tesla-telematics-control-unit-adb-auth-bypass/
-  date: 25/09/29
-  cve_ids: []
-  researchers:
-  - Alex Plaskett, McCaulay Hudson
-  vendors:
-  - Tesla Telematics Control Unit
-  cve_count: 0
 - url: https://www.nccgroup.com/research/technical-advisory-condeon-cms/
   date: 25/02/25
   cve_ids:
@@ -17,8 +9,7 @@ advisories:
   - CVE-2025-44200
   researchers:
   - <Juan Marco Sanchez> <juan.marcosanchez@nccgroup.com>
-  vendors:
-  - Condeon CMS
+  vendors: []
   cve_count: 2
 - url: https://www.nccgroup.com/research/technical-advisory-espressif-systems-esp32-blufi-reference-application-vulnerabilities/
   date: null
@@ -26,8 +17,7 @@ advisories:
   - CVE-2025-55297
   researchers:
   - James Chambers
-  vendors:
-  - Espressif Systems
+  vendors: []
   cve_count: 1
 - url: https://www.nccgroup.com/research/technical-advisory-multiple-vulnerabilities-in-tcp-dopnm/
   date: 25/02/25
@@ -38,8 +28,7 @@ advisories:
   - CVE-2024-56522
   researchers:
   - Neil Bergman
-  vendors:
-  - Multiple Vulnerabilities in TCPDF
+  vendors: []
   cve_count: 4
 - url: https://www.nccgroup.com/research/technical-advisory-hash-denial-of-service-attack-in-multiple-quic-implementations/
   date: 25/01/09
@@ -48,25 +37,14 @@ advisories:
   - CVE-2025-24947
   - CVE-2025-24946
   researchers: []
-  vendors:
-  - – Hash Denial
+  vendors: []
   cve_count: 3
-- url: https://www.nccgroup.com/research/technical-advisory-cross-site-scripting-in-umbraco-rich-text-display/
-  date: null
-  cve_ids:
-  - CVE-2024-55488
-  researchers:
-  - Liyun Li <liyun.li[at]nccgroup[dot]com>
-  vendors:
-  - Cross
-  cve_count: 1
 - url: https://www.nccgroup.com/research/technical-advisory-xiaomi-13-pro-code-execution-via-getapps-dom-cross-site-scripting-xss/
   date: 24/09/24
   cve_ids:
   - CVE-2024-4406
   researchers: []
-  vendors:
-  - Xiaomi 13 Pro Code Execution via GetApps DOM Cross
+  vendors: []
   cve_count: 1
 - url: https://www.nccgroup.com/research/updated-technical-advisory-and-proofs-of-concept-multiple-vulnerabilities-in-u-boot-cve-2022-30790-cve-2022-30552/
   date: 22/06/16
@@ -82,25 +60,15 @@ advisories:
   - CVE-2019-13462
   researchers:
   - Soroush Dalili (@irsdl)
-  vendors:
-  - Unauthenticated SQL Injection in Lansweeper
+  vendors: []
   cve_count: 1
-- url: https://www.nccgroup.com/research/technical-advisory-sonos-era-100-secure-boot-bypass-through-unchecked-setenv-call/
-  date: 23/12/04
-  cve_ids: []
-  researchers:
-  - Ilya Zhuravlev
-  vendors:
-  - Sonos Era 100 Secure Boot Bypass Through Unchecked setenv() call
-  cve_count: 0
 - url: https://www.nccgroup.com/research/technical-advisory-sql-injection-and-reflected-cross-site-scripting-xss-vulnerabilities-in-oracle-communications-diameter-signaling-router-cve-2020-14787-cve-2020-14788/
   date: 20/11/03
   cve_ids:
   - CVE-2020-14787
   - CVE-2020-14788
   researchers: []
-  vendors:
-  - SQL Injection and Reflected Cross
+  vendors: []
   cve_count: 2
 - url: https://www.nccgroup.com/research/technical-advisory-stored-and-reflected-xss-vulnerability-in-nagios-log-server-cve-2021-35478-cve-2021-35479/
   date: 21/07/22
@@ -109,84 +77,38 @@ advisories:
   - CVE-2021-35479
   researchers:
   - Liew Hock Lai
-  vendors:
-  - Stored and Reflected XSS Vulnerability in Nagios Log Server (CVE
+  vendors: []
   cve_count: 2
-- url: https://www.nccgroup.com/research/technical-advisory-shell-injection-in-sourcetree/
-  date: 17/02/24
-  cve_ids: []
-  researchers: []
-  vendors:
-  - Shell Injection in SourceTree
-  cve_count: 0
 - url: https://www.nccgroup.com/research/technical-advisory-ruby-on-rails-possible-xss-vulnerability-in-actionview-tag-helpers-cve-2022-27777/
   date: 22/05/06
   cve_ids:
   - CVE-2022-27777
   researchers:
   - Álvaro Martín Fraguas
-  vendors:
-  - Ruby on Rails
+  vendors: []
   cve_count: 1
-- url: https://www.nccgroup.com/research/technical-advisory-shell-injection-in-macvim-mvim-uri-handler/
-  date: 17/02/24
-  cve_ids: []
-  researchers: []
-  vendors:
-  - Shell Injection in MacVim mvim URI Handler
-  cve_count: 0
-- url: https://www.nccgroup.com/research/technical-advisory-reflected-cross-site-scripting-xss-vulnerability-in-jenkins-delivery-pipeline-plugin/
-  date: 18/02/01
-  cve_ids: []
-  researchers:
-  - Viktor Gazdag viktor.gazdag[at]nccgroup[dot]trust
-  vendors:
-  - Reflected Cross
-  cve_count: 0
 - url: https://www.nccgroup.com/research/technical-advisory-pulse-connect-secure-rce-via-uncontrolled-gzip-extraction-cve-2020-8260/
   date: 20/10/26
   cve_ids:
   - CVE-2020-8260
   researchers: []
-  vendors:
-  - Pulse Connect Secure
+  vendors: []
   cve_count: 1
 - url: https://www.nccgroup.com/research/technical-advisory-pulse-connect-secure-arbitrary-file-read-via-logon-message-cve-2020-8255/
   date: 20/10/26
   cve_ids:
   - CVE-2020-8255
   researchers: []
-  vendors:
-  - Pulse Connect Secure
+  vendors: []
   cve_count: 1
-- url: https://www.nccgroup.com/research/technical-advisory-pulse-connect-secure-rce-via-uncontrolled-archive-extraction-cve-2021-22937-patch-bypass/
-  date: 21/08/05
-  cve_ids:
-  - CVE-2021-22937
-  - CVE-2020-8260
-  - CVE-2020-22900
-  researchers:
-  - Richard Warren
-  vendors:
-  - Pulse Connect Secure
-  cve_count: 3
 - url: https://www.nccgroup.com/research/technical-advisory-os-command-injection-in-silver-peak-edgeconnect-appliances-cve-2020-12148-cve-2020-12149/
   date: 20/12/17
   cve_ids:
   - CVE-2020-12148
   - CVE-2020-12149
   researchers: []
-  vendors:
-  - OS Command Injection in Silver Peak EdgeConnect Appliances (CVE
+  vendors: []
   cve_count: 2
-- url: https://www.nccgroup.com/research/technical-advisory-nexpose-hard-coded-java-key-store-passphrase-allows-decryption-of-stored-credentials/
-  date: 17/02/03
-  cve_ids: []
-  researchers:
-  - Noah Beddome, Justin Lemay, and Ben Lincoln
-  vendors:
-  - Nexpose Hard‐coded Java Key Store Passphrase Allows Decryption of Stored Credentials
-  cve_count: 0
 - url: https://www.nccgroup.com/research/technical-advisory-multiple-vulnerabilities-in-manageengine-desktop-central/
   date: 18/04/17
   cve_ids:
@@ -198,8 +120,7 @@ advisories:
   - CVE-2018-5342
   researchers:
   - Ben Lincoln
-  vendors:
-  - Multiple Vulnerabilities in ManageEngine Desktop Central
+  vendors: []
   cve_count: 6
 - url: https://www.nccgroup.com/research/technical-advisory-multiple-vulnerabilities-in-lexmark-printers/
   date: 19/05/28
@@ -214,8 +135,7 @@ advisories:
   - CVE-2019-10057
   - CVE-2019-10058
   researchers: []
-  vendors:
-  - Multiple Vulnerabilities in Lexmark Printers
+  vendors: []
   cve_count: 9
 - url: https://www.nccgroup.com/research/technical-advisory-multiple-vulnerabilities-in-mailenable/
   date: 19/02/07
@@ -227,8 +147,7 @@ advisories:
   - CVE-2019-12927
   researchers:
   - Soroush Dalili (@irsdl)
-  vendors:
-  - Multiple Vulnerabilities in MailEnable
+  vendors: []
   cve_count: 5
 - url: https://www.nccgroup.com/research/technical-advisory-multiple-vulnerabilities-in-hp-printers/
   date: 19/06/25
@@ -239,8 +158,7 @@ advisories:
   - CVE-2019-6324
   - CVE-2019-6325
   researchers: []
-  vendors:
-  - Multiple Vulnerabilities in HP Printers
+  vendors: []
   cve_count: 5
 - url: https://www.nccgroup.com/research/technical-advisory-mosquitto-broker-dos-through-a-memory-leak-vulnerability/
   date: 18/08/29
@@ -248,8 +166,7 @@ advisories:
   - CVE-2017-7654
   researchers:
   - Daniel Romero – daniel.romero[at]nccgroup[dot]trust
-  vendors:
-  - Mosquitto Broker DoS through a Memory Leak vulnerability
+  vendors: []
   cve_count: 1
 - url: https://www.nccgroup.com/research/technical-advisory-multiple-vulnerabilities-in-accellion-file-transfer-appliance/
   date: 17/02/20
@@ -257,8 +174,7 @@ advisories:
   - CVE-2005-0710
   - CVE-2016-2351
   researchers: []
-  vendors:
-  - Multiple Vulnerabilities in Accellion File Transfer Appliance
+  vendors: []
   cve_count: 2
 - url: https://www.nccgroup.com/research/technical-advisory-intel-driver-support-assistance-local-privilege-escalation/
   date: 19/05/15
@@ -266,16 +182,8 @@ advisories:
   - CVE-2019-11114
   researchers:
   - Richard Warren
-  vendors:
-  - Intel Driver Support & Assistance
+  vendors: []
   cve_count: 1
-- url: https://www.nccgroup.com/research/technical-advisory-heartbleed-chained-with-a-pass-the-hash-attack-leads-to-device-compromise-on-tp-link-c200-ip-camera/
-  date: 20/07/21
-  cve_ids: []
-  researchers: []
-  vendors:
-  - Heartbleed chained with a Pass
-  cve_count: 0
 - url: https://www.nccgroup.com/research/technical-advisory-insufficient-proxyman-helpertool-xpc-validation/
   date: 23/10/31
   cve_ids:
@@ -284,8 +192,7 @@ advisories:
   - CVE-2020-0984
   researchers:
   - Scott Leitch
-  vendors:
-  - Insufficient Proxyman HelperTool XPC Validation
+  vendors: []
   cve_count: 3
 - url: https://www.nccgroup.com/research/technical-advisory-cve-2017-8592-xmlhttprequest-in-ie-followed-307-redirections-with-additional-or-customised-headers/
   date: 17/07/14
@@ -293,17 +200,7 @@ advisories:
   - CVE-2017-8592
   researchers:
   - Soroush Dalili
-  vendors:
-  - CVE
-  cve_count: 1
-- url: https://www.nccgroup.com/research/technical-advisory-citrix-workspace-receiver-remote-code-execution-vulnerability/
-  date: 19/05/14
-  cve_ids:
-  - CVE-2019-11634
-  researchers:
-  - Ollie Whitehouse
-  vendors:
-  - Citrix Workspace / Receiver Remote Code Execution Vulnerability
+  vendors: []
   cve_count: 1
 - url: https://www.nccgroup.com/research/technical-advisory-authentication-bypass-in-libssh/
   date: 18/10/17
@@ -311,41 +208,15 @@ advisories:
   - CVE-2018-10933
   researchers:
   - Peter Winter-Smith peter.winter-smith[at]nccgroup.com
-  vendors:
-  - Authentication Bypass in libSSH
+  vendors: []
   cve_count: 1
-- url: https://www.nccgroup.com/research/technical-advisory-authentication-rule-bypass/
-  date: 17/09/19
-  cve_ids: []
-  researchers: []
-  vendors:
-  - Authentication rule bypass
-  cve_count: 0
 - url: https://www.nccgroup.com/research/technical-advisory-adobe-coldfusion-rmi-registrybind-deserialisation-rce/
   date: 17/10/16
   cve_ids:
   - CVE-2017-11284
   researchers:
   - Nick Bloor (@NickstaDB) / nick.bloor@nccgroup.com
-  vendors:
-  - Adobe ColdFusion RMI Registry.bind() Deserialisation RCE
-  cve_count: 1
-- url: https://www.nccgroup.com/research/technical-advisory-adobe-coldfusion-object-deserialisation-rce/
-  date: 17/10/16
-  cve_ids:
-  - CVE-2017-11283
-  researchers:
-  - Nick Bloor (@NickstaDB) / nick.bloor@nccgroup.com
-  vendors:
-  - Adobe ColdFusion Object Deserialisation RCE
-  cve_count: 1
-- url: https://www.nccgroup.com/research/technical-advisory-rohnp-key-extraction-side-channel-in-multiple-crypto-libraries/
-  date: 18/06/14
-  cve_ids:
-  - CVE-2018-0495
-  researchers: []
-  vendors:
-  - “ROHNP”
+  vendors: []
   cve_count: 1
 - url: https://www.nccgroup.com/research/technical-advisory-administrative-passcode-recovery-and-authenticated-remote-buffer-overflow-vulnerabilities-in-gigaset-dx600a-handset-cve-2021-25309-cve-2021-25306/
   date: 21/02/28
@@ -355,24 +226,6 @@ advisories:
   researchers: []
   vendors: []
   cve_count: 2
-- url: https://www.nccgroup.com/research/technical-advisory-sonicwall-sma-100-series-unauthenticated-file-upload-path-traversal-cve-2021-20040/
-  date: 21/12/09
-  cve_ids:
-  - CVE-2021-20040
-  researchers:
-  - Richard Warren
-  vendors:
-  - – SonicWall SMA 100 Series
-  cve_count: 1
-- url: https://www.nccgroup.com/research/technical-advisory-gaining-root-access-on-sumpple-s610-ip-camera-via-telnet-and-unprotected-client-and-server-data-transmission-between-android-and-ios-clients/
-  date: 19/11/28
-  cve_ids:
-  - CVE-2019-12085
-  - CVE-2019-16727
-  researchers:
-  - Sebastian Parker-Fitch (@scorpioitsec)
-  vendors: []
-  cve_count: 2
 - url: https://www.nccgroup.com/research/technical-advisory-sonicwall-sma-100-series-unauthenticated-arbitrary-file-deletion/
   date: 21/12/10
   cve_ids:
@@ -380,9 +233,15 @@ advisories:
   - CVE-2021-20034
   researchers:
   - Richard Warren
-  vendors:
-  - – SonicWall SMA 100 Series
+  vendors: []
   cve_count: 2
+- url: https://www.nccgroup.com/research/technical-advisory-sercomm-h500s-authenticated-remote-command-execution-cve-2021-44080/
+  date: 22/05/24
+  cve_ids:
+  - CVE-2021-44080
+  researchers: []
+  vendors: []
+  cve_count: 1
 - url: https://www.nccgroup.com/research/technical-advisory-sonicwall-global-management-system-gms-analytics-multiple-critical-vulnerabilities/
   date: 23/08/24
   cve_ids:
@@ -402,8 +261,7 @@ advisories:
   - CVE-2023-34131
   - CVE-2023-34130
   researchers: []
-  vendors:
-  - – SonicWall Global Management System (GMS) & Analytics
+  vendors: []
   cve_count: 15
 - url: https://www.nccgroup.com/research/technical-advisory-null-pointer-derefence-in-mcafee-drive-encryption-cve-2021-23893/
   date: 21/10/04
@@ -411,8 +269,7 @@ advisories:
   - CVE-2021-23893
   researchers:
   - Balazs Bucsay
-  vendors:
-  - – NULL Pointer Derefence in McAfee Drive Encryption (CVE
+  vendors: []
   cve_count: 1
 - url: https://www.nccgroup.com/research/technical-advisory-ollama-dns-rebinding-attack-cve-2024-28224/
   date: 24/04/08
@@ -420,79 +277,28 @@ advisories:
   - CVE-2024-28224
   researchers:
   - Gérald Doussot
-  vendors:
-  - – Ollama DNS Rebinding Attack (CVE
+  vendors: []
   cve_count: 1
-- url: https://www.nccgroup.com/research/technical-advisory-multiple-vulnerabilities-in-nagios-xi/
-  date: 23/12/13
-  cve_ids:
-  - CVE-2023-47401
-  - CVE-2023-47408
-  - CVE-2023-47400
-  - CVE-2023-47412
-  - CVE-2023-47409
-  - CVE-2023-47414
-  - CVE-2023-47411
-  - CVE-2023-47410
-  - CVE-2023-47413
-  - CVE-2023-47403
-  - CVE-2023-47399
-  - CVE-2023-47402
-  - CVE-2023-47406
-  - CVE-2023-47407
-  - CVE-2023-47405
-  researchers: []
-  vendors:
-  - – Multiple Vulnerabilities in Nagios XI
-  cve_count: 15
-- url: https://www.nccgroup.com/research/technical-advisory-multiple-vulnerabilities-in-juplink-rx4-1800-wifi-router-cve-2022-37413-cve-2022-37414/
-  date: 22/09/22
-  cve_ids:
-  - CVE-2022-37413
-  - CVE-2022-37414
-  researchers: []
-  vendors:
-  - – Multiple Vulnerabilities in Juplink RX4
-  cve_count: 2
 - url: https://www.nccgroup.com/research/technical-advisory-linksys-wrt160nl-authenticated-remote-buffer-overflow-cve-2020-26561/
   date: 20/10/20
   cve_ids:
   - CVE-2020-26561
   researchers: []
-  vendors:
-  - – Linksys WRT160NL
+  vendors: []
   cve_count: 1
 - url: https://www.nccgroup.com/research/technical-advisory-linksys-wrt160nl-authenticated-command-injection-cve-2021-25310/
   date: 21/01/28
   cve_ids:
   - CVE-2021-25310
   researchers: []
-  vendors:
-  - – Linksys WRT160NL
+  vendors: []
   cve_count: 1
 - url: https://www.nccgroup.com/research/technical-advisory-jitsi-meet-electron-limited-certificate-validation-bypass-cve-2020-27161/
   date: 20/10/23
   cve_ids:
   - CVE-2020-27161
   researchers: []
-  vendors:
-  - – Jitsi Meet Electron
-  cve_count: 1
-- url: https://www.nccgroup.com/research/technical-advisory-ictfax-7-4-indirect-object-reference/
-  date: 21/07/22
-  cve_ids: []
-  researchers:
-  - Derek Stoeckenius
-  vendors:
-  - – ICTFAX 7
-  cve_count: 0
-- url: https://www.nccgroup.com/research/technical-advisory-jitsi-meet-electron-arbitrary-client-remote-code-execution-cve-2020-27162/
-  date: 20/10/23
-  cve_ids:
-  - CVE-2020-27162
-  researchers: []
-  vendors:
-  - – Jitsi Meet Electron
+  vendors: []
   cve_count: 1
 - url: https://www.nccgroup.com/research/technical-advisory-wolfssl-tls-13-client-man-in-the-middle-attack-cve-2020-24613/
   date: 20/08/24
@@ -500,27 +306,18 @@ advisories:
   - CVE-2020-24613
   researchers:
   - Gérald Doussot
-  vendors:
-  - – wolfSSL TLS 1.3 Client Man
+  vendors: []
   cve_count: 1
-- url: https://www.nccgroup.com/research/technical-advisory-apple-macos-xar-arbitrary-file-write-cve-2022-22582/
-  date: 22/03/15
+- url: https://www.nccgroup.com/research/technical-advisory-vmware-tools-multiple-vulnerabilities/
+  date: 11/06/03
   cve_ids:
-  - CVE-2022-22582
-  - CVE-2021-30833
+  - CVE-2011-1787
+  - CVE-2011-2145
+  - CVE-2011-2146
   researchers:
-  - Richard Warren
-  vendors:
-  - – Apple macOS XAR
-  cve_count: 2
-- url: https://www.nccgroup.com/research/technical-advisory-u-boot-unchecked-download-size-and-direction-in-usb-dfu-cve-2022-2347/
-  date: 23/01/20
-  cve_ids:
-  - CVE-2022-2347
-  researchers: []
-  vendors:
-  - – U
-  cve_count: 1
+  - Dan Rosenberg
+  vendors: []
+  cve_count: 3
 - url: https://www.nccgroup.com/research/technical-advisory-sonicwall-sma-100-series-unauthenticated-stored-xss/
   date: 21/12/10
   cve_ids:
@@ -528,8 +325,7 @@ advisories:
   - CVE-2021-20044
   researchers:
   - Richard Warren
-  vendors:
-  - – SonicWall SMA 100 Series
+  vendors: []
   cve_count: 2
 - url: https://www.nccgroup.com/research/technical-advisory-sunhillo-sureline-unauthenticated-os-command-injection-cve-2021-36380/
   date: 21/07/26
@@ -537,8 +333,7 @@ advisories:
   - CVE-2021-36380
   researchers:
   - Liam Glanfield
-  vendors:
-  - – Sunhillo SureLine Unauthenticated OS Command Injection (CVE
+  vendors: []
   cve_count: 1
 - url: https://www.nccgroup.com/research/technical-advisory-sonicwall-sma-100-series-multiple-unauthenticated-heap-based-and-stack-based-buffer-overflow-cve-2021-20045/
   date: 21/12/09
@@ -546,17 +341,7 @@ advisories:
   - CVE-2021-20045
   researchers:
   - Richard Warren
-  vendors:
-  - – SonicWall SMA 100 Series
-  cve_count: 1
-- url: https://www.nccgroup.com/research/technical-advisory-sonicwall-sma-100-series-post-authentication-remote-command-execution-cve-2021-20044/
-  date: 21/12/09
-  cve_ids:
-  - CVE-2021-20044
-  researchers:
-  - Richard Warren
-  vendors:
-  - – SonicWall SMA 100 Series
+  vendors: []
   cve_count: 1
 - url: https://www.nccgroup.com/research/technical-advisory-pulse-connect-secure-rce-via-template-injection-cve-2020-8243/
   date: 20/10/06
@@ -564,60 +349,14 @@ advisories:
   - CVE-2020-8243
   - CVE-2019-19781
   researchers: []
-  vendors:
-  - – Pulse Connect Secure
+  vendors: []
   cve_count: 2
-- url: https://www.nccgroup.com/research/technical-advisory-shop-app-sends-pasteboard-data-to-shopify-s-servers/
-  date: 21/07/02
-  cve_ids: []
-  researchers: []
-  vendors:
-  - – Shop app sends pasteboard data to Shopify’s servers
-  cve_count: 0
-- url: https://www.nccgroup.com/research/technical-advisory-play-pac4j-authentication-rule-bypass/
-  date: 17/09/18
-  cve_ids: []
-  researchers:
-  - James Chambers
-  vendors:
-  - – play
-  cve_count: 0
-- url: https://www.nccgroup.com/research/technical-advisory-playsms-pre-authentication-remote-code-execution-cve-2020-8644/
-  date: 20/02/11
-  cve_ids:
-  - CVE-2020-8644
-  researchers:
-  - Lucas Rosevear
-  vendors:
-  - – playSMS Pre
-  cve_count: 1
-- url: https://www.nccgroup.com/research/technical-advisory-parceltrack-sends-all-pasteboard-data-to-parceltrack-s-servers-on-startup/
-  date: 21/03/30
-  cve_ids: []
-  researchers:
-  - Dan Hastings – dan.hastings[at]nccgroup[dot]com
-  vendors:
-  - – ParcelTrack sends all pasteboard data to ParcelTrack’s servers on startup
-  cve_count: 0
-- url: https://www.nccgroup.com/research/technical-advisory-openofficeorg-multiple-memory-corruption-vulnerabilities/
-  date: 11/01/26
-  cve_ids:
-  - CVE-2010-3451
-  - CVE-2010-3452
-  - CVE-2010-3453
-  - CVE-2010-3454
-  researchers:
-  - Dan Rosenberg
-  vendors:
-  - – OpenOffice.org Multiple Memory Corruption Vulnerabilities
-  cve_count: 4
 - url: https://www.nccgroup.com/research/technical-advisory-nxp-imx-sdp_read_disable-fuse-bypass-cve-2022-45163/
   date: 22/11/17
   cve_ids:
   - CVE-2022-45163
   researchers: []
-  vendors:
-  - – NXP i.MX SDP_READ_DISABLE Fuse Bypass (CVE
+  vendors: []
   cve_count: 1
 - url: https://www.nccgroup.com/research/technical-advisory-open5gs-stack-buffer-overflow-during-pfcp-session-establishment-on-upf-cve-2021-41794/
   date: 21/10/06
@@ -625,33 +364,8 @@ advisories:
   - CVE-2021-41794
   researchers:
   - mark.tedman[at]nccgroup[dot]com
-  vendors:
-  - – Open5GS Stack Buffer Overflow During PFCP Session Establishment on UPF (CVE
-  cve_count: 1
-- url: https://www.nccgroup.com/research/technical-advisory-new-york-state-excelsior-pass-vaccine-passport-credential-forgery/
-  date: 21/09/01
-  cve_ids: []
-  researchers:
-  - Siddarth Adukia sid.adukia[at]nccgroup[dot]com
-  vendors:
-  - – New York State Excelsior Pass Vaccine Passport Credential Forgery
-  cve_count: 0
-- url: https://www.nccgroup.com/research/technical-advisory-new-york-state-excelsior-pass-vaccine-passport-scanner-app-sends-data-to-a-third-party-not-specified-in-privacy-policy/
-  date: 21/09/01
-  cve_ids: []
-  researchers:
-  - Dan Hastings dan.hastings[at]nccgroup[dot]trust
   vendors: []
-  cve_count: 0
-- url: https://www.nccgroup.com/research/technical-advisory-multiple-vulnerabilities-in-u-boot-cve-2022-30790-cve-2022-30552/
-  date: 22/06/03
-  cve_ids:
-  - CVE-2022-30790
-  - CVE-2022-30552
-  researchers: []
-  vendors:
-  - – Multiple Vulnerabilities in U
-  cve_count: 2
+  cve_count: 1
 - url: https://www.nccgroup.com/research/technical-advisory-multiple-vulnerabilities-in-nuki-smart-locks-cve-2022-32509-cve-2022-32504-cve-2022-32502-cve-2022-32507-cve-2022-32503-cve-2022-32510-cve-2022-32506-cve-2022-32508-cve-2022-32505/
   date: 22/07/25
   cve_ids:
@@ -665,123 +379,15 @@ advisories:
   - CVE-2022-32508
   - CVE-2022-32505
   researchers: []
-  vendors:
-  - – Multiple vulnerabilities in Nuki smart locks (CVE
+  vendors: []
   cve_count: 9
-- url: https://www.nccgroup.com/research/technical-advisory-macos-installer-local-root-privilege-escalation-cve-2020-9817/
-  date: 20/07/02
-  cve_ids:
-  - CVE-2020-9817
-  researchers: []
-  vendors:
-  - – macOS Installer Local Root Privilege Escalation (CVE
-  cve_count: 1
 - url: https://www.nccgroup.com/research/technical-advisory-libraptor-xxe-in-rdfxml-file-interpretation/
   date: 12/03/24
   cve_ids:
   - CVE-2012-0037
   researchers:
   - tmorgan {a} vsecurity * com
-  vendors:
-  - – libraptor
-  cve_count: 1
-- url: https://www.nccgroup.com/research/technical-advisory-lenovo-imcontroller-local-privilege-escalation-cve-2021-3922-cve-2021-3969/
-  date: 21/12/15
-  cve_ids:
-  - CVE-2021-3922
-  - CVE-2021-3969
-  researchers:
-  - rick.veldhoven@fox-it.com
-  vendors:
-  - – Lenovo ImController Local Privilege Escalation (CVE
-  cve_count: 2
-- url: https://www.nccgroup.com/research/technical-advisory-kwiksetweiser-ble-proximity-authentication-in-kevo-smart-locks-vulnerable-to-relay-attacks/
-  date: 22/05/15
-  cve_ids: []
-  researchers:
-  - Sultan Qasim Khan
-  vendors:
-  - – Kwikset/Weiser BLE Proximity Authentication in Kevo Smart Locks Vulnerable to
-    Relay Attacks
-  cve_count: 0
-- url: https://www.nccgroup.com/research/technical-advisory-ibm-tam-remote-directory-traversal-and-file-retrieval-via-web-server-plug-in/
-  date: 06/02/03
-  cve_ids:
-  - CVE-2006-0513
-  researchers:
-  - Timothy D. Morgan
-  vendors:
-  - '– IBM TAM: Remote Directory Traversal and File Retrieval via web server plug'
-  cve_count: 1
-- url: https://www.nccgroup.com/research/technical-advisory-garuda-linux-insecure-user-creation-cve-2021-3784/
-  date: 21/09/29
-  cve_ids:
-  - CVE-2021-3784
-  researchers:
-  - Jesus Olmos
-  vendors:
-  - – Garuda Linux Insecure User Creation (CVE
-  cve_count: 1
-- url: https://www.nccgroup.com/research/technical-advisory-htc-iqrd-android-permission-leakage/
-  date: 12/04/20
-  cve_ids:
-  - CVE-2012-2217
-  researchers:
-  - Dan Rosenberg
-  vendors:
-  - – HTC IQRD Android Permission Leakage
-  cve_count: 1
-- url: https://www.nccgroup.com/research/technical-advisory-freepbx-multiple-authenticated-sql-injections-in-ucp-application/
-  date: 20/08/21
-  cve_ids: []
-  researchers:
-  - Bill Marquette
-  vendors:
-  - – FreePBX
-  cve_count: 0
-- url: https://www.nccgroup.com/research/technical-advisory-fujitsu-centricstor-control-center-v81-unauthenticated-command-injection-cve-2022-31794-and-cve-2022-31795/
-  date: 22/05/27
-  cve_ids:
-  - CVE-2022-31794
-  - CVE-2022-31795
-  researchers: []
-  vendors:
-  - – FUJITSU CentricStor Control Center <= V8.1
-  cve_count: 2
-- url: https://www.nccgroup.com/research/technical-advisory-expresslrs-vulnerabilities-allow-for-hijack-of-control-link/
-  date: 22/06/30
-  cve_ids: []
-  researchers:
-  - Richard Appleby
-  vendors:
-  - – ExpressLRS vulnerabilities allow for hijack of control link
-  cve_count: 0
-- url: https://www.nccgroup.com/research/technical-advisory-coda-filesystem-kernel-memory-disclosure/
-  date: 10/08/16
-  cve_ids:
-  - CVE-2010-3014
-  researchers:
-  - Dan Rosenberg < drosenberg (at) vsecurity (dot) com >
-  vendors:
-  - – Coda Filesystem Kernel Memory Disclosure
-  cve_count: 1
-- url: https://www.nccgroup.com/research/technical-advisory-deltek-vision-arbitrary-sql-execution-sqli/
-  date: 19/04/09
-  cve_ids:
-  - CVE-2018-18251
-  researchers:
-  - Robert Wessen
-  vendors:
-  - – DelTek Vision
-  cve_count: 1
-- url: https://www.nccgroup.com/research/technical-advisory-bomgar-remote-support-local-privilege-escalation/
-  date: 17/10/26
-  cve_ids:
-  - CVE-2017-5996
-  researchers:
-  - Robert Wessen
-  vendors:
-  - – Bomgar Remote Support
+  vendors: []
   cve_count: 1
 - url: https://www.nccgroup.com/research/technical-advisory-citrix-access-gateway-command-injection-vulnerability/
   date: 10/12/21
@@ -789,237 +395,43 @@ advisories:
   - CVE-2010-4566
   researchers:
   - George D. Gal
-  vendors:
-  - – Citrix Access Gateway Command Injection Vulnerability
+  vendors: []
   cve_count: 1
-- url: https://www.nccgroup.com/research/technical-advisory-authorization-bypass-allows-for-pinboard-corruption/
-  date: 19/06/10
-  cve_ids:
-  - CVE-2019-12782
-  researchers:
-  - Will Enright
-  vendors:
-  - – Authorization Bypass Allows for Pinboard Corruption
-  cve_count: 1
-- url: https://www.nccgroup.com/research/technical-advisory-ble-proximity-authentication-vulnerable-to-relay-attacks/
-  date: 22/05/15
-  cve_ids: []
-  researchers: []
-  vendors:
-  - – BLE Proximity Authentication Vulnerable to Relay Attacks
-  cve_count: 0
-- url: https://www.nccgroup.com/research/technical-advisory-authenticated-sql-injection-in-soap-request-in-broadcom-ca-network-flow-analysis-cve-2021-44050/
-  date: 21/12/02
-  cve_ids:
-  - CVE-2021-44050
-  researchers:
-  - Anthony Ferrillo
-  vendors:
-  - – Authenticated SQL Injection in SOAP Request in Broadcom CA Network Flow Analysis
-    (CVE
-  cve_count: 1
-- url: https://www.nccgroup.com/research/technical-advisory-arbitrary-signature-forgery-in-stark-bank-ecdsa-libraries-cve-2021-43572-cve-2021-43570-cve-2021-43569-cve-2021-43568-cve-2021-43571/
-  date: 21/11/08
-  cve_ids:
-  - CVE-2021-43572
-  - CVE-2021-43570
-  - CVE-2021-43569
-  - CVE-2021-43568
-  - CVE-2021-43571
-  researchers:
-  - Paul Bottinelli paul.bottinelli@nccgroup.com
-  vendors:
-  - – Arbitrary Signature Forgery in Stark Bank ECDSA Libraries (CVE
-  cve_count: 5
-- url: https://www.nccgroup.com/research/technical-advisory-arm-mbedos-usb-mass-storage-driver-memory-corruption/
-  date: 20/06/11
-  cve_ids: []
-  researchers:
-  - Ilya Zhuravlev
-  vendors:
-  - – ARM MbedOS USB Mass Storage Driver Memory Corruption
-  cve_count: 0
 - url: https://www.nccgroup.com/research/technical-advisory-apple-xar-arbitrary-file-write-cve-2021-30833/
   date: 21/10/28
   cve_ids:
   - CVE-2021-30833
   researchers:
   - Richard Warren
-  vendors:
-  - – Apple XAR
+  vendors: []
   cve_count: 1
-- url: https://www.nccgroup.com/research/technical-advisory-arbitrary-file-read-in-dell-wyse-management-suite-cve-2021-21586-cve-2021-21587/
-  date: 21/07/06
-  cve_ids:
-  - CVE-2021-21586
-  - CVE-2021-21587
-  researchers:
-  - Stephen Tomkinson stephen.tomkinson@nccgroup.com
-  vendors:
-  - – Arbitrary File Read in Dell Wyse Management Suite (CVE
-  cve_count: 2
 - url: https://www.nccgroup.com/research/technical-advisory-apple-hfsplus-information-disclosure-vulnerability/
   date: 11/03/22
   cve_ids:
   - CVE-2011-0180
   researchers:
   - Dan Rosenberg
-  vendors:
-  - – Apple HFS+ Information Disclosure Vulnerability
+  vendors: []
   cve_count: 1
-- url: https://www.nccgroup.com/research/technical-advisory-apple-ios-osx-foundation-nsxmlparser-xxe-vulnerability/
-  date: 14/09/17
+- url: https://www.nccgroup.com/research/technical-advisory-multiple-vulnerabilities-in-victure-wr1200-wifi-router-cve-2021-43282-cve-2021-43283-cve-2021-43284/
+  date: 21/11/12
   cve_ids:
-  - CVE-2014-4374
+  - CVE-2021-43282
+  - CVE-2021-43283
+  - CVE-2021-43284
   researchers:
-  - George D. Gal
-  vendors:
-  - '– Apple iOS / OSX: Foundation NSXMLParser XXE Vulnerability'
-  cve_count: 1
-- url: https://www.nccgroup.com/research/technical-advisory-multiple-html-injection-vulnerabilities-in-kaios-pre-installed-mobile-applications/
-  date: 20/08/21
+  - Nicolas Bidron
+  vendors: []
+  cve_count: 3
+- url: https://www.nccgroup.com/research/technical-advisory-bypassing-microsoft-xoml-workflows-protection-mechanisms-using-deserialisation-of-untrusted-data/
+  date: 18/08/11
   cve_ids:
-  - CVE-2019-14756
-  - CVE-2019-14757
-  - CVE-2019-14758
-  - CVE-2019-14760
-  - CVE-2019-14761
-  - CVE-2019-14759
-  researchers:
-  - Neil Bergman
-  vendors:
-  - – Multiple HTML Injection Vulnerabilities in KaiOS Pre
-  cve_count: 6
-- url: https://www.nccgroup.com/research/technical-advisory-multiple-vulnerabilities-in-connectize-g6-ac2100-dual-band-gigabit-wifi-router-cve-2023-24046-cve-2023-24047-cve-2023-24048-cve-2023-24049-cve-2023-24050-cve-2023-24051-cve-2023-24052/
-  date: 23/10/19
-  cve_ids:
-  - CVE-2023-24046
-  - CVE-2023-24047
-  - CVE-2023-24048
-  - CVE-2023-24049
-  - CVE-2023-24050
-  - CVE-2023-24051
-  - CVE-2023-24052
-  researchers:
-  - Jay Houppermans
-  vendors:
-  - – Multiple Vulnerabilities in Connectize G6 AC2100 Dual Band Gigabit WiFi Router
-    (CVE
-  cve_count: 7
-- url: https://www.nccgroup.com/research/technical-advisory-multiple-vulnerabilities-in-the-galaxy-app-store-cve-2023-21433-cve-2023-21434/
-  date: 23/01/20
-  cve_ids:
-  - CVE-2023-21433
-  - CVE-2023-21434
-  researchers: []
-  vendors:
-  - – Multiple Vulnerabilities in the Galaxy App Store (CVE
-  cve_count: 2
-- url: https://www.nccgroup.com/research/technical-advisory-lansweeper-privilege-escalation-via-csrf-using-http-method-interchange-cve-2020-13658/
-  date: 20/09/25
-  cve_ids:
-  - CVE-2020-13658
-  researchers: []
-  vendors:
-  - – Lansweeper Privilege Escalation via CSRF Using HTTP Method Interchange (CVE
-  cve_count: 1
-- url: https://www.nccgroup.com/research/technical-advisory-multiple-vulnerabilities-in-faronics-insight-cve-2023-28344-cve-2023-28345-cve-2023-28346-cve-2023-28347-cve-2023-28348-cve-2023-28349-cve-2023-28350-cve-2023-28351-cve-2023-28352-cve-2023-28353/
-  date: 23/05/30
-  cve_ids:
-  - CVE-2023-28344
-  - CVE-2023-28345
-  - CVE-2023-28346
-  - CVE-2023-28347
-  - CVE-2023-28348
-  - CVE-2023-28349
-  - CVE-2023-28350
-  - CVE-2023-28351
-  - CVE-2023-28352
-  - CVE-2023-28353
-  researchers: []
-  vendors:
-  - – Multiple Vulnerabilities in Faronics Insight (CVE
-  cve_count: 10
-- url: https://www.nccgroup.com/research/technical-advisory-multiple-vulnerabilities-in-netgear-prosafe-plus-jgs516pe-gs116ev2-switches/
-  date: 21/03/08
-  cve_ids:
-  - CVE-2020-26919
-  - CVE-2020-35231
-  - CVE-2020-35220
-  - CVE-2020-35232
-  - CVE-2020-35224
-  - CVE-2020-35221
-  - CVE-2020-35229
-  - CVE-2020-35228
-  - CVE-2020-35227
-  - CVE-2020-35226
-  - CVE-2020-35222
-  - CVE-2020-35233
-  - CVE-2020-35230
-  - CVE-2020-35225
-  - CVE-2020-35223
-  researchers:
-  - Manuel Ginés Rodríguez - manuel.gines[at]nccgroup[dot]com
-  vendors:
-  - – Multiple Vulnerabilities in Netgear ProSAFE Plus JGS516PE / GS116Ev2 Switches
-  cve_count: 15
-- url: https://www.nccgroup.com/research/technical-advisory-multiple-vulnerabilities-in-pandorafms-enterprise/
-  date: 24/01/02
-  cve_ids:
-  - CVE-2023-4677
-  - CVE-2023-41786
-  - CVE-2023-41788
-  - CVE-2023-41789
-  - CVE-2023-41808
-  - CVE-2023-41787
-  - CVE-2023-41807
-  - CVE-2023-41790
-  - CVE-2023-41792
-  - CVE-2023-41791
-  - CVE-2023-41809
-  - CVE-2023-41806
-  - CVE-2023-41813
-  - CVE-2023-41793
-  - CVE-2023-41810
-  - CVE-2023-41811
-  - CVE-2023-41794
-  researchers: []
-  vendors:
-  - – Multiple Vulnerabilities in PandoraFMS Enterprise
-  cve_count: 17
-- url: https://www.nccgroup.com/research/technical-advisory-multiple-vulnerabilities-in-trendnet-tew-831dr-wifi-router-cve-2022-30325-cve-2022-30326-cve-2022-30327-cve-2022-30328-cve-2022-30329/
-  date: 22/06/10
-  cve_ids:
-  - CVE-2022-30325
-  - CVE-2022-30326
-  - CVE-2022-30327
-  - CVE-2022-30328
-  - CVE-2022-30329
-  researchers: []
-  vendors:
-  - – Multiple Vulnerabilities in Trendnet TEW
-  cve_count: 5
-- url: https://www.nccgroup.com/research/technical-advisory-adobe-coldfusion-wddx-deserialization-gadgets/
-  date: 23/11/21
-  cve_ids:
-  - CVE-2023-44353
-  - CVE-2023-29300
-  - CVE-2023-38203
-  - CVE-2023-38204
-  researchers:
-  - McCaulay Hudson (mccaulay.hudson@nccgroup.com)
-  vendors:
-  - Adobe ColdFusion WDDX Deserialization Gadgets
-  cve_count: 4
-- url: https://www.nccgroup.com/research/technical-advisory-bypassing-workflows-protection-mechanisms-remote-code-execution-on-sharepoint/
-  date: 18/08/30
-  cve_ids:
+  - CVE-2018-8421
   - CVE-2018-8284
   researchers:
   - Soroush Dalili (@irsdl)
-  vendors:
-  - Bypassing Workflows Protection Mechanisms
-  cve_count: 1
+  vendors: []
+  cve_count: 2
 - url: https://www.nccgroup.com/research/technical-advisory-code-execution-by-unsafe-resource-handling-in-multiple-microsoft-products/
   date: 18/02/08
   cve_ids:
@@ -1028,8 +440,7 @@ advisories:
   - CVE-2018-8300
   researchers:
   - Soroush Dalili (@irsdl)
-  vendors:
-  - Code Execution by Unsafe Resource Handling in Multiple Microsoft Products
+  vendors: []
   cve_count: 3
 - url: https://www.nccgroup.com/research/technical-advisory-command-injection/
   date: 20/11/02
@@ -1037,34 +448,7 @@ advisories:
   - CVE-2020-8429
   researchers:
   - Gary Swales Gary.Swales@nccgroup.com
-  vendors:
-  - Command Injection
-  cve_count: 1
-- url: https://www.nccgroup.com/research/technical-advisory-cyberark-epm-non-paged-pool-buffer-overflow/
-  date: 19/08/03
-  cve_ids:
-  - CVE-2019-9627
-  researchers:
-  - Jason Crowder
-  vendors:
-  - CyberArk EPM Non
-  cve_count: 1
-- url: https://www.nccgroup.com/research/technical-advisory-ip-office-stored-cross-site-scripting-xss-vulnerability/
-  date: 19/02/01
-  cve_ids:
-  - CVE-2018-15614
-  researchers:
-  - Mattia Reggiani mattia.reggiani[at]nccgroup[dot]com
-  vendors:
-  - IP Office Stored Cross Site Scripting (XSS) Vulnerability
-  cve_count: 1
-- url: https://www.nccgroup.com/research/technical-advisory-mitel-mivoice-5330e-memory-corruption-flaw/
-  date: 18/08/21
-  cve_ids:
-  - CVE-2018-15497
-  researchers: []
-  vendors:
-  - Mitel MiVoice 5330e Memory Corruption Flaw
+  vendors: []
   cve_count: 1
 - url: https://www.nccgroup.com/research/technical-advisory-multiple-vulnerabilities-in-brother-printers/
   date: 19/07/08
@@ -1073,28 +457,8 @@ advisories:
   - CVE-2019-13192
   - CVE-2019-13194
   researchers: []
-  vendors:
-  - Multiple Vulnerabilities in Brother Printers
+  vendors: []
   cve_count: 3
-- url: https://www.nccgroup.com/research/technical-advisory-multiple-vulnerabilities-in-kyocera-printers/
-  date: 19/07/08
-  cve_ids:
-  - CVE-2019-13196
-  - CVE-2019-13197
-  - CVE-2019-13202
-  - CVE-2019-13203
-  - CVE-2019-13206
-  - CVE-2019-13204
-  - CVE-2019-13201
-  - CVE-2019-13195
-  - CVE-2019-13205
-  - CVE-2019-13198
-  - CVE-2019-13200
-  - CVE-2019-13199
-  researchers: []
-  vendors:
-  - Multiple Vulnerabilities in Kyocera Printers
-  cve_count: 12
 - url: https://www.nccgroup.com/research/technical-advisory-multiple-vulnerabilities-in-ricoh-printers/
   date: 19/07/08
   cve_ids:
@@ -1111,36 +475,16 @@ advisories:
   - CVE-2019-14302
   - CVE-2019-14309
   researchers: []
-  vendors:
-  - Multiple Vulnerabilities in Ricoh Printers
+  vendors: []
   cve_count: 12
-- url: https://www.nccgroup.com/research/technical-advisory-multiple-vulnerabilities-in-smartermail/
-  date: 19/04/16
+- url: https://www.nccgroup.com/research/technical-advisory-pdftron-javascript-urls-allowed-in-webviewer-ui-cve-2021-39307/
+  date: 21/09/14
   cve_ids:
-  - CVE-2019-7214
-  - CVE-2019-7211
-  - CVE-2019-7212
-  - CVE-2019-7213
+  - CVE-2021-39307
   researchers:
-  - Soroush Dalili (@irsdl)
-  vendors:
-  - Multiple Vulnerabilities in SmarterMail
-  cve_count: 4
-- url: https://www.nccgroup.com/research/technical-advisory-multiple-vulnerabilities-in-xerox-printers/
-  date: 19/07/08
-  cve_ids:
-  - CVE-2019-13171
-  - CVE-2019-13165
-  - CVE-2019-13168
-  - CVE-2019-13169
-  - CVE-2019-13172
-  - CVE-2019-13167
-  - CVE-2019-13170
-  - CVE-2019-13166
-  researchers: []
-  vendors:
-  - Multiple Vulnerabilities in Xerox Printers
-  cve_count: 8
+  - Liyun Li
+  vendors: []
+  cve_count: 1
 - url: https://www.nccgroup.com/research/technical-advisory-smb-hash-hijacking-and-user-tracking-in-ms-outlook/
   date: 18/11/05
   cve_ids:
@@ -1148,15 +492,5 @@ advisories:
   - CVE-2017-11927
   researchers:
   - Soroush Dalili
-  vendors:
-  - SMB Hash Hijacking and User Tracking in MS Outlook
+  vendors: []
   cve_count: 2
-- url: https://www.nccgroup.com/research/technical-advisory-unauthenticated-remote-command-execution-through-multiple-vulnerabilities-in-virgin-media-hub-30/
-  date: 18/07/12
-  cve_ids: []
-  researchers:
-  - Balazs Bucsay (@xoreipeip)
-  vendors:
-  - Unauthenticated Remote Command Execution through Multiple Vulnerabilities in Virgin
-    Media Hub 3.0
-  cve_count: 0

@@ -1,14 +1,12 @@
 #!/usr/bin/env python3
-"""Trustwave SpiderLabs scraper. Outputs data.json.
-Source: Redirected to LevelBlue (JS-rendered). Attempts sitemap extraction.
-Full detail requires JS rendering.
+"""Trustwave SpiderLabs scraper — Playwright edition.
+Source: LevelBlue sitemap → advisory URL slugs → CVE IDs.
 """
-import re, sys, time
+import asyncio, re, sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-import requests
-from bs4 import BeautifulSoup
+from playwright.async_api import async_playwright
 
 sys.path.insert(0, str(Path(__file__).parents[2]))
 from lab_model import CVELab, Advisory
@@ -16,56 +14,57 @@ from lab_model import CVELab, Advisory
 LAB = "Trustwave SpiderLabs"
 URL = "https://www.levelblue.com/security-resources/security-advisories"
 SITEMAP_URL = "https://www.levelblue.com/sitemap.xml"
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; awesome-cvelabs-scraper/1.0)"}
 CVE_RE = re.compile(r"CVE-\d{4}-\d{4,5}", re.IGNORECASE)
 ADV_KEYWORDS = ["advisor", "security-resources", "disclos", "spiderlabs"]
 
 
-def _get_advisory_urls() -> list[str]:
+async def _get_advisory_urls(api) -> list[str]:
     seen: set[str] = set()
     urls = []
 
     try:
-        resp = requests.get(SITEMAP_URL, headers=HEADERS, timeout=30)
-        resp.raise_for_status()
-        locs = re.findall(r"<loc>([^<]+)</loc>", resp.text)
+        resp = await api.get(SITEMAP_URL)
+        content = await resp.text()
+        locs = re.findall(r"<loc>([^<]+)</loc>", content)
         sub_sitemaps = [l for l in locs if "sitemap" in l.lower()]
         all_locs = list(locs)
 
         for sm in sub_sitemaps[:10]:
             try:
-                r2 = requests.get(sm, headers=HEADERS, timeout=30)
-                if r2.status_code == 200:
-                    all_locs.extend(re.findall(r"<loc>([^<]+)</loc>", r2.text))
-            except requests.RequestException:
+                r2 = await api.get(sm)
+                sub = await r2.text()
+                all_locs.extend(re.findall(r"<loc>([^<]+)</loc>", sub))
+            except Exception:
                 pass
 
         for loc in all_locs:
             if any(k in loc.lower() for k in ADV_KEYWORDS) and loc not in seen:
                 seen.add(loc)
                 urls.append(loc)
-    except requests.RequestException as e:
+    except Exception as e:
         print(f"  Sitemap error: {e}")
 
     return urls
 
 
-def scrape() -> list[Advisory]:
-    # JS-rendered (LevelBlue): collect URLs from sitemap only, extract CVEs from URL slug where possible
-    adv_urls = _get_advisory_urls()
+async def scrape() -> list[Advisory]:
     advisories = []
-    seen_cves: set[str] = set()
-    for url in adv_urls:
-        cves_in_url = [c.upper() for c in CVE_RE.findall(url)]
-        new_cves = [c for c in dict.fromkeys(cves_in_url) if c not in seen_cves]
-        for c in new_cves:
-            seen_cves.add(c)
-        advisories.append(Advisory(url=url, cve_ids=new_cves))
+    async with async_playwright() as p:
+        api = await p.request.new_context()
+        adv_urls = await _get_advisory_urls(api)
+        await api.dispose()
+        seen_cves: set[str] = set()
+        for url in adv_urls:
+            cves_in_url = [c.upper() for c in CVE_RE.findall(url)]
+            new_cves = [c for c in dict.fromkeys(cves_in_url) if c not in seen_cves]
+            for c in new_cves:
+                seen_cves.add(c)
+            advisories.append(Advisory(url=url, cve_ids=new_cves))
     return advisories
 
 
 if __name__ == "__main__":
-    advisories = scrape()
+    advisories = [a for a in asyncio.run(scrape()) if a.cve_ids]
     lab = CVELab(lab=LAB, url=URL,
                  scraped_at=datetime.now(timezone.utc),
                  advisories=advisories)

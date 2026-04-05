@@ -1,7 +1,65 @@
 lab: watchTowr
 url: https://labs.watchtowr.com
-scraped_at: '2026-03-17T22:23:13.895012Z'
+scraped_at: '2026-04-03T03:20:44.317471Z'
 advisories:
+- url: https://labs.watchtowr.com/youre-not-supposed-to-sharefile-with-everyone-progress-sharefile-pre-auth-rce-chain-cve-2026-2699-cve-2026-2701
+  date: 26/04/02
+  cve_ids:
+  - CVE-2026-2699
+  - CVE-2026-2701
+  - CVE-2026-3055
+  researchers:
+  - Sonny
+  vendors:
+  - Progress ShareFile Pre-Auth RCE Chain  &
+  cve_count: 3
+- url: https://labs.watchtowr.com/please-we-beg-just-one-weekend-free-of-appliances-citrix-netscaler-cve-2026-3055-memory-overread-part-2
+  date: 26/03/29
+  cve_ids:
+  - CVE-2026-3055
+  - CVE-2026-2699
+  - CVE-2026-2701
+  researchers:
+  - Aliz Hammond
+  vendors:
+  - Citrix NetScaler  Memory Overread Part 2
+  cve_count: 3
+- url: https://labs.watchtowr.com/the-sequels-are-never-as-good-but-were-still-in-pain-citrix-netscaler-cve-2026-3055-memory-overread
+  date: 26/03/28
+  cve_ids:
+  - CVE-2026-3055
+  - CVE-2026-32746
+  researchers:
+  - Aliz Hammond
+  vendors:
+  - Citrix NetScaler  Memory Overread
+  cve_count: 2
+- url: https://labs.watchtowr.com/a-32-year-old-bug-walks-into-a-telnet-server-gnu-inetutils-telnetd-cve-2026-32746
+  date: 26/03/19
+  cve_ids:
+  - CVE-2026-32746
+  - CVE-2026-24061
+  - CVE-2005-0469
+  - CVE-2026-3055
+  researchers:
+  - McCaulay Hudson
+  vendors:
+  - GNU inetutils Telnetd  Pre-Auth RCE
+  cve_count: 4
+- url: https://labs.watchtowr.com/thanks-itsms-threat-actors-have-never-been-so-organized-bmc-footprints-pre-auth-remote-code-execution-chains
+  date: 26/03/18
+  cve_ids:
+  - CVE-2025-24813
+  - CVE-2025-71257
+  - CVE-2025-71258
+  - CVE-2025-71259
+  - CVE-2025-71260
+  - CVE-2026-21902
+  - CVE-2026-32746
+  researchers:
+  - Sonny
+  vendors: []
+  cve_count: 7
 - url: https://labs.watchtowr.com/sometimes-you-can-just-feel-the-security-in-the-design-junos-os-evolved-cve-2026-21902-rce
   date: 26/03/03
   cve_ids:
@@ -56,6 +114,46 @@ advisories:
   vendors:
   - SmarterTools SmarterMail Pre-Auth RCE
   cve_count: 1
+- url: https://labs.watchtowr.com/8-million-requests-later-we-made-the-solarwinds-supply-chain-attack-look-amateur
+  date: 25/02/04
+  cve_ids:
+  - CVE-2024-55591
+  - CVE-2024-48248
+  researchers:
+  - Benjamin Harris
+  vendors: []
+  cve_count: 2
+- url: https://labs.watchtowr.com/we-spent-20-to-achieve-rce-and-accidentally-became-the-admins-of-mobi
+  date: 24/09/11
+  cve_ids:
+  - CVE-2015-5243
+  - CVE-2021-32749
+  - CVE-2024-40711
+  - CVE-2024-23113
+  researchers:
+  - Benjamin Harris
+  vendors: []
+  cve_count: 4
+- url: https://labs.watchtowr.com/palo-alto-putting-the-protecc-in-globalprotect-cve-2024-3400
+  date: 24/04/16
+  cve_ids:
+  - CVE-2024-3400
+  - CVE-2022-26377
+  - CVE-2024-27130
+  researchers:
+  - Sonny
+  vendors: []
+  cve_count: 3
+- url: https://labs.watchtowr.com/ibm-qradar-when-the-attacker-controls-your-security-stack
+  date: 24/04/12
+  cve_ids:
+  - CVE-2022-26377
+  - CVE-2023-46747
+  - CVE-2024-3400
+  researchers:
+  - Sonny
+  vendors: []
+  cve_count: 3
 - url: https://labs.watchtowr.com/soapwn-pwning-net-framework-applications-through-http-client-proxies-and-wsdl
   date: 25/12/10
   cve_ids:
@@ -111,46 +209,6 @@ advisories:
   vendors:
   - Monsta FTP Remote Code Execution
   cve_count: 7
-- url: https://labs.watchtowr.com/8-million-requests-later-we-made-the-solarwinds-supply-chain-attack-look-amateur
-  date: 25/02/04
-  cve_ids:
-  - CVE-2024-55591
-  - CVE-2024-48248
-  researchers:
-  - Benjamin Harris
-  vendors: []
-  cve_count: 2
-- url: https://labs.watchtowr.com/we-spent-20-to-achieve-rce-and-accidentally-became-the-admins-of-mobi
-  date: 24/09/11
-  cve_ids:
-  - CVE-2015-5243
-  - CVE-2021-32749
-  - CVE-2024-40711
-  - CVE-2024-23113
-  researchers:
-  - Benjamin Harris
-  vendors: []
-  cve_count: 4
-- url: https://labs.watchtowr.com/palo-alto-putting-the-protecc-in-globalprotect-cve-2024-3400
-  date: 24/04/16
-  cve_ids:
-  - CVE-2024-3400
-  - CVE-2022-26377
-  - CVE-2024-27130
-  researchers:
-  - Sonny
-  vendors: []
-  cve_count: 3
-- url: https://labs.watchtowr.com/ibm-qradar-when-the-attacker-controls-your-security-stack
-  date: 24/04/12
-  cve_ids:
-  - CVE-2022-26377
-  - CVE-2023-46747
-  - CVE-2024-3400
-  researchers:
-  - Sonny
-  vendors: []
-  cve_count: 3
 - url: https://labs.watchtowr.com/yikes-watchguard-fireware-os-ikev2-out-of-bounds-write-cve-2025-9242
   date: 25/10/16
   cve_ids:

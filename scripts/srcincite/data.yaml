@@ -1,31 +1,7 @@
 lab: Source Incite
 url: https://srcincite.io
-scraped_at: '2026-03-17T22:28:49.484704Z'
+scraped_at: '2026-04-03T03:18:59.437414Z'
 advisories:
-- url: https://srcincite.io/advisories/src-2025-0007
-  date: null
-  cve_ids: []
-  researchers:
-  - Steven Seeley
-  vendors:
-  - Samsung
-  cve_count: 0
-- url: https://srcincite.io/advisories/src-2025-0006
-  date: null
-  cve_ids: []
-  researchers:
-  - Steven Seeley
-  vendors:
-  - Samsung
-  cve_count: 0
-- url: https://srcincite.io/advisories/src-2025-0005
-  date: null
-  cve_ids: []
-  researchers:
-  - Steven Seeley
-  vendors:
-  - Samsung
-  cve_count: 0
 - url: https://srcincite.io/advisories/src-2025-0004
   date: null
   cve_ids:
@@ -53,14 +29,6 @@ advisories:
   vendors:
   - Samsung
   cve_count: 1
-- url: https://srcincite.io/advisories/src-2025-0001
-  date: null
-  cve_ids: []
-  researchers:
-  - Steven Seeley
-  vendors:
-  - Samsung
-  cve_count: 0
 - url: https://srcincite.io/advisories/src-2024-0001
   date: 24/01/15
   cve_ids:
@@ -313,14 +281,6 @@ advisories:
   vendors:
   - Zoho
   cve_count: 1
-- url: https://srcincite.io/advisories/src-2021-0029
-  date: null
-  cve_ids: []
-  researchers:
-  - Steven Seeley
-  vendors:
-  - Dedecms
-  cve_count: 0
 - url: https://srcincite.io/advisories/src-2021-0028
   date: null
   cve_ids:
@@ -375,14 +335,6 @@ advisories:
   vendors:
   - Foxit
   cve_count: 1
-- url: https://srcincite.io/advisories/src-2021-0022
-  date: null
-  cve_ids: []
-  researchers:
-  - Steven Seeley (mr_me)
-  vendors:
-  - Dedecms
-  cve_count: 0
 - url: https://srcincite.io/advisories/src-2021-0021
   date: null
   cve_ids:
@@ -392,14 +344,6 @@ advisories:
   vendors:
   - League
   cve_count: 1
-- url: https://srcincite.io/advisories/src-2021-0020
-  date: null
-  cve_ids: []
-  researchers:
-  - Steven Seeley (mr_me)
-  vendors:
-  - Eclipse
-  cve_count: 0
 - url: https://srcincite.io/advisories/src-2021-0019
   date: null
   cve_ids:
@@ -764,14 +708,6 @@ advisories:
   vendors:
   - ManageEngine
   cve_count: 1
-- url: https://srcincite.io/advisories/src-2020-0010
-  date: null
-  cve_ids: []
-  researchers:
-  - Chris Anastasio (muffin) and Steven Seeley (mr_me)
-  vendors:
-  - Schneider Electric
-  cve_count: 0
 - url: https://srcincite.io/advisories/src-2020-0009
   date: null
   cve_ids:
@@ -1600,14 +1536,6 @@ advisories:
   vendors:
   - Foxit
   cve_count: 1
-- url: https://srcincite.io/advisories/src-2018-0035
-  date: null
-  cve_ids: []
-  researchers:
-  - Steven Seeley (mr_me)
-  vendors:
-  - Vanilla
-  cve_count: 0
 - url: https://srcincite.io/advisories/src-2018-0034
   date: null
   cve_ids:
@@ -1860,22 +1788,6 @@ advisories:
   vendors:
   - Beckoff
   cve_count: 1
-- url: https://srcincite.io/advisories/src-2018-0006
-  date: null
-  cve_ids: []
-  researchers:
-  - Steven Seeley (mr_me)
-  vendors:
-  - Synology
-  cve_count: 0
-- url: https://srcincite.io/advisories/src-2018-0005
-  date: null
-  cve_ids: []
-  researchers:
-  - Steven Seeley (mr_me)
-  vendors:
-  - Synology
-  cve_count: 0
 - url: https://srcincite.io/advisories/src-2018-0004
   date: null
   cve_ids:
@@ -2136,14 +2048,6 @@ advisories:
   vendors:
   - Nitro
   cve_count: 1
-- url: https://srcincite.io/advisories/src-2017-0004
-  date: null
-  cve_ids: []
-  researchers:
-  - Steven Seeley
-  vendors:
-  - ATutor
-  cve_count: 0
 - url: https://srcincite.io/advisories/src-2017-0003
   date: null
   cve_ids:
@@ -2270,38 +2174,6 @@ advisories:
   vendors:
   - Microsoft
   cve_count: 1
-- url: https://srcincite.io/advisories/src-2016-0034
-  date: null
-  cve_ids: []
-  researchers:
-  - Steven Seeley
-  vendors:
-  - Samsung
-  cve_count: 0
-- url: https://srcincite.io/advisories/src-2016-0033
-  date: null
-  cve_ids: []
-  researchers:
-  - Steven Seeley
-  vendors:
-  - Samsung
-  cve_count: 0
-- url: https://srcincite.io/advisories/src-2016-0032
-  date: null
-  cve_ids: []
-  researchers:
-  - Steven Seeley
-  vendors:
-  - Samsung
-  cve_count: 0
-- url: https://srcincite.io/advisories/src-2016-0031
-  date: null
-  cve_ids: []
-  researchers:
-  - Steven Seeley
-  vendors:
-  - Samsung
-  cve_count: 0
 - url: https://srcincite.io/advisories/src-2016-0030
   date: null
   cve_ids:
@@ -2392,158 +2264,6 @@ advisories:
   vendors:
   - Microsoft
   cve_count: 1
-- url: https://srcincite.io/advisories/src-2016-0020
-  date: null
-  cve_ids: []
-  researchers:
-  - Steven Seeley
-  vendors:
-  - ATutor
-  cve_count: 0
-- url: https://srcincite.io/advisories/src-2016-0019
-  date: null
-  cve_ids: []
-  researchers:
-  - Steven Seeley
-  vendors:
-  - ATutor
-  cve_count: 0
-- url: https://srcincite.io/advisories/src-2016-0018
-  date: null
-  cve_ids: []
-  researchers:
-  - Steven Seeley
-  vendors:
-  - ATutor
-  cve_count: 0
-- url: https://srcincite.io/advisories/src-2016-0017
-  date: null
-  cve_ids: []
-  researchers:
-  - Steven Seeley
-  vendors:
-  - ATutor
-  cve_count: 0
-- url: https://srcincite.io/advisories/src-2016-0016
-  date: null
-  cve_ids: []
-  researchers:
-  - Steven Seeley
-  vendors:
-  - ATutor
-  cve_count: 0
-- url: https://srcincite.io/advisories/src-2016-0015
-  date: null
-  cve_ids: []
-  researchers:
-  - Steven Seeley
-  vendors:
-  - ATutor
-  cve_count: 0
-- url: https://srcincite.io/advisories/src-2016-0014
-  date: null
-  cve_ids: []
-  researchers:
-  - Steven Seeley
-  vendors:
-  - ATutor
-  cve_count: 0
-- url: https://srcincite.io/advisories/src-2016-0013
-  date: null
-  cve_ids: []
-  researchers:
-  - Steven Seeley
-  vendors:
-  - ATutor
-  cve_count: 0
-- url: https://srcincite.io/advisories/src-2016-0012
-  date: null
-  cve_ids: []
-  researchers:
-  - Steven Seeley
-  vendors:
-  - ATutor
-  cve_count: 0
-- url: https://srcincite.io/advisories/src-2016-0011
-  date: null
-  cve_ids: []
-  researchers:
-  - Steven Seeley
-  vendors:
-  - ATutor
-  cve_count: 0
-- url: https://srcincite.io/advisories/src-2016-0010
-  date: null
-  cve_ids: []
-  researchers:
-  - Steven Seeley
-  vendors:
-  - ATutor
-  cve_count: 0
-- url: https://srcincite.io/advisories/src-2016-0009
-  date: null
-  cve_ids: []
-  researchers:
-  - Steven Seeley
-  vendors:
-  - ATutor
-  cve_count: 0
-- url: https://srcincite.io/advisories/src-2016-0008
-  date: null
-  cve_ids: []
-  researchers:
-  - Steven Seeley
-  vendors:
-  - ATutor
-  cve_count: 0
-- url: https://srcincite.io/advisories/src-2016-0007
-  date: null
-  cve_ids: []
-  researchers:
-  - Steven Seeley
-  vendors:
-  - ATutor
-  cve_count: 0
-- url: https://srcincite.io/advisories/src-2016-0006
-  date: null
-  cve_ids: []
-  researchers:
-  - Steven Seeley
-  vendors:
-  - ATutor
-  cve_count: 0
-- url: https://srcincite.io/advisories/src-2016-0005
-  date: null
-  cve_ids: []
-  researchers:
-  - Steven Seeley
-  vendors:
-  - ATutor
-  cve_count: 0
-- url: https://srcincite.io/advisories/src-2016-0004
-  date: null
-  cve_ids: []
-  researchers:
-  - Steven Seeley
-  vendors:
-  - ATutor
-  cve_count: 0
-- url: https://srcincite.io/advisories/src-2016-0003
-  date: null
-  cve_ids: []
-  researchers:
-  - Steven Seeley
-  vendors:
-  - ATutor
-  cve_count: 0
-- url: https://srcincite.io/advisories/src-2016-0002
-  date: null
-  cve_ids: []
-  researchers:
-  - Steven Seeley
-  vendors:
-  - ATutor
-  cve_count: 0
 - url: https://srcincite.io/advisories/src-2016-0001
   date: null
   cve_ids:
@@ -2553,14 +2273,6 @@ advisories:
   vendors:
   - ATutor
   cve_count: 1
-- url: https://srcincite.io/advisories/src-2016-0000
-  date: null
-  cve_ids: []
-  researchers:
-  - Steven Seeley
-  vendors:
-  - ATutor
-  cve_count: 0
 - url: https://srcincite.io/advisories/src-2015-0003
   date: null
   cve_ids:

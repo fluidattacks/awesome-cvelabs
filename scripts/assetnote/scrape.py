@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
-"""Assetnote scraper. Outputs data.json.
+"""Assetnote scraper — Playwright edition.
 Source: /resources/research/?page=N → each article → date, CVE IDs, researchers, vendors.
-Vendor extracted from title (product being analyzed). Researcher from byline.
 """
-import re, sys, time
+import asyncio, re, sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-import requests
 from bs4 import BeautifulSoup
+from playwright.async_api import async_playwright
 
 sys.path.insert(0, str(Path(__file__).parents[2]))
 from lab_model import CVELab, Advisory
@@ -16,10 +15,10 @@ from lab_model import CVELab, Advisory
 LAB = "Assetnote"
 URL = "https://www.assetnote.io"
 INDEX_PATH = "/resources/research"
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; awesome-cvelabs-scraper/1.0)"}
 CVE_RE = re.compile(r"CVE-\d{4}-\d{4,5}", re.IGNORECASE)
 DATE_RE = re.compile(
-    r"\b((?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},?\s+\d{4}|\d{4}-\d{2}-\d{2})\b",
+    r"\b((?:January|February|March|April|May|June|July|August|September|"
+    r"October|November|December)\s+\d{1,2},?\s+\d{4}|\d{4}-\d{2}-\d{2})\b",
     re.IGNORECASE,
 )
 
@@ -35,20 +34,40 @@ def _extract_research_links(html: str) -> list[str]:
     return found
 
 
-def _get_advisory_urls() -> list[str]:
+def _vendor_from_title(title: str) -> list[str]:
+    m = re.search(
+        r"(?:in|of|for|–|-)\s+([A-Za-z0-9][A-Za-z0-9\.\s\-_/]+?)\s+(?:\(CVE|CVE-)",
+        title, re.IGNORECASE,
+    )
+    if m:
+        product = m.group(1).strip()
+        if product and 2 < len(product) < 60:
+            return [product]
+    m2 = re.search(r"([A-Z][A-Za-z0-9\.\-\s]+?)\s+(?:\()?CVE-\d{4}-\d+", title)
+    if m2:
+        product = m2.group(1).strip()
+        if product and 2 < len(product) < 60:
+            return [product]
+    return []
+
+
+async def _get_advisory_urls(page) -> list[str]:
     seen: set[str] = set()
     urls = []
-    page = 1
+    page_num = 1
+
     while True:
-        page_url = f"{URL}{INDEX_PATH}/" if page == 1 else f"{URL}{INDEX_PATH}/?page={page}"
+        page_url = (f"{URL}{INDEX_PATH}/" if page_num == 1
+                    else f"{URL}{INDEX_PATH}/?page={page_num}")
         try:
-            resp = requests.get(page_url, headers=HEADERS, timeout=30)
-            if resp.status_code == 404:
+            resp = await page.goto(page_url, wait_until="networkidle", timeout=30000)
+            if resp and resp.status == 404:
                 break
-            resp.raise_for_status()
-        except requests.RequestException:
+        except Exception:
             break
-        links = _extract_research_links(resp.text)
+
+        html = await page.content()
+        links = _extract_research_links(html)
         if not links:
             break
         new_found = False
@@ -60,39 +79,21 @@ def _get_advisory_urls() -> list[str]:
                 new_found = True
         if not new_found:
             break
-        page += 1
-        time.sleep(0.1)
+        page_num += 1
+
     return urls
 
 
-def _vendor_from_title(title: str) -> list[str]:
-    """Extract product/vendor name from title.
-    E.g. 'Analyzing the Next.js Middleware Bypass (CVE-2025-29927)' → 'Next.js'
-    """
-    # Pattern: product name followed by CVE in parens
-    m = re.search(r"(?:in|of|for|–|-)\s+([A-Za-z0-9][A-Za-z0-9\.\s\-_/]+?)\s+(?:\(CVE|CVE-)", title, re.IGNORECASE)
-    if m:
-        product = m.group(1).strip()
-        if product and 2 < len(product) < 60:
-            return [product]
-    # Fallback: word groups before CVE
-    m2 = re.search(r"([A-Z][A-Za-z0-9\.\-\s]+?)\s+(?:\()?CVE-\d{4}-\d+", title)
-    if m2:
-        product = m2.group(1).strip()
-        if product and 2 < len(product) < 60:
-            return [product]
-    return []
-
-
-def _parse_page(url: str) -> Advisory | None:
+async def _parse_page(page, url: str) -> Advisory | None:
     try:
-        resp = requests.get(url, headers=HEADERS, timeout=30)
-        if resp.status_code != 200:
+        resp = await page.goto(url, wait_until="networkidle", timeout=30000)
+        if resp and resp.status != 200:
             return None
-    except requests.RequestException:
+    except Exception:
         return None
 
-    soup = BeautifulSoup(resp.text, "html.parser")
+    html = await page.content()
+    soup = BeautifulSoup(html, "html.parser")
     lines = [l.strip() for l in soup.get_text("\n").splitlines() if l.strip()]
     full_text = " ".join(lines)
 
@@ -137,19 +138,26 @@ def _parse_page(url: str) -> Advisory | None:
                     researchers=researcher, vendors=vendor)
 
 
-def scrape() -> list[Advisory]:
-    adv_urls = _get_advisory_urls()
+async def scrape() -> list[Advisory]:
     advisories = []
-    for url in adv_urls:
-        adv = _parse_page(url)
-        if adv:
-            advisories.append(adv)
-        time.sleep(0.15)
+
+    async with async_playwright() as p:
+        browser = await p.chromium.launch()
+        page = await browser.new_page()
+
+        adv_urls = await _get_advisory_urls(page)
+        for url in adv_urls:
+            adv = await _parse_page(page, url)
+            if adv:
+                advisories.append(adv)
+
+        await browser.close()
+
     return advisories
 
 
 if __name__ == "__main__":
-    advisories = scrape()
+    advisories = [a for a in asyncio.run(scrape()) if a.cve_ids]
     lab = CVELab(lab=LAB, url=URL,
                  scraped_at=datetime.now(timezone.utc),
                  advisories=advisories)

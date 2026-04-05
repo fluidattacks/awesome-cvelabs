@@ -1,47 +1,47 @@
 #!/usr/bin/env python3
-"""Patchstack scraper. Outputs data.json.
+"""Patchstack scraper — Playwright edition.
 Source: /category/security-advisories/page/N/ pagination → each post → date, CVE IDs.
 """
-import re, sys, time
+import asyncio, re, sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-import requests
 from bs4 import BeautifulSoup
+from playwright.async_api import async_playwright
 
 sys.path.insert(0, str(Path(__file__).parents[2]))
 from lab_model import CVELab, Advisory
 
 LAB = "Patchstack"
 URL = "https://patchstack.com"
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; awesome-cvelabs-scraper/1.0)"}
 CVE_RE = re.compile(r"CVE-\d{4}-\d{4,5}", re.IGNORECASE)
 
 
-def _get_advisory_urls() -> list[str]:
+async def _get_advisory_urls(page) -> list[str]:
     seen: set[str] = set()
     urls = []
-    page = 1
+    pg = 1
 
     while True:
         page_url = (
             URL + "/category/security-advisories/"
-            if page == 1
-            else URL + f"/category/security-advisories/page/{page}/"
+            if pg == 1
+            else URL + f"/category/security-advisories/page/{pg}/"
         )
         try:
-            resp = requests.get(page_url, headers=HEADERS, timeout=30)
-            if resp.status_code == 404:
+            resp = await page.goto(page_url, wait_until="domcontentloaded", timeout=30000)
+            if resp and resp.status == 404:
                 break
-            resp.raise_for_status()
-        except requests.RequestException:
+            if not resp or resp.status != 200:
+                break
+        except Exception:
             break
 
-        soup = BeautifulSoup(resp.text, "html.parser")
+        html = await page.content()
+        soup = BeautifulSoup(html, "html.parser")
         new_found = False
         for a_tag in soup.find_all("a", href=True):
             href = a_tag["href"]
-            # Advisory posts have slug patterns like /blog/... or are top-level
             if (href.startswith(URL + "/") or href.startswith("/")) and \
                "security-advis" not in href and "/page/" not in href and \
                "/category/" not in href and "/tag/" not in href:
@@ -53,28 +53,27 @@ def _get_advisory_urls() -> list[str]:
 
         if not new_found:
             break
-        page += 1
-        time.sleep(0.1)
+        pg += 1
 
     return urls
 
 
-def _parse_page(url: str) -> Advisory | None:
+async def _parse_page(page, url: str) -> Advisory | None:
     try:
-        resp = requests.get(url, headers=HEADERS, timeout=30)
-        if resp.status_code != 200:
+        resp = await page.goto(url, wait_until="domcontentloaded", timeout=30000)
+        if resp and resp.status != 200:
             return None
-    except requests.RequestException:
+        html = await page.content()
+    except Exception:
         return None
 
-    soup = BeautifulSoup(resp.text, "html.parser")
+    soup = BeautifulSoup(html, "html.parser")
     text = soup.get_text(" ")
 
     cves = list(dict.fromkeys(c.upper() for c in CVE_RE.findall(text)))
     if not cves:
         return None
 
-    # Date
     date_str = None
     time_tag = soup.find("time")
     if time_tag:
@@ -88,19 +87,22 @@ def _parse_page(url: str) -> Advisory | None:
     return Advisory(url=url, date=date_str, cve_ids=cves)
 
 
-def scrape() -> list[Advisory]:
-    adv_urls = _get_advisory_urls()
+async def scrape() -> list[Advisory]:
     advisories = []
-    for url in adv_urls:
-        adv = _parse_page(url)
-        if adv:
-            advisories.append(adv)
-        time.sleep(0.15)
+    async with async_playwright() as p:
+        browser = await p.chromium.launch()
+        page = await browser.new_page()
+        adv_urls = await _get_advisory_urls(page)
+        for url in adv_urls:
+            adv = await _parse_page(page, url)
+            if adv:
+                advisories.append(adv)
+        await browser.close()
     return advisories
 
 
 if __name__ == "__main__":
-    advisories = scrape()
+    advisories = [a for a in asyncio.run(scrape()) if a.cve_ids]
     lab = CVELab(lab=LAB, url=URL,
                  scraped_at=datetime.now(timezone.utc),
                  advisories=advisories)

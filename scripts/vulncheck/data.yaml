@@ -1,144 +1,144 @@
 lab: VulnCheck
 url: https://vulncheck.com/advisories
-scraped_at: '2026-03-17T21:23:21.098586Z'
+scraped_at: '2026-04-03T03:20:17.106373Z'
 advisories:
-- url: https://vulncheck.com/advisories/cve-2026-23759
+- url: https://vulncheck.com/advisories/cve-2026-35002
   date: null
   cve_ids:
-  - CVE-2026-23759
+  - CVE-2026-35002
   researchers: []
   vendors: []
   cve_count: 1
-- url: https://vulncheck.com/advisories/cve-2026-32836
+- url: https://vulncheck.com/advisories/cve-2026-34790
   date: null
   cve_ids:
-  - CVE-2026-32836
+  - CVE-2026-34790
   researchers: []
   vendors: []
   cve_count: 1
-- url: https://vulncheck.com/advisories/cve-2026-32837
+- url: https://vulncheck.com/advisories/cve-2026-34791
   date: null
   cve_ids:
-  - CVE-2026-32837
+  - CVE-2026-34791
   researchers: []
   vendors: []
   cve_count: 1
-- url: https://vulncheck.com/advisories/cve-2026-32981
+- url: https://vulncheck.com/advisories/cve-2026-34792
   date: null
   cve_ids:
-  - CVE-2026-32981
+  - CVE-2026-34792
   researchers: []
   vendors: []
   cve_count: 1
-- url: https://vulncheck.com/advisories/cve-2026-29510
+- url: https://vulncheck.com/advisories/cve-2026-34793
   date: null
   cve_ids:
-  - CVE-2026-29510
+  - CVE-2026-34793
   researchers: []
   vendors: []
   cve_count: 1
-- url: https://vulncheck.com/advisories/cve-2026-29513
+- url: https://vulncheck.com/advisories/cve-2026-34794
   date: null
   cve_ids:
-  - CVE-2026-29513
+  - CVE-2026-34794
   researchers: []
   vendors: []
   cve_count: 1
-- url: https://vulncheck.com/advisories/cve-2026-29520
+- url: https://vulncheck.com/advisories/cve-2026-34795
   date: null
   cve_ids:
-  - CVE-2026-29520
+  - CVE-2026-34795
   researchers: []
   vendors: []
   cve_count: 1
-- url: https://vulncheck.com/advisories/cve-2026-29521
+- url: https://vulncheck.com/advisories/cve-2026-34796
   date: null
   cve_ids:
-  - CVE-2026-29521
+  - CVE-2026-34796
   researchers: []
   vendors: []
   cve_count: 1
-- url: https://vulncheck.com/advisories/cve-2026-29516
+- url: https://vulncheck.com/advisories/cve-2026-34797
   date: null
   cve_ids:
-  - CVE-2026-29516
+  - CVE-2026-34797
   researchers: []
   vendors: []
   cve_count: 1
-- url: https://vulncheck.com/advisories/cve-2026-29522
+- url: https://vulncheck.com/advisories/cve-2026-34798
   date: null
   cve_ids:
-  - CVE-2026-29522
+  - CVE-2026-34798
   researchers: []
   vendors: []
   cve_count: 1
-- url: https://vulncheck.com/advisories/cve-2016-20024
+- url: https://vulncheck.com/advisories/cve-2026-34799
   date: null
   cve_ids:
-  - CVE-2016-20024
+  - CVE-2026-34799
   researchers: []
   vendors: []
   cve_count: 1
-- url: https://vulncheck.com/advisories/cve-2016-20025
+- url: https://vulncheck.com/advisories/cve-2026-34800
   date: null
   cve_ids:
-  - CVE-2016-20025
+  - CVE-2026-34800
   researchers: []
   vendors: []
   cve_count: 1
-- url: https://vulncheck.com/advisories/cve-2016-20026
+- url: https://vulncheck.com/advisories/cve-2026-34801
   date: null
   cve_ids:
-  - CVE-2016-20026
+  - CVE-2026-34801
   researchers: []
   vendors: []
   cve_count: 1
-- url: https://vulncheck.com/advisories/cve-2016-20027
+- url: https://vulncheck.com/advisories/cve-2026-34802
   date: null
   cve_ids:
-  - CVE-2016-20027
+  - CVE-2026-34802
   researchers: []
   vendors: []
   cve_count: 1
-- url: https://vulncheck.com/advisories/cve-2016-20028
+- url: https://vulncheck.com/advisories/cve-2026-34803
   date: null
   cve_ids:
-  - CVE-2016-20028
+  - CVE-2026-34803
   researchers: []
   vendors: []
   cve_count: 1
-- url: https://vulncheck.com/advisories/cve-2016-20029
+- url: https://vulncheck.com/advisories/cve-2026-34804
   date: null
   cve_ids:
-  - CVE-2016-20029
+  - CVE-2026-34804
   researchers: []
   vendors: []
   cve_count: 1
-- url: https://vulncheck.com/advisories/cve-2016-20030
+- url: https://vulncheck.com/advisories/cve-2026-34805
   date: null
   cve_ids:
-  - CVE-2016-20030
+  - CVE-2026-34805
   researchers: []
   vendors: []
   cve_count: 1
-- url: https://vulncheck.com/advisories/cve-2016-20031
+- url: https://vulncheck.com/advisories/cve-2026-34806
   date: null
   cve_ids:
-  - CVE-2016-20031
+  - CVE-2026-34806
   researchers: []
   vendors: []
   cve_count: 1
-- url: https://vulncheck.com/advisories/cve-2016-20032
+- url: https://vulncheck.com/advisories/cve-2026-34807
   date: null
   cve_ids:
-  - CVE-2016-20032
+  - CVE-2026-34807
   researchers: []
   vendors: []
   cve_count: 1
-- url: https://vulncheck.com/advisories/cve-2026-28519
+- url: https://vulncheck.com/advisories/cve-2026-34808
   date: null
   cve_ids:
-  - CVE-2026-28519
+  - CVE-2026-34808
   researchers: []
   vendors: []
   cve_count: 1

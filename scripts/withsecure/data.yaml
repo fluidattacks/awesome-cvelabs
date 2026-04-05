@@ -1,10 +1,33 @@
 lab: WithSecure Labs
 url: https://labs.withsecure.com/advisories
-scraped_at: '2026-03-17T21:23:21.734946Z'
+scraped_at: '2026-04-03T03:21:02.148896Z'
 advisories:
-- url: https://labs.withsecure.com/advisories/jetbrains-rider-ai-assistant-prompt-injection
-  date: null
-  cve_ids: []
+- url: https://labs.withsecure.com/advisories/optimizely-admin-panel-dom-xss.html
+  date: 23/01/05
+  cve_ids:
+  - CVE-2023-31754
   researchers: []
   vendors: []
-  cve_count: 0
+  cve_count: 1
+- url: https://labs.withsecure.com/advisories/zte-modem-sqli.html
+  date: 23/06/08
+  cve_ids:
+  - CVE-2023-25651
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://labs.withsecure.com/advisories/opentext-archive-center-administration-client-xxe-vulnerability.html
+  date: 22/01/10
+  cve_ids:
+  - CVE-2022-41221
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://labs.withsecure.com/advisories/insecure-password-policy---lack-of-rate-limiting-on-megafeis-sma.html
+  date: 22/08/05
+  cve_ids:
+  - CVE-2022-45635
+  - CVE-2022-45634
+  researchers: []
+  vendors: []
+  cve_count: 2

@@ -1,4 +1,426 @@
 lab: Google Project Zero
-url: https://bugs.chromium.org/p/project-zero/issues
-scraped_at: '2026-03-17T21:26:42.475108Z'
-advisories: []
+url: https://googleprojectzero.blogspot.com/
+scraped_at: '2026-04-03T03:13:10.954580Z'
+advisories:
+- url: https://googleprojectzero.blogspot.com/2025/12/a-look-at-android-itw-dng-exploit.html
+  date: 25/12/12
+  cve_ids:
+  - CVE-2025-21042
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://googleprojectzero.blogspot.com/2025/11/defeating-kaslr-by-doing-nothing-at-all.html
+  date: 25/11/03
+  cve_ids:
+  - CVE-2022-42703
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://googleprojectzero.blogspot.com/2025/09/pointer-leaks-through-pointer-keyed.html
+  date: 25/09/26
+  cve_ids:
+  - CVE-2016-9904
+  - CVE-2017-5378
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://googleprojectzero.blogspot.com/2025/08/from-chrome-renderer-code-exec-to-kernel.html
+  date: 25/08/08
+  cve_ids:
+  - CVE-2025-38236
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://googleprojectzero.blogspot.com/2025/05/the-windows-registry-adventure-8-exploitation.html
+  date: 25/05/28
+  cve_ids:
+  - CVE-2022-34707
+  - CVE-2022-34708
+  - CVE-2022-37956
+  - CVE-2022-37988
+  - CVE-2022-38037
+  - CVE-2023-21675
+  - CVE-2023-21748
+  - CVE-2023-23420
+  - CVE-2023-23421
+  - CVE-2023-23422
+  - CVE-2023-23423
+  - CVE-2023-28248
+  - CVE-2023-35382
+  - CVE-2023-38139
+  - CVE-2024-26182
+  - CVE-2024-43641
+  - CVE-2024-49114
+  - CVE-2019-0881
+  - CVE-2020-1377
+  - CVE-2023-35357
+  - CVE-2023-32019
+  - CVE-2024-43452
+  researchers: []
+  vendors: []
+  cve_count: 22
+- url: https://googleprojectzero.blogspot.com/2025/05/the-windows-registry-adventure-7-attack-surface.html
+  date: 25/05/23
+  cve_ids:
+  - CVE-2023-21774
+  - CVE-2023-35356
+  - CVE-2023-21772
+  - CVE-2024-26181
+  - CVE-2023-21747
+  - CVE-2023-38154
+  - CVE-2023-35358
+  - CVE-2023-35633
+  - CVE-2023-35386
+  - CVE-2019-0959
+  - CVE-2020-1378
+  - CVE-2023-28271
+  - CVE-2023-28272
+  - CVE-2023-28293
+  - CVE-2022-37990
+  - CVE-2023-38141
+  - CVE-2023-38140
+  - CVE-2023-36803
+  - CVE-2023-36576
+  - CVE-2022-38038
+  - CVE-2022-38039
+  - CVE-2022-44683
+  - CVE-2022-35768
+  - CVE-2018-0898
+  - CVE-2018-0899
+  - CVE-2018-0900
+  - CVE-2023-21750
+  - CVE-2023-36404
+  - CVE-2010-0237
+  - CVE-2022-37991
+  - CVE-2024-26173
+  - CVE-2024-26177
+  - CVE-2024-26178
+  researchers: []
+  vendors: []
+  cve_count: 33
+- url: https://googleprojectzero.blogspot.com/2022/01/zooming-in-on-zero-click-exploits.html
+  date: 22/01/18
+  cve_ids:
+  - CVE-2021-34423
+  - CVE-2021-34424
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://googleprojectzero.blogspot.com/2021/12/a-deep-dive-into-nso-zero-click.html
+  date: 21/12/15
+  cve_ids:
+  - CVE-2021-30860
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://googleprojectzero.blogspot.com/2021/12/this-shouldnt-have-happened.html
+  date: 21/12/01
+  cve_ids:
+  - CVE-2021-43527
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://googleprojectzero.blogspot.com/2021/10/windows-exploitation-tricks-relaying.html
+  date: 21/10/20
+  cve_ids:
+  - CVE-2015-2370
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://googleprojectzero.blogspot.com/2021/10/using-kerberos-for-authentication-relay.html
+  date: 21/10/20
+  cve_ids:
+  - CVE-2021-36942
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://googleprojectzero.blogspot.com/2021/09/fuzzing-closed-source-javascript.html
+  date: 21/09/14
+  cve_ids:
+  - CVE-2021-26419
+  - CVE-2021-31959
+  - CVE-2021-34480
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://googleprojectzero.blogspot.com/2021/06/an-epyc-escape-case-study-of-kvm.html
+  date: 21/06/29
+  cve_ids:
+  - CVE-2021-29657
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://googleprojectzero.blogspot.com/2021/04/designing-sockfuzzer-network-syscall.html
+  date: 21/04/22
+  cve_ids:
+  - CVE-2019-8605
+  - CVE-2018-4407
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://googleprojectzero.blogspot.com/2021/04/who-contains-containers.html
+  date: 21/04/01
+  cve_ids:
+  - CVE-2021-24096
+  - CVE-2021-26891
+  - CVE-2021-26865
+  - CVE-2021-26864
+  researchers: []
+  vendors: []
+  cve_count: 4
+- url: https://googleprojectzero.blogspot.com/2021/03/in-wild-series-october-2020-0-day.html
+  date: 21/03/18
+  cve_ids:
+  - CVE-2020-16009
+  - CVE-2020-15999
+  - CVE-2020-27930
+  - CVE-2020-27950
+  - CVE-2020-27932
+  - CVE-2020-17087
+  - CVE-2020-16010
+  researchers: []
+  vendors: []
+  cve_count: 7
+- url: https://googleprojectzero.blogspot.com/2021/02/deja-vu-lnerability.html
+  date: 21/02/03
+  cve_ids:
+  - CVE-2020-0674
+  - CVE-2018-8653
+  - CVE-2019-1367
+  - CVE-2019-1429
+  - CVE-2020-6820
+  - CVE-2020-6572
+  - CVE-2019-5870
+  - CVE-2019-13695
+  - CVE-2020-0986
+  - CVE-2019-0880
+  - CVE-2014-9665
+  - CVE-2015-0093
+  - CVE-2020-0968
+  - CVE-2015-0993
+  - CVE-2019-13764
+  - CVE-2020-6383
+  - CVE-2020-17008
+  - CVE-2021-1648
+  - CVE-2019-13674
+  researchers: []
+  vendors: []
+  cve_count: 19
+- url: https://googleprojectzero.blogspot.com/2021/01/hunting-for-bugs-in-windows-mini-filter.html
+  date: 21/01/14
+  cve_ids:
+  - CVE-2020-17103
+  - CVE-2020-17134
+  - CVE-2020-17136
+  - CVE-2020-17139
+  - CVE-2018-0877
+  - CVE-2019-0836
+  researchers: []
+  vendors: []
+  cve_count: 6
+- url: https://googleprojectzero.blogspot.com/2021/01/in-wild-series-android-exploits.html
+  date: 21/01/12
+  cve_ids:
+  - CVE-2015-0569
+  - CVE-2016-0820
+  - CVE-2015-1805
+  - CVE-2016-3809
+  - CVE-2015-0570
+  - CVE-2015-0571
+  - CVE-2016-5195
+  - CVE-2018-9568
+  researchers: []
+  vendors: []
+  cve_count: 8
+- url: https://googleprojectzero.blogspot.com/2021/01/in-wild-series-windows-exploits.html
+  date: 21/01/12
+  cve_ids:
+  - CVE-2020-0938
+  - CVE-2020-1020
+  - CVE-2020-1027
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://googleprojectzero.blogspot.com/2020/04/you-wont-believe-what-this-one-line.html
+  date: 20/04/21
+  cve_ids:
+  - CVE-2020-0981
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://googleprojectzero.blogspot.com/2020/04/tfw-you-get-really-excited-you-patch.html
+  date: 20/04/02
+  cve_ids:
+  - CVE-2019-1458
+  - CVE-2019-1433
+  - CVE-2019-3568
+  - CVE-2019-1362
+  - CVE-2019-1468
+  - CVE-2016-7255
+  - CVE-2019-13720
+  researchers: []
+  vendors: []
+  cve_count: 7
+- url: https://googleprojectzero.blogspot.com/2020/02/mitigations-are-attack-surface-too.html
+  date: 20/02/12
+  cve_ids:
+  - CVE-2018-17972
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://googleprojectzero.blogspot.com/2020/01/part-ii-returning-to-adobe-reader.html
+  date: 20/01/30
+  cve_ids:
+  - CVE-2019-8048
+  - CVE-2019-8042
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://googleprojectzero.blogspot.com/2020/01/remote-iphone-exploitation-part-2.html
+  date: 20/01/09
+  cve_ids:
+  - CVE-2019-8646
+  - CVE-2019-8641
+  - CVE-2019-8647
+  - CVE-2019-8662
+  researchers: []
+  vendors: []
+  cve_count: 4
+- url: https://googleprojectzero.blogspot.com/2018/09/a-cache-invalidation-bug-in-linux.html
+  date: 18/09/26
+  cve_ids:
+  - CVE-2018-17182
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://googleprojectzero.blogspot.com/2018/09/oatmeal-on-universal-cereal-bus.html
+  date: 18/09/10
+  cve_ids:
+  - CVE-2018-9445
+  - CVE-2018-9488
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://googleprojectzero.blogspot.com/2018/08/the-problems-and-promise-of-webassembly.html
+  date: 18/08/16
+  cve_ids:
+  - CVE-2018-4222
+  - CVE-2018-6092
+  - CVE-2018-4121
+  - CVE-2018-5093
+  researchers: []
+  vendors: []
+  cve_count: 4
+- url: https://googleprojectzero.blogspot.com/2018/08/adventures-in-vulnerability-reporting.html
+  date: 18/08/02
+  cve_ids:
+  - CVE-2018-10751
+  - CVE-2016-7990
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://googleprojectzero.blogspot.com/2018/01/reading-privileged-memory-with-side.html
+  date: 18/01/03
+  cve_ids:
+  - CVE-2017-5753
+  - CVE-2017-5715
+  - CVE-2017-5754
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://googleprojectzero.blogspot.com/2017/10/using-binary-diffing-to-discover.html
+  date: 17/10/05
+  cve_ids:
+  - CVE-2017-8684
+  - CVE-2017-8685
+  - CVE-2017-8680
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://googleprojectzero.blogspot.com/2017/10/over-air-vol-2-pt-2-exploiting-wi-fi.html
+  date: 17/10/03
+  cve_ids:
+  - CVE-2016-4739
+  - CVE-2015-7987
+  - CVE-2015-7988
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://googleprojectzero.blogspot.com/2015/09/revisiting-apple-ipc-1-distributed_28.html
+  date: 15/09/28
+  cve_ids:
+  - CVE-2015-5784
+  - CVE-2015-5754
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://googleprojectzero.blogspot.com/2015/09/stagefrightened.html
+  date: 15/09/16
+  cve_ids:
+  - CVE-2015-3864
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://googleprojectzero.blogspot.com/2015/09/enabling-qr-codes-in-internet-explorer.html
+  date: 15/09/14
+  cve_ids:
+  - CVE-2015-3052
+  - CVE-2015-0089
+  - CVE-2015-3049
+  - CVE-2015-1670
+  - CVE-2015-2619
+  - CVE-2015-0090
+  researchers: []
+  vendors: []
+  cve_count: 6
+- url: https://googleprojectzero.blogspot.com/2015/08/windows-10hh-symbolic-link-mitigations.html
+  date: 15/08/25
+  cve_ids:
+  - CVE-2015-0055
+  - CVE-2014-6322
+  - CVE-2014-0568
+  - CVE-2015-2429
+  - CVE-2015-2428
+  - CVE-2015-2430
+  researchers: []
+  vendors: []
+  cve_count: 6
+- url: https://googleprojectzero.blogspot.com/2015/08/one-font-vulnerability-to-rule-them-all_21.html
+  date: 15/08/21
+  cve_ids:
+  - CVE-2015-0091
+  - CVE-2015-0092
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://googleprojectzero.blogspot.com/2015/08/attacking-ecmascript-engines-with.html
+  date: 15/08/17
+  cve_ids:
+  - CVE-2014-8636
+  - CVE-2013-0765
+  - CVE-2014-1705
+  - CVE-2015-5119
+  - CVE-2015-5122
+  - CVE-2015-5123
+  - CVE-2015-0349
+  - CVE-2015-3077
+  - CVE-2015-0305
+  - CVE-2015-0327
+  - CVE-2015-3039
+  - CVE-2015-3120
+  - CVE-2015-3119
+  researchers: []
+  vendors: []
+  cve_count: 13
+- url: https://googleprojectzero.blogspot.com/2015/07/one-font-vulnerability-to-rule-them-all.html
+  date: 15/07/31
+  cve_ids:
+  - CVE-2015-0074
+  - CVE-2015-0087
+  - CVE-2015-3095
+  - CVE-2015-0088
+  - CVE-2015-3050
+  - CVE-2015-3051
+  researchers: []
+  vendors: []
+  cve_count: 6

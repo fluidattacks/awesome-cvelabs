@@ -1,78 +1,72 @@
 #!/usr/bin/env python3
-"""SEC Consult scraper. Outputs data.json.
-Source: Sitemap → advisory pages → date, CVE IDs.
+"""SEC Consult scraper — Playwright edition.
+Source: Sitemap index → advisory sub-sitemap → advisory pages → date, CVE IDs.
 """
-import re, sys, time
+import asyncio, re, sys
 from datetime import datetime, timezone
+from html import unescape
 from pathlib import Path
 
-import requests
 from bs4 import BeautifulSoup
+from playwright.async_api import async_playwright
 
 sys.path.insert(0, str(Path(__file__).parents[2]))
 from lab_model import CVELab, Advisory
 
 LAB = "SEC Consult"
 URL = "https://sec-consult.com"
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; awesome-cvelabs-scraper/1.0)"}
+SITEMAP_URL = "https://sec-consult.com/sitemap.xml"
 CVE_RE = re.compile(r"CVE-\d{4}-\d{4,5}", re.IGNORECASE)
-
-SITEMAPS_TO_TRY = [
-    "https://sec-consult.com/sitemap.xml",
-    "https://sec-consult.com/sitemap_index.xml",
-]
 ADVISORY_KEYWORDS = ["vulnerability-lab", "advisories", "advisory", "security-notice"]
 
 
-def _get_advisory_urls() -> list[str]:
+async def _get_advisory_urls(api) -> list[str]:
     seen: set[str] = set()
     urls = []
 
-    for sitemap_url in SITEMAPS_TO_TRY:
+    try:
+        resp = await api.get(SITEMAP_URL)
+        if resp.status != 200:
+            return []
+        content = await resp.text()
+    except Exception:
+        return []
+
+    # Sub-sitemaps URLs may contain &amp; — unescape before fetching
+    sub_sitemaps = [unescape(l) for l in re.findall(r"<loc>([^<]+)</loc>", content)
+                    if "sitemap" in l.lower()]
+
+    for sm in sub_sitemaps:
         try:
-            resp = requests.get(sitemap_url, headers=HEADERS, timeout=30)
-            if resp.status_code != 200:
+            r2 = await api.get(sm)
+            if r2.status != 200:
                 continue
-        except requests.RequestException:
-            continue
-
-        locs = re.findall(r"<loc>([^<]+)</loc>", resp.text)
-        sub_sitemaps = [l for l in locs if "sitemap" in l.lower()]
-        all_locs = list(locs)
-
-        for sm in sub_sitemaps[:10]:
-            try:
-                r2 = requests.get(sm, headers=HEADERS, timeout=30)
-                if r2.status_code == 200:
-                    all_locs.extend(re.findall(r"<loc>([^<]+)</loc>", r2.text))
-            except requests.RequestException:
-                pass
-
-        for loc in all_locs:
-            if any(kw in loc.lower() for kw in ADVISORY_KEYWORDS) and loc not in seen:
-                seen.add(loc)
-                urls.append(loc)
-
-        if urls:
-            break
+            sub = await r2.text()
+            for loc in re.findall(r"<loc>([^<]+)</loc>", sub):
+                loc = unescape(loc)
+                if any(kw in loc.lower() for kw in ADVISORY_KEYWORDS) and loc not in seen:
+                    seen.add(loc)
+                    urls.append(loc)
+        except Exception:
+            pass
 
     return urls
 
 
-def _parse_page(url: str) -> Advisory | None:
+async def _parse_page(page, url: str) -> Advisory | None:
     try:
-        resp = requests.get(url, headers=HEADERS, timeout=30)
-        if resp.status_code != 200:
+        resp = await page.goto(url, wait_until="domcontentloaded", timeout=30000)
+        if resp and resp.status != 200:
             return None
-    except requests.RequestException:
+    except Exception:
         return None
 
-    soup = BeautifulSoup(resp.text, "html.parser")
+    html = await page.content()
+    soup = BeautifulSoup(html, "html.parser")
     text = soup.get_text(" ")
 
     cves = list(dict.fromkeys(c.upper() for c in CVE_RE.findall(text)))
 
-    # Date
     date_str = None
     time_tag = soup.find("time")
     if time_tag:
@@ -94,19 +88,24 @@ def _parse_page(url: str) -> Advisory | None:
     return Advisory(url=url, date=date_str, cve_ids=cves)
 
 
-def scrape() -> list[Advisory]:
-    adv_urls = _get_advisory_urls()
+async def scrape() -> list[Advisory]:
     advisories = []
-    for url in adv_urls:
-        adv = _parse_page(url)
-        if adv:
-            advisories.append(adv)
-        time.sleep(0.15)
+    async with async_playwright() as p:
+        api = await p.request.new_context()
+        browser = await p.chromium.launch()
+        page = await browser.new_page()
+        adv_urls = await _get_advisory_urls(api)
+        for url in adv_urls:
+            adv = await _parse_page(page, url)
+            if adv:
+                advisories.append(adv)
+        await browser.close()
+        await api.dispose()
     return advisories
 
 
 if __name__ == "__main__":
-    advisories = scrape()
+    advisories = [a for a in asyncio.run(scrape()) if a.cve_ids]
     lab = CVELab(lab=LAB, url=URL,
                  scraped_at=datetime.now(timezone.utc),
                  advisories=advisories)

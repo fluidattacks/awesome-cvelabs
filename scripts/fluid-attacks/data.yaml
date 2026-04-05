@@ -1,4 +1,1511 @@
-lab: Fluid Attacks (GitLab)
-url: https://gitlab.com/fluidattacks/universe/-/tree/trunk/airs/front/content/pages/advisories
-scraped_at: '2026-03-17T21:23:16.866424Z'
-advisories: []
+lab: Fluid Attacks
+url: https://fluidattacks.com/advisories
+scraped_at: '2026-04-03T03:07:11.672025Z'
+advisories:
+- url: https://fluidattacks.com/advisories/daft
+  date: 26/03/24
+  cve_ids:
+  - CVE-2026-0540
+  researchers:
+  - Camilo Vera
+  - Cristian Vargas
+  - Scott Moore
+  vendors:
+  - DomPurify
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/fugue
+  date: 26/03/09
+  cve_ids:
+  - CVE-2026-3089
+  researchers:
+  - Juan Patarroyo
+  vendors:
+  - Actual Budget
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/cuarteto
+  date: 26/03/03
+  cve_ids:
+  - CVE-2026-2637
+  researchers:
+  - Oscar Uribe
+  vendors:
+  - iBoysoft
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/neton
+  date: 26/02/27
+  cve_ids:
+  - CVE-2026-2293
+  researchers:
+  - Cristian Vargas
+  vendors:
+  - nest.js
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/jimenez
+  date: 26/02/27
+  cve_ids:
+  - CVE-2026-2880
+  researchers:
+  - Cristian Vargas
+  vendors:
+  - fastify
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/solstafir
+  date: 26/01/30
+  cve_ids:
+  - CVE-2026-0924
+  researchers:
+  - Oscar Uribe
+  vendors:
+  - Dr. Buho
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/ghost
+  date: 26/01/27
+  cve_ids:
+  - CVE-2026-1213
+  researchers:
+  - Daniel Esteban Celis
+  vendors:
+  - Askbot
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/lydian
+  date: 26/01/15
+  cve_ids:
+  - CVE-2025-15265
+  researchers:
+  - Camilo Vera
+  vendors:
+  - sveltejs
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/europe
+  date: 26/01/13
+  cve_ids:
+  - CVE-2025-15104
+  researchers:
+  - Oscar Uribe
+  vendors:
+  - validator
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/diomedes
+  date: 26/01/13
+  cve_ids:
+  - CVE-2025-15056
+  researchers:
+  - Cristian Vargas
+  vendors:
+  - Slab
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/blink182
+  date: 26/01/06
+  cve_ids:
+  - CVE-2025-14979
+  researchers:
+  - Oscar Uribe
+  vendors:
+  - AirVPN
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/greenday
+  date: 25/12/12
+  cve_ids:
+  - CVE-2025-13733
+  researchers:
+  - Oscar Uribe
+  vendors:
+  - Dr.Buho
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/minutos
+  date: 25/12/12
+  cve_ids:
+  - CVE-2025-12843
+  researchers:
+  - Oscar Uribe
+  vendors:
+  - Wave
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/travis
+  date: 25/12/09
+  cve_ids:
+  - CVE-2025-9638
+  researchers:
+  - Marcelo Queiroz
+  vendors:
+  - Portabilis
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/dyango
+  date: 25/12/09
+  cve_ids:
+  - CVE-2025-10655
+  researchers:
+  - Cristian Vargas
+  vendors:
+  - Frappe
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/oz
+  date: 25/11/26
+  cve_ids:
+  - CVE-2025-11461
+  researchers:
+  - Cristian Vargas
+  vendors:
+  - Frappe
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/chick
+  date: 25/11/25
+  cve_ids:
+  - CVE-2025-9624
+  researchers:
+  - Camilo Vera
+  vendors:
+  - OpenSearch
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/muse
+  date: 25/11/24
+  cve_ids:
+  - CVE-2025-11921
+  researchers:
+  - Oscar Uribe
+  vendors:
+  - Bjango
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/freer
+  date: 25/10/03
+  cve_ids:
+  - CVE-2025-10695
+  researchers:
+  - Cristian Vargas
+  vendors:
+  - OpenSupports
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/m83
+  date: 25/10/03
+  cve_ids:
+  - CVE-2025-10751
+  researchers:
+  - Oscar Uribe
+  vendors:
+  - Mac Enhance
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/stratovarius
+  date: 25/10/03
+  cve_ids:
+  - CVE-2025-10696
+  researchers:
+  - Cristian Vargas
+  vendors:
+  - OpenSupports
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/tito
+  date: 25/10/03
+  cve_ids:
+  - CVE-2025-10692
+  researchers:
+  - Cristian Vargas
+  vendors:
+  - OpenSupports
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/registrada
+  date: 25/09/22
+  cve_ids:
+  - CVE-2025-9960
+  researchers:
+  - Cristian Vargas
+  vendors:
+  - is-localhost-ip
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/regida
+  date: 25/09/17
+  cve_ids:
+  - CVE-2025-9862
+  researchers:
+  - Cristian Vargas
+  vendors:
+  - Ghost
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/bacalao
+  date: 25/09/09
+  cve_ids:
+  - CVE-2025-54084
+  researchers:
+  - Danilo Erazo
+  vendors:
+  - Calix
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/rocola
+  date: 25/09/09
+  cve_ids:
+  - CVE-2025-54083
+  researchers:
+  - Danilo Erazo
+  vendors:
+  - Calix
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/sal
+  date: 25/09/09
+  cve_ids:
+  - CVE-2025-7635
+  researchers:
+  - Danilo Erazo
+  vendors:
+  - Calix
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/sheivi
+  date: 25/09/09
+  cve_ids:
+  - CVE-2025-53914
+  researchers:
+  - Danilo Erazo
+  vendors:
+  - Calix
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/forty
+  date: 25/09/09
+  cve_ids:
+  - CVE-2025-53913
+  researchers:
+  - Danilo Erazo
+  vendors:
+  - Calix
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/mono
+  date: 25/09/01
+  cve_ids:
+  - CVE-2025-9375
+  researchers:
+  - Camilo Vera
+  vendors:
+  - xmltodict
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/fito
+  date: 25/08/21
+  cve_ids:
+  - CVE-2025-7969
+  researchers:
+  - Camilo Vera
+  vendors:
+  - Markdown-it
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/cypress
+  date: 25/08/15
+  cve_ids:
+  - CVE-2025-8066
+  researchers:
+  - Johan Giraldo
+  vendors:
+  - Bunkerity
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/cafrune
+  date: 25/08/14
+  cve_ids:
+  - CVE-2025-7961
+  researchers:
+  - Oscar Uribe
+  vendors:
+  - Wulkano
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/charly
+  date: 25/07/25
+  cve_ids:
+  - CVE-2025-8101
+  researchers:
+  - Camilo Vera
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/kino
+  date: 25/07/24
+  cve_ids:
+  - CVE-2025-7404
+  researchers:
+  - Johan Giraldo
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/megadeth
+  date: 25/07/24
+  cve_ids:
+  - CVE-2025-6998
+  researchers:
+  - Johan Giraldo
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/winehouse
+  date: 25/07/02
+  cve_ids:
+  - CVE-2025-52842
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/tort
+  date: 25/07/02
+  cve_ids:
+  - CVE-2025-52841
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/skims-23
+  date: 25/02/28
+  cve_ids:
+  - CVE-2025-0769
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/skims-9
+  date: 25/02/27
+  cve_ids:
+  - CVE-2025-0767
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/skims-10
+  date: 24/03/05
+  cve_ids:
+  - CVE-2025-22624
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/skims-8
+  date: 24/03/05
+  cve_ids:
+  - CVE-2025-22623
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/skims-5
+  date: 25/02/18
+  cve_ids:
+  - CVE-2025-22622
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/kanka
+  date: 24/08/24
+  cve_ids:
+  - CVE-2024-8159
+  researchers:
+  - Andres Roldan
+  vendors:
+  - Faronics Corporation
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/bocelli
+  date: 24/08/14
+  cve_ids:
+  - CVE-2024-6533
+  researchers:
+  - Miguel Gómez
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/capaldi
+  date: 24/08/14
+  cve_ids:
+  - CVE-2024-6534
+  researchers:
+  - Miguel Gómez
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/gershwin
+  date: 24/05/17
+  cve_ids:
+  - CVE-2024-3745
+  researchers:
+  - Andres Roldan
+  vendors:
+  - Micro-Star INT'L CO.
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/cole
+  date: 24/04/22
+  cve_ids:
+  - CVE-2024-1241
+  researchers:
+  - Andres Roldan
+  vendors:
+  - Watchdog
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/dezco
+  date: 24/04/03
+  cve_ids:
+  - CVE-2024-2692
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/hassan
+  date: 24/03/14
+  cve_ids:
+  - CVE-2024-2204
+  researchers:
+  - Andres Roldan
+  vendors:
+  - Zemana Ltd.
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/gomez
+  date: 24/03/14
+  cve_ids:
+  - CVE-2024-2180
+  researchers:
+  - Andres Roldan
+  vendors:
+  - Zemana Ltd.
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/coltrane
+  date: 24/03/06
+  cve_ids:
+  - CVE-2024-1443
+  researchers:
+  - Andres Roldan
+  vendors:
+  - Micro-Star INT'L CO.
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/mingus
+  date: 24/03/06
+  cve_ids:
+  - CVE-2024-1460
+  researchers:
+  - Andres Roldan
+  vendors:
+  - Micro-Star INT'L CO.
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/newman
+  date: 24/02/29
+  cve_ids:
+  - CVE-2024-2045
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/stones
+  date: 24/02/29
+  cve_ids:
+  - CVE-2024-1297
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/oliver
+  date: 24/02/19
+  cve_ids:
+  - CVE-2024-1647
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/drake
+  date: 24/02/19
+  cve_ids:
+  - CVE-2024-1648
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/harris
+  date: 24/01/16
+  cve_ids:
+  - CVE-2024-0403
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/silva
+  date: 24/02/19
+  cve_ids:
+  - CVE-2024-1644
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/xavi
+  date: 24/02/19
+  cve_ids:
+  - CVE-2024-1651
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/fitzgerald
+  date: 24/02/06
+  cve_ids:
+  - CVE-2024-1140
+  researchers:
+  - Andres Roldan
+  vendors:
+  - Filseclab
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/holiday
+  date: 24/02/06
+  cve_ids:
+  - CVE-2024-1096
+  researchers:
+  - Andres Roldan
+  vendors:
+  - Filseclab
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/leon
+  date: 24/02/06
+  cve_ids:
+  - CVE-2023-6388
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/adderley
+  date: 24/01/29
+  cve_ids:
+  - CVE-2024-23439
+  researchers:
+  - Andres Roldan
+  vendors:
+  - VirusBlokAda
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/brubeck
+  date: 24/01/29
+  cve_ids:
+  - CVE-2024-0788
+  researchers:
+  - Andres Roldan
+  vendors:
+  - SUPERAntiSpyware
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/davis
+  date: 24/01/16
+  cve_ids:
+  - CVE-2024-0430
+  researchers:
+  - Andres Roldan
+  vendors:
+  - IObit
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/rollins
+  date: 24/01/29
+  cve_ids:
+  - CVE-2024-23441
+  researchers:
+  - Andres Roldan
+  vendors:
+  - VirusBlokAda
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/arrau
+  date: 24/01/03
+  cve_ids:
+  - CVE-2023-50760
+  researchers:
+  - Andres Roldan
+  vendors:
+  - Kashipara Group
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/evans
+  date: 24/01/03
+  cve_ids:
+  - CVE-2023-50862
+  researchers:
+  - Andres Roldan
+  vendors:
+  - Kashipara Group
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/perahia
+  date: 24/01/02
+  cve_ids:
+  - CVE-2023-50743
+  researchers:
+  - Andres Roldan
+  vendors:
+  - Kashipara Group
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/ma
+  date: 23/12/07
+  cve_ids:
+  - CVE-2023-48433
+  researchers:
+  - Andres Roldan
+  vendors:
+  - Projectworlds Pvt. Limited
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/barenboim
+  date: 23/12/06
+  cve_ids:
+  - CVE-2023-48685
+  researchers:
+  - Andres Roldan
+  vendors:
+  - Projectworlds Pvt. Limited
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/blechacz
+  date: 23/12/06
+  cve_ids:
+  - CVE-2023-5008
+  researchers:
+  - Andres Roldan
+  vendors:
+  - Kashipara Group
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/gilels
+  date: 23/12/06
+  cve_ids:
+  - CVE-2023-48716
+  researchers:
+  - Andres Roldan
+  vendors:
+  - Projectworlds Pvt. Limited
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/kissin
+  date: 23/12/06
+  cve_ids:
+  - CVE-2023-5010
+  researchers:
+  - Andres Roldan
+  vendors:
+  - Kashipara Group
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/lang
+  date: 23/12/06
+  cve_ids:
+  - CVE-2023-49269
+  researchers:
+  - Andres Roldan
+  vendors:
+  - Kashipara Group
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/pollini
+  date: 23/12/06
+  cve_ids:
+  - CVE-2023-49677
+  researchers:
+  - Andres Roldan
+  vendors:
+  - Kashipara Group
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/rubinstein
+  date: 23/12/06
+  cve_ids:
+  - CVE-2023-4122
+  researchers:
+  - Andres Roldan
+  vendors:
+  - Kashipara Group
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/zimerman
+  date: 23/12/06
+  cve_ids:
+  - CVE-2023-49622
+  researchers:
+  - Andres Roldan
+  vendors:
+  - Kashipara Group
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/imagination
+  date: 23/11/20
+  cve_ids:
+  - CVE-2023-6199
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/almighty
+  date: 23/04/10
+  cve_ids:
+  - CVE-2023-6144
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/bunny
+  date: 23/04/10
+  cve_ids:
+  - CVE-2023-6142
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/argerich
+  date: 23/11/02
+  cve_ids:
+  - CVE-2023-45115
+  researchers:
+  - Andres Roldan
+  vendors:
+  - Projectworlds Pvt. Limited
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/netrebko
+  date: 23/11/02
+  cve_ids:
+  - CVE-2023-46677
+  researchers:
+  - Andres Roldan
+  vendors:
+  - Projectworlds Pvt. Limited
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/ros
+  date: 23/11/02
+  cve_ids:
+  - CVE-2023-46785
+  researchers:
+  - Andres Roldan
+  vendors:
+  - Projectworlds Pvt. Limited
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/hann
+  date: 23/11/01
+  cve_ids:
+  - CVE-2023-45323
+  researchers:
+  - Andres Roldan
+  vendors:
+  - Projectworlds Pvt. Limited
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/oconnor
+  date: 23/11/01
+  cve_ids:
+  - CVE-2023-45012
+  researchers:
+  - Andres Roldan
+  vendors:
+  - Projectworlds Pvt. Limited
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/pires
+  date: 23/11/01
+  cve_ids:
+  - CVE-2023-45111
+  researchers:
+  - Andres Roldan
+  vendors:
+  - Projectworlds Pvt. Limited
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/uchida
+  date: 23/11/01
+  cve_ids:
+  - CVE-2023-45201
+  researchers:
+  - Andres Roldan
+  vendors:
+  - Projectworlds Pvt. Limited
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/carpenter
+  date: 23/10/27
+  cve_ids:
+  - CVE-2023-44484
+  researchers:
+  - Andres Roldan
+  vendors:
+  - Projectworlds Pvt. Limited
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/martin
+  date: 23/10/27
+  cve_ids:
+  - CVE-2023-44480
+  researchers:
+  - Andres Roldan
+  vendors:
+  - Projectworlds Pvt. Limited
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/ono
+  date: 23/10/26
+  cve_ids:
+  - CVE-2023-44267
+  researchers:
+  - Andres Roldan
+  vendors:
+  - Projectworlds Pvt. Limited
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/bts
+  date: 23/09/29
+  cve_ids:
+  - CVE-2023-43702
+  researchers:
+  - Takao Sato
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/alcocer
+  date: 23/09/28
+  cve_ids:
+  - CVE-2023-5004
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/filth
+  date: 23/09/28
+  cve_ids:
+  - CVE-2023-43739
+  researchers:
+  - Andres Roldan
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/gaahl
+  date: 23/09/28
+  cve_ids:
+  - CVE-2023-43014
+  researchers:
+  - Andres Roldan
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/harrison
+  date: 23/09/28
+  cve_ids:
+  - CVE-2023-44173
+  researchers:
+  - Andres Roldan
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/mccartney
+  date: 23/09/28
+  cve_ids:
+  - CVE-2023-44174
+  researchers:
+  - Andres Roldan
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/nergal
+  date: 23/09/28
+  cve_ids:
+  - CVE-2023-43013
+  researchers:
+  - Andres Roldan
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/orion
+  date: 23/09/28
+  cve_ids:
+  - CVE-2023-5185
+  researchers:
+  - Andres Roldan
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/shagrath
+  date: 23/09/28
+  cve_ids:
+  - CVE-2023-43740
+  researchers:
+  - Andres Roldan
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/shierro
+  date: 23/09/28
+  cve_ids:
+  - CVE-2023-5053
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/starr
+  date: 23/09/28
+  cve_ids:
+  - CVE-2023-44163
+  researchers:
+  - Andres Roldan
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/swift
+  date: 23/09/28
+  cve_ids:
+  - CVE-2023-4316
+  researchers:
+  - Diana Osorio
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/freebird
+  date: 23/09/25
+  cve_ids:
+  - CVE-2023-4892
+  researchers:
+  - Renzo Machado
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/creed
+  date: 23/08/11
+  cve_ids:
+  - CVE-2023-3726
+  researchers:
+  - Ronald Hernandez
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/aerosmith
+  date: 23/06/01
+  cve_ids:
+  - CVE-2023-3891
+  researchers:
+  - Renzo Machado
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/indio
+  date: 23/07/14
+  cve_ids:
+  - CVE-2023-30791
+  researchers:
+  - Lautaro Casanova
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/maiden
+  date: 23/07/14
+  cve_ids:
+  - CVE-2023-2507
+  researchers:
+  - Adrian Castañeda
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/wyckoff
+  date: 23/06/23
+  cve_ids:
+  - CVE-2023-1722
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/blessd
+  date: 23/06/23
+  cve_ids:
+  - CVE-2023-1721
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/stirling
+  date: 23/06/23
+  cve_ids:
+  - CVE-2023-1783
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/towers
+  date: 23/06/23
+  cve_ids:
+  - CVE-2023-1724
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/arcangel
+  date: 23/04/10
+  cve_ids:
+  - CVE-2023-2533
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/kent
+  date: 24/04/22
+  cve_ids:
+  - CVE-2024-2760
+  researchers:
+  - Andres Roldan
+  vendors:
+  - Bkav Corporation
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/napoli
+  date: 23/04/17
+  cve_ids:
+  - CVE-2023-1031
+  researchers:
+  - Lautaro Casanova
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/calamaro
+  date: 23/04/10
+  cve_ids:
+  - CVE-2023-0959
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/eilish
+  date: 23/04/10
+  cve_ids:
+  - CVE-2023-0738
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/ingrosso
+  date: 23/04/10
+  cve_ids:
+  - CVE-2023-0967
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/myers
+  date: 23/04/10
+  cve_ids:
+  - CVE-2023-0842
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/quayle
+  date: 23/04/10
+  cve_ids:
+  - CVE-2023-0357
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/relsb
+  date: 23/04/10
+  cve_ids:
+  - CVE-2023-0835
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/scott
+  date: 23/04/10
+  cve_ids:
+  - CVE-2023-0670
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/sharp
+  date: 23/04/10
+  cve_ids:
+  - CVE-2023-0480
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/smith
+  date: 23/04/10
+  cve_ids:
+  - CVE-2023-0486
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/stewart
+  date: 23/04/10
+  cve_ids:
+  - CVE-2023-0944
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/labrinth
+  date: 23/04/10
+  cve_ids:
+  - CVE-2023-0325
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/supply
+  date: 23/04/04
+  cve_ids:
+  - CVE-2023-0265
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/solveig
+  date: 23/09/20
+  cve_ids:
+  - CVE-2023-2508
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/oberhofer
+  date: 23/02/13
+  cve_ids:
+  - CVE-2023-0624
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/alesso
+  date: 24/02/06
+  cve_ids:
+  - CVE-2024-0849
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/slushii
+  date: 23/01/30
+  cve_ids:
+  - CVE-2023-0454
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/queen
+  date: 23/01/16
+  cve_ids:
+  - CVE-2023-0164
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/miller
+  date: 23/01/10
+  cve_ids:
+  - CVE-2022-4235
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/garrix
+  date: 22/11/29
+  cve_ids:
+  - CVE-2022-0698
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/mosey
+  date: 22/11/21
+  cve_ids:
+  - CVE-2022-23044
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/malone
+  date: 22/11/21
+  cve_ids:
+  - CVE-2022-43984
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/kiniza
+  date: 22/11/21
+  cve_ids:
+  - CVE-2022-41712
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/headhunterz
+  date: 22/11/16
+  cve_ids:
+  - CVE-2022-41705
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/heldens
+  date: 22/11/15
+  cve_ids:
+  - CVE-2022-41713
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/eminem
+  date: 22/10/28
+  cve_ids:
+  - CVE-2022-41706
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/khalid
+  date: 22/10/28
+  cve_ids:
+  - CVE-2022-43983
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/hardway
+  date: 22/10/27
+  cve_ids:
+  - CVE-2022-42753
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/londra
+  date: 22/10/27
+  cve_ids:
+  - CVE-2022-42751
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/castles
+  date: 22/10/27
+  cve_ids:
+  - CVE-2022-42750
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/modestep
+  date: 22/10/26
+  cve_ids:
+  - CVE-2022-42746
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/mohawke
+  date: 22/10/25
+  cve_ids:
+  - CVE-2022-42744
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/buuren
+  date: 22/10/19
+  cve_ids:
+  - CVE-2022-42743
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/guetta
+  date: 22/10/19
+  cve_ids:
+  - CVE-2022-41714
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/noisestorm
+  date: 22/10/18
+  cve_ids:
+  - CVE-2022-41710
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/harlow
+  date: 22/10/18
+  cve_ids:
+  - CVE-2022-41711
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/adams
+  date: 22/10/14
+  cve_ids:
+  - CVE-2022-41709
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/tiesto
+  date: 22/10/14
+  cve_ids:
+  - CVE-2022-41708
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/coldplay
+  date: 22/10/14
+  cve_ids:
+  - CVE-2022-41707
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/skrillex
+  date: 22/09/26
+  cve_ids:
+  - CVE-2022-40277
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/avicii
+  date: 22/09/26
+  cve_ids:
+  - CVE-2022-40276
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/marshmello
+  date: 22/09/26
+  cve_ids:
+  - CVE-2022-40274
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/tyler
+  date: 22/06/01
+  cve_ids:
+  - CVE-2022-1716
+  researchers:
+  - Carlos Bello
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/lennon
+  date: 22/05/17
+  cve_ids:
+  - CVE-2022-25224
+  researchers:
+  - Oscar Uribe
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/bowie
+  date: 22/05/17
+  cve_ids:
+  - CVE-2022-25229
+  researchers:
+  - Oscar Uribe
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/jackson
+  date: 22/07/19
+  cve_ids:
+  - CVE-2022-25228
+  researchers:
+  - Oscar Uribe
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/clapton
+  date: 22/05/17
+  cve_ids:
+  - CVE-2022-25227
+  researchers:
+  - Oscar Uribe
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/sinatra
+  date: 22/04/13
+  cve_ids:
+  - CVE-2022-25226
+  researchers:
+  - Oscar Uribe
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/charles
+  date: 22/03/15
+  cve_ids:
+  - CVE-2022-25221
+  researchers:
+  - Oscar Uribe
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/jagger
+  date: 22/03/15
+  cve_ids:
+  - CVE-2022-25223
+  researchers:
+  - Oscar Uribe
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/berry
+  date: 22/03/15
+  cve_ids:
+  - CVE-2022-25222
+  researchers:
+  - Oscar Uribe
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/spinetta
+  date: 22/02/07
+  cve_ids:
+  - CVE-2022-25225
+  researchers:
+  - Oscar Uribe
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/armstrong
+  date: 22/02/23
+  cve_ids:
+  - CVE-2022-25220
+  researchers:
+  - Oscar Uribe
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/porter
+  date: null
+  cve_ids:
+  - CVE-2022-22700
+  researchers:
+  - Andres Roldan
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/brown
+  date: 22/02/23
+  cve_ids:
+  - CVE-2022-23051
+  researchers:
+  - Oscar Uribe
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/cerati
+  date: 22/02/09
+  cve_ids:
+  - CVE-2022-23050
+  researchers:
+  - Andres Roldan
+  - Oscar Uribe
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/jett
+  date: 22/02/23
+  cve_ids:
+  - CVE-2022-23052
+  researchers:
+  - Oscar Uribe
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/cobain
+  date: 22/02/03
+  cve_ids:
+  - CVE-2022-23049
+  researchers:
+  - Oscar Uribe
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/dylan
+  date: 22/02/03
+  cve_ids:
+  - CVE-2022-23048
+  researchers:
+  - Oscar Uribe
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/franklin
+  date: 22/02/03
+  cve_ids:
+  - CVE-2022-23047
+  researchers:
+  - Oscar Uribe
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/simone
+  date: 22/02/18
+  cve_ids:
+  - CVE-2022-23043
+  researchers:
+  - Oscar Uribe
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/mercury
+  date: 22/01/18
+  cve_ids:
+  - CVE-2022-23046
+  researchers:
+  - Oscar Uribe
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/osbourne
+  date: 22/01/18
+  cve_ids:
+  - CVE-2022-23045
+  researchers:
+  - Oscar Uribe
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/hendrix
+  date: 22/01/09
+  cve_ids:
+  - CVE-2022-22701
+  researchers:
+  - Oscar Uribe
+  vendors: []
+  cve_count: 1
+- url: https://fluidattacks.com/advisories/joplin
+  date: 22/01/09
+  cve_ids:
+  - CVE-2022-22702
+  researchers:
+  - Oscar Uribe
+  vendors: []
+  cve_count: 1

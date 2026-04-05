@@ -1,122 +1,93 @@
 #!/usr/bin/env python3
-"""Google Project Zero scraper. Outputs data.json.
-Source: Monorail Issues API → issue detail pages → date, CVE IDs, researchers, vendors.
+"""Google Project Zero scraper — Playwright edition.
+Source: Project Zero blog Blogger JSON feed → post titles/content → CVE IDs, dates.
+Note: Monorail issue tracker was migrated to Google Issue Tracker (no public API).
 """
-import re, sys, time
+import asyncio, re, sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-import requests
-from bs4 import BeautifulSoup
+from playwright.async_api import async_playwright
 
 sys.path.insert(0, str(Path(__file__).parents[2]))
 from lab_model import CVELab, Advisory
 
 LAB = "Google Project Zero"
-URL = "https://bugs.chromium.org/p/project-zero/issues"
-ISSUES_URL = "https://bugs.chromium.org/prpc/monorail.Issues/ListIssues"
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (compatible; awesome-cvelabs-scraper/1.0)",
-    "Accept": "application/json",
-}
+URL = "https://googleprojectzero.blogspot.com/"
+BLOG_ID = "4838136820032157985"
+FEED_BASE = f"https://googleprojectzero.blogspot.com/feeds/posts/default"
 CVE_RE = re.compile(r"CVE-\d{4}-\d{4,5}", re.IGNORECASE)
+MAX_PAGES = 20  # up to 1000 posts
 
 
-def _get_issue_urls() -> list[str]:
-    payload = {
-        "projectName": "project-zero",
-        "query": "Disclosed=Yes",
-        "canValue": 1,
-        "pagination": {"maxItems": 1000, "start": 0},
-    }
-    seen: set[str] = set()
-    urls = []
-
-    try:
-        resp = requests.post(ISSUES_URL, json=payload, headers=HEADERS, timeout=30)
-        if resp.status_code == 200:
-            data = resp.json()
-            for issue in data.get("issues", []):
-                iid = issue.get("localId") or issue.get("issueId")
-                if iid:
-                    url = f"{URL}/detail?id={iid}"
-                    if url not in seen:
-                        seen.add(url)
-                        urls.append(url)
-    except Exception as e:
-        print(f"  API error: {e}")
-
-    # Fallback: static HTML list
-    if not urls:
-        try:
-            resp2 = requests.get(f"{URL}/list?can=1&q=&sort=-id&num=1000", headers=HEADERS, timeout=30)
-            resp2.raise_for_status()
-            ids = re.findall(r"detail\?id=(\d+)", resp2.text)
-            for iid in ids:
-                url = f"{URL}/detail?id={iid}"
-                if url not in seen:
-                    seen.add(url)
-                    urls.append(url)
-        except Exception as e:
-            print(f"  Fallback error: {e}")
-
-    urls.sort(key=lambda u: int(re.search(r"id=(\d+)", u).group(1)) if re.search(r"id=(\d+)", u) else 0, reverse=True)
-    return urls
-
-
-def _parse_issue(url: str) -> Advisory | None:
-    try:
-        resp = requests.get(url, headers=HEADERS, timeout=30)
-        if resp.status_code != 200:
-            return Advisory(url=url)
-    except requests.RequestException:
-        return Advisory(url=url)
-
-    soup = BeautifulSoup(resp.text, "html.parser")
-    text = soup.get_text(" ")
-
-    cves = list(dict.fromkeys(c.upper() for c in CVE_RE.findall(text)))
-
-    # Date
-    date_str = None
-    m = re.search(r"(\d{4}-\d{2}-\d{2})", text)
-    if m:
-        try:
-            dt = datetime.strptime(m.group(1), "%Y-%m-%d")
-            date_str = dt.strftime("%y/%m/%d")
-        except ValueError:
-            pass
-
-    return Advisory(url=url, date=date_str, cve_ids=cves)
-
-
-def scrape() -> list[Advisory]:
-    issue_urls = _get_issue_urls()
-
-    # If we can't reach the API, fall back to urls.lst
-    if not issue_urls:
-        urls_lst = Path(__file__).parent / "urls.lst"
-        if urls_lst.exists():
-            with open(urls_lst) as f:
-                issue_urls = [l.strip() for l in f if l.strip()]
-            print(f"  Loaded {len(issue_urls)} URLs from urls.lst")
-
+async def scrape() -> list[Advisory]:
     advisories = []
-    for url in issue_urls[:200]:  # Limit to avoid excessive requests
-        adv = _parse_issue(url)
-        if adv:
-            advisories.append(adv)
-        time.sleep(0.15)
+    seen_cves: set[str] = set()
 
-    # For remaining URLs beyond limit, add URL-only entries
-    for url in issue_urls[200:]:
-        advisories.append(Advisory(url=url))
+    async with async_playwright() as p:
+        api = await p.request.new_context()
+        start = 1
+        per_page = 50
+
+        # First: get total item count from the feed metadata
+        try:
+            meta_resp = await api.get(FEED_BASE, params={"alt": "json", "max-results": 1})
+            meta = await meta_resp.json()
+            total = int(meta.get("feed", {}).get("openSearch$totalResults", {}).get("$t", 0))
+            print(f"  Blog total posts: {total}")
+        except Exception:
+            total = MAX_PAGES * per_page
+
+        while start <= total + 1:
+            try:
+                resp = await api.get(
+                    FEED_BASE,
+                    params={"alt": "json", "max-results": per_page, "start-index": start},
+                )
+                if resp.status != 200:
+                    break
+                data = await resp.json()
+            except Exception as e:
+                print(f"  Feed error at start={start}: {e}")
+                break
+
+            entries = data.get("feed", {}).get("entry", [])
+            if not entries:
+                break
+
+            for entry in entries:
+                title = entry.get("title", {}).get("$t", "")
+                content = entry.get("content", {}).get("$t", "") or \
+                          entry.get("summary", {}).get("$t", "")
+                link_obj = next((l for l in entry.get("link", []) if l.get("rel") == "alternate"), None)
+                post_url = link_obj["href"] if link_obj else URL
+
+                date_str = None
+                pub = entry.get("published", {}).get("$t", "")
+                if pub:
+                    try:
+                        dt = datetime.fromisoformat(pub[:10])
+                        date_str = dt.strftime("%y/%m/%d")
+                    except ValueError:
+                        pass
+
+                cves = [c.upper() for c in CVE_RE.findall(title + " " + content)]
+                new_cves = [c for c in dict.fromkeys(cves) if c not in seen_cves]
+                for c in new_cves:
+                    seen_cves.add(c)
+
+                if new_cves or post_url != URL:
+                    advisories.append(Advisory(url=post_url, date=date_str, cve_ids=new_cves))
+
+            start += per_page
+
+        await api.dispose()
 
     return advisories
 
 
 if __name__ == "__main__":
-    advisories = scrape()
+    advisories = [a for a in asyncio.run(scrape()) if a.cve_ids]
     lab = CVELab(lab=LAB, url=URL,
                  scraped_at=datetime.now(timezone.utc),
                  advisories=advisories)

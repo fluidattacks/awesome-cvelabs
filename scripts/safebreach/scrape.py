@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
-"""SafeBreach Labs scraper. Outputs data.json.
+"""SafeBreach Labs scraper — Playwright edition.
 Source: WordPress REST API /wp-json/wp/v2/vulnerability → date, CVE IDs, vendors, researchers.
-Vendor and researcher extracted from post title and content.
 """
-import re, sys, time
+import asyncio, re, sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-import requests
 from bs4 import BeautifulSoup
+from playwright.async_api import async_playwright
 
 sys.path.insert(0, str(Path(__file__).parents[2]))
 from lab_model import CVELab, Advisory
@@ -16,7 +15,6 @@ from lab_model import CVELab, Advisory
 LAB = "SafeBreach Labs"
 URL = "https://www.safebreach.com/blog/research/"
 API_BASE = "https://www.safebreach.com/wp-json/wp/v2/vulnerability"
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; awesome-cvelabs-scraper/1.0)"}
 CVE_RE = re.compile(r"CVE-\d{4}-\d{4,5}", re.IGNORECASE)
 
 
@@ -29,47 +27,43 @@ def _wp_date(date_str: str) -> str | None:
 
 
 def _vendor_from_title(title: str) -> list[str]:
-    """Extract product name from post title."""
-    # "Hacking Microsoft Copilot" → "Microsoft Copilot"
-    # "CVE-2024-XXXX: Product Name RCE" → "Product Name"
     clean = re.sub(r"CVE-\d{4}-\d+[:\s]*", "", title, flags=re.IGNORECASE).strip()
-    # Remove trailing attack type words
     clean = re.sub(r"\s*(RCE|LPE|SSRF|XSS|SQLI|Auth Bypass|Vulnerability|0-[Dd]ay|Exploit)\s*$", "", clean).strip()
-    # Remove "Hacking " prefix
     clean = re.sub(r"^Hacking\s+", "", clean, flags=re.IGNORECASE).strip()
     if clean and 2 < len(clean) < 80:
         return [clean]
     return []
 
 
-def scrape() -> list[Advisory]:
+async def scrape() -> list[Advisory]:
     all_posts = []
-    page = 1
-    while True:
-        try:
-            resp = requests.get(API_BASE,
-                                params={"per_page": 100, "page": page},
-                                headers=HEADERS, timeout=30)
-            if resp.status_code == 400:
+    async with async_playwright() as p:
+        api = await p.request.new_context()
+        page_num = 1
+        while True:
+            try:
+                resp = await api.get(API_BASE, params={"per_page": 100, "page": page_num})
+                if resp.status == 400:
+                    break
+                if resp.status != 200:
+                    break
+                data = await resp.json()
+                if not data:
+                    break
+                all_posts.extend(data)
+                if page_num == 1:
+                    total = int(resp.headers.get("x-wp-total") or 0)
+                    total_pages = int(resp.headers.get("x-wp-totalpages") or 1)
+                    print(f"  Total: {total} posts, {total_pages} pages")
+                    if len(data) >= total:
+                        break
+                if len(data) < 100:
+                    break
+                page_num += 1
+            except Exception as e:
+                print(f"  Error page {page_num}: {e}")
                 break
-            resp.raise_for_status()
-        except requests.RequestException as e:
-            print(f"  Error page {page}: {e}")
-            break
-        data = resp.json()
-        if not data:
-            break
-        all_posts.extend(data)
-        if page == 1:
-            total = int(resp.headers.get("X-WP-Total", 0))
-            total_pages = int(resp.headers.get("X-WP-TotalPages", 1))
-            print(f"  Total: {total} posts, {total_pages} pages")
-            if len(data) >= total:
-                break
-        if len(data) < 100:
-            break
-        page += 1
-        time.sleep(0.1)
+        await api.dispose()
 
     advisories = []
     seen_cves: set[str] = set()
@@ -91,7 +85,6 @@ def scrape() -> list[Advisory]:
 
         vendor = _vendor_from_title(title)
 
-        # Researcher: look for "by <Name>" in content or author field
         researcher = []
         m = re.search(r"\bby\s+([A-Z][a-z]+(?:\s+[A-Z][a-z]+){1,3})", content)
         if m:
@@ -106,7 +99,7 @@ def scrape() -> list[Advisory]:
 
 
 if __name__ == "__main__":
-    advisories = scrape()
+    advisories = [a for a in asyncio.run(scrape()) if a.cve_ids]
     lab = CVELab(lab=LAB, url=URL,
                  scraped_at=datetime.now(timezone.utc),
                  advisories=advisories)

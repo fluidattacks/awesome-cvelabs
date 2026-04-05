@@ -1,4 +1,76 @@
 lab: SentinelOne
 url: https://www.sentinelone.com/labs/our-cves/
-scraped_at: '2026-03-17T21:23:19.437440Z'
-advisories: []
+scraped_at: '2026-04-03T03:18:04.042486Z'
+advisories:
+- url: https://www.sentinelone.com/labs/firefox-jit-use-after-frees-exploiting-cve-2020-26950/
+  date: 22/02/03
+  cve_ids:
+  - CVE-2020-26950
+  researchers:
+  - an attacker
+  vendors: []
+  cve_count: 1
+- url: https://www.sentinelone.com/labs/cve-2021-45608-netusb-rce-flaw-in-millions-of-end-user-routers/
+  date: 22/01/11
+  cve_ids:
+  - CVE-2021-45608
+  researchers:
+  - a large number of network device vendors and affec
+  vendors: []
+  cve_count: 1
+- url: https://www.sentinelone.com/labs/tipc-remote-linux-kernel-heap-overflow-allows-arbitrary-code-execution/
+  date: 21/11/04
+  cve_ids:
+  - CVE-2021-43267
+  researchers:
+  - describing what they look like
+  vendors: []
+  cve_count: 1
+- url: https://www.sentinelone.com/labs/cve-2021-3437-hp-omen-gaming-hub-privilege-escalation-bug-hits-millions-of-gaming-devices/
+  date: 21/09/14
+  cve_ids:
+  - CVE-2021-3437
+  researchers:
+  - device drivers with exposed IOCTLs handlers to low
+  vendors: []
+  cve_count: 1
+- url: https://www.sentinelone.com/labs/hotcobalt-new-cobalt-strike-dos-vulnerability-that-lets-you-halt-operations/
+  date: 21/08/04
+  cve_ids:
+  - CVE-2021-36798
+  researchers:
+  - red teams and attackers alike
+  vendors: []
+  cve_count: 1
+- url: https://www.sentinelone.com/labs/cve-2021-3438-16-years-in-hiding-millions-of-printers-worldwide-vulnerable/
+  date: 21/07/20
+  cve_ids:
+  - CVE-2021-3438
+  researchers:
+  - Process Hacker  once again
+  vendors: []
+  cve_count: 1
+- url: https://www.sentinelone.com/labs/cve-2021-21551-hundreds-of-millions-of-dell-computers-at-risk-due-to-multiple-bios-driver-privilege-escalation-flaws/
+  date: 21/05/04
+  cve_ids:
+  - CVE-2021-21551
+  researchers:
+  - 'a non-privileged user:'
+  vendors: []
+  cve_count: 1
+- url: https://www.sentinelone.com/labs/cve-2021-24092-12-years-in-hiding-a-privilege-escalation-vulnerability-in-windows-defender/
+  date: 21/02/10
+  cve_ids:
+  - CVE-2021-24092
+  researchers:
+  - default on every Windows machine (more than  1 bil
+  vendors: []
+  cve_count: 1
+- url: https://www.sentinelone.com/labs/a-click-from-the-backyard-analysis-of-cve-2020-9332-a-vulnerable-usb-redirection-software/
+  date: 20/06/17
+  cve_ids:
+  - CVE-2020-9332
+  researchers:
+  - either adding a virtual keyboard or other devices
+  vendors: []
+  cve_count: 1

@@ -1,6 +1,6 @@
 lab: SafeBreach Labs
 url: https://www.safebreach.com/blog/research/
-scraped_at: '2026-03-17T22:23:31.996209Z'
+scraped_at: '2026-04-03T03:13:20.775753Z'
 advisories:
 - url: https://www.safebreach.com/vulnerability/cve-2025-59199/
   date: 26/01/26
@@ -149,12 +149,6 @@ advisories:
   researchers: []
   vendors: []
   cve_count: 1
-- url: https://www.safebreach.com/vulnerability/141047/
-  date: 22/12/08
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
 - url: https://www.safebreach.com/vulnerability/cve-2022-4173/
   date: 22/11/10
   cve_ids:

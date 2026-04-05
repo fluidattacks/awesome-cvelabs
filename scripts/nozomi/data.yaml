@@ -1,55 +1,173 @@
 lab: Nozomi Networks
 url: https://www.nozominetworks.com/vulnerability-advisories
-scraped_at: '2026-03-17T21:23:27.398186Z'
+scraped_at: '2026-04-03T03:12:48.223352Z'
 advisories:
-- url: https://www.nozominetworks.com/solutions/iot-ot-vulnerability-management
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
 - url: https://www.nozominetworks.com/vulnerability-advisories
   date: null
-  cve_ids: []
+  cve_ids:
+  - CVE-2025-41660
+  - CVE-2026-22323
+  - CVE-2026-22322
+  - CVE-2026-22318
+  - CVE-2026-22320
+  - CVE-2026-22317
+  - CVE-2026-22319
+  - CVE-2026-22316
+  - CVE-2026-22321
+  - CVE-2026-2273
+  - CVE-2026-22614
+  - CVE-2026-3588
+  - CVE-2026-26098
+  - CVE-2026-26101
+  - CVE-2026-26099
+  - CVE-2026-26100
+  - CVE-2026-26102
+  - CVE-2026-26096
+  - CVE-2026-26094
+  - CVE-2026-26095
+  - CVE-2026-26093
+  - CVE-2026-2333
+  - CVE-2026-26097
+  - CVE-2025-52600
+  - CVE-2025-52599
+  - CVE-2025-8075
+  - CVE-2025-52601
+  - CVE-2025-52598
+  - CVE-2025-41728
+  - CVE-2025-41726
+  - CVE-2025-41727
+  - CVE-2025-59890
+  - CVE-2025-11243
+  - CVE-2025-12056
+  - CVE-2025-11678
+  - CVE-2025-11680
+  - CVE-2025-11677
+  - CVE-2025-11679
+  - CVE-2025-62688
+  - CVE-2025-60023
+  - CVE-2025-58429
+  - CVE-2025-59776
+  - CVE-2025-61977
+  - CVE-2025-62498
+  - CVE-2025-61934
+  - CVE-2025-58078
+  - CVE-2025-58456
+  - CVE-2025-53947
+  - CVE-2025-54754
+  - CVE-2025-47698
+  - CVE-2025-52873
+  - CVE-2025-54810
+  - CVE-2025-54497
+  - CVE-2025-53969
+  - CVE-2025-54818
+  - CVE-2025-54860
+  - CVE-2025-57882
+  - CVE-2025-55069
+  - CVE-2025-55038
+  - CVE-2025-58069
+  - CVE-2025-58473
+  - CVE-2025-54855
+  - CVE-2025-59484
+  - CVE-2025-41658
+  - CVE-2025-41659
+  - CVE-2025-41665
+  - CVE-2025-41668
+  - CVE-2025-41667
+  - CVE-2025-41666
+  - CVE-2025-36513
+  - CVE-2025-3944
+  - CVE-2025-3945
+  - CVE-2025-3943
+  - CVE-2025-3942
+  - CVE-2025-3936
+  - CVE-2025-3939
+  - CVE-2025-3938
+  - CVE-2025-3937
+  - CVE-2025-3941
+  - CVE-2025-3940
+  - CVE-2025-40583
+  - CVE-2025-40573
+  - CVE-2025-40579
+  - CVE-2025-40580
+  - CVE-2025-40578
+  - CVE-2025-40577
+  - CVE-2025-40576
+  - CVE-2025-40582
+  - CVE-2025-40581
+  - CVE-2025-40574
+  - CVE-2025-40572
+  - CVE-2025-40575
+  - CVE-2025-1399
+  - CVE-2025-1400
+  - CVE-2025-32405
+  - CVE-2025-32404
+  - CVE-2025-32403
+  - CVE-2025-32399
+  - CVE-2025-32402
+  - CVE-2025-32401
   researchers: []
   vendors: []
-  cve_count: 0
-- url: https://www.nozominetworks.com/platform/vulnerabilities-product-tour
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
-- url: https://www.nozominetworks.com/product-tours/vulnerability-management
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
+  cve_count: 100
 - url: https://www.nozominetworks.com/blog/14-vulnerabilities-discovered-in-phoenix-contact-hmis
   date: null
-  cve_ids: []
+  cve_ids:
+  - CVE-2023-3570
+  - CVE-2023-3571
+  - CVE-2023-3572
+  - CVE-2023-3573
+  - CVE-2023-37860
+  - CVE-2023-37861
+  - CVE-2023-37862
+  - CVE-2023-37863
+  - CVE-2023-37864
+  - CVE-2023-37859
+  - CVE-2023-37855
+  - CVE-2023-37856
+  - CVE-2023-37857
+  - CVE-2023-37858
   researchers: []
   vendors: []
-  cve_count: 0
+  cve_count: 14
 - url: https://www.nozominetworks.com/blog/19-new-vulnerabilities-found-in-sel-real-time-automation-controllers
   date: null
-  cve_ids: []
+  cve_ids:
+  - CVE-2023-31148
+  - CVE-2023-31149
+  - CVE-2023-31150
+  - CVE-2023-31151
+  - CVE-2023-31152
+  - CVE-2023-31153
+  - CVE-2023-31154
+  - CVE-2023-31155
+  - CVE-2023-31156
+  - CVE-2023-31157
+  - CVE-2023-31158
+  - CVE-2023-31159
+  - CVE-2023-31160
+  - CVE-2023-31161
+  - CVE-2023-31163
+  - CVE-2023-31164
+  - CVE-2023-31165
+  - CVE-2023-31166
+  - CVE-2023-31162
   researchers: []
   vendors: []
-  cve_count: 0
-- url: https://www.nozominetworks.com/blog/37-vulnerabilities-in-openflow-libfluid-msg-parsing-library
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
+  cve_count: 19
 - url: https://www.nozominetworks.com/blog/9-new-vulnerabilities-impact-schweitzer-engineering-labs-software
   date: null
-  cve_ids: []
+  cve_ids:
+  - CVE-2023-31175
+  - CVE-2023-34392
+  - CVE-2023-31173
+  - CVE-2023-31174
+  - CVE-2023-31170
+  - CVE-2023-31171
+  - CVE-2023-31172
+  - CVE-2023-31168
+  - CVE-2023-31169
   researchers: []
   vendors: []
-  cve_count: 0
+  cve_count: 9
 - url: https://www.nozominetworks.com/blog/act-now-on-critical-microsoft-smb-vulnerability-cve-2020-0796
   date: null
   cve_ids:
@@ -57,360 +175,371 @@ advisories:
   researchers: []
   vendors: []
   cve_count: 1
-- url: https://www.nozominetworks.com/blog/critical-vulnerabilities-found-in-tridium-niagara-framework
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
 - url: https://www.nozominetworks.com/blog/dji-mavic-3-drone-research-part-2-vulnerability-analysis
   date: null
-  cve_ids: []
+  cve_ids:
+  - CVE-2023-6951
+  - CVE-2023-6950
+  - CVE-2023-6948
+  - CVE-2023-51452
+  - CVE-2023-51453
+  - CVE-2023-51454
+  - CVE-2023-51455
+  - CVE-2023-51456
+  - CVE-2023-6949
   researchers: []
   vendors: []
-  cve_count: 0
-- url: https://www.nozominetworks.com/blog/extract-firmware-from-ot-devices-for-vulnerability-research
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
+  cve_count: 9
 - url: https://www.nozominetworks.com/blog/five-new-vulnerabilities-disclosed-in-patient-monitoring-systems
   date: null
-  cve_ids: []
+  cve_ids:
+  - CVE-2021-43548
+  - CVE-2021-32993
+  - CVE-2021-33017
+  - CVE-2021-43550
+  - CVE-2021-43552
   researchers: []
   vendors: []
-  cve_count: 0
+  cve_count: 5
 - url: https://www.nozominetworks.com/blog/five-vulnerabilities-on-sel-451-allow-authentication-bypass-and-dos
   date: null
-  cve_ids: []
+  cve_ids:
+  - CVE-2023-31176
+  - CVE-2023-34388
+  - CVE-2023-34389
+  - CVE-2023-34390
+  - CVE-2023-31177
+  - CVE-2023-31776
   researchers: []
   vendors: []
-  cve_count: 0
+  cve_count: 6
 - url: https://www.nozominetworks.com/blog/four-vulnerabilities-in-beckhoff-twincat-bsd-could-allow-plc-logic-tampering-dos
   date: null
-  cve_ids: []
+  cve_ids:
+  - CVE-2024-41173
+  - CVE-2024-41174
+  - CVE-2024-41176
+  - CVE-2024-41175
   researchers: []
   vendors: []
-  cve_count: 0
+  cve_count: 4
 - url: https://www.nozominetworks.com/blog/ge-healthcare-vivid-ultrasound-vulnerabilities
   date: null
-  cve_ids: []
+  cve_ids:
+  - CVE-2024-27107
+  - CVE-2020-6977
+  - CVE-2024-1628
+  - CVE-2024-27110
+  - CVE-2024-1630
+  - CVE-2024-27109
+  - CVE-2024-1486
+  - CVE-2024-27108
+  - CVE-2024-1629
+  - CVE-2024-27106
   researchers: []
   vendors: []
-  cve_count: 0
-- url: https://www.nozominetworks.com/blog/how-the-national-vulnerability-database-could-be-abused-to-spread-malware
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
+  cve_count: 10
 - url: https://www.nozominetworks.com/blog/hunting-the-mongoose-discovering-10-vulnerabilities-in-the-mongoose-web-server-library
   date: null
-  cve_ids: []
+  cve_ids:
+  - CVE-2024-42386
+  - CVE-2024-42384
+  - CVE-2024-42383
+  - CVE-2024-42385
+  - CVE-2024-42387
+  - CVE-2024-42388
+  - CVE-2024-42389
+  - CVE-2024-42390
+  - CVE-2024-42391
+  - CVE-2024-42392
   researchers: []
   vendors: []
-  cve_count: 0
-- url: https://www.nozominetworks.com/blog/major-power-outage-hits-spain-and-portugal-spotlight-on-critical-energy-infrastructure-vulnerabilities
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
-- url: https://www.nozominetworks.com/blog/methods-for-extracting-firmware-from-ot-devices-for-vulnerability-research
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
+  cve_count: 10
 - url: https://www.nozominetworks.com/blog/moveit-vulnerabilities-hacked-what-critical-infrastructure-organizations-can-do-to-stay-safe
   date: null
-  cve_ids: []
+  cve_ids:
+  - CVE-2023-34362
   researchers: []
   vendors: []
-  cve_count: 0
+  cve_count: 1
 - url: https://www.nozominetworks.com/blog/new-annke-vulnerability-shows-risks-of-iot-security-camera-systems
   date: null
-  cve_ids: []
+  cve_ids:
+  - CVE-2021-32941
   researchers: []
   vendors: []
-  cve_count: 0
-- url: https://www.nozominetworks.com/blog/new-iot-security-risk-throughtek-p2p-supply-chain-vulnerability
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
+  cve_count: 1
 - url: https://www.nozominetworks.com/blog/new-reolink-p2p-vulnerabilities-show-iot-security-camera-risks
   date: null
-  cve_ids: []
+  cve_ids:
+  - CVE-2020-25169
+  - CVE-2020-25173
   researchers: []
   vendors: []
-  cve_count: 0
-- url: https://www.nozominetworks.com/blog/new-report-ransomware-vulnerabilities-and-iot-security-threats
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
-- url: https://www.nozominetworks.com/blog/new-report-top-ot-iot-security-threats-and-vulnerabilities
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
-- url: https://www.nozominetworks.com/blog/new-research-uncovers-5-vulnerabilities-in-mitsubishi-safety-plcs
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
+  cve_count: 2
 - url: https://www.nozominetworks.com/blog/new-switch-vulnerability-discovered-by-nozomi-networks-labs
   date: null
-  cve_ids: []
+  cve_ids:
+  - CVE-2019-10942
   researchers: []
   vendors: []
-  cve_count: 0
+  cve_count: 1
 - url: https://www.nozominetworks.com/blog/nozomi-networks-discovers-nine-vulnerabilities-affecting-sewio-rtls-studio
   date: null
-  cve_ids: []
+  cve_ids:
+  - CVE-2022-45444
+  - CVE-2022-47911
+  - CVE-2022-43483
+  - CVE-2022-41989
+  - CVE-2022-45127
+  - CVE-2022-47395
+  - CVE-2022-47917
+  - CVE-2022-46733
+  - CVE-2022-43455
   researchers: []
   vendors: []
-  cve_count: 0
+  cve_count: 9
 - url: https://www.nozominetworks.com/blog/nozomi-networks-discovers-three-vulnerabilities-affecting-bluemark-dronescout-ds230-remote-id-receiver
   date: null
-  cve_ids: []
+  cve_ids:
+  - CVE-2023-31191
+  - CVE-2023-31190
+  - CVE-2023-29156
   researchers: []
   vendors: []
-  cve_count: 0
+  cve_count: 3
 - url: https://www.nozominetworks.com/blog/nozomi-networks-discovers-vulnerability-in-siemens-building-automation-software
   date: null
-  cve_ids: []
+  cve_ids:
+  - CVE-2022-24040
   researchers: []
   vendors: []
-  cve_count: 0
+  cve_count: 1
 - url: https://www.nozominetworks.com/blog/nozomi-networks-labs-announces-vulnerabilities-affecting-the-ailux-rtu62351b-and-the-codename-i11usion-whitepaper
   date: null
-  cve_ids: []
+  cve_ids:
+  - CVE-2023-5456
+  - CVE-2023-5457
+  - CVE-2023-45591
+  - CVE-2023-45592
+  - CVE-2023-45593
+  - CVE-2023-45594
+  - CVE-2023-45595
+  - CVE-2023-45596
+  - CVE-2023-45597
+  - CVE-2023-45598
+  - CVE-2023-45599
+  - CVE-2023-45600
   researchers: []
   vendors: []
-  cve_count: 0
-- url: https://www.nozominetworks.com/blog/nozomi-networks-labs-cognex-insight-is2000m-120-smart-camera-vulnerabilities
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
-- url: https://www.nozominetworks.com/blog/nozomi-networks-labs-discovering-and-reporting-vulnerabilities-to-increase-security
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
+  cve_count: 12
 - url: https://www.nozominetworks.com/blog/nozomi-networks-labs-discovers-15-new-vulnerabilities-affecting-bosch-rexroth-ctrlx-core
   date: null
-  cve_ids: []
+  cve_ids:
+  - CVE-2025-24351
+  - CVE-2025-24346
+  - CVE-2025-24338
+  - CVE-2025-24349
+  - CVE-2025-27532
+  - CVE-2025-24340
+  - CVE-2025-24341
+  - CVE-2025-24347
+  - CVE-2025-24344
+  - CVE-2025-24345
+  - CVE-2025-24343
+  - CVE-2025-24348
+  - CVE-2025-24350
+  - CVE-2025-24342
+  - CVE-2025-24339
   researchers: []
   vendors: []
-  cve_count: 0
+  cve_count: 15
 - url: https://www.nozominetworks.com/blog/nozomi-networks-labs-finds-new-rockwell-plc-vulnerability
   date: null
-  cve_ids: []
+  cve_ids:
+  - CVE-2019-10952
+  - CVE-2018-14829
+  - CVE-2018-14827
   researchers: []
   vendors: []
-  cve_count: 0
-- url: https://www.nozominetworks.com/blog/nozomi-networks-labs-presents-zero-day-vulnerabilities-affecting-mitsubishi-electric-safety-plcs-at-black-hat-mea-23
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
+  cve_count: 3
 - url: https://www.nozominetworks.com/blog/nozomi-networks-publishes-vulnerabilities-in-siemens-desigo-devices
   date: null
-  cve_ids: []
+  cve_ids:
+  - CVE-2022-40176
+  - CVE-2022-40177
+  - CVE-2022-40178
+  - CVE-2022-40179
+  - CVE-2022-40180
+  - CVE-2022-40181
+  - CVE-2022-40182
   researchers: []
   vendors: []
-  cve_count: 0
-- url: https://www.nozominetworks.com/blog/nozomi-networks-researchers-reveal-zero-day-rtls-vulnerabilities-at-black-hat-22
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
-- url: https://www.nozominetworks.com/blog/open-source-software-exposes-ics-device-vulnerabilities-to-hackers
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
+  cve_count: 7
 - url: https://www.nozominetworks.com/blog/over-the-air-vulnerabilities-discovered-in-advantech-eki-access-points
   date: null
-  cve_ids: []
+  cve_ids:
+  - CVE-2024-50370
+  - CVE-2024-50371
+  - CVE-2024-50372
+  - CVE-2024-50373
+  - CVE-2024-50374
+  - CVE-2024-50375
+  - CVE-2024-50376
+  - CVE-2024-50358
+  - CVE-2024-50359
+  - CVE-2024-50360
+  - CVE-2024-50361
+  - CVE-2024-50362
+  - CVE-2024-50363
+  - CVE-2024-50364
+  - CVE-2024-50365
+  - CVE-2024-50366
+  - CVE-2024-50367
+  - CVE-2024-50368
+  - CVE-2024-50369
+  - CVE-2024-50377
   researchers: []
   vendors: []
-  cve_count: 0
-- url: https://www.nozominetworks.com/blog/protecting-the-phoenix-unveiling-critical-vulnerabilities-in-phoenix-contact-hmi-part-2
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
-- url: https://www.nozominetworks.com/blog/protecting-the-phoenix-unveiling-critical-vulnerabilities-in-phoenix-contact-hmi-part-3
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
-- url: https://www.nozominetworks.com/blog/reverse-engineering-obfuscated-firmware-for-vulnerability-analysis
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
+  cve_count: 20
 - url: https://www.nozominetworks.com/blog/ripple20-new-zero-day-vulnerabilities-send-shockwaves-across-iot
   date: null
-  cve_ids: []
+  cve_ids:
+  - CVE-2020-11896
+  - CVE-2020-11897
+  - CVE-2020-11898
+  - CVE-2020-11901
   researchers: []
   vendors: []
-  cve_count: 0
-- url: https://www.nozominetworks.com/blog/shelly-pro-4pm-vulnerabilities
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
+  cve_count: 4
 - url: https://www.nozominetworks.com/blog/six-vulnerabilities-found-in-axis-camera-systems-license-plate-verifier-application
   date: null
-  cve_ids: []
+  cve_ids:
+  - CVE-2023-21407
+  - CVE-2023-21408
+  - CVE-2023-21409
+  - CVE-2023-21410
+  - CVE-2023-21411
+  - CVE-2023-21412
   researchers: []
   vendors: []
-  cve_count: 0
-- url: https://www.nozominetworks.com/blog/the-challenges-of-ics-vulnerability-assessment-process
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
-- url: https://www.nozominetworks.com/blog/trust-matters-uncovering-vulnerabilities-in-the-matter-protocol
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
+  cve_count: 6
 - url: https://www.nozominetworks.com/blog/unpatched-vulnerabilities-in-production-line-cameras-may-allow-remote-surveillance-hinder-stoppage-recording
   date: null
-  cve_ids: []
+  cve_ids:
+  - CVE-2025-25211
+  - CVE-2025-26689
+  - CVE-2025-24517
+  - CVE-2025-24852
   researchers: []
   vendors: []
-  cve_count: 0
-- url: https://www.nozominetworks.com/blog/uwb-rtls-vulnerability-confirmed-in-ubisense-dimension4-3d-tracking-system
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
+  cve_count: 4
 - url: https://www.nozominetworks.com/blog/vulnerabilities-in-bmc-firmware-affect-ot-iot-device-security-part-1
   date: null
-  cve_ids: []
+  cve_ids:
+  - CVE-2021-26727
+  - CVE-2021-26728
+  - CVE-2021-26729
+  - CVE-2021-26730
+  - CVE-2021-26731
+  - CVE-2021-26732
+  - CVE-2021-26733
+  - CVE-2021-44776
+  - CVE-2021-44467
+  - CVE-2021-44769
+  - CVE-2021-46279
+  - CVE-2021-45925
+  - CVE-2021-4228
   researchers: []
   vendors: []
-  cve_count: 0
+  cve_count: 13
 - url: https://www.nozominetworks.com/blog/vulnerabilities-in-bmc-firmware-affect-ot-iot-device-security-part-2
   date: null
-  cve_ids: []
+  cve_ids:
+  - CVE-2023-34337
+  - CVE-2023-34338
+  - CVE-2023-34473
+  - CVE-2023-34471
+  - CVE-2023-34472
   researchers: []
   vendors: []
-  cve_count: 0
+  cve_count: 5
 - url: https://www.nozominetworks.com/blog/vulnerabilities-in-johnson-controls-exacqvision-web-service-expose-security-systems-to-video-stream-hijacking
   date: null
-  cve_ids: []
+  cve_ids:
+  - CVE-2024-32862
+  - CVE-2024-32863
+  - CVE-2024-32864
+  - CVE-2024-32865
+  - CVE-2024-32931
   researchers: []
   vendors: []
-  cve_count: 0
+  cve_count: 5
 - url: https://www.nozominetworks.com/blog/vulnerabilities-in-wago-plcs
   date: null
-  cve_ids: []
+  cve_ids:
+  - CVE-2024-41969
+  - CVE-2024-41971
+  - CVE-2024-41973
+  - CVE-2024-41967
+  - CVE-2024-41968
+  - CVE-2024-41974
+  - CVE-2024-41970
+  - CVE-2024-41972
   researchers: []
   vendors: []
-  cve_count: 0
+  cve_count: 8
 - url: https://www.nozominetworks.com/blog/vulnerabilities-on-bosch-rexroth-nutrunners
   date: null
-  cve_ids: []
+  cve_ids:
+  - CVE-2023-48252
+  - CVE-2023-48253
+  - CVE-2023-48243
+  - CVE-2023-48250
+  - CVE-2023-48251
+  - CVE-2023-48262
+  - CVE-2023-48263
+  - CVE-2023-48264
+  - CVE-2023-48265
+  - CVE-2023-48266
+  - CVE-2023-48257
+  - CVE-2023-48242
+  - CVE-2023-48245
+  - CVE-2023-48246
+  - CVE-2023-48249
+  - CVE-2023-48255
+  - CVE-2023-48248
+  - CVE-2023-48258
+  - CVE-2023-48244
+  - CVE-2023-48247
+  - CVE-2023-48254
+  - CVE-2023-48256
+  - CVE-2023-48259
+  - CVE-2023-48260
+  - CVE-2023-48261
   researchers: []
   vendors: []
-  cve_count: 0
+  cve_count: 25
 - url: https://www.nozominetworks.com/blog/vulnerabilities-on-sensor-net-connect-and-thermoscan-ip-could-allow-admin-privileges-over-medical-data-systems
   date: null
-  cve_ids: []
+  cve_ids:
+  - CVE-2024-31199
+  - CVE-2024-3083
+  - CVE-2024-3082
+  - CVE-2024-31200
+  - CVE-2024-31202
+  - CVE-2024-31201
+  - CVE-2024-31203
   researchers: []
   vendors: []
-  cve_count: 0
+  cve_count: 7
 - url: https://www.nozominetworks.com/blog/vulnerability-in-dahua-s-onvif-implementation-threatens-ip-camera-security
   date: null
-  cve_ids: []
+  cve_ids:
+  - CVE-2022-30563
   researchers: []
   vendors: []
-  cve_count: 0
-- url: https://www.nozominetworks.com/resources/binding-operational-directive-23-01-improving-asset-visibility-and-vulnerability-detection-on-federal-networks
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
-- url: https://www.nozominetworks.com/resources/de-risk-it-ot-convergence-with-vulnerability-lifecycle-management
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
-- url: https://www.nozominetworks.com/resources/esp-now-protocol-analysis-and-vulnerability-research
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
-- url: https://www.nozominetworks.com/resources/investigating-the-ransomware-and-iot-vulnerabilities-landscape
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
-- url: https://www.nozominetworks.com/resources/the-s3curec4m-project-vulnerability-research-in-modern-ip-video-surveillance-technologies
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
-- url: https://www.nozominetworks.com/resources/viruses-are-disrupting-our-supply-chains-where-do-the-biggest-vulnerabilities-lie
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
-- url: https://www.nozominetworks.com/resources/webinar-extending-the-purdue-model-to-iot-ot-vulnerability-remediation
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
-- url: https://www.nozominetworks.com/press-release/nozomi-networks-labs-report-ransomware-gangs-and-supply-chain-vulnerabilities-highlight-risks-as-law-enforcement-fights-back
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
-- url: https://www.nozominetworks.com/press-release/nozomi-networks-labs-report-vulnerability-disclosures-rising-at-an-alarming-rate-ransomware-attacks-costing-critical-and-industrial-infrastructure-millions
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
-- url: https://www.nozominetworks.com/legal/vulnerability-disclosure-policy
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
+  cve_count: 1
 - url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2021-26726
   date: null
   cve_ids:
@@ -418,269 +547,10 @@ advisories:
   researchers: []
   vendors: []
   cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2021-26727
-  date: null
-  cve_ids:
-  - CVE-2021-26727
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2021-26728
-  date: null
-  cve_ids:
-  - CVE-2021-26728
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2021-26729
-  date: null
-  cve_ids:
-  - CVE-2021-26729
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2021-26730
-  date: null
-  cve_ids:
-  - CVE-2021-26730
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2021-26731
-  date: null
-  cve_ids:
-  - CVE-2021-26731
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2021-26732
-  date: null
-  cve_ids:
-  - CVE-2021-26732
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2021-26733
-  date: null
-  cve_ids:
-  - CVE-2021-26733
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2021-4228
-  date: null
-  cve_ids:
-  - CVE-2021-4228
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2021-44467
-  date: null
-  cve_ids:
-  - CVE-2021-44467
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2021-44769
-  date: null
-  cve_ids:
-  - CVE-2021-44769
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2021-44776
-  date: null
-  cve_ids:
-  - CVE-2021-44776
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2021-45925
-  date: null
-  cve_ids:
-  - CVE-2021-45925
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2021-46279
-  date: null
-  cve_ids:
-  - CVE-2021-46279
-  researchers: []
-  vendors: []
-  cve_count: 1
 - url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2023-2538
   date: null
   cve_ids:
   - CVE-2023-2538
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2023-29156
-  date: null
-  cve_ids:
-  - CVE-2023-29156
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2023-31190
-  date: null
-  cve_ids:
-  - CVE-2023-31190
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2023-31191
-  date: null
-  cve_ids:
-  - CVE-2023-31191
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2023-45591
-  date: null
-  cve_ids:
-  - CVE-2023-45591
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2023-45592
-  date: null
-  cve_ids:
-  - CVE-2023-45592
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2023-45593
-  date: null
-  cve_ids:
-  - CVE-2023-45593
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2023-45594
-  date: null
-  cve_ids:
-  - CVE-2023-45594
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2023-45595
-  date: null
-  cve_ids:
-  - CVE-2023-45595
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2023-45596
-  date: null
-  cve_ids:
-  - CVE-2023-45596
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2023-45597
-  date: null
-  cve_ids:
-  - CVE-2023-45597
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2023-45598
-  date: null
-  cve_ids:
-  - CVE-2023-45598
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2023-45599
-  date: null
-  cve_ids:
-  - CVE-2023-45599
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2023-45600
-  date: null
-  cve_ids:
-  - CVE-2023-45600
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2023-51452
-  date: null
-  cve_ids:
-  - CVE-2023-51452
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2023-51453
-  date: null
-  cve_ids:
-  - CVE-2023-51453
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2023-51454
-  date: null
-  cve_ids:
-  - CVE-2023-51454
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2023-51455
-  date: null
-  cve_ids:
-  - CVE-2023-51455
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2023-51456
-  date: null
-  cve_ids:
-  - CVE-2023-51456
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2023-5456
-  date: null
-  cve_ids:
-  - CVE-2023-5456
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2023-5457
-  date: null
-  cve_ids:
-  - CVE-2023-5457
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2023-6948
-  date: null
-  cve_ids:
-  - CVE-2023-6948
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2023-6949
-  date: null
-  cve_ids:
-  - CVE-2023-6949
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2023-6950
-  date: null
-  cve_ids:
-  - CVE-2023-6950
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2023-6951
-  date: null
-  cve_ids:
-  - CVE-2023-6951
   researchers: []
   vendors: []
   cve_count: 1
@@ -744,20 +614,6 @@ advisories:
   date: null
   cve_ids:
   - CVE-2024-23916
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2024-3082
-  date: null
-  cve_ids:
-  - CVE-2024-3082
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2024-3083
-  date: null
-  cve_ids:
-  - CVE-2024-3083
   researchers: []
   vendors: []
   cve_count: 1
@@ -1006,41 +862,6 @@ advisories:
   researchers: []
   vendors: []
   cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2024-31199
-  date: null
-  cve_ids:
-  - CVE-2024-31199
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2024-31200
-  date: null
-  cve_ids:
-  - CVE-2024-31200
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2024-31201
-  date: null
-  cve_ids:
-  - CVE-2024-31201
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2024-31202
-  date: null
-  cve_ids:
-  - CVE-2024-31202
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2024-31203
-  date: null
-  cve_ids:
-  - CVE-2024-31203
-  researchers: []
-  vendors: []
-  cve_count: 1
 - url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2024-3184
   date: null
   cve_ids:
@@ -1066,216 +887,6 @@ advisories:
   date: null
   cve_ids:
   - CVE-2024-41975
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2024-42383
-  date: null
-  cve_ids:
-  - CVE-2024-42383
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2024-42384
-  date: null
-  cve_ids:
-  - CVE-2024-42384
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2024-42385
-  date: null
-  cve_ids:
-  - CVE-2024-42385
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2024-42386
-  date: null
-  cve_ids:
-  - CVE-2024-42386
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2024-42387
-  date: null
-  cve_ids:
-  - CVE-2024-42387
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2024-42388
-  date: null
-  cve_ids:
-  - CVE-2024-42388
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2024-42389
-  date: null
-  cve_ids:
-  - CVE-2024-42389
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2024-42390
-  date: null
-  cve_ids:
-  - CVE-2024-42390
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2024-42391
-  date: null
-  cve_ids:
-  - CVE-2024-42391
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2024-42392
-  date: null
-  cve_ids:
-  - CVE-2024-42392
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2024-50358
-  date: null
-  cve_ids:
-  - CVE-2024-50358
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2024-50359
-  date: null
-  cve_ids:
-  - CVE-2024-50359
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2024-50360
-  date: null
-  cve_ids:
-  - CVE-2024-50360
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2024-50361
-  date: null
-  cve_ids:
-  - CVE-2024-50361
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2024-50362
-  date: null
-  cve_ids:
-  - CVE-2024-50362
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2024-50363
-  date: null
-  cve_ids:
-  - CVE-2024-50363
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2024-50364
-  date: null
-  cve_ids:
-  - CVE-2024-50364
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2024-50365
-  date: null
-  cve_ids:
-  - CVE-2024-50365
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2024-50366
-  date: null
-  cve_ids:
-  - CVE-2024-50366
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2024-50367
-  date: null
-  cve_ids:
-  - CVE-2024-50367
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2024-50368
-  date: null
-  cve_ids:
-  - CVE-2024-50368
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2024-50369
-  date: null
-  cve_ids:
-  - CVE-2024-50369
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2024-50370
-  date: null
-  cve_ids:
-  - CVE-2024-50370
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2024-50371
-  date: null
-  cve_ids:
-  - CVE-2024-50371
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2024-50372
-  date: null
-  cve_ids:
-  - CVE-2024-50372
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2024-50373
-  date: null
-  cve_ids:
-  - CVE-2024-50373
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2024-50374
-  date: null
-  cve_ids:
-  - CVE-2024-50374
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2024-50375
-  date: null
-  cve_ids:
-  - CVE-2024-50375
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2024-50376
-  date: null
-  cve_ids:
-  - CVE-2024-50376
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2024-50377
-  date: null
-  cve_ids:
-  - CVE-2024-50377
   researchers: []
   vendors: []
   cve_count: 1
@@ -1311,62 +922,6 @@ advisories:
   date: null
   cve_ids:
   - CVE-2025-1102
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2025-11243
-  date: null
-  cve_ids:
-  - CVE-2025-11243
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2025-11677
-  date: null
-  cve_ids:
-  - CVE-2025-11677
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2025-11678
-  date: null
-  cve_ids:
-  - CVE-2025-11678
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2025-11679
-  date: null
-  cve_ids:
-  - CVE-2025-11679
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2025-11680
-  date: null
-  cve_ids:
-  - CVE-2025-11680
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2025-12056
-  date: null
-  cve_ids:
-  - CVE-2025-12056
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2025-1399
-  date: null
-  cve_ids:
-  - CVE-2025-1399
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2025-1400
-  date: null
-  cve_ids:
-  - CVE-2025-1400
   researchers: []
   vendors: []
   cve_count: 1
@@ -1706,13 +1261,6 @@ advisories:
   researchers: []
   vendors: []
   cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2025-32399
-  date: null
-  cve_ids:
-  - CVE-2025-32399
-  researchers: []
-  vendors: []
-  cve_count: 1
 - url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2025-32400
   date: null
   cve_ids:
@@ -1720,134 +1268,3 @@ advisories:
   researchers: []
   vendors: []
   cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2025-32401
-  date: null
-  cve_ids:
-  - CVE-2025-32401
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2025-32402
-  date: null
-  cve_ids:
-  - CVE-2025-32402
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2025-32403
-  date: null
-  cve_ids:
-  - CVE-2025-32403
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2025-32404
-  date: null
-  cve_ids:
-  - CVE-2025-32404
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2025-32405
-  date: null
-  cve_ids:
-  - CVE-2025-32405
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2026-2333
-  date: null
-  cve_ids:
-  - CVE-2026-2333
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2026-26093
-  date: null
-  cve_ids:
-  - CVE-2026-26093
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2026-26094
-  date: null
-  cve_ids:
-  - CVE-2026-26094
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2026-26095
-  date: null
-  cve_ids:
-  - CVE-2026-26095
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2026-26096
-  date: null
-  cve_ids:
-  - CVE-2026-26096
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2026-26097
-  date: null
-  cve_ids:
-  - CVE-2026-26097
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2026-26098
-  date: null
-  cve_ids:
-  - CVE-2026-26098
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2026-26099
-  date: null
-  cve_ids:
-  - CVE-2026-26099
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2026-26100
-  date: null
-  cve_ids:
-  - CVE-2026-26100
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2026-26101
-  date: null
-  cve_ids:
-  - CVE-2026-26101
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2026-26102
-  date: null
-  cve_ids:
-  - CVE-2026-26102
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2026-3588
-  date: null
-  cve_ids:
-  - CVE-2026-3588
-  researchers: []
-  vendors: []
-  cve_count: 1
-- url: https://www.nozominetworks.com/integrations/servicenow-vulnerability-response
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0
-- url: https://www.nozominetworks.com/integration-categories/vulnerability-management-remediation
-  date: null
-  cve_ids: []
-  researchers: []
-  vendors: []
-  cve_count: 0

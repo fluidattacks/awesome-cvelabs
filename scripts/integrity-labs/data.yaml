@@ -1,4 +1,1122 @@
 lab: Integrity Labs
 url: https://labs.integrity.pt
-scraped_at: '2026-03-17T21:31:24.803634Z'
-advisories: []
+scraped_at: '2026-04-03T03:08:38.262892Z'
+advisories:
+- url: 'https://labs.integrity.pt/advisories/cve-2013-3319/ '
+  date: 13/07/09
+  cve_ids:
+  - CVE-2013-3319
+  - CVE-2014-1634
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - SAP (http://www
+  cve_count: 7
+- url: 'https://labs.integrity.pt/advisories/cve-2014-1634/ '
+  date: 14/02/02
+  cve_ids:
+  - CVE-2014-1634
+  - CVE-2013-3319
+  - CVE-2014-1635
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - aheadWorks (http://aheadworks
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2014-1635/ '
+  date: 14/11/04
+  cve_ids:
+  - CVE-2014-1635
+  - CVE-2014-1634
+  - CVE-2014-4925
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - Discovered and developed by Marco Vaz <mv@integrit
+  vendors:
+  - BELKIN (http://www
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2014-4925/ '
+  date: 15/01/08
+  cve_ids:
+  - CVE-2014-4925
+  - CVE-2014-1635
+  - CVE-2015-3784
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - Good Technology (http://www1
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2015-3784/ '
+  date: 15/08/14
+  cve_ids:
+  - CVE-2015-3784
+  - CVE-2014-4925
+  - CVE-2015-7349
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - Apple (http://www
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2015-7349/ '
+  date: 15/10/06
+  cve_ids:
+  - CVE-2015-7349
+  - CVE-2015-3784
+  - CVE-2015-7344
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - Vasco (https://www
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2015-7344/ '
+  date: 15/10/15
+  cve_ids:
+  - CVE-2015-7344
+  - CVE-2015-7349
+  - CVE-2015-7339
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - HikaShop
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2015-7339/ '
+  date: 15/10/15
+  cve_ids:
+  - CVE-2015-7339
+  - CVE-2015-7344
+  - CVE-2015-7343
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - Joomla Content Editor
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2015-7343/ '
+  date: 15/10/15
+  cve_ids:
+  - CVE-2015-7343
+  - CVE-2015-7339
+  - CVE-2015-7341
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - Joobi
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2015-7341/ '
+  date: 15/10/15
+  cve_ids:
+  - CVE-2015-7341
+  - CVE-2015-7343
+  - CVE-2015-7338
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - Joobi
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2015-7338/ '
+  date: 15/10/28
+  cve_ids:
+  - CVE-2015-7338
+  - CVE-2015-7341
+  - CVE-2015-7340
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - Acyba
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2015-7340/ '
+  date: 15/10/28
+  cve_ids:
+  - CVE-2015-7340
+  - CVE-2015-7338
+  - CVE-2015-7342
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - JEvents
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2015-7342/ '
+  date: 15/10/28
+  cve_ids:
+  - CVE-2015-7342
+  - CVE-2015-7340
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - Joobi
+  cve_count: 7
+- url: 'https://labs.integrity.pt/advisories/google-aosp-email-app-html-injection/ '
+  date: 15/11/16
+  cve_ids:
+  - CVE-2015-7342
+  - CVE-2015-7968
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - Google
+  cve_count: 7
+- url: 'https://labs.integrity.pt/advisories/cve-2015-7968/ '
+  date: 16/01/12
+  cve_ids:
+  - CVE-2015-7968
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - that the nwbc_ext2int responded with XML content
+  vendors:
+  - SAP
+  cve_count: 6
+- url: 'https://labs.integrity.pt/advisories/insecure-direct-object-reference-in-osticket-attachments/ '
+  date: 16/02/24
+  cve_ids:
+  - CVE-2015-7968
+  - CVE-2016-4056
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - osTicket
+  cve_count: 7
+- url: 'https://labs.integrity.pt/advisories/cve-pending-stored-cross-site-scripting-in-typo3-bookmarks/ '
+  date: 16/02/24
+  cve_ids:
+  - CVE-2016-4056
+  - CVE-2016-3670
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - TYPO3
+  cve_count: 7
+- url: 'https://labs.integrity.pt/advisories/cve-2016-3670/ '
+  date: 16/05/27
+  cve_ids:
+  - CVE-2016-3670
+  - CVE-2016-4056
+  - CVE-2016-10125
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - on the Profile Search functionality
+  vendors:
+  - Liferay Inc
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/dlink-dgs-1100-hardcoded-keys/ '
+  date: 16/08/24
+  cve_ids:
+  - CVE-2016-10125
+  - CVE-2016-3670
+  - CVE-2017-10992
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - DLink (http://www
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2017-10992/ '
+  date: 17/09/19
+  cve_ids:
+  - CVE-2017-10992
+  - CVE-2016-10125
+  - CVE-2017-9362
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - HP (www
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2017-9362/ '
+  date: 17/09/19
+  cve_ids:
+  - CVE-2017-9362
+  - CVE-2017-10992
+  - CVE-2017-9376
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - while adding CI in CMDB API
+  vendors:
+  - Zoho
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2017-9376/ '
+  date: 17/09/19
+  cve_ids:
+  - CVE-2017-9376
+  - CVE-2017-9362
+  - CVE-2018-10377
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - in two files that were using the same parameter to
+  vendors:
+  - Zoho
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2018-10377/ '
+  date: 18/06/15
+  cve_ids:
+  - CVE-2018-10377
+  - CVE-2017-9376
+  - CVE-2019-7556
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - PortSwigger Ltd
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2019-7556/ '
+  date: 19/01/01
+  cve_ids:
+  - CVE-2019-7556
+  - CVE-2018-10377
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors: []
+  cve_count: 7
+- url: 'https://labs.integrity.pt/advisories/cve-2019-7557/ '
+  date: 19/01/01
+  cve_ids:
+  - CVE-2019-7556
+  - CVE-2019-7558
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors: []
+  cve_count: 7
+- url: 'https://labs.integrity.pt/advisories/cve-2019-7558/ '
+  date: 19/01/01
+  cve_ids:
+  - CVE-2019-7558
+  - CVE-2019-7556
+  - CVE-2020-13989
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors: []
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2020-13989/ '
+  date: 20/07/09
+  cve_ids:
+  - CVE-2020-13989
+  - CVE-2019-7558
+  - CVE-2020-13990
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors: []
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2020-13990/ '
+  date: 20/07/09
+  cve_ids:
+  - CVE-2020-13990
+  - CVE-2020-13989
+  - CVE-2020-15934
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors: []
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2020-15934/ '
+  date: 20/11/19
+  cve_ids:
+  - CVE-2020-15934
+  - CVE-2020-13990
+  - CVE-2020-13963
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors: []
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2020-13963/ '
+  date: 21/03/19
+  cve_ids:
+  - CVE-2020-13963
+  - CVE-2020-15934
+  - CVE-2021-29357
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - SOPlanning
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2021-29357/ '
+  date: 21/04/13
+  cve_ids:
+  - CVE-2021-29357
+  - CVE-2020-13963
+  - CVE-2019-5493
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - Outsystems
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2019-5493/ '
+  date: 21/05/11
+  cve_ids:
+  - CVE-2019-5493
+  - CVE-2021-29357
+  - CVE-2020-13639
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors: []
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/CVE-2020-13639/ '
+  date: 21/07/23
+  cve_ids:
+  - CVE-2020-13639
+  - CVE-2019-5493
+  - CVE-2021-38607
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - OutSystems
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2021-38607/ '
+  date: 21/12/16
+  cve_ids:
+  - CVE-2021-38607
+  - CVE-2020-13639
+  - CVE-2021-41844
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - Crocoblock
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2021-41844/ '
+  date: 21/12/16
+  cve_ids:
+  - CVE-2021-41844
+  - CVE-2021-38607
+  - CVE-2021-44263
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - Crocoblock
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2021-44263/ '
+  date: 22/02/17
+  cve_ids:
+  - CVE-2021-44263
+  - CVE-2021-41844
+  - CVE-2021-42567
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - Gurock
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2021-42567/ '
+  date: 22/05/12
+  cve_ids:
+  - CVE-2021-42567
+  - CVE-2021-44263
+  - CVE-2021-31858
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - Apereo
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2021-31858/ '
+  date: 22/07/08
+  cve_ids:
+  - CVE-2021-31858
+  - CVE-2021-42567
+  - CVE-2021-25087
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - DNNSoftware
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2021-25087/ '
+  date: 22/07/20
+  cve_ids:
+  - CVE-2021-25087
+  - CVE-2021-31858
+  - CVE-2022-0770
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - W3 Eden
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2022-0770/ '
+  date: 22/07/20
+  cve_ids:
+  - CVE-2022-0770
+  - CVE-2021-25087
+  - CVE-2021-40377
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - Translate AI Multilingual Solutions
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2021-40377/ '
+  date: 22/07/21
+  cve_ids:
+  - CVE-2021-40377
+  - CVE-2022-0770
+  - CVE-2022-0828
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - SmarterTools
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2022-0828/ '
+  date: 22/07/21
+  cve_ids:
+  - CVE-2022-0828
+  - CVE-2021-40377
+  - CVE-2022-36967
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - W3 Eden
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2022-36967/ '
+  date: 22/08/18
+  cve_ids:
+  - CVE-2022-36967
+  - CVE-2022-0828
+  - CVE-2022-36968
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - Progress
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2022-36968/ '
+  date: 22/08/18
+  cve_ids:
+  - CVE-2022-36968
+  - CVE-2022-36967
+  - CVE-2022-37246
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - Progress
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2022-37246/ '
+  date: 22/09/07
+  cve_ids:
+  - CVE-2022-37246
+  - CVE-2022-36968
+  - CVE-2022-37247
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - Craft CMS
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2022-37247/ '
+  date: 22/09/07
+  cve_ids:
+  - CVE-2022-37247
+  - CVE-2022-37246
+  - CVE-2022-37248
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - Craft CMS
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2022-37248/ '
+  date: 22/09/07
+  cve_ids:
+  - CVE-2022-37248
+  - CVE-2022-37247
+  - CVE-2022-37250
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - Craft CMS
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2022-37250/ '
+  date: 22/09/07
+  cve_ids:
+  - CVE-2022-37250
+  - CVE-2022-37248
+  - CVE-2022-37251
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - Craft CMS
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2022-37251/ '
+  date: 22/09/07
+  cve_ids:
+  - CVE-2022-37251
+  - CVE-2022-37250
+  - CVE-2022-40487
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - Craft CMS
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2022-40487/ '
+  date: 22/09/28
+  cve_ids:
+  - CVE-2022-40487
+  - CVE-2022-37251
+  - CVE-2022-40488
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - to contain multiple cross-site scripting (XSS) vul
+  vendors:
+  - ProcessWire
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2022-40488/ '
+  date: 22/09/28
+  cve_ids:
+  - CVE-2022-40488
+  - CVE-2022-40487
+  - CVE-2022-40904
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - to contain Cross Site Request Forgery in critical
+  vendors:
+  - ProcessWire
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2022-40904/ '
+  date: 22/09/28
+  cve_ids:
+  - CVE-2022-40904
+  - CVE-2022-40488
+  - CVE-2022-37720
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors: []
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2022-37720/ '
+  date: 22/11/14
+  cve_ids:
+  - CVE-2022-37720
+  - CVE-2022-40904
+  - CVE-2022-37721
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - or publisher
+  vendors:
+  - Orchard Project
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2022-37721/ '
+  date: 22/11/14
+  cve_ids:
+  - CVE-2022-37721
+  - CVE-2022-37720
+  - CVE-2023-0642
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - PyroCMS
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2023-0642/ '
+  date: 23/02/03
+  cve_ids:
+  - CVE-2023-0642
+  - CVE-2022-37721
+  - CVE-2022-46496
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - marked fixed in version 7
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2022-46496/ '
+  date: 23/02/06
+  cve_ids:
+  - CVE-2022-46496
+  - CVE-2023-0642
+  - CVE-2023-26020
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - 30/Nov/22 - Vendor acknowledged report
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2023-26020/ '
+  date: 23/02/22
+  cve_ids:
+  - CVE-2023-26020
+  - CVE-2022-46496
+  - CVE-2023-26100
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - CrafterCMS
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2023-26100/ '
+  date: 23/04/20
+  cve_ids:
+  - CVE-2023-26100
+  - CVE-2023-26020
+  - CVE-2023-26101
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - Progress
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2023-26101/ '
+  date: 23/04/20
+  cve_ids:
+  - CVE-2023-26101
+  - CVE-2023-26100
+  - CVE-2023-38722
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - Progress
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2023-38722/ '
+  date: 23/10/23
+  cve_ids:
+  - CVE-2023-38722
+  - CVE-2023-26101
+  - CVE-2023-26218
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - IBM
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2023-26218/ '
+  date: 23/11/21
+  cve_ids:
+  - CVE-2023-26218
+  - CVE-2023-38722
+  - CVE-2023-48166
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - TIBCO
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2023-48166/ '
+  date: 24/01/12
+  cve_ids:
+  - CVE-2023-48166
+  - CVE-2023-26218
+  - CVE-2024-0396
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - Unify
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2024-0396/ '
+  date: 24/01/18
+  cve_ids:
+  - CVE-2024-0396
+  - CVE-2023-48166
+  - CVE-2024-25697
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - Progress Software Corporation (Progress)
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2024-25697/ '
+  date: 24/04/11
+  cve_ids:
+  - CVE-2024-25697
+  - CVE-2024-0396
+  - CVE-2024-28627
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - Environmental Systems Research Institute
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/cve-2024-28627/ '
+  date: 24/04/11
+  cve_ids:
+  - CVE-2024-28627
+  - CVE-2024-25697
+  - CVE-2025-3760
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - Flipsnack
+  cve_count: 8
+- url: 'https://labs.integrity.pt/advisories/CVE-2025-3760/ '
+  date: 25/04/17
+  cve_ids:
+  - CVE-2025-3760
+  - CVE-2024-28627
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - Liferay
+  cve_count: 7
+- url: 'https://labs.integrity.pt/advisories/cve-2025-3760/ '
+  date: 25/04/17
+  cve_ids:
+  - CVE-2025-3760
+  - CVE-2025-48953
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  researchers:
+  - out who you are
+  vendors:
+  - Liferay
+  cve_count: 6
+- url: 'https://labs.integrity.pt/advisories/cve-2025-48953/ '
+  date: 25/06/04
+  cve_ids:
+  - CVE-2025-48953
+  - CVE-2025-3760
+  - CVE-2025-53121
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  researchers:
+  - out who you are
+  vendors:
+  - Umbraco
+  cve_count: 6
+- url: 'https://labs.integrity.pt/advisories/cve-2025-53121/ '
+  date: 25/06/26
+  cve_ids:
+  - CVE-2025-53121
+  - CVE-2025-48953
+  - CVE-2025-53122
+  - CVE-2025-55107
+  - CVE-2025-55103
+  researchers:
+  - on different nodes with unsanitized parameters in
+  vendors:
+  - The OpenNMS Group
+  cve_count: 5
+- url: 'https://labs.integrity.pt/advisories/cve-2025-53122/ '
+  date: 25/06/26
+  cve_ids:
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-55103
+  - CVE-2025-55107
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - The OpenNMS Group
+  cve_count: 5
+- url: 'https://labs.integrity.pt/advisories/cve-2025-55103/ '
+  date: 25/09/22
+  cve_ids:
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-55107
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - Esri
+  cve_count: 5
+- url: 'https://labs.integrity.pt/advisories/cve-2025-55107/ '
+  date: 25/09/22
+  cve_ids:
+  - CVE-2025-55107
+  - CVE-2025-55103
+  - CVE-2025-53122
+  - CVE-2025-53121
+  - CVE-2025-48953
+  researchers:
+  - out who you are
+  vendors:
+  - Esri
+  cve_count: 5

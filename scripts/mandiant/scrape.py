@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Mandiant Vulnerability Disclosures scraper. Outputs data.json.
+"""Mandiant Vulnerability Disclosures scraper — Playwright edition.
 Source: GitHub API to list repo contents, then raw markdown for CVEs/researchers/vendors.
 """
-import re, sys, time
+import asyncio, re, sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-import requests
+from playwright.async_api import async_playwright
 
 sys.path.insert(0, str(Path(__file__).parents[2]))
 from lab_model import CVELab, Advisory
@@ -17,22 +17,8 @@ REPO = "mandiant/Vulnerability-Disclosures"
 API_BASE = f"https://api.github.com/repos/{REPO}/contents"
 GH_BASE = f"https://github.com/{REPO}"
 RAW_BASE = f"https://raw.githubusercontent.com/{REPO}/master"
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (compatible; awesome-cvelabs-scraper/1.0)",
-    "Accept": "application/vnd.github.v3+json",
-}
 CVE_RE = re.compile(r"CVE-\d{4}-\d{4,5}", re.IGNORECASE)
 DATE_RE = re.compile(r"(?:Date|Published|Disclosed)[:\s]+(\w+ \d{1,2},?\s*\d{4}|\d{4}-\d{2}-\d{2})", re.IGNORECASE)
-
-
-def _list_dir(path: str = "") -> list:
-    url = API_BASE + (f"/{path}" if path else "")
-    try:
-        resp = requests.get(url, headers=HEADERS, timeout=30)
-        resp.raise_for_status()
-        return resp.json()
-    except Exception:
-        return []
 
 
 def _raw_url_from_gh(url: str) -> str | None:
@@ -45,18 +31,26 @@ def _raw_url_from_gh(url: str) -> str | None:
     return None
 
 
-def _parse_raw(raw_url: str, gh_url: str) -> Advisory | None:
+async def _list_dir(api, path: str = "") -> list:
+    url = API_BASE + (f"/{path}" if path else "")
     try:
-        resp = requests.get(raw_url, headers=HEADERS, timeout=30)
-        if resp.status_code != 200:
+        resp = await api.get(url, headers={"Accept": "application/vnd.github.v3+json"})
+        return await resp.json()
+    except Exception:
+        return []
+
+
+async def _parse_raw(api, raw_url: str, gh_url: str) -> Advisory | None:
+    try:
+        resp = await api.get(raw_url)
+        if resp.status != 200:
             return Advisory(url=gh_url)
-        content = resp.text
+        content = await resp.text()
     except Exception:
         return Advisory(url=gh_url)
 
     cves = list(dict.fromkeys(c.upper() for c in CVE_RE.findall(content)))
 
-    # Date
     date_str = None
     dm = DATE_RE.search(content)
     if dm:
@@ -69,7 +63,6 @@ def _parse_raw(raw_url: str, gh_url: str) -> Advisory | None:
             except ValueError:
                 pass
 
-    # Researchers from "## Discovery Credits"
     researchers = []
     disc_m = re.search(r"##\s*Discovery\s+Credits\n(.*?)(?=\n##|\Z)", content, re.IGNORECASE | re.DOTALL)
     if disc_m:
@@ -79,7 +72,6 @@ def _parse_raw(raw_url: str, gh_url: str) -> Advisory | None:
             if name:
                 researchers.append(name)
 
-    # Vendors from "## Affected Products" or "Vendor:"
     vendors = []
     vendor_m = re.search(r"(?:Vendor|Affected\s+Vendor)[:\s]+([^\n,\.]{2,40})", content, re.IGNORECASE)
     if vendor_m:
@@ -90,11 +82,10 @@ def _parse_raw(raw_url: str, gh_url: str) -> Advisory | None:
     return Advisory(url=gh_url, date=date_str, cve_ids=cves, researchers=researchers, vendors=vendors)
 
 
-def _collect_advisory_urls() -> list[tuple[str, str]]:
-    """Returns list of (name, github_url) for each advisory."""
+async def _collect_advisory_urls(api) -> list[tuple[str, str]]:
     entries = []
     seen: set[str] = set()
-    root = _list_dir()
+    root = await _list_dir(api)
 
     year_dirs = []
     for item in root:
@@ -114,7 +105,7 @@ def _collect_advisory_urls() -> list[tuple[str, str]]:
                 entries.append((name, url))
 
     for year in sorted(year_dirs):
-        year_entries = _list_dir(year)
+        year_entries = await _list_dir(api, year)
         for item in year_entries:
             name = item["name"]
             if item["type"] == "dir":
@@ -124,30 +115,29 @@ def _collect_advisory_urls() -> list[tuple[str, str]]:
             if url not in seen:
                 seen.add(url)
                 entries.append((name, url))
-        time.sleep(0.05)
 
     return entries
 
 
-def scrape() -> list[Advisory]:
-    entries = _collect_advisory_urls()
+async def scrape() -> list[Advisory]:
     advisories = []
-
-    for name, gh_url in entries:
-        raw_url = _raw_url_from_gh(gh_url)
-        if raw_url:
-            adv = _parse_raw(raw_url, gh_url)
-        else:
-            adv = Advisory(url=gh_url)
-        if adv:
-            advisories.append(adv)
-        time.sleep(0.1)
-
+    async with async_playwright() as p:
+        api = await p.request.new_context()
+        entries = await _collect_advisory_urls(api)
+        for name, gh_url in entries:
+            raw_url = _raw_url_from_gh(gh_url)
+            if raw_url:
+                adv = await _parse_raw(api, raw_url, gh_url)
+            else:
+                adv = Advisory(url=gh_url)
+            if adv:
+                advisories.append(adv)
+        await api.dispose()
     return advisories
 
 
 if __name__ == "__main__":
-    advisories = scrape()
+    advisories = [a for a in asyncio.run(scrape()) if a.cve_ids]
     lab = CVELab(lab=LAB, url=URL,
                  scraped_at=datetime.now(timezone.utc),
                  advisories=advisories)

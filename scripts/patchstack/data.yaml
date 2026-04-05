@@ -1,6 +1,6 @@
 lab: Patchstack
 url: https://patchstack.com
-scraped_at: '2026-03-17T21:26:54.642941Z'
+scraped_at: '2026-04-03T03:13:05.127765Z'
 advisories:
 - url: https://patchstack.com/articles/sql-injection-vulnerability-in-quiz-and-survey-master-qsm-plugin-affecting-40k-sites/
   date: null

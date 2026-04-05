@@ -1,10 +1,2099 @@
 lab: SEC Consult
 url: https://sec-consult.com
-scraped_at: '2026-03-17T21:31:47.759862Z'
+scraped_at: '2026-04-03T03:16:42.779758Z'
 advisories:
-- url: https://sec-consult.com/sitemap.xml?sitemap=advisory&amp;cHash=17c228bb865dd60853e6d25e95f9f518
-  date: 26/03/17
-  cve_ids: []
+- url: https://sec-consult.com/vulnerability-lab/advisory/apache-http-server-tomcat-directory-traversal/
+  date: 06/11/27
+  cve_ids:
+  - CVE-2007-0450
   researchers: []
   vendors: []
-  cve_count: 0
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-cross-site-scripting-vulnerabilities-1/
+  date: 11/03/23
+  cve_ids:
+  - CVE-2011-1948
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/client-side-remote-file-upload-command-execution/
+  date: 11/03/28
+  cve_ids:
+  - CVE-2011-1827
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/client-side-remote-file-upload-command-execution-1/
+  date: 11/04/20
+  cve_ids:
+  - CVE-2011-1969
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/microsoft-aspnet-forms-authentication-bypass/
+  date: 11/10/02
+  cve_ids:
+  - CVE-2011-3416
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/unauthenticated-remote-root-through-sql-injection/
+  date: 12/02/03
+  cve_ids:
+  - CVE-2012-1777
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/microsoft-aspnet-forms-authentication-bypass-1/
+  date: 11/10/02
+  cve_ids:
+  - CVE-2011-3416
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/libwpd-wpxcontentlistener-closetablerow-memory-overwrite/
+  date: 11/09/01
+  cve_ids:
+  - CVE-2012-2149
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/support-backdoor/
+  date: 12/06/26
+  cve_ids:
+  - CVE-2012-3579
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-oracle-webcenter-sites/
+  date: 12/06/04
+  cve_ids:
+  - CVE-2012-3183
+  - CVE-2012-3184
+  - CVE-2012-3185
+  - CVE-2012-3186
+  researchers: []
+  vendors: []
+  cve_count: 4
+- url: https://sec-consult.com/vulnerability-lab/advisory/xml-external-entity-injection-xxe/
+  date: 12/09/03
+  cve_ids:
+  - CVE-2012-2997
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/sql-injection-1/
+  date: 12/09/03
+  cve_ids:
+  - CVE-2012-3000
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/persistent-cross-site-scripting-vulnerability/
+  date: 12/09/20
+  cve_ids:
+  - CVE-2013-3053
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/qlikview-desktop-client-integer-overflow/
+  date: 12/10/22
+  cve_ids:
+  - CVE-2013-3052
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-sophos-web-protection-appliance/
+  date: 13/01/14
+  cve_ids:
+  - CVE-2013-2641
+  - CVE-2013-2642
+  - CVE-2013-2643
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-censornet-professional-v4/
+  date: 13/02/06
+  cve_ids:
+  - CVE-2013-2771
+  - CVE-2013-2772
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://sec-consult.com/vulnerability-lab/advisory/nitro-pro-8-insecure-library-loading-allows-remote-code/
+  date: 13/03/01
+  cve_ids:
+  - CVE-2013-2773
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/java-activex-control-memory-corruption/
+  date: 12/11/13
+  cve_ids:
+  - CVE-2013-2416
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/http-header-injection-cache-poisoning-in-oracle-webcenter/
+  date: 12/09/17
+  cve_ids:
+  - CVE-2013-1509
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-2/
+  date: 12/11/06
+  cve_ids:
+  - CVE-2013-3320
+  - CVE-2013-3321
+  - CVE-2013-3322
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://sec-consult.com/vulnerability-lab/advisory/javascript-execution-in-websphere-datapower-services/
+  date: 13/01/28
+  cve_ids:
+  - CVE-2013-0499
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/denial-of-service-vulnerability/
+  date: 13/02/01
+  cve_ids:
+  - CVE-2013-2160
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-surveillance-via-symantec-web/
+  date: 12/12/18
+  cve_ids:
+  - CVE-2013-1616
+  - CVE-2013-1617
+  - CVE-2013-4670
+  - CVE-2013-4671
+  - CVE-2013-4672
+  researchers: []
+  vendors: []
+  cve_count: 5
+- url: https://sec-consult.com/vulnerability-lab/advisory/sql-injection-vulnerability/
+  date: 13/09/03
+  cve_ids:
+  - CVE-2013-5743
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-reflected-cross-site-scripting-vulnerabilities/
+  date: 12/08/20
+  cve_ids:
+  - CVE-2013-3286
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/xpath-injection/
+  date: 13/10/27
+  cve_ids:
+  - CVE-2013-6735
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-critical-vulnerabilities-in-symantec-endpoint-protection/
+  date: 13/12/03
+  cve_ids:
+  - CVE-2013-5014
+  - CVE-2013-5015
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-critical-vulnerabilities-in-symantec-liveupdate-administrator/
+  date: 14/01/02
+  cve_ids:
+  - CVE-2014-1644
+  - CVE-2014-1645
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://sec-consult.com/vulnerability-lab/advisory/path-traversal-remote-code-execution/
+  date: 14/03/05
+  cve_ids:
+  - CVE-2014-2846
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-severe-vulnerabilities-in-ibm-algorithmics-ricos/
+  date: 13/12/19
+  cve_ids:
+  - CVE-2014-0894
+  - CVE-2014-0871
+  - CVE-2014-0870
+  - CVE-2014-0869
+  - CVE-2014-0868
+  - CVE-2014-0867
+  - CVE-2014-0866
+  - CVE-2014-0865
+  - CVE-2014-0864
+  researchers: []
+  vendors: []
+  cve_count: 9
+- url: https://sec-consult.com/vulnerability-lab/advisory/stored-cross-site-scripting-vulnerabilities/
+  date: 13/11/25
+  cve_ids:
+  - CVE-2014-2512
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-critical-vulnerabilities-in-shopizer-webshop/
+  date: 12/01/10
+  cve_ids:
+  - CVE-2011-3923
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-citrix-netscaler-application-delivery-controller/
+  date: 14/01/05
+  cve_ids:
+  - CVE-2014-4346
+  - CVE-2014-4347
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://sec-consult.com/vulnerability-lab/advisory/reflected-cross-site-scripting-in-f5-big-ip/
+  date: 14/07/07
+  cve_ids:
+  - CVE-2014-4023
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/xxe-xss-arbitrary-file-write-vulnerabilities/
+  date: 14/07/01
+  cve_ids:
+  - CVE-2014-3437
+  - CVE-2014-3438
+  - CVE-2014-3439
+  - CVE-2013-5015
+  researchers: []
+  vendors: []
+  cve_count: 4
+- url: https://sec-consult.com/vulnerability-lab/advisory/os-command-execution/
+  date: 14/10/29
+  cve_ids:
+  - CVE-2014-7208
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-high-risk-vulnerabilities-in-netiq-access-manager/
+  date: 14/10/29
+  cve_ids:
+  - CVE-2014-5214
+  - CVE-2014-5215
+  - CVE-2014-5216
+  - CVE-2014-5217
+  researchers: []
+  vendors: []
+  cve_count: 4
+- url: https://sec-consult.com/vulnerability-lab/advisory/xss-memory-disclosure/
+  date: 14/10/29
+  cve_ids:
+  - CVE-2014-5212
+  - CVE-2014-5213
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-critical-vulnerabilities-in-symantec-data-center-security-server-advanced/
+  date: 14/09/19
+  cve_ids:
+  - CVE-2014-7289
+  - CVE-2014-9224
+  - CVE-2014-9225
+  - CVE-2014-9226
+  researchers: []
+  vendors: []
+  cve_count: 4
+- url: https://sec-consult.com/vulnerability-lab/advisory/unauthenticated-local-file-disclosure-in-multiple-tp-link-products/
+  date: 15/02/19
+  cve_ids:
+  - CVE-2015-3035
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/kernel-stack-buffer-overflow-in-kcodes-netusb/
+  date: 15/02/23
+  cve_ids:
+  - CVE-2015-3036
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/critical-vulnerabilities-allow-surveillance-on-conferences/
+  date: 15/03/10
+  cve_ids:
+  - CVE-2015-4681
+  - CVE-2015-4682
+  - CVE-2015-4683
+  - CVE-2015-4684
+  - CVE-2015-4685
+  researchers: []
+  vendors: []
+  cve_count: 5
+- url: https://sec-consult.com/vulnerability-lab/advisory/permanent-cross-site-scripting/
+  date: 14/05/28
+  cve_ids:
+  - CVE-2015-2655
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/stack-buffer-overflow-in-handle-debug-network/
+  date: 15/04/13
+  cve_ids:
+  - CVE-2015-5718
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/deliberately-hidden-backdoor-account-in-several-amx-devices/
+  date: 15/03/10
+  cve_ids:
+  - CVE-2015-8362
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-yeager-cms/
+  date: 15/11/18
+  cve_ids:
+  - CVE-2015-7567
+  - CVE-2015-7568
+  - CVE-2015-7569
+  - CVE-2015-7570
+  - CVE-2015-7571
+  - CVE-2015-7572
+  researchers: []
+  vendors: []
+  cve_count: 6
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-13/
+  date: 16/05/23
+  cve_ids:
+  - CVE-2016-1607
+  - CVE-2016-1608
+  - CVE-2016-1609
+  - CVE-2016-1610
+  - CVE-2016-1611
+  researchers: []
+  vendors: []
+  cve_count: 5
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-micro-focus-groupwise/
+  date: 16/07/05
+  cve_ids:
+  - CVE-2016-5760
+  - CVE-2016-5761
+  - CVE-2016-5762
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://sec-consult.com/vulnerability-lab/advisory/potential-backdoor-access-through-multiple-vulnerabilities/
+  date: 16/08/24
+  cve_ids:
+  - CVE-2014-8142
+  - CVE-2014-3515
+  - CVE-2015-0231
+  - CVE-2015-6834
+  - CVE-2016-5771
+  - CVE-2016-5773
+  researchers: []
+  vendors: []
+  cve_count: 6
+- url: https://sec-consult.com/vulnerability-lab/advisory/xml-external-entity-injection-xxe-2/
+  date: 16/11/21
+  cve_ids:
+  - CVE-2016-8526
+  - CVE-2016-8527
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://sec-consult.com/vulnerability-lab/advisory/os-command-injection-reflected-cross-site-scripting-in-openemr/
+  date: 17/03/08
+  cve_ids:
+  - CVE-2017-16540
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-ibm-infosphere-information-server-datastage/
+  date: 17/05/23
+  cve_ids:
+  - CVE-2017-1495
+  - CVE-2017-1468
+  - CVE-2017-1383
+  - CVE-2017-1467
+  researchers: []
+  vendors: []
+  cve_count: 4
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-solare-datensysteme-solar-log/
+  date: 17/01/23
+  cve_ids:
+  - CVE-2001-1341
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/misbehavior-of-the-fsockopen-function/
+  date: 17/03/06
+  cve_ids:
+  - CVE-2017-7272
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/server-side-request-forgery-ssrf-vulnerability/
+  date: 17/03/03
+  cve_ids:
+  - CVE-2017-7566
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/privilege-escalation-due-to-insecure-service-configuration/
+  date: 17/02/23
+  cve_ids:
+  - CVE-2017-3210
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/xxe-reflected-xss-in-oracle-financial-services-analytical-applications/
+  date: 17/09/11
+  cve_ids:
+  - CVE-2018-2660
+  - CVE-2018-2661
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-cisco-prime-infrastructure/
+  date: 16/11/21
+  cve_ids:
+  - CVE-2017-6662
+  - CVE-2017-6698
+  - CVE-2017-6699
+  - CVE-2017-6700
+  researchers: []
+  vendors: []
+  cve_count: 4
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-critical-vulnerabilities-16/
+  date: 17/01/16
+  cve_ids:
+  - CVE-2017-10668
+  - CVE-2017-10669
+  - CVE-2017-10670
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://sec-consult.com/vulnerability-lab/advisory/email-verification-bypass-in-sap-e-recruiting/
+  date: 17/07/12
+  cve_ids:
+  - CVE-2017-14511
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/vpn-credentials-disclosure-in-fortinet-forticlient/
+  date: 17/08/30
+  cve_ids:
+  - CVE-2017-14184
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/os-command-injection-arbitrary-file-upload-sql-injection-in-clipbucket/
+  date: 17/10/17
+  cve_ids:
+  - CVE-2018-7664
+  - CVE-2018-7665
+  - CVE-2018-7666
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-micro-focus-visibroker-c/
+  date: 17/05/03
+  cve_ids:
+  - CVE-2017-9281
+  - CVE-2017-9282
+  - CVE-2017-9283
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://sec-consult.com/vulnerability-lab/advisory/authentication-bypass-in-oracle-access-manager/
+  date: 17/11/20
+  cve_ids:
+  - CVE-2018-2879
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-critical-vulnerabilities-in-securenvoy-securmail/
+  date: 17/11/20
+  cve_ids:
+  - CVE-2018-7701
+  - CVE-2018-7702
+  - CVE-2018-7703
+  - CVE-2018-7704
+  - CVE-2018-7705
+  - CVE-2018-7706
+  - CVE-2018-7707
+  researchers: []
+  vendors: []
+  cve_count: 7
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-infozip-unzip/
+  date: 15/02/12
+  cve_ids:
+  - CVE-2018-10000
+  - CVE-2015-1315
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://sec-consult.com/vulnerability-lab/advisory/authentication-bypass-cross-site-scripting-in-siemens-sicam-rtus-sm-2556/
+  date: 17/09/25
+  cve_ids:
+  - CVE-2017-12737
+  - CVE-2017-12738
+  - CVE-2017-12739
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://sec-consult.com/vulnerability-lab/advisory/xxe-xss-vulnerabilities-in-rsa-authentication-manager/
+  date: 17/11/23
+  cve_ids:
+  - CVE-2018-1247
+  - CVE-2017-9072
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://sec-consult.com/vulnerability-lab/advisory/fortigate-ssl-vpn-portal-xss-vulnerability/
+  date: 17/10/02
+  cve_ids:
+  - CVE-2017-14186
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-cross-site-scripting-vulnerabilities-in-sonatype-nexus-repository-manager-oss-pro/
+  date: 17/12/13
+  cve_ids:
+  - CVE-2018-5306
+  - CVE-2018-5307
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-stored-xss-vulnerabilities-in-wso2-carbon-and-dashboard-server/
+  date: 18/01/25
+  cve_ids:
+  - CVE-2018-8716
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/arbitrary-file-upload-cross-site-scripting-in-mybiz-myprocurenet/
+  date: 18/02/22
+  cve_ids:
+  - CVE-2018-11090
+  - CVE-2018-11091
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://sec-consult.com/vulnerability-lab/advisory/hijacking-of-arbitrary-misafes-mi-cam-video-baby-monitors/
+  date: 17/12/06
+  cve_ids:
+  - CVE-2015-8041
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/unprotected-wifi-access-unencrypted-data-transfer-in-vgate-icar2-wifi-obd2-dongle/
+  date: 18/04/25
+  cve_ids:
+  - CVE-2018-11476
+  - CVE-2018-11477
+  - CVE-2018-11478
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-critical-vulnerabilities-in-miss-marple-enterprise-edition/
+  date: 18/06/13
+  cve_ids:
+  - CVE-2018-19233
+  - CVE-2018-19234
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://sec-consult.com/vulnerability-lab/advisory/authorization-bypass-in-all-adb-broadband-gateways-routers/
+  date: 16/07/01
+  cve_ids:
+  - CVE-2018-13109
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/local-root-jailbreak-via-network-file-sharing-flaw-in-all-adb-broadband-gateways-routers/
+  date: 16/02/11
+  cve_ids:
+  - CVE-2018-13108
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/privilege-escalation-via-linux-group-manipulation-in-all-adb-broadband-gateways-routers/
+  date: 20/12/03
+  cve_ids:
+  - CVE-2018-13110
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/remote-code-execution-via-multiple-attack-vectors-in-wago-edisplay/
+  date: 18/04/30
+  cve_ids:
+  - CVE-2018-12979
+  - CVE-2018-12980
+  - CVE-2018-12981
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://sec-consult.com/vulnerability-lab/advisory/vulnerability-in-skype-for-business-lync-might-lead-to-denial-of-service-attack/
+  date: 18/08/02
+  cve_ids:
+  - CVE-2018-8546
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/sql-injection-xss-csrf-vulnerabilities-in-pimcore-software/
+  date: 18/06/15
+  cve_ids:
+  - CVE-2018-14057
+  - CVE-2018-14058
+  - CVE-2018-14059
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://sec-consult.com/vulnerability-lab/advisory/dokuwiki-csv-formula-injection-vulnerability/
+  date: 18/04/22
+  cve_ids:
+  - CVE-2018-15474
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/remote-code-execution-php-unserialize-moodle-open-source-learning-platform-cve-2018-14630/
+  date: 18/07/08
+  cve_ids:
+  - CVE-2018-14630
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-citrix-storagezones-controller-cve-2018-16968-cve-2018-16969/
+  date: 18/08/08
+  cve_ids:
+  - CVE-2018-16968
+  - CVE-2018-16969
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://sec-consult.com/vulnerability-lab/advisory/stored-cross-site-scripting-in-kendo-ui-editor-cve-2018-14037/
+  date: 18/05/02
+  cve_ids:
+  - CVE-2018-14037
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/password-disclosure-vulnerability-xss-in-ptc-thingworx/
+  date: 18/03/14
+  cve_ids:
+  - CVE-2018-17216
+  - CVE-2018-17217
+  - CVE-2018-17218
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://sec-consult.com/vulnerability-lab/advisory/vulnerabilities-xiongmai-ip-cameras-nvrs-dvrs-cve-2018-17915-cve-2018-17917-cve-2018-17919/
+  date: 18/03/15
+  cve_ids:
+  - CVE-2018-17915
+  - CVE-2018-17917
+  - CVE-2018-17919
+  - CVE-2018-1791
+  researchers: []
+  vendors: []
+  cve_count: 4
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-openpgp-js/
+  date: null
+  cve_ids:
+  - CVE-2019-9153
+  - CVE-2019-9154
+  - CVE-2019-9155
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://sec-consult.com/vulnerability-lab/advisory/vulnerabilities-in-cisco-voip-phones-cve-2018-0461/
+  date: 18/10/17
+  cve_ids:
+  - CVE-2018-0461
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/cross-site-scripting-in-ca-automic-workload-automation-web-interface-formerly-automic-automation-engine/
+  date: 18/10/18
+  cve_ids:
+  - CVE-2019-6504
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/weak-configuration-file-encryption-in-avaya-one-x-communicator/
+  date: 18/11/15
+  cve_ids:
+  - CVE-2019-7006
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-wago-852-industrial-managed-switch-series-cve-2019-12550-cve-2019-12549/
+  date: 19/03/12
+  cve_ids:
+  - CVE-2019-12550
+  - CVE-2019-12549
+  - CVE-2017-16544
+  - CVE-2015-0235
+  - CVE-2013-1813
+  - CVE-2016-2148
+  - CVE-2016-6301
+  - CVE-2011-2716
+  - CVE-2011-5325
+  - CVE-2015-9261
+  - CVE-2016-2147
+  - CVE-2010-0296
+  - CVE-2010-3856
+  - CVE-2012-4412
+  - CVE-2014-4043
+  - CVE-2014-9402
+  - CVE-2014-9761
+  - CVE-2014-9984
+  - CVE-2015-1472
+  researchers: []
+  vendors: []
+  cve_count: 19
+- url: https://sec-consult.com/vulnerability-lab/advisory/cleartext-message-spoofing-in-go-cryptography-libraries-cve-2019-11841/
+  date: 19/04/10
+  cve_ids:
+  - CVE-2019-11841
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/unauthenticated-sql-injection-vulnerability-in-openproject-cve-2019-11600/
+  date: 19/04/30
+  cve_ids:
+  - CVE-2019-11600
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-gemalto-thales-group-ds3-authentication-server-ezio-server/
+  date: 19/02/27
+  cve_ids:
+  - CVE-2019-9156
+  - CVE-2019-9157
+  - CVE-2019-9158
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://sec-consult.com/vulnerability-lab/advisory/unauthenticated-sensitive-information-leakage-in-zoho-servicedesk-software/
+  date: 19/07/02
+  cve_ids:
+  - CVE-2019-15045
+  - CVE-2019-15046
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://sec-consult.com/vulnerability-lab/advisory/stored-and-reflected-xss-vulnerabilities-in-limesurvey-cve-2019-16172-cve-2019-16173/
+  date: 19/08/29
+  cve_ids:
+  - CVE-2019-16172
+  - CVE-2019-16173
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-cisco-router-series-rv34x-rv26x-and-rv16x/
+  date: 18/11/21
+  cve_ids:
+  - CVE-2015-7547
+  - CVE-2017-16544
+  - CVE-2014-4043
+  - CVE-2014-9402
+  - CVE-2014-9761
+  - CVE-2014-9984
+  - CVE-2015-1472
+  - CVE-2015-5277
+  - CVE-2015-8778
+  - CVE-2015-8779
+  - CVE-2017-10003
+  - CVE-2016-2148
+  - CVE-2016-6301
+  - CVE-2015-9261
+  - CVE-2016-2147
+  - CVE-2018-20679
+  - CVE-2019-5747
+  researchers: []
+  vendors: []
+  cve_count: 17
+- url: https://sec-consult.com/vulnerability-lab/advisory/authorization-bypass-vulnerability-in-rsa-netwitness-cve-2019-3724/
+  date: 18/10/01
+  cve_ids:
+  - CVE-2019-3724
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-sql-injection-vulnerabilities-in-ebrigade/
+  date: 19/06/04
+  cve_ids:
+  - CVE-2019-16743
+  - CVE-2019-16744
+  - CVE-2019-16745
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://sec-consult.com/vulnerability-lab/advisory/reflected-xss-vulnerability-in-openproject-cve-2019-17092/
+  date: 19/10/02
+  cve_ids:
+  - CVE-2019-17092
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/15587/
+  date: 00/01/01
+  cve_ids:
+  - CVE-2019-18632
+  - CVE-2019-18633
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://sec-consult.com/vulnerability-lab/advisory/weak-encryption-cipher-and-hardcoded-cryptographic-keys-in-fortinet-products/
+  date: 19/11/27
+  cve_ids:
+  - CVE-2018-9195
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-critical-vulnerabilities-in-salto-proaccess-space/
+  date: 19/05/24
+  cve_ids:
+  - CVE-2019-19457
+  - CVE-2019-19458
+  - CVE-2019-19459
+  - CVE-2019-19460
+  researchers: []
+  vendors: []
+  cve_count: 4
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilites-in-fronius-solar-inverter-series-cve-2019-19229-cve-2019-19228/
+  date: 18/11/05
+  cve_ids:
+  - CVE-2019-19229
+  - CVE-2019-19228
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://sec-consult.com/vulnerability-lab/advisory/reflected-xss-in-zoho-manageengine-servicedesk-plus/
+  date: 19/12/05
+  cve_ids:
+  - CVE-2020-6843
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/cross-site-request-forgery-csrf-in-umbraco-cms/
+  date: 19/11/13
+  cve_ids:
+  - CVE-2020-7210
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/authenticated-command-injection-in-phoenix-contact-tc-router-tc-cloud-client/
+  date: 20/01/29
+  cve_ids:
+  - CVE-2020-9436
+  - CVE-2020-9435
+  - CVE-2017-16544
+  - CVE-2016-6301
+  - CVE-2014-9645
+  - CVE-2013-1813
+  researchers: []
+  vendors: []
+  cve_count: 6
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-critical-vulnerabilities-in-multiple-rittal-products-based-on-same-software/
+  date: 20/01/21
+  cve_ids:
+  - CVE-2020-11951
+  - CVE-2020-11952
+  - CVE-2020-11953
+  - CVE-2020-11955
+  - CVE-2020-11956
+  researchers: []
+  vendors: []
+  cve_count: 5
+- url: https://sec-consult.com/vulnerability-lab/advisory/privilege-escalation-vulnerability-in-steelcentral-aternity-agent/
+  date: 19/12/16
+  cve_ids:
+  - CVE-2020-15592
+  - CVE-2020-15593
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-flatcore-cms/
+  date: 20/04/02
+  cve_ids:
+  - CVE-2020-17451
+  - CVE-2020-17452
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://sec-consult.com/vulnerability-lab/advisory/extensive-file-permissions-on-service-executable-in-eikon-thomson-reuters-cve-2019-10679/
+  date: 19/04/09
+  cve_ids:
+  - CVE-2019-10679
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-zte-mobile-hotspot-ms910s-cve-2019-3422/
+  date: 19/09/30
+  cve_ids:
+  - CVE-2019-3422
+  - CVE-2017-16544
+  - CVE-2013-1813
+  - CVE-2016-2148
+  - CVE-2016-6301
+  - CVE-2011-2716
+  - CVE-2011-5325
+  - CVE-2015-9261
+  - CVE-2016-2147
+  researchers: []
+  vendors: []
+  cve_count: 9
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-red-lion-n-tron-702-w-red-lion-n-tron-702m12-w/
+  date: 20/03/09
+  cve_ids:
+  - CVE-2020-16210
+  - CVE-2020-16206
+  - CVE-2020-16208
+  - CVE-2020-16204
+  - CVE-2017-16544
+  researchers: []
+  vendors: []
+  cve_count: 5
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-critical-vulnerabilities-in-rocketlinx-series/
+  date: 20/04/14
+  cve_ids:
+  - CVE-2020-12500
+  - CVE-2020-12501
+  - CVE-2020-12502
+  - CVE-2020-12503
+  - CVE-2020-12504
+  researchers: []
+  vendors: []
+  cve_count: 5
+- url: https://sec-consult.com/vulnerability-lab/advisory/reflected-cross-site-scripting-and-unauthenticated-malicious-file-upload-in-sage-dpw-1/
+  date: 20/07/16
+  cve_ids:
+  - CVE-2020-26583
+  - CVE-2020-26584
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-publixone/
+  date: 20/08/03
+  cve_ids:
+  - CVE-2020-27179
+  - CVE-2020-27183
+  - CVE-2020-27180
+  - CVE-2020-27181
+  - CVE-2020-27182
+  researchers: []
+  vendors: []
+  cve_count: 5
+- url: https://sec-consult.com/vulnerability-lab/advisory/vulnerabilities-in-trend-micro-interscan-messaging-security-virtual-appliance-imsva/
+  date: 20/04/28
+  cve_ids:
+  - CVE-2020-27016
+  - CVE-2020-27017
+  - CVE-2020-27018
+  - CVE-2020-27019
+  - CVE-2020-27693
+  - CVE-2020-27694
+  researchers: []
+  vendors: []
+  cve_count: 6
+- url: https://sec-consult.com/vulnerability-lab/advisory/blind-out-of-band-xml-external-entity-injection-in-avaya-web-license-manager/
+  date: 20/03/18
+  cve_ids:
+  - CVE-2020-7032
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-critical-vulnerabilities-in-trend-micro-interscan-web-security-virtual-appliance/
+  date: 19/08/14
+  cve_ids:
+  - CVE-2020-8461
+  - CVE-2020-8462
+  - CVE-2020-8463
+  - CVE-2020-8464
+  - CVE-2020-8465
+  - CVE-2020-8466
+  researchers: []
+  vendors: []
+  cve_count: 6
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-high-risk-vulnerabilities-in-flatcore-cms/
+  date: 20/12/14
+  cve_ids:
+  - CVE-2021-23835
+  - CVE-2021-23836
+  - CVE-2021-23837
+  - CVE-2021-23838
+  researchers: []
+  vendors: []
+  cve_count: 4
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-pepperl-fuchs-io-link-master-series/
+  date: 20/04/30
+  cve_ids:
+  - CVE-2020-12511
+  - CVE-2020-12512
+  - CVE-2020-12513
+  - CVE-2020-12514
+  - CVE-2017-16544
+  researchers: []
+  vendors: []
+  cve_count: 5
+- url: https://sec-consult.com/vulnerability-lab/advisory/reflected-xss-vulnerability-magento2/
+  date: 20/07/09
+  cve_ids:
+  - CVE-2021-21029
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-irfanview-wpg/
+  date: 21/02/07
+  cve_ids:
+  - CVE-2021-27224
+  - CVE-2021-27362
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://sec-consult.com/vulnerability-lab/advisory/authentication-bypass-genua-genugate/
+  date: 21/01/29
+  cve_ids:
+  - CVE-2021-27215
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/arbitrary-file-upload-and-bypassing-htaccess-rules-in-monospace-directus-headless-cms/
+  date: 20/12/16
+  cve_ids:
+  - CVE-2021-29641
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/reflected-xss-in-microsoft-azure-devops-server/
+  date: 21/03/08
+  cve_ids:
+  - CVE-2021-28459
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/reflected-xss-vulnerabilities-in-sis-informatik-rewe-go/
+  date: 21/02/24
+  cve_ids:
+  - CVE-2021-31537
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-critical-vulnerabilities-in-korenix-technology-westermo-pepperl-fuchs/
+  date: 20/04/14
+  cve_ids:
+  - CVE-2020-12500
+  - CVE-2020-12501
+  - CVE-2020-12502
+  - CVE-2020-12503
+  - CVE-2020-12504
+  researchers: []
+  vendors: []
+  cve_count: 5
+- url: https://sec-consult.com/vulnerability-lab/advisory/authentication-bypass-remote-code-execution-in-schneider-electric-evlink-charging-stations/
+  date: 21/03/11
+  cve_ids:
+  - CVE-2021-22707
+  - CVE-2021-22708
+  - CVE-2018-7801
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://sec-consult.com/vulnerability-lab/advisory/critical-vulnerabilities-in-altus-sistemas-de-automacao-products/
+  date: 20/05/25
+  cve_ids:
+  - CVE-2021-39243
+  - CVE-2021-39244
+  - CVE-2021-39245
+  - CVE-2017-16544
+  researchers: []
+  vendors: []
+  cve_count: 4
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-netmodule-router-software-nrsw/
+  date: 21/05/25
+  cve_ids:
+  - CVE-2021-39289
+  - CVE-2021-39290
+  - CVE-2021-39291
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://sec-consult.com/vulnerability-lab/advisory/authenticated-rce-in-bscw-server/
+  date: 21/06/24
+  cve_ids:
+  - CVE-2021-39271
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/xml-tag-injection-in-bscw-server/
+  date: 21/07/31
+  cve_ids:
+  - CVE-2021-36359
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-moxa-devices/
+  date: 20/10/09
+  cve_ids:
+  - CVE-2021-39278
+  - CVE-2021-39279
+  - CVE-2015-0235
+  - CVE-2016-1234
+  - CVE-2015-7547
+  - CVE-2013-7423
+  - CVE-2013-1914
+  researchers: []
+  vendors: []
+  cve_count: 7
+- url: https://sec-consult.com/vulnerability-lab/advisory/codesys-v2-denial-of-service/
+  date: 21/05/25
+  cve_ids:
+  - CVE-2021-34593
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/reflected-cross-site-scripting-vulnerability-in-ibm-sterling-b2b-integrator/
+  date: 21/02/06
+  cve_ids:
+  - CVE-2021-20562
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-bscw-server/
+  date: 21/09/11
+  cve_ids:
+  - CVE-2021-44286
+  - CVE-2021-44284
+  - CVE-2021-44285
+  - CVE-2021-44287
+  - CVE-2021-44288
+  - CVE-2021-44291
+  researchers: []
+  vendors: []
+  cve_count: 6
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-abantecart-e-commerce-platform/
+  date: 21/08/16
+  cve_ids:
+  - CVE-2021-42050
+  - CVE-2021-42051
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://sec-consult.com/vulnerability-lab/advisory/stored-cross-site-scripting-in-sofico-miles-ria/
+  date: 21/07/26
+  cve_ids:
+  - CVE-2021-41557
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/remote-adbc-sql-injection-in-sap-netweaver/
+  date: 21/07/08
+  cve_ids:
+  - CVE-2021-33701
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/remote-abap-code-injection-in-sap-netweaver/
+  date: 21/07/18
+  cve_ids:
+  - CVE-2021-33701
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/cleartext-storage-of-phone-password-in-cisco-ip-phones/
+  date: 21/05/19
+  cve_ids:
+  - CVE-2022-20660
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/stored-cross-site-scripting-vulnerability-in-typo3-extension-femanager/
+  date: 21/07/05
+  cve_ids:
+  - CVE-2021-36787
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/local-file-inclusion-vulnerability-in-land-software-faust-iserver/
+  date: 21/06/10
+  cve_ids:
+  - CVE-2021-34805
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/authenticated-path-traversal-in-ethercreative-logs-plugin-for-craft-cms/
+  date: 21/07/07
+  cve_ids:
+  - CVE-2022-23409
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/denial-of-service-user-enumeration-in-wago-750-8xxx-plc/
+  date: 21/05/25
+  cve_ids:
+  - CVE-2021-34593
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-critical-vulnerabilities-in-korenix-technology-jetwave-products/
+  date: 20/04/14
+  cve_ids:
+  - CVE-2020-12500
+  - CVE-2020-12501
+  - CVE-2020-12502
+  - CVE-2020-12503
+  - CVE-2020-12504
+  - CVE-2021-39280
+  researchers: []
+  vendors: []
+  cve_count: 6
+- url: https://sec-consult.com/vulnerability-lab/advisory/open-redirect-in-login-page-in-siemens-sinema-remote-connect/
+  date: 21/12/13
+  cve_ids:
+  - CVE-2022-23102
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/missing-authentication-at-file-download-denial-of-service-in-siemens-a8000/
+  date: 22/02/07
+  cve_ids:
+  - CVE-2022-27480
+  - CVE-2021-45034
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://sec-consult.com/vulnerability-lab/advisory/privilege-escalation-miele-benchmark-programming-tool/
+  date: 22/03/21
+  cve_ids:
+  - CVE-2022-22521
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/password-reset-poisoning-attack-craft-cms/
+  date: 22/03/10
+  cve_ids:
+  - CVE-2022-29933
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/sandbox-escape-with-root-access-clear-text-passwords-in-konica-minolta-bizhub-mfp-printer-terminals/
+  date: 20/01/16
+  cve_ids:
+  - CVE-2022-29586
+  - CVE-2022-29587
+  - CVE-2022-29588
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://sec-consult.com/vulnerability-lab/advisory/critical-vulnerabilities-in-sap-application-server-and-platform/
+  date: 20/08/12
+  cve_ids:
+  - CVE-2020-6318
+  - CVE-2020-26808
+  - CVE-2020-26832
+  - CVE-2021-21465
+  - CVE-2021-21468
+  - CVE-2021-21466
+  - CVE-2021-21473
+  - CVE-2021-33678
+  researchers: []
+  vendors: []
+  cve_count: 8
+- url: https://sec-consult.com/vulnerability-lab/advisory/backdoor-account-in-korenix-technology-jetport-series/
+  date: 20/04/14
+  cve_ids:
+  - CVE-2020-12501
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/critical-vulnerabilities-poly-eagleeye-director-ii/
+  date: 21/07/14
+  cve_ids:
+  - CVE-2022-26479
+  - CVE-2022-26482
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://sec-consult.com/vulnerability-lab/advisory/authenticated-command-injection-in-poly-studio/
+  date: 21/07/14
+  cve_ids:
+  - CVE-2022-26481
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/memory-corruption-vulnerabilities-dbus-broker/
+  date: 22/04/01
+  cve_ids:
+  - CVE-2022-31212
+  - CVE-2022-31213
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://sec-consult.com/vulnerability-lab/advisory/infiray-iray-thermal-camera-multiple-vulnerabilities/
+  date: 21/02/24
+  cve_ids:
+  - CVE-2022-31208
+  - CVE-2022-31209
+  - CVE-2022-31210
+  - CVE-2022-31211
+  researchers: []
+  vendors: []
+  cve_count: 4
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilies-in-gentics-cms/
+  date: 22/04/04
+  cve_ids:
+  - CVE-2022-30981
+  - CVE-2022-30982
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-softguard-network-management-extension-snmp/
+  date: 22/06/01
+  cve_ids:
+  - CVE-2022-31201
+  - CVE-2022-31202
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://sec-consult.com/vulnerability-lab/advisory/reflected-xss-in-siemens-sinema-remote-connect/
+  date: 22/04/01
+  cve_ids:
+  - CVE-2022-29034
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/hardcoded-backdoor-user-outdated-software-components-nexans-ftto-gigaswitch/
+  date: 20/05/28
+  cve_ids:
+  - CVE-2022-32985
+  - CVE-2017-16544
+  - CVE-2015-0235
+  - CVE-2015-7547
+  - CVE-2015-9261
+  researchers: []
+  vendors: []
+  cve_count: 5
+- url: https://sec-consult.com/vulnerability-lab/advisory/outdated-javascript-engine-leads-to-rce-in-foxit-pdf-reader/
+  date: 22/06/02
+  cve_ids:
+  - CVE-2020-6418
+  - CVE-2020-15638
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://sec-consult.com/vulnerability-lab/advisory/improper-access-control-in-sap-saprouter/
+  date: 22/02/25
+  cve_ids:
+  - CVE-2022-27668
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/local-privilege-escalation-in-sap-sapcontrol-web-service-interface-sapuxuserchk/
+  date: 22/02/25
+  cve_ids:
+  - CVE-2022-29614
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/local-privilege-escalation-in-sap-sybase-sybctrl/
+  date: 22/02/22
+  cve_ids:
+  - CVE-2022-31594
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-memory-corruption-vulnerabilities-in-covesa-dlt-daemon/
+  date: 22/04/01
+  cve_ids:
+  - CVE-2022-39836
+  - CVE-2022-39837
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-critical-vulnerabilities-in-simmeth-system-gmbh-lieferantenmanager/
+  date: 22/04/01
+  cve_ids:
+  - CVE-2022-44012
+  - CVE-2022-44013
+  - CVE-2022-44014
+  - CVE-2022-44015
+  - CVE-2022-44016
+  - CVE-2022-44017
+  researchers: []
+  vendors: []
+  cve_count: 6
+- url: https://sec-consult.com/vulnerability-lab/advisory/html-injection-in-bmc-remedy-itsm-suite/
+  date: 21/09/07
+  cve_ids:
+  - CVE-2022-26088
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/path-traversal-vulnerability-in-payara-platform/
+  date: 22/10/05
+  cve_ids:
+  - CVE-2022-45129
+  - CVE-2021-41381
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-critical-vulnerabilities-in-planet-enterprises-ltd-planet-estream/
+  date: 22/09/02
+  cve_ids:
+  - CVE-2022-45896
+  - CVE-2022-45893
+  - CVE-2022-45891
+  - CVE-2022-45889
+  - CVE-2022-45892
+  - CVE-2022-45890
+  - CVE-2022-45894
+  - CVE-2022-45895
+  researchers: []
+  vendors: []
+  cve_count: 8
+- url: https://sec-consult.com/vulnerability-lab/advisory/replay-attacks-displaying-arbitrary-contents-in-zhuhai-suny-technology-esl-tag-etag-tech-protocol-electronic-shelf-labels/
+  date: 22/08/14
+  cve_ids:
+  - CVE-2022-45914
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-critical-vulnerabilities-in-ilias-elearning-platform/
+  date: 22/10/07
+  cve_ids:
+  - CVE-2022-45915
+  - CVE-2022-45916
+  - CVE-2022-45917
+  - CVE-2022-45918
+  researchers: []
+  vendors: []
+  cve_count: 4
+- url: https://sec-consult.com/vulnerability-lab/advisory/privilege-escalation-vulnerabilities-unix-insecure-file-handling-sap-saposcol/
+  date: 22/02/22
+  cve_ids:
+  - CVE-2022-35295
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/remote-code-execution-bypass-eclipse-business-intelligence-reporting-birt/
+  date: 22/10/01
+  cve_ids:
+  - CVE-2021-34427
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/pre-authenticated-remote-code-execution-in-csexe-opentext-server-component/
+  date: 22/10/07
+  cve_ids:
+  - CVE-2022-45923
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-post-authentication-vulnerabilities-including-rce-opentexttm-extended-ecm/
+  date: 22/10/07
+  cve_ids:
+  - CVE-2022-45924
+  - CVE-2022-45922
+  - CVE-2022-45925
+  - CVE-2022-45926
+  - CVE-2022-45928
+  researchers: []
+  vendors: []
+  cve_count: 5
+- url: https://sec-consult.com/vulnerability-lab/advisory/pre-authenticated-remote-code-execution-via-java-frontend-qds-endpoint-opentext-extended-ecm/
+  date: 22/10/07
+  cve_ids:
+  - CVE-2022-45927
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-xss-vulnerabilities-in-br-systems-diagnostics-manager/
+  date: 22/11/21
+  cve_ids:
+  - CVE-2022-4286
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/os-command-injection-in-barracuda-cloudgen-wan/
+  date: 23/01/12
+  cve_ids:
+  - CVE-2023-26213
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-arris-dg3450-cable-gateway/
+  date: 22/11/22
+  cve_ids:
+  - CVE-2023-27571
+  - CVE-2023-27572
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-kiddoware-kids-place-parental-control-android-app/
+  date: 22/10/25
+  cve_ids:
+  - CVE-2023-28153
+  - CVE-2023-29078
+  - CVE-2023-29079
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-serenity-and-startsharp-software/
+  date: 23/04/05
+  cve_ids:
+  - CVE-2023-31285
+  - CVE-2023-31286
+  - CVE-2023-31287
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://sec-consult.com/vulnerability-lab/advisory/stored-xss-vulnerability-in-rename-functionality-in-wekan-open-source-kanban/
+  date: 23/02/16
+  cve_ids:
+  - CVE-2023-28485
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/app-restriction-bypass-and-other-vulnerabilities-in-boomerang-parental-control-app/
+  date: 22/10/25
+  cve_ids:
+  - CVE-2023-36620
+  - CVE-2023-36621
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-siemens-a8000/
+  date: 23/03/14
+  cve_ids:
+  - CVE-2023-28489
+  - CVE-2023-33919
+  - CVE-2023-33920
+  - CVE-2023-33921
+  - CVE-2023-36380
+  researchers: []
+  vendors: []
+  cve_count: 5
+- url: https://sec-consult.com/vulnerability-lab/advisory/path-traversal-bypass-denial-of-service-in-kyocera-printer/
+  date: 20/06/06
+  cve_ids:
+  - CVE-2023-34259
+  - CVE-2023-34260
+  - CVE-2023-34261
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://sec-consult.com/vulnerability-lab/advisory/reflected-cross-site-scripting-xss-in-codebeamer-alm-solution-by-ptc/
+  date: 23/10/23
+  cve_ids:
+  - CVE-2023-4296
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/authenticated-remote-code-execution-missing-authentication-atos-unify-openscape/
+  date: 23/04/20
+  cve_ids:
+  - CVE-2023-36618
+  - CVE-2023-36619
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://sec-consult.com/vulnerability-lab/advisory/stored-cross-site-scripting-in-mb-support-broker-management-solution-openviva-c2/
+  date: 22/03/30
+  cve_ids:
+  - CVE-2022-39172
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/open-redirect-in-bsp-test-application-it00-bypass-for-cve-2020-6215-patch/
+  date: 22/10/03
+  cve_ids:
+  - CVE-2020-6215
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-m-privacy-tightgate-pro/
+  date: 23/10/24
+  cve_ids:
+  - CVE-2023-47250
+  - CVE-2023-47251
+  - CVE-2006-1078
+  - CVE-2006-1079
+  - CVE-2007-0664
+  - CVE-2009-4491
+  researchers: []
+  vendors: []
+  cve_count: 6
+- url: https://sec-consult.com/vulnerability-lab/advisory/uninstall-key-caching-in-fortra-digital-guardian-agent-uninstaller/
+  date: 23/06/12
+  cve_ids:
+  - CVE-2023-6253
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/argument-injection-vulnerability-in-multiple-atos-unify-openscape-products/
+  date: 23/09/13
+  cve_ids:
+  - CVE-2023-6269
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/kiosk-escape-privilege-escalation-one-identity-password-manager-secure-password-extension/
+  date: 23/11/06
+  cve_ids:
+  - CVE-2023-48654
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/local-privilege-escalation-via-msi-installer-in-pdf24-creator-geek-software-gmbh/
+  date: 23/10/20
+  cve_ids:
+  - CVE-2023-49147
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-stored-cross-site-scripting-vulnerabilities/
+  date: 24/01/24
+  cve_ids:
+  - CVE-2024-24570
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/mutiple-stored-cross-site-scripting-vulnerabilities-in-openolat-frentix-gmbh/
+  date: 24/01/10
+  cve_ids:
+  - CVE-2024-25973
+  - CVE-2024-25974
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://sec-consult.com/vulnerability-lab/advisory/local-privilege-escalation-via-dll-hijacking-in-qognify-vms-client-viewer/
+  date: 24/01/17
+  cve_ids:
+  - CVE-2023-49114
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/local-privilege-escalation-via-writable-files-in-checkmk-agent/
+  date: 24/01/15
+  cve_ids:
+  - CVE-2024-0670
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/tolerating-self-signed-certificates-in-sap-cloud-connector/
+  date: 23/11/14
+  cve_ids:
+  - CVE-2024-25642
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-hawki/
+  date: 24/03/21
+  cve_ids:
+  - CVE-2024-25975
+  - CVE-2024-25976
+  - CVE-2024-25977
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-critical-vulnerabilities-in-kiuwan-sast-on-premise-kop-cloud-saas-kiuwan-local-analyzer/
+  date: 24/02/05
+  cve_ids:
+  - CVE-2023-49110
+  - CVE-2023-49111
+  - CVE-2023-49112
+  - CVE-2023-49113
+  researchers: []
+  vendors: []
+  cve_count: 4
+- url: https://sec-consult.com/vulnerability-lab/advisory/arbitrary-file-upload-in-edu-sharing-metaventis-gmbh/
+  date: 24/04/10
+  cve_ids:
+  - CVE-2024-28147
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-allowing-complete-bypass-in-faronics-winselect-standard-enterprise/
+  date: 24/02/19
+  cve_ids:
+  - CVE-2024-36495
+  - CVE-2024-36496
+  - CVE-2024-36497
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-siemens-power-automation-products-cp-8000-cp-8021-cp8-022-cp-8031-cp-8050-sicore/
+  date: 23/04/18
+  cve_ids:
+  - CVE-2024-31484
+  - CVE-2024-31485
+  - CVE-2024-31486
+  - CVE-2023-33919
+  researchers: []
+  vendors: []
+  cve_count: 4
+- url: https://sec-consult.com/vulnerability-lab/advisory/local-privilege-escalation-via-msi-installer-in-softmaker-office-freeoffice/
+  date: 23/12/02
+  cve_ids:
+  - CVE-2023-7270
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/uninstall-password-bypass-in-blackberry-cylanceoptics-windows-installer-package/
+  date: 24/02/02
+  cve_ids:
+  - CVE-2024-35214
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/local-privilege-escalation-via-msi-installer-in-nitro-pdf-pro/
+  date: 23/12/22
+  cve_ids:
+  - CVE-2024-35288
+  - CVE-2024-38014
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://sec-consult.com/vulnerability-lab/advisory/local-privilege-escalation-via-msi-installer-in-palo-alto-networks-globalprotect/
+  date: 23/11/17
+  cve_ids:
+  - CVE-2024-9473
+  - CVE-2024-38014
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-rittal-iot-interface-cmc-iii-processing-unit/
+  date: 24/06/21
+  cve_ids:
+  - CVE-2024-47943
+  - CVE-2024-47944
+  - CVE-2024-47945
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://sec-consult.com/vulnerability-lab/advisory/authenticated-remote-code-execution-in-multiple-xerox-printers/
+  date: 24/02/05
+  cve_ids:
+  - CVE-2024-6333
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/unauthenticated-path-traversal-vulnerability-in-lawo-ag-vsm-ltc-time-sync-vtimesync/
+  date: 24/01/22
+  cve_ids:
+  - CVE-2024-6049
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/query-filter-injection-in-ping-identity-pingidm-formerly-known-as-forgerock-identity-management/
+  date: 24/04/17
+  cve_ids:
+  - CVE-2024-23600
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-hasomed-elefant-and-elefant-software-updater/
+  date: 24/05/08
+  cve_ids:
+  - CVE-2024-50588
+  - CVE-2024-50589
+  - CVE-2024-50590
+  - CVE-2024-50591
+  - CVE-2024-50592
+  - CVE-2024-50593
+  researchers: []
+  vendors: []
+  cve_count: 6
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-siemens-energy-omnivise-t3000/
+  date: 24/06/05
+  cve_ids:
+  - CVE-2024-38876
+  - CVE-2024-38877
+  - CVE-2024-38878
+  - CVE-2024-38879
+  researchers: []
+  vendors: []
+  cve_count: 4
+- url: https://sec-consult.com/vulnerability-lab/advisory/unlocked-jtag-interface-and-buffer-overflow-in-siemens-sm-2558-protocol-element/
+  date: 24/03/05
+  cve_ids:
+  - CVE-2024-31484
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/stored-cross-site-scripting-in-omada-identity/
+  date: 24/04/08
+  cve_ids:
+  - CVE-2024-52951
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-critical-vulnerabilities-in-image-access-scan2net/
+  date: 24/04/02
+  cve_ids:
+  - CVE-2024-28138
+  - CVE-2024-28139
+  - CVE-2024-28140
+  - CVE-2024-28141
+  - CVE-2024-28142
+  - CVE-2024-28143
+  - CVE-2024-28144
+  - CVE-2024-28145
+  - CVE-2024-28146
+  - CVE-2024-47946
+  - CVE-2024-47947
+  - CVE-2024-36498
+  - CVE-2024-36494
+  - CVE-2024-50584
+  researchers: []
+  vendors: []
+  cve_count: 14
+- url: https://sec-consult.com/vulnerability-lab/advisory/reflected-cross-site-scripting-in-numerix-license-server-administration-system-login/
+  date: 24/04/08
+  cve_ids:
+  - CVE-2024-50585
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/wind-river-software-vxworks-rtos-weak-password-hashing-algorithms/
+  date: 24/07/10
+  cve_ids:
+  - CVE-2010-2965
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-wattsense-bridge/
+  date: 24/05/15
+  cve_ids:
+  - CVE-2025-26408
+  - CVE-2025-26409
+  - CVE-2025-26410
+  - CVE-2025-26411
+  researchers: []
+  vendors: []
+  cve_count: 4
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-siemens-a8000-cp-8050-and-cp-8031-plc/
+  date: 23/04/18
+  cve_ids:
+  - CVE-2024-39601
+  - CVE-2024-53832
+  - CVE-2023-33919
+  - CVE-2024-31486
+  researchers: []
+  vendors: []
+  cve_count: 4
+- url: https://sec-consult.com/vulnerability-lab/advisory/ivanti-endpoint-manager-local-privilege-escalation-via-dll-search-order-hijacking/
+  date: 25/02/13
+  cve_ids:
+  - CVE-2025-22458
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/honeywell-mb-secure-authenticated-command-injection/
+  date: 24/12/04
+  cve_ids:
+  - CVE-2025-2605
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-echarge-hardy-barth-cph2-and-cpp2-charging-stations/
+  date: 24/11/26
+  cve_ids:
+  - CVE-2025-27803
+  - CVE-2025-27804
+  - CVE-2025-48413
+  - CVE-2025-48414
+  - CVE-2025-48415
+  - CVE-2025-48416
+  - CVE-2025-48417
+  researchers: []
+  vendors: []
+  cve_count: 7
+- url: https://sec-consult.com/vulnerability-lab/advisory/undocumented-root-shell-access-on-simcom-modem/
+  date: 24/05/28
+  cve_ids:
+  - CVE-2025-26412
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/reflected-cross-site-scripting-in-onlyoffice-docs-documentserver/
+  date: 25/03/06
+  cve_ids:
+  - CVE-2025-5301
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-stored-cross-site-scripting-vulnerabilities-in-optimizely-episerver-content-management-system/
+  date: 24/05/23
+  cve_ids:
+  - CVE-2025-27800
+  - CVE-2025-27801
+  - CVE-2025-27802
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://sec-consult.com/vulnerability-lab/advisory/race-condition-in-shopware-voucher-submission/
+  date: 25/05/09
+  cve_ids:
+  - CVE-2025-7954
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/nfc-card-vulnerability-exploitation-leading-to-free-top-up-kiosoft-payment-solution/
+  date: 23/10/09
+  cve_ids:
+  - CVE-2025-8699
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/unauthenticated-sql-injection-vulnerability-in-shibboleth-service-provider-sp-odbc-interface/
+  date: 25/08/13
+  cve_ids:
+  - CVE-2025-9943
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/missing-certificate-validation-leading-to-rce-in-clevercontrol-employee-monitoring-software/
+  date: 25/07/02
+  cve_ids:
+  - CVE-2025-10548
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-imonitorsoft-eam/
+  date: 25/07/10
+  cve_ids:
+  - CVE-2025-10540
+  - CVE-2025-10541
+  - CVE-2025-10542
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-efficientlab-workexaminer-professional/
+  date: 25/10/27
+  cve_ids:
+  - CVE-2025-10639
+  - CVE-2025-10640
+  - CVE-2025-10641
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://sec-consult.com/vulnerability-lab/advisory/unauthenticated-local-file-disclosure-in-mpdv-mikrolab-mip-2-fedra-2-hydra-x-manufacturing-execution-system/
+  date: 25/08/06
+  cve_ids:
+  - CVE-2025-12055
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-critical-vulnerabilities-in-dormakaba-access-manager/
+  date: 24/04/02
+  cve_ids:
+  - CVE-2025-59097
+  - CVE-2025-59098
+  - CVE-2025-59099
+  - CVE-2025-59100
+  - CVE-2025-59101
+  - CVE-2025-59102
+  - CVE-2025-59103
+  - CVE-2025-59104
+  - CVE-2025-59105
+  - CVE-2025-59106
+  - CVE-2025-59107
+  - CVE-2025-59108
+  researchers: []
+  vendors: []
+  cve_count: 12
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-critical-vulnerabilities-in-dormakaba-kaba-exos-9300/
+  date: 25/01/01
+  cve_ids:
+  - CVE-2025-59090
+  - CVE-2025-59091
+  - CVE-2025-59092
+  - CVE-2025-59093
+  - CVE-2025-59094
+  - CVE-2025-59095
+  - CVE-2025-59096
+  researchers: []
+  vendors: []
+  cve_count: 7
+- url: https://sec-consult.com/vulnerability-lab/advisory/uart-leaking-sensitive-data-in-dormakaba-registration-unit-9002-pin-pad/
+  date: 24/04/02
+  cve_ids:
+  - CVE-2025-59109
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-native-instruments-native-access-macos/
+  date: 25/07/22
+  cve_ids:
+  - CVE-2026-24070
+  - CVE-2026-24071
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-various-solax-power-pocket-wifi-models/
+  date: 25/05/05
+  cve_ids:
+  - CVE-2025-15573
+  - CVE-2025-15574
+  - CVE-2025-15575
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-critical-vulnerabilities-in-nestersoft-worktime-on-prem-cloud/
+  date: 25/07/09
+  cve_ids:
+  - CVE-2025-15563
+  - CVE-2025-15562
+  - CVE-2025-15561
+  - CVE-2025-15560
+  - CVE-2025-15559
+  - CVE-2025-24975
+  researchers: []
+  vendors: []
+  cve_count: 6
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-cpsd-cryptopro-secure-disk-for-bitlocker/
+  date: 25/06/04
+  cve_ids:
+  - CVE-2025-10010
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-pega-infinity-platform/
+  date: 25/01/14
+  cve_ids:
+  - CVE-2025-62181
+  - CVE-2025-9559
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://sec-consult.com/vulnerability-lab/advisory/multiple-privilege-escalation-vulnerabilities-in-arturia-software-center-macos/
+  date: 26/01/05
+  cve_ids:
+  - CVE-2026-24062
+  - CVE-2026-24063
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://sec-consult.com/vulnerability-lab/advisory/local-privilege-escalation-in-vienna-assistant-macos-vienna-symphonic-library/
+  date: 26/01/21
+  cve_ids:
+  - CVE-2026-24068
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://sec-consult.com/vulnerability-lab/advisory/broken-access-control-in-open-webui/
+  date: 26/02/11
+  cve_ids:
+  - CVE-2026-34222
+  researchers: []
+  vendors: []
+  cve_count: 1

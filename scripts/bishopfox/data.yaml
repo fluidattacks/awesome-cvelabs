@@ -1,4 +1,395 @@
 lab: Bishop Fox
 url: https://bishopfox.com
-scraped_at: '2026-03-17T21:26:51.473455Z'
-advisories: []
+scraped_at: '2026-04-03T02:53:27.233824Z'
+advisories:
+- url: https://bishopfox.com/blog/arista-nextgen-firewall-version-17-4-advisory
+  date: null
+  cve_ids:
+  - CVE-2025-6978
+  - CVE-2026-25620
+  - CVE-2026-25621
+  - CVE-2026-25622
+  - CVE-2026-25623
+  - CVE-2026-25624
+  - CVE-2024-3400
+  - CVE-2024-21762
+  researchers:
+  - of multiple open source-tools and is an active con
+  vendors: []
+  cve_count: 8
+- url: https://bishopfox.com/blog/yosmart-yolink-hub-version-0382
+  date: null
+  cve_ids:
+  - CVE-2025-59449
+  - CVE-2025-59452
+  - CVE-2025-59448
+  - CVE-2025-59451
+  researchers: []
+  vendors: []
+  cve_count: 4
+- url: https://bishopfox.com/blog/sonicwall-sonicos-versions-7-1-x-and-8-0-x
+  date: null
+  cve_ids:
+  - CVE-2025-32818
+  researchers:
+  - for the Bishop Fox Capability Development team
+  vendors: []
+  cve_count: 1
+- url: https://bishopfox.com/blog/expressionengine-v-7-3-15-vulnerability
+  date: null
+  cve_ids:
+  - CVE-2024-38454
+  - CVE-2024-38455
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://bishopfox.com/blog/netscaler-adc-and-gateway-advisory
+  date: null
+  cve_ids:
+  - CVE-2023-4966
+  - CVE-2023-6549
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://bishopfox.com/blog/ray-versions-2-6-3-2-8-0
+  date: 23/11/06
+  cve_ids:
+  - CVE-2023-48022
+  - CVE-2023-48023
+  - CVE-2023-6021
+  researchers:
+  - Bryce Bearchell independently submitted two report
+  vendors: []
+  cve_count: 3
+- url: https://bishopfox.com/blog/taskcafe-version-0-3-2-advisory
+  date: null
+  cve_ids:
+  - CVE-2023-26770
+  - CVE-2023-26771
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://bishopfox.com/blog/wp-coder-version-2-5-3-advisory
+  date: null
+  cve_ids:
+  - CVE-2023-0895
+  - CVE-2022-3402
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://bishopfox.com/blog/windows-task-scheduler-19044-advisory
+  date: 22/07/07
+  cve_ids:
+  - CVE-2023-21541
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://bishopfox.com/blog/log-http-requests-advisory
+  date: null
+  cve_ids:
+  - CVE-2022-3402
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://bishopfox.com/blog/jira-align-advisory
+  date: null
+  cve_ids:
+  - CVE-2022-36802
+  - CVE-2022-36803
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://bishopfox.com/blog/netwrix-auditor-advisory
+  date: null
+  cve_ids:
+  - CVE-2022-31199
+  researchers:
+  - performing a TCP port scan of a Netwrix Auditor se
+  vendors: []
+  cve_count: 1
+- url: https://bishopfox.com/blog/big-ip-scanner-cve-2022-1388
+  date: 21/10/23
+  cve_ids:
+  - CVE-2022-1388
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://bishopfox.com/blog/log4j-zero-day-cve-2021-44228
+  date: 21/12/10
+  cve_ids:
+  - CVE-2021-44228
+  researchers:
+  - =  "Florian Roth"
+  vendors: []
+  cve_count: 1
+- url: https://bishopfox.com/blog/ecatcher-desktop-advisory
+  date: null
+  cve_ids:
+  - CVE-2021-33214
+  researchers: []
+  vendors: []
+  cve_count: 1
+- url: https://bishopfox.com/blog/retroarch-for-windows-1-9-0-advisory
+  date: null
+  cve_ids:
+  - CVE-2021-28927
+  researchers:
+  - who participates in bug bounty programs and has al
+  vendors: []
+  cve_count: 1
+- url: https://bishopfox.com/blog/froala-editor-v3-2-6-advisory
+  date: null
+  cve_ids:
+  - CVE-2021-28114
+  - CVE-2019-7551
+  - CVE-2018-17150
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://bishopfox.com/blog/f5-networks-big-ip-big-iq-advisory
+  date: null
+  cve_ids:
+  - CVE-2021-22986
+  - CVE-2021-22991
+  - CVE-2021-22992
+  - CVE-2020-5902
+  - CVE-2021-22987
+  - CVE-2021-22988
+  - CVE-2021-22989
+  - CVE-2021-22990
+  researchers:
+  - Felix Wilhelm of Google’s Project Zero team back i
+  vendors: []
+  cve_count: 8
+- url: https://bishopfox.com/blog/mautic-version-3-2-2-advisory
+  date: null
+  cve_ids:
+  - CVE-2020-35128
+  - CVE-2020-35129
+  researchers: []
+  vendors: []
+  cve_count: 2
+- url: https://bishopfox.com/blog/cran-version-4-0-2-advisory
+  date: 20/06/22
+  cve_ids:
+  - CVE-2020-27637
+  - CVE-2019-7551
+  - CVE-2018-17150
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://bishopfox.com/blog/openclinic-version-0-8-2-advisory
+  date: null
+  cve_ids:
+  - CVE-2020-28937
+  - CVE-2020-28939
+  - CVE-2020-28938
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://bishopfox.com/blog/immuta-version-2-8-2-advisory
+  date: null
+  cve_ids:
+  - CVE-2020-15952
+  - CVE-2020-15951
+  - CVE-2020-15949
+  - CVE-2020-15950
+  - CVE-2019-7551
+  - CVE-2018-17150
+  researchers: []
+  vendors: []
+  cve_count: 6
+- url: https://bishopfox.com/blog/winston-privacy-version-1-5-4-advisory
+  date: null
+  cve_ids:
+  - CVE-2020-16257
+  - CVE-2020-16256
+  - CVE-2020-16261
+  - CVE-2020-16262
+  - CVE-2020-16263
+  - CVE-2020-16260
+  - CVE-2020-16258
+  - CVE-2020-16259
+  - CVE-2019-7551
+  - CVE-2018-17150
+  researchers:
+  - ( @jpaglier )
+  vendors: []
+  cve_count: 10
+- url: https://bishopfox.com/blog/tinymce-version-5-2-1-advisory
+  date: null
+  cve_ids:
+  - CVE-2020-12648
+  - CVE-2019-7551
+  - CVE-2018-17150
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://bishopfox.com/blog/librehealth-version-2-0-0-0-advisory
+  date: 20/02/15
+  cve_ids:
+  - CVE-2020-11439
+  - CVE-2018-10006
+  - CVE-2020-11437
+  - CVE-2019-3963
+  - CVE-2019-3966
+  - CVE-2019-3967
+  - CVE-2019-3968
+  - CVE-2019-8371
+  - CVE-2020-11436
+  - CVE-2020-11438
+  - CVE-2019-7551
+  - CVE-2018-17150
+  researchers:
+  - Malaphar
+  vendors: []
+  cve_count: 12
+- url: https://bishopfox.com/blog/secureauth-version-9-3-advisory
+  date: null
+  cve_ids:
+  - CVE-2020-9437
+  - CVE-2019-7551
+  - CVE-2018-17150
+  researchers:
+  - who participates in bug bounty programs and has al
+  vendors: []
+  cve_count: 3
+- url: https://bishopfox.com/blog/digdash-version-2018-advisory
+  date: null
+  cve_ids:
+  - CVE-2020-13650
+  - CVE-2020-13651
+  - CVE-2020-13652
+  - CVE-2018-11349
+  - CVE-2018-11350
+  - CVE-2018-11351
+  - CVE-2018-13407
+  - CVE-2018-11408
+  - CVE-2018-13409
+  - CVE-2017-77737
+  - CVE-2017-5870
+  - CVE-2017-6086
+  researchers:
+  - focusing on web applications
+  vendors: []
+  cve_count: 12
+- url: https://bishopfox.com/blog/exploit-of-hobbes-functional-interpreter-advisory
+  date: 20/05/21
+  cve_ids:
+  - CVE-2020-13656
+  researchers:
+  - Share
+  vendors: []
+  cve_count: 1
+- url: https://bishopfox.com/blog/twisted-version-19-10-0-advisory
+  date: null
+  cve_ids:
+  - CVE-2020-10108
+  - CVE-2020-10109
+  researchers:
+  - Share
+  vendors: []
+  cve_count: 2
+- url: https://bishopfox.com/blog/connectwise-control-advisory
+  date: null
+  cve_ids:
+  - CVE-2019-16512
+  - CVE-2019-16513
+  - CVE-2019-16514
+  - CVE-2019-16515
+  - CVE-2019-16516
+  - CVE-2019-16517
+  researchers: []
+  vendors: []
+  cve_count: 6
+- url: https://bishopfox.com/blog/dradis-pro-3-4-1-advisory
+  date: null
+  cve_ids:
+  - CVE-2019-19946
+  - CVE-2018-11349
+  - CVE-2018-11350
+  - CVE-2018-11351
+  - CVE-2018-13407
+  - CVE-2018-11408
+  - CVE-2018-13409
+  - CVE-2017-77737
+  - CVE-2017-5870
+  - CVE-2017-6086
+  researchers:
+  - focusing on web applications
+  vendors: []
+  cve_count: 10
+- url: https://bishopfox.com/blog/big-monitoring-fabric-advisory
+  date: null
+  cve_ids:
+  - CVE-2019-19632
+  - CVE-2019-19631
+  - CVE-2019-7551
+  - CVE-2018-17150
+  researchers: []
+  vendors: []
+  cve_count: 4
+- url: https://bishopfox.com/blog/solismed-advisory
+  date: null
+  cve_ids:
+  - CVE-2019-15936
+  - CVE-2019-16246
+  - CVE-2019-15933
+  - CVE-2019-15935
+  - CVE-2019-15934
+  - CVE-2019-15932
+  - CVE-2019-15931
+  - CVE-2019-17428
+  - CVE-2019-15930
+  - CVE-2019-7551
+  - CVE-2018-17150
+  researchers:
+  - Malaphar @ Bish0pf0x
+  vendors: []
+  cve_count: 11
+- url: https://bishopfox.com/blog/openemr-5-0-16-advisory
+  date: null
+  cve_ids:
+  - CVE-2019-8371
+  - CVE-2019-8368
+  - CVE-2019-7551
+  - CVE-2018-17150
+  researchers: []
+  vendors: []
+  cve_count: 4
+- url: https://bishopfox.com/blog/dolibarr-version-9-0-1-advisory
+  date: null
+  cve_ids:
+  - CVE-2019-11200
+  - CVE-2019-11201
+  - CVE-2019-11199
+  researchers: []
+  vendors: []
+  cve_count: 3
+- url: https://bishopfox.com/blog/intersystems-cache-advisory
+  date: null
+  cve_ids:
+  - CVE-2018-17150
+  - CVE-2018-17152
+  - CVE-2018-17151
+  - CVE-2019-7551
+  researchers: []
+  vendors: []
+  cve_count: 4
+- url: https://bishopfox.com/blog/tegile-intelliflash-os-advisory
+  date: null
+  cve_ids:
+  - CVE-2019-6464
+  researchers:
+  - Thiago Campos
+  vendors: []
+  cve_count: 1
+- url: https://bishopfox.com/blog/cantemo-portal-3-8-4-xss-advisory
+  date: null
+  cve_ids:
+  - CVE-2019-7551
+  - CVE-2018-17150
+  researchers:
+  - Chris Davis
+  vendors: []
+  cve_count: 2

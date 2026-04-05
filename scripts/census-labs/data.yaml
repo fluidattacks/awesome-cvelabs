@@ -1,6 +1,6 @@
 lab: Census Labs
 url: https://census-labs.com
-scraped_at: '2026-03-17T21:31:43.695322Z'
+scraped_at: '2026-04-03T02:54:06.112706Z'
 advisories:
 - url: https://census-labs.com/news/2023/03/16/reflected-xss-vulnerabilities-in-squidex-squidsvg-endpoint/
   date: 23/03/16
